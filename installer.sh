@@ -9,7 +9,7 @@ TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-reinstall"
 MY_IPK="enigma2-plugin-extensions-ajpanel_v3.2.3_all.ipk"
 MY_DEB="enigma2-plugin-extensions-ajpanel_v3.2.3_all.deb"
-MY_URL="https://raw.githubusercontent.com/emil237/panel-ajpanel/main"
+MY_URL="https://raw.githubusercontent.com/emil237/ajpanel/main"
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/AJPan
 
