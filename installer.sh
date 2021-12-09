@@ -1,13 +1,14 @@
 #!/bin/sh
 
-#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/panel-ajpanel/main/installer.sh -O - | /bin/sh
+#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/ajpanel/main/installer.sh -O - | /bin/sh
+
 ##########################################
-version=3.2.2
+version=3.2.3
 #############################################################
 TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-reinstall"
-MY_IPK="enigma2-plugin-extensions-ajpanel_v3.2.2_all.ipk"
-MY_DEB="enigma2-plugin-extensions-ajpanel_v3.2.2_all.deb"
+MY_IPK="enigma2-plugin-extensions-ajpanel_v3.2.3_all.ipk"
+MY_DEB="enigma2-plugin-extensions-ajpanel_v3.2.3_all.deb"
 MY_URL="https://raw.githubusercontent.com/emil237/panel-ajpanel/main"
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/AJPan
