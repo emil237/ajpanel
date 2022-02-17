@@ -6,7 +6,7 @@
 version=4.1.0
 #############################################################
 TEMPATH=/tmp
-OPKGINSTALL="opkg install --force-reinstall"
+OPKGINSTALL="opkg install --force-overwrite"
 MY_IPK="enigma2-plugin-extensions-ajpanel_v4.1.0_all.ipkk"
 MY_DEB="enigma2-plugin-extensions-ajpanel_v4.1.0_all.deb"
 MY_URL="https://raw.githubusercontent.com/emil237/ajpanel/main"
