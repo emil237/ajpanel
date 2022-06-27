@@ -17,21 +17,21 @@ echo ""
 # Download and install plugin
 cd /tmp
 set -e
-     wget "$MY_URL/$MY_IPK"
-  wait
-     wget "$MY_URL/$MY_DEB"
-
  if which dpkg > /dev/null 2>&1; then
+  wget "$MY_URL/$MY_DEB"
 		dpkg -i --force-overwrite $MY_DEB; apt-get install -f -y
+wait
+rm -f $MY_DEB
 	else
+  wget "$MY_URL/$MY_IPK"
 		$OPKGINSTALL $MY_IPK
+wait
+rm -f $MY_IPK
 	fi
 echo "================================="
 set +e
 cd ..
 wait
-rm -rf /tmp/$MY_IPK
-rm -rf /tmp/$MY_DEB
 rm -rf * > /dev/null 2>&1
 	if [ $? -eq 0 ]; then
 echo ">>>>  SUCCESSFULLY INSTALLED <<<<"
