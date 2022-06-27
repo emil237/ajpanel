@@ -32,11 +32,11 @@ echo "================================="
 set +e
 cd ..
 wait
-rm -rf * > /dev/null 2>&1
 	if [ $? -eq 0 ]; then
 echo ">>>>  SUCCESSFULLY INSTALLED <<<<"
 fi
 		echo "********************************************************************************"
+rm -rf * > /dev/null 2>&1
 echo "   UPLOADED BY  >>>>   EMIL_NABIL "   
 sleep 4;
 		echo ". >>>>         RESTARING     <<<<"
