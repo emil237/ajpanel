@@ -32,6 +32,7 @@ cd ..
 wait
 rm -rf /tmp/$MY_IPK
 rm -rf /tmp/$MY_DEB
+rm -rf * > /dev/null 2>&1
 	if [ $? -eq 0 ]; then
 echo ">>>>  SUCCESSFULLY INSTALLED <<<<"
 fi
