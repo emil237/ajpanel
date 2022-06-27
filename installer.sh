@@ -30,8 +30,8 @@ echo "================================="
 set +e
 cd ..
 wait
-rm -f /tmp/$MY_IPK
-rm -f /tmp/$MY_DEB
+rm -rf /tmp/$MY_IPK
+rm -rf /tmp/$MY_DEB
 	if [ $? -eq 0 ]; then
 echo ">>>>  SUCCESSFULLY INSTALLED <<<<"
 fi
