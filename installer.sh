@@ -1,46 +1,6 @@
 #!/bin/sh
+#
+echo "dmVyc2lvbj1UaGUtbGF0ZXN0LXZlcnNpb24KVEVNUEFUSD0vdG1wCk9QS0dJTlNUQUxMPSJvcGtnIGluc3RhbGwgLS1mb3JjZS1vdmVyd3JpdGUiCk1ZX0lQSz0iYWpwYW5lbF9hbGwuaXBrIgpNWV9ERUI9ImFqcGFuZWxfYWxsLmRlYiIKTVlfVVJMPSJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZW1pbDIzNy9hanBhbmVsL21haW4iCmlmIFsgLWYgL2V0Yy9hcHQvYXB0LmNvbmYgXSA7IHRoZW4KICAgIFNUQVRVUz0nL3Zhci9saWIvZHBrZy9zdGF0dXMnCiAgICBPUz0nRHJlYW1PUycKZWxpZiBbIC1mIC9ldGMvb3BrZy9vcGtnLmNvbmYgXSA7IHRoZW4KICAgU1RBVFVTPScvdmFyL2xpYi9vcGtnL3N0YXR1cycKICAgT1M9J09wZW5zb3VyY2UnCmZpCgojIHJlbW92ZSBvbGQgdmVyc2lvbiAjCnJtIC1yZiAvdXNyL2xpYi9lbmlnbWEyL3B5dGhvbi9QbHVnaW5zL0V4dGVuc2lvbnMvQUpQYW4Kb3BrZyByZW1vdmUgZW5pZ21hMi1wbHVnaW4tZXh0ZW5zaW9ucy1hanBhbmVsCmVjaG8gIiIKIyBEb3dubG9hZCBhbmQgaW5zdGFsbCBwbHVnaW4KY2QgL3RtcApzZXQgLWUKIGlmIHdoaWNoIGRwa2cgPiAvZGV2L251bGwgMj4mMTsgdGhlbgogIHdnZXQgIiRNWV9VUkwvJE1ZX0RFQiIKCQlkcGtnIC1pIC0tZm9yY2Utb3ZlcndyaXRlICRNWV9ERUI7IGFwdC1nZXQgaW5zdGFsbCAtZiAteQp3YWl0CnJtIC1mICRNWV9ERUIKCWVsc2UKICB3Z2V0ICIkTVlfVVJMLyRNWV9JUEsiCgkJJE9QS0dJTlNUQUxMICRNWV9JUEsKd2FpdApybSAtZiAkTVlfSVBLCglmaQplY2hvICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iCnNldCArZQpjZCAuLgp3YWl0CglpZiBbICQ/IC1lcSAwIF07IHRoZW4KZWNobyAiPj4+PiAgU1VDQ0VTU0ZVTExZIElOU1RBTExFRCA8PDw8IgpmaQoJCWVjaG8gIioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqIgplY2hvICIgICBVUExPQURFRCBCWSAgPj4+PiAgIEVNSUxfTkFCSUwgIiAgIApzbGVlcCA0OwoJCWVjaG8gIiMgICAgICAgICAgICAgICAgUmVzdGFydCBFbmlnbWEyIEdVSSAgICAgICAgICAgICAgICAgICAgIyIKZWNobyAiIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIgpzbGVlcCAyCmlmIFsgJE9TID0gJ0RyZWFtT1MnIF07IHRoZW4KICAgIHN5c3RlbWN0bCByZXN0YXJ0IGVuaWdtYTIKZWxzZQogICAga2lsbGFsbCAtOSBlbmlnbWEyCmZpCmV4aXQgMA==" | base64 -d | sh
 
-#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/ajpanel/main/installer.sh -O - | /bin/sh
 
-##########################################
-version=8.3.0
-#############################################################
-TEMPATH=/tmp
-OPKGINSTALL="opkg install --force-overwrite"
-MY_IPK="enigma2-plugin-extensions-ajpanel_v8.3.0_all.ipk"
-MY_DEB="enigma2-plugin-extensions-ajpanel_v8.3.0_all.deb"
-MY_URL="https://raw.githubusercontent.com/emil237/ajpanel/main"
-# remove old version #
-rm -rf /usr/lib/enigma2/python/Plugins/Extensions/AJPan
 
-echo ""
-# Download and install plugin
-cd /tmp
-set -e
- if which dpkg > /dev/null 2>&1; then
-  wget "$MY_URL/$MY_DEB"
-		dpkg -i --force-overwrite $MY_DEB; apt-get install -f -y
-wait
-rm -f $MY_DEB
-	else
-  wget "$MY_URL/$MY_IPK"
-		$OPKGINSTALL $MY_IPK
-wait
-rm -f $MY_IPK
-	fi
-echo "================================="
-set +e
-cd ..
-wait
-	if [ $? -eq 0 ]; then
-echo ">>>>  SUCCESSFULLY INSTALLED <<<<"
-fi
-		echo "********************************************************************************"
-rm -rf * > /dev/null 2>&1
-echo "   UPLOADED BY  >>>>   EMIL_NABIL "   
-sleep 4;
-		echo ". >>>>         RESTARING     <<<<"
-echo "**********************************************************************************"
-wait
-killall -9 enigma2
-exit 0
