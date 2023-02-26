@@ -7,8 +7,8 @@ version=The-latest-version
 #############################################################
 TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-overwrite"
-MY_IPK="enigma2-plugin-extensions-ajpanel_v8.5.0_all.ipk"
-MY_DEB="enigma2-plugin-extensions-ajpanel_v8.5.0_all.deb"
+MY_IPK="enigma2-plugin-extensions-ajpanel_v8.6.0_all.ipk"
+MY_DEB="enigma2-plugin-extensions-ajpanel_v8.6.0_all.deb"
 MY_URL="https://raw.githubusercontent.com/emil237/ajpanel/main"
 if [ -f /etc/apt/apt.conf ] ; then
     STATUS='/var/lib/dpkg/status'
