@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ajp_menu title="XYZ Menu v1.0" >
+	<item name="Disk Usage">df</item>
+	<item name="LSOF">lsof</item>
+	<item name="Uptime">uptime</item>
+</ajp_menu>

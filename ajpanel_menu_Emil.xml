@@ -806,7 +806,7 @@ icon="/media/hdd/AJPanel_Backup/icon/backup.png"
 >cp -f /etc/enigma2/jediplaylists/playlists.txt /media/hdd/AJPanel_Backup/playlists.txt</item>
   <item name="Backup My Xstreamity Servers" 
 icon="/media/hdd/AJPanel_Backup/icon/backup.png"
->cp -f /etc/enigma2/xstreamity/playlists.txt /media/hdd/Ajpanel_Backup/playlists.txt</item>
+    >cp -f /etc/enigma2/xstreamity/playlists.txt /media/hdd/AJPanel_Backup/playlists.txt</item>
   <item name="Backup Sitting xtraEvent"
  icon="/media/hdd/AJPanel_Backup/icon/backup.png" 
   >WORD='xtraEvent'; BACKUP='/hdd/xtraEvent_Backup/settings_backup_xtraEvent'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
