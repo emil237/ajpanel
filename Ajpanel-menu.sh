@@ -1,18 +1,3 @@
-#!/bin/sh
-# ============================================================================================================
-# SCRIPT : Download/Install AJPanel Custom-Menu XML Files
-# ============================================================================================================
-
-BACKUP_DIR=$(cat /etc/enigma2/settings | grep config.plugins.AJPanel.backupPath | cut -d '=' -f 2)
-
-for FNAME in "ajpanel_menu_biko_73.xml"  "ajpanel_menu_Emil.xml"  "ajpanel_menu_Haitham.xml"  "ajpanel_menu.xml"
-do
-	echo "--------------------------------------------------"
-	echo ">>>>>  Downloading $FNAME  <<<<<"
-	wget --no-check-certificate -O $BACKUP_DIR$FNAME https://raw.githubusercontent.com/emil237/ajpanel/main/$FNAME
-	echo ''
-done
-
-
-
-
+z="
+";Tz='(cat';dz='.plu';bBz='onte';LBz='wget';Kz='om-M';SBz='-O $';gBz='jpan';WBz='ps:/';gz='anel';ZBz='hubu';Mz='XML ';BBz='do';ABz='ml"';Uz=' /et';lz='t -d';Sz='IR=$';qz='BNam';xz='xml"';Cz='ownl';uz='l_me';az=' gre';Gz='all ';Zz='gs |';Bz=' " D';Pz=' ""';KBz='<<"';IBz='ame ';tz='pane';nBz='done';Ez='And ';fBz='37/a';rz='e in';MBz=' --n';HBz=' $BN';hBz='el/m';PBz='cert';sz=' "aj';Nz='File';kz='| cu';GBz='ding';UBz='Name';Vz='c/en';yz='nu.x';Oz='s " ';CBz=' ">>';VBz=' htt';aBz='serc';DBz='>>> ';kBz='me';vz='nu_E';Iz='nel ';Qz='BACK';mBz='ne"';eBz='mil2';jBz='$BNa';hz='.bac';cBz='nt.c';EBz=' Dow';Hz='AJPa';nz=' -f ';YBz='.git';Jz='Cust';pz='for ';OBz='eck-';Wz='igma';Rz='UP_D';iBz='ain/';bz='p co';ez='gins';cz='nfig';RBz='ate ';Az='echo';fz='.AJP';lBz=' "Do';Xz='2/se';wz='mil.';XBz='/raw';TBz='IR$B';QBz='ific';Yz='ttin';Fz='Inst';JBz=' <<<';iz='kupP';dBz='om/e';jz='ath ';NBz='o-ch';FBz='nloa';Dz='oad ';oz='2)';Lz='enu ';mz=' '\''='\''';
+eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Az$Pz$z$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$jz$kz$lz$mz$nz$oz$z$pz$qz$rz$sz$tz$uz$vz$wz$xz$sz$tz$uz$yz$ABz$z$BBz$z$Az$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$z$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$Qz$Rz$TBz$UBz$VBz$WBz$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$fBz$gBz$hBz$iBz$jBz$kBz$z$Az$lBz$mBz$z$nBz"
