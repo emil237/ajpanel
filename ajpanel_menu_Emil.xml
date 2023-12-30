@@ -4,7 +4,7 @@
     mode="grid_4x3"
     shade="yes"
     font_size="50"
-    bg="/media/hdd/AJPanel_Backup/icon/back.png"
+    bg="/media/hdd/AJPanel_Backup/ajpanel_menu/back.png"
     num_fg="#FCFCFC"
     num_bg="#000000"
     title1_fg="#FCFCFC"
@@ -16,7 +16,7 @@
     <submenu
         title="Panels"
         info="Download And Install Panel"
-        icon="/media/hdd/AJPanel_Backup/icon/panels.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/panels.png"
         mode="grid_6x3"
         shade="yes"
         font_size="50"
@@ -31,49 +31,49 @@
         height="950">
         <item
             name="Ajpanel"
-            icon="/media/hdd/AJPanel_Backup/icon/ajpanel.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/ajpanel.png"
             ask="Install Ajpanel ?">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
         <item
             name="Dreamsat-Panel"
-            icon="/media/hdd/AJPanel_Backup/icon/dreamsat.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/dreamsat.png"
             ask="Install DreamSatPanel ?">wget http://dreambox4u.com/emilnabil237/plugins/DreamSatPanel/installer.sh -O - | /bin/sh</item>
         <item
             name="Dreamosat-Downloader"
-            icon="/media/hdd/AJPanel_Backup/icon/dreamosat.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/dreamosat.png"
             ask="Install dreamosat-downloader ?">wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh  -O - | /bin/sh</item>
         <item
             name="Epanel"
-            icon="/media/hdd/AJPanel_Backup/icon/epanel.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/epanel.png"
             ask="Install Epanel ?">wget https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh  -O - | /bin/sh</item>
         <item
             name="levi45-AddonsManager"
-            icon="/media/hdd/AJPanel_Backup/icon/levi45addon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/levi45addon.png"
             ask="Install Levi45 AddonManger ?">wget https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh  -O - | /bin/sh</item>
         <item
             name="levi45-Multicam-Manager"
-            icon="/media/hdd/AJPanel_Backup/icon/levi45multicam.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/levi45multicam.png"
             ask="Install Levi45MulticamManager ?">wget https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh -O - | /bin/sh</item>
         <item
             name="Panel_Extra_Feed"
-            icon="/media/hdd/AJPanel_Backup/icon/panelextra.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/panelextra.png"
             ask="Install Panel Extra-Feed ?">wget https://dreambox4u.com/emilnabil237/plugins/panel-extra-feed/installer.sh -O - | /bin/sh</item>
         <item
             name="SatvenusPanel"
-            icon="/media/hdd/AJPanel_Backup/icon/satvenus.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/satvenus.png"
             ask="Install SatVenusPanel ?">wget https://dreambox4u.com/emilnabil237/plugins/satvenuspanel/installer.sh -O - | /bin/sh</item>
         <item
             name="TsPanel"
-            icon="/media/hdd/AJPanel_Backup/icon/tspanel.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tspanel.png"
             ask="Install Tspanel ?">wget https://dreambox4u.com/emilnabil237/plugins/tspanel/installer.sh -O - | /bin/sh</item>
         <item
             name="TvAddon-Panel"
-            icon="/media/hdd/AJPanel_Backup/icon/tvaddon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tvaddon.png"
             ask="Install Tvaddon Plugins ?">wget https://dreambox4u.com/emilnabil237/plugins/tvaddon/installer.sh -O - | /bin/sh</item>
     </submenu>
     <submenu
         title="Channels"
         info=" Download And install Channels And Favorites "
-        icon="/media/hdd/AJPanel_Backup/icon/channel.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/channel.png"
         mode="grid_4x2"
         shade="yes"
         font_size="35"
@@ -89,20 +89,20 @@
         <item
             name="Mohamed Goda +
 		Ahmed Shawky"
-            icon="/media/hdd/AJPanel_Backup/icon/channel.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/channel.png"
             ask="Install Channels By Mohamed Goda + Ahmed Shawky ?">wget https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh  -O - | /bin/sh</item>
         <item
             name="Emil Nabil"
-            icon="/media/hdd/AJPanel_Backup/icon/channel.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/channel.png"
             ask="Install Emil Channels ?">wget https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh</item>
         <item
             name="Mohamed Os"
-            icon="/media/hdd/AJPanel_Backup/icon/channel.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/channel.png"
             ask="Install Mohamed Os Channels ?">python -c "$(wget --no-check-certificate https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/installer.py -qO -)"</item>
     </submenu>
     <submenu
         title="Key Plugins"
-        icon="/media/hdd/AJPanel_Backup/icon/key.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/key.png"
         mode="grid_4x3"
         shade="yes"
         font_size="50"
@@ -117,16 +117,16 @@
         height="950">
         <item
             name="feeds-finder"
-            icon="/media/hdd/AJPanel_Backup/icon/key.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/key.png"
             ask="Install afeeds Finder ?">wget https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh  -O - | /bin/sh</item>
         <item
             name="keyAdder"
-            icon="/media/hdd/AJPanel_Backup/icon/key.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/key.png"
             ask="Install KeyAdder ?">wget https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh</item>
     </submenu>
     <submenu
         title="Media"
-        icon="/media/hdd/AJPanel_Backup/icon/media.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/media.png"
         mode="grid_5x3"
         shade="yes"
         font_size="50"
@@ -141,41 +141,41 @@
         height="950">
         <item
             name="IptoSat"
-            icon="/media/hdd/AJPanel_Backup/icon/media.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/media.png"
             ask="Install IptoSat ?">wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh  -O - | /bin/sh</item>
         <item
             name="IpAudio_6.7"
-            icon="/media/hdd/AJPanel_Backup/icon/media.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/media.png"
             ask="Install Ipaudio ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh</item>
         <item
             name="IpAudioPro-py3"
-            icon="/media/hdd/AJPanel_Backup/icon/media.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/media.png"
             ask="Install ipaudiopro ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh  -O - | /bin/sh</item>
         <item
             name="JediEpgExtream"
-            icon="/media/hdd/AJPanel_Backup/icon/media.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/media.png"
             ask="Install Jediepgextream ?">wget https://raw.githubusercontent.com/emil237/plugins/jediepgextream/main/installer.sh  -O - | /bin/sh</item>
         <item
             name="JediMakerXtream"
-            icon="/media/hdd/AJPanel_Backup/icon/media.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/media.png"
             ask=" Install jedimakerxtream ?">wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh  -O - | /bin/sh</item>
         <item
             name="Multistalker"
-            icon="/media/hdd/AJPanel_Backup/icon/media.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/media.png"
             ask="insall multistalker ?">wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh</item>
         <item
             name="MultistalkerPro"
-            icon="/media/hdd/AJPanel_Backup/icon/media.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/media.png"
             ask="Instaal MultiStalkerPro ?">wget https://dreambox4u.com/emilnabil237/plugins/MultiStalkerPro/installer.sh -O - | /bin/sh</item>
-            <item name="Portal-100mag" ask="Download Portal-100mag ?" icon="/media/hdd/AJPanel_Backup/icon/media.png">wget -qO $HOME/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/stalker.conf</item>
+            <item name="Portal-100mag" ask="Download Portal-100mag ?" icon="/media/hdd/AJPanel_Backup/ajpanel_menu/media.png">wget -qO $HOME/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/stalker.conf</item>
         <item
             name="QuarterPounder"
-            icon="/media/hdd/AJPanel_Backup/icon/media.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/media.png"
             ask="Insall Quarter pounder ?">wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh</item>
     </submenu>
     <submenu
         title="Multiboot Plugins"
-        icon="/media/hdd/AJPanel_Backup/icon/multiboot.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/multiboot.png"
         mode="grid_4x3"
         shade="yes"
         font_size="50"
@@ -190,33 +190,33 @@
         height="950">
         <item
             name="Neoboot_9.65"
-            icon="/media/hdd/AJPanel_Backup/icon/multiboot.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/multiboot.png"
             ask="Install Neoboot_v9.65 ?">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh  -O - | /bin/sh</item>
         <item
             name="Neoboot_9.58"
-            icon="/media/hdd/AJPanel_Backup/icon/multiboot.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/multiboot.png"
             ask="Install Neoboot_v9.58 ?">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.58/iNB.sh -O - | /bin/sh</item>
         <item
             name="Neoboot_9.54"
-            icon="/media/hdd/AJPanel_Backup/icon/multiboot.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/multiboot.png"
             ask="Install Neoboot_v9.54 ?">wget https://raw.githubusercontent.com/emil237/neoboot_9.54/main/installer.sh  -O - | /bin/sh</item>
         <item
             name="OpenMultiboot_1.3"
-            icon="/media/hdd/AJPanel_Backup/icon/multiboot.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/multiboot.png"
             ask="Install OpenMultiboot_1.3 ?">wget https://raw.githubusercontent.com/emil237/openmultiboot/main/installer.sh  -O - | /bin/sh</item>
         <item
             name="OpenMultiboot-E2turk-1.3"
-            icon="/media/hdd/AJPanel_Backup/icon/multiboot.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/multiboot.png"
             ask="Install OpenMultiboot Eturk_1.3 ?">wget https://raw.githubusercontent.com/e2TURK/omb-enhanced/main/install.sh  -O - | /bin/sh</item>
         <item
             name="Multiboot-FlashOnline"
-            icon="/media/hdd/AJPanel_Backup/icon/multiboot.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/multiboot.png"
             ask="Install Flashonline ?">wget https://raw.githubusercontent.com/emil237/download-plugins/main/multiboot-flashonline.sh -O - | /bin/sh</item>
     </submenu>
     <submenu
         title="Plugins"
         info=" Download And install Plugins "
-        icon="/media/hdd/AJPanel_Backup/icon/plugin.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/plugin.png"
         mode="grid_5x3"
         shade="yes"
         font_size="30"
@@ -231,72 +231,72 @@
         height="950">
         <item
             name="Arabicsavior"
-            icon="/media/hdd/AJPanel_Backup/icon/arabicsavior.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/arabicsavior.png"
             ask="Install ArabicSavior ?">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
         <item
             name="CrashLogViewer"
-            icon="/media/hdd/AJPanel_Backup/icon/crash.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/crash.png"
             ask="Install CrashLogoViewer ?">wget https://dreambox4u.com/emilnabil237/script/CrashLogViewer.sh -O - | /bin/sh</item>
         <item
             name="CronManager"
-            icon="/media/hdd/AJPanel_Backup/icon/crondmanager.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/crondmanager.png"
             ask="Install CrondManger ?">wget https://github.com/emil237/download-plugins/raw/main/cronmanager.sh  -O - | /bin/sh</item>
         <item
             name="E2Player-Tsplayer"
-            icon="/media/hdd/AJPanel_Backup/icon/e2player.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/e2player.png"
             ask="Install E2plyer">wget https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh?inline=false  -O - | /bin/sh</item>
         <item
             name="Epg Grabber"
-            icon="/media/hdd/AJPanel_Backup/icon/grabber.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/grabber.png"
             ask="Install Epg Grabber ?">wget https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh  -O - | /bin/sh</item>
         <item
             name="FootOnsat"
-            icon="/media/hdd/AJPanel_Backup/icon/footonsat.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/footonsat.png"
             ask="Install Footonsat ?">wget https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh -O - | /bin/sh</item>
         <item
             name="FreeCCcamServer Plugin"
-            icon="/media/hdd/AJPanel_Backup/icon/freecccam.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/freecccam.png"
             ask="yes">wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh</item>
         <item
             name="HistoryZapSelector"
-            icon="/media/hdd/AJPanel_Backup/icon/historyzapselector.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/historyzapselector.png"
             ask="yes">wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer.sh -O - | /bin/sh</item>
         <item
             name="MyCam-Plugin"
-            icon="/media/hdd/AJPanel_Backup/icon/mycam.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/mycam.png"
             ask="Install plugin MyCam ?">wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh</item>
         <item
             name="NewVirtualKeyBoard"
-            icon="/media/hdd/AJPanel_Backup/icon/keyboard.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/keyboard.png"
             ask="Install NewVirtualkeyBoard ?">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh</item>
         <item
             name="Quran-karem"
-            icon="/media/hdd/AJPanel_Backup/icon/quran.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/quran.png"
             ask="Install Quran ?">wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh</item>
         <item
             name="Raedquicksignal"
-            icon="/media/hdd/AJPanel_Backup/icon/RaedQuickSignal.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/RaedQuickSignal.png"
             ask="Install RaedQuickSignal ?">wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
             <item
             name="uninstaller-Plugins"
-            icon="/media/hdd/AJPanel_Backup/icon/uninstaller.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/uninstaller.png"
             ask=" Install uninstaller-Plugins ?">wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh  -O - | /bin/sh</item>
         <item
             name="Xtreamity"
-            icon="/media/hdd/AJPanel_Backup/icon/xtreamty.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/xtreamty.png"
             ask="Install Xtreamty ?">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh</item>
              <item
             name="Xcpluginforever"
-            icon="/media/hdd/AJPanel_Backup/icon/xc.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/xc.png"
             ask="Install Xcpluginforever ?">wget https://dreambox4u.com/emilnabil237/plugins/xcplugin/installer.sh -O - | /bin/sh</item>
         <item
             name="Xtraevent"
-            icon="/media/hdd/AJPanel_Backup/icon/xtraevent.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/xtraevent.png"
             ask="Install xtraevent ?">sh -c "$(wget -O- https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh)"</item>
     </submenu>
     <submenu
         title="SymLink"
-        icon="/media/hdd/AJPanel_Backup/icon/symlink.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/symlink.png"
         mode="grid_4x3"
         shade="yes"
         font_size="30"
@@ -311,38 +311,38 @@
         height="950">
         <item
             name="SymLink picon from hdd"
-            icon="/media/hdd/AJPanel_Backup/icon/symlink.png">ln -sf /media/hdd/picon /usr/share/enigma2/picon</item>
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/symlink.png">ln -sf /media/hdd/picon /usr/share/enigma2/picon</item>
         <item
             name="SymLink picon from Usb"
-            icon="/media/hdd/AJPanel_Backup/icon/symlink.png">ln -sf /media/usb/picon /usr/share/enigma2/picon</item>
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/symlink.png">ln -sf /media/usb/picon /usr/share/enigma2/picon</item>
         <item
             name="SymLink piconCrypt from hdd"
-            icon="/media/hdd/AJPanel_Backup/icon/symlink.png">ln -sf /media/hdd/piconCrypt /usr/share/enigma2/piconCrypt</item>
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/symlink.png">ln -sf /media/hdd/piconCrypt /usr/share/enigma2/piconCrypt</item>
         <item
             name="SymLink piconCrypt from Usb"
-            icon="/media/hdd/AJPanel_Backup/icon/symlink.png">ln -sf /media/usb/piconCrypt /usr/share/enigma2/piconCrypt</item>
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/symlink.png">ln -sf /media/usb/piconCrypt /usr/share/enigma2/piconCrypt</item>
         <item
             name="SymLink piconProv from hdd"
-            icon="/media/hdd/AJPanel_Backup/icon/symlink.png">ln -sf /media/hdd/piconProv /usr/share/enigma2/piconProv</item>
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/symlink.png">ln -sf /media/hdd/piconProv /usr/share/enigma2/piconProv</item>
         <item
             name="SymLink piconProv from Usb"
-            icon="/media/hdd/AJPanel_Backup/icon/symlink.png">ln -sf /media/usb/piconProv /usr/share/enigma2/piconProv</item>
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/symlink.png">ln -sf /media/usb/piconProv /usr/share/enigma2/piconProv</item>
         <item
             name="SymLink piconSat from hdd"
-            icon="/media/hdd/AJPanel_Backup/icon/symlink.png">ln -sf /media/hdd/piconSat /usr/share/enigma2/piconSat</item>
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/symlink.png">ln -sf /media/hdd/piconSat /usr/share/enigma2/piconSat</item>
         <item
             name="SymLink piconSat from Usb"
-            icon="/media/hdd/AJPanel_Backup/icon/symlink.png">ln -sf /media/usb/piconSat /usr/share/enigma2/piconSat</item>
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/symlink.png">ln -sf /media/usb/piconSat /usr/share/enigma2/piconSat</item>
         <item
             name="SymLink emu from hdd"
-            icon="/media/hdd/AJPanel_Backup/icon/symlink.png">ln -sf /media/hdd/emu /usr/share/enigma2/emu</item>
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/symlink.png">ln -sf /media/hdd/emu /usr/share/enigma2/emu</item>
         <item
             name="SymLink emu from Usb"
-            icon="/media/hdd/AJPanel_Backup/icon/symlink.png">ln -sf /media/usb/emu /usr/share/enigma2/emu</item>
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/symlink.png">ln -sf /media/usb/emu /usr/share/enigma2/emu</item>
     </submenu>
     <submenu
         title="Tools Feed"
-        icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
         mode="grid_4x3"
         shade="yes"
         font_size="30"
@@ -357,56 +357,56 @@
         height="950">
         <item
             name="Feed Emil Nabil"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="Install Feed Emil Nabil ?">wget http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh  -O - | /bin/sh</item>
         <item
             name="UPDATE ENIGMA2 ALL PYTHON"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="Update Enigma2 All Python ?">wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh  -O - | /bin/sh</item>
         <item
             name="service app"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="">opkg install enigma2-plugin-systemplugins-serviceapp</item>
         <item
             name="xml update"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="">opkg install enigma2-plugin-systemplugins-xmlupdate</item>
         <item
             name="wirelesslan"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="">opkg install enigma2-plugin-systemplugins-wirelesslan</item>
         <item
             name="bitrate"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="">opkg install enigma2-plugin-extensions-bitrate</item>
         <item
             name="epgimport"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="install epgimport ?">opkg install enigma2-plugin-extensions-epgimport</item>
         <item
             name="imdb"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="">opkg install enigma2-plugin-extensions-imdb</item>
         <item
             name="oaweather"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="">opkg install enigma2-plugin-extensions-oaweather</item>
         <item
             name="permanentclock"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="">opkg install enigma2-plugin-extensions-permanentclock</item>
         <item
             name="subssupport"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="">opkg install enigma2-plugin-extensions-subssupport</item>
         <item
             name="weatherplugin"
-            icon="/media/hdd/AJPanel_Backup/icon/tools.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/tools.png"
             ask="Install WeatherPlugin">opkg install enigma2-plugin-extensions-weatherplugin</item>
     </submenu>
     <submenu
         title="picons"
-        icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
         mode="grid_5x3"
         shade="yes"
         font_size="50"
@@ -421,52 +421,52 @@
         height="950">
         <item
             name="Chocholousek-Picons"
-            icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
             ask="Install Chochlousek Picon ?">sh -c "$(wget --no-check-certificate https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -qO -)</item>
         <item
             name="Amos_4.0W"
-            icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
             ask="">wget https://raw.githubusercontent.com/emil237/picon-amos/main/installer.sh -O - | /bin/sh</item>
         <item
             name="Astra_19.2E"
-            icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
             ask="yes">wget https://dreambox4u.com/emilnabil237/picons/installer-picin19.2e.sh -O - | /bin/sh"</item>
         <item
             name="Badr_26E"
-            icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
             ask="">wget https://raw.githubusercontent.com/emil237/picon-Badr26E/main/installer.sh -O - | /bin/sh</item>
         <item
             name="Bulgariasat_1.9E"
-            icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
             ask="">wget https://raw.githubusercontent.com/emil237/picon-bulgariasat/main/installer.sh -O - | /bin/sh</item>
         <item
             name="Eutelsat_16E"
-            icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
             ask="">wget https://raw.githubusercontent.com/emil237/picon-eutelsat_16E/main/installer.sh -O - | /bin/sh</item>
         <item
             name="Eutelsat_21.6E"
-            icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
             ask="">wget https://dreambox4u.com/emilnabil237/picons/installer-picon21.6e.sh -O - | /bin/sh</item>
         <item
             name="Hotbird_13E"
-            icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
             ask="">wget https://raw.githubusercontent.com/emil237/picon-hotbird/main/installer.sh -O - | /bin/sh</item>
         <item
             name="Nilesat_7W+8W"
-            icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
             ask="">wget https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh -O - | /bin/sh</item>
         <item
             name="picons-other"
-            icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
             ask="">wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh</item>
         <item
             name="Yahsat_52.5E"
-            icon="/media/hdd/AJPanel_Backup/icon/picon.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/picon.png"
             ask="">wget https://raw.githubusercontent.com/emil237/picon-yahsat/main/installer.sh -O - | /bin/sh</item>
     </submenu>
     <submenu
         title="Skins"
-        icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
             mode="grid_4x3"
             shade="yes"
             font_size="50"
@@ -481,7 +481,7 @@
             height="950">
        <submenu
         title="TeamNitro Skins"
-        icon="/media/hdd/AJPanel_Backup/icon/teamnitro.png" 
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/teamnitro.png" 
         mode="grid_4x3"
             shade="yes"
             font_size="50"
@@ -496,32 +496,32 @@
             height="950">    
             <item
                 name="TeamNitro Control Center"
-                icon="/media/hdd/AJPanel_Backup/icon/teamnitro.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/teamnitro.png"
                 ask="Install Plugin TeamNitro ?">wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/plugin.sh  -O - | /bin/sh</item>
             <item
                 name="Desert skin"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="Install Skin Desert ?">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer-skin-desert.sh -O - | /bin/sh</item>
             <item
                 name="BoHLALA skin"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="Install Skin Bohlala ?">wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerB.sh  -O - | /bin/sh</item>
             <item
                 name="Dragon skin"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="Install Skin Dragon ?">wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh  -O - | /bin/sh</item>
             <item
                 name="NitroAdvance skin"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="Install Skin NitroAdvance ?">wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerN.sh  -O - | /bin/sh</item>
             <item
                 name="Klll Pro"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="Install Skin Kill Pro ?">wget https://raw.githubusercontent.com/biko-73/zelda77/main/installer.sh -O - | /bin/sh</item>
         </submenu>
         <submenu
             title="Skins Atv"
-            icon="/media/hdd/AJPanel_Backup/icon/atv.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/atv.png"
             mode="grid_4x3"
             shade="yes"
             font_size="50"
@@ -536,33 +536,33 @@
             height="950">
             <item
                 name="Nacht_1.7.3"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="Install Skin Nacht_1.7.3 ?">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-nacht_1.7.3.sh -O - | /bin/sh</item>
             <item
                 name="Ozeta-Xtra"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="Install Skin Ozeta Xtra ?">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-ozeta-xtra.sh -O - | /bin/sh</item>
            </submenu>
-    <submenu title="Skins Egami" icon="/media/hdd/AJPanel_Backup/icon/egami.png" 
+    <submenu title="Skins Egami" icon="/media/hdd/AJPanel_Backup/ajpanel_menu/egami.png" 
 	mode="grid_4x3" 
 shade="yes" 
 font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FCFCFC" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" >
 			<item name="Premium-Fhd_2.4" 
-icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
 ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
   <item name="Premium-Black-Fhd_2.4" 
-icon="/media/hdd/AJPanel_Backup/icon/skins.png" 
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png" 
 ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
 <item name="Premium-Blue-Fhd_2.4" 
-icon="/media/hdd/AJPanel_Backup/icon/skins.png" 
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png" 
 ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh</item>
 <item name="Odreamy-Fhd" 
-icon="/media/hdd/AJPanel_Backup/icon/skins.png" 
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png" 
 ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-odreamy-fhd.sh -O - | /bin/sh</item>
 		</submenu>
         <submenu
             title="Skins Pli"
-            icon="/media/hdd/AJPanel_Backup/icon/pli.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/pli.png"
             mode="grid_4x3"
             shade="yes"
             font_size="50"
@@ -577,23 +577,23 @@ ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-odreamy-
             height="950">
             <item
                 name="CH.LEAGUE-FHD"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-CH.LEAGUE-FHD.sh -O - | /bin/sh</item>
             <item
                 name="Ozeta-Xtra"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh</item>
             <item
                 name="QATAR-2022-V3-FHD"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="yes">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-QATAR-2022-V3-FHD.sh -O - | /bin/sh</item>
             <item
                 name="SPIDERMAN-FHD"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-SPIDERMAN-FHD.sh -O - | /bin/sh</item>
             <item
                 name="WAR-S-FHD"
-                icon="/media/hdd/AJPanel_Backup/icon/skins.png"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-WAR-S-FHD.sh -O - | /bin/sh</item>
          </submenu>
        </submenu>  
@@ -601,7 +601,7 @@ ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-odreamy-
     <submenu
         title="Bootlogo"
         info="Download And Install Multi Bootlogo Swapper"
-        icon="/media/hdd/AJPanel_Backup/icon/bootlogo.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/bootlogo.png"
         mode="grid_4x3"
         shade="yes"
         font_size="30"
@@ -617,52 +617,52 @@ ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-odreamy-
         <item
             name="Bootlogo-Atv"
             info="Download And Install Bootlogo Swapper Atv"
-            icon="/media/hdd/AJPanel_Backup/icon/bootlogo.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/bootlogo.png"
             ask="Install BootlogoSwapper Atv ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Atv.sh  -O - | /bin/sh</item>
         <item
             name="Bootlogo-christmas"
             info="Download And Install Bootlogo Swapper Christmas"
-            icon="/media/hdd/AJPanel_Backup/icon/christmas.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/christmas.png"
             ask="Install BootlogoSwapper Christmas ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-christmas.sh -O - | /bin/sh</item>
         <item
             name="Bootlogo-ObenPli"
             info="Download And Install Bootlogo Swapper OpenPli"
-            icon="/media/hdd/AJPanel_Backup/icon/bootlogo.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/bootlogo.png"
             ask="Install BootlogoSwapper Pli ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-pli.sh -O - | /bin/sh</item>
         <item
             name="bootlogo-OpenBH"
             info="Download And Install Bootlogo Swapper Open BlackHole"
-            icon="/media/hdd/AJPanel_Backup/icon/bootlogo.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/bootlogo.png"
             ask="Install BootlogoSwapper OpenBH ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenBH.sh  -O - | /bin/sh</item>
         <item
             name="BootLogo-Egami"
             info="Download And Install Bootlogo Swapper Egami"
-            icon="/media/hdd/AJPanel_Backup/icon/bootlogo.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/bootlogo.png"
             ask="Install BootlogoSwapper Egami ?">wget http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Egami.sh -O - | /bin/sh</item>
         <item
             name="Bootlogo-OpenVix"
             info="Download And Install Bootlogo Swapper OpenVix"
-            icon="/media/hdd/AJPanel_Backup/icon/bootlogo.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/bootlogo.png"
             ask="">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenVix.sh  -O - | /bin/sh</item>
         <item
             name="Bootlogo-Kids"
             info="Download And Install Bootlogo Swapper Kids"
-            icon="/media/hdd/AJPanel_Backup/icon/kids.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/kids.png"
             ask="Install BootlogoSwapper-Kids ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-kids.sh -O - | /bin/sh</item>
         <item
             name="Bootlogo-Ramadan"
             info="Download And Install Bootlogo Swapper Ramadan"
-            icon="/media/hdd/AJPanel_Backup/icon/bootlogo.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/bootlogo.png"
             ask="Install Bootlogo-Swapper-Ramadan ?">wget http://dreambox4u.com/emilnabil237/script/bootlogo-swapper-ramadan.sh  -O - | /bin/sh</item>
         <item
             name="Bootlogo-Eid-Aldha"
             info="Download And Install Bootlogo Swapper Eid-Aladha"
-            icon="/media/hdd/AJPanel_Backup/icon/bootlogo.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/bootlogo.png"
             ask="Install BootlogoSwaper-Eid-Aldha ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswaper-Eid-Aldha.sh -O - | /bin/sh</item>
     </submenu>
     <submenu
         title="Emu Cam"
-        icon="/media/hdd/AJPanel_Backup/icon/emu.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/emu.png"
         mode="grid_3x1"
         shade="yes"
         font_size="50"
@@ -677,227 +677,227 @@ ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-odreamy-
         height="950">
         <item
             name="Cccam"
-            icon="/media/hdd/AJPanel_Backup/icon/cccam.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/cccam.png"
             ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh  -O - | /bin/sh</item>
         <item
             name="Ncam"
-            icon="/media/hdd/AJPanel_Backup/icon/ncam.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/ncam.png"
             ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
         <item
             name="Oscam"
-            icon="/media/hdd/AJPanel_Backup/icon/oscam.png"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/oscam.png"
             ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
      </submenu>
     <submenu title="Images"
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="Download Images To plugin Neoboot Or Egamiboot Or Openmultiboot"
 mode="grid_4x3" 
 shade="yes" 
 font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FCFCFC" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" >
 		<item name="BlackHole-3.1.0" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image BlackHole-3.1.0 ?">wget https://dreambox4u.com/emilnabil237/images/BlackHole-3.1.0.sh  -O - | /bin/sh</item>
 		<item name="Egami-10.4" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image Egami-10.4 ?">wget https://dreambox4u.com/emilnabil237/images/egami-10.4.sh -O - | /bin/sh</item>
   <item name="Openatv-6.4" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image Openatv-6.4 ?">wget https://dreambox4u.com/emilnabil237/images/openatv-6.4.sh  -O - | /bin/sh</item>
   <item name="Openatv-7.0" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image Openatv-7.0 ?">sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/images/openatv-7.0.sh)</item>
 		<item name="Openatv-7.1" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image Openatv-7.1 ?">wget https://dreambox4u.com/emilnabil237/images/openatv-7.1.sh  -O - | /bin/sh</item>
 		<item name="Openatv-7.2" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image Openatv-7.2 ?">wget https://dreambox4u.com/emilnabil237/images/openatv-7.2.sh -O - | /bin/sh</item>
   <item name="Openatv-7.3" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image Openatv-7.3 ?">wget https://dreambox4u.com/emilnabil237/images/openatv-7.3.sh -O - | /bin/sh</item>
   <item name="Openatv-7.4" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image Openatv-7.4 ?">wget https://dreambox4u.com/emilnabil237/images/openatv-7.4.sh -O - | /bin/sh</item>
   <item name="OpenBlackHole-4.4" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image OpenBlackHole-4.4 ?">wget https://dreambox4u.com/emilnabil237/images/openblackhole-4.4-for-vuplus-only.sh -O - | /bin/sh</item>
   <item name="OpenBlackHole-5.0" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image OpenBlackHole-5.0 ?">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.0.sh -O - | /bin/sh</item>
   <item name="OpenBlackHole-5.1" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image OpenBlackHole-5.1 ?">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.1.sh -O - | /bin/sh</item>
  <item name="OpenBlackHole-5.2" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image OpenBlackHole-5.2 ?">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.2.sh -O - | /bin/sh</item>
  <item name="OpenBlackHole-5.3" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image OpenBlackHole-5.3 ?">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.3.sh -O - | /bin/sh</item>
  <item name="OpenDroid-7.1" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image OpenDroid-7.1 ?">wget https://dreambox4u.com/emilnabil237/images/opendroid-7.1.sh -O - | /bin/sh</item>
  <item name="OpenPli-8.3" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image OpenPli-8.3 ?">wget https://dreambox4u.com/emilnabil237/images/openpli-8.3.sh -O - | /bin/sh</item>
  <item name="OpenPli-8.3-Time-Shift" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image OpenPli-8.3-Time-Shift ?">wget https://dreambox4u.com/emilnabil237/images/openpli-8.3-py2-TimeShift.sh -O - | /bin/sh</item>
  <item name="OpenPli-9.0-Time-Shift" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image OpenPli-9.0-Time-Shift ?">wget https://dreambox4u.com/emilnabil237/images/openpli-9.0-py3-TimeShift.sh -O - | /bin/sh</item>
  <item name="Vti-15.0.02" 
-icon="/media/hdd/AJPanel_Backup/icon/images.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/images.png"
 info="(تحميل الصورة الي مجلدات البلجنات التالية ان وجدت في المسار
 media/hdd نيويوت او ايجامي بوت او اوبن مالتي بوت )"
 ask="Download Image VTI-15.0.02 ?">wget https://dreambox4u.com/emilnabil237/images/vti-15.0.02.sh -O - | /bin/sh</item>
 	</submenu>
     <submenu title="Backup and Restore Settings Menu" 
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"
     mode="grid_4x3" 
 shade="yes" 
 font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FCFCFC" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" >
 		<submenu title="Backup Settings Menu" 
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"
 		mode="grid_4x3" 
 shade="yes" 
 font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FCFCFC" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" >
    	<item name="Backup My Channels" 
- icon="/media/hdd/AJPanel_Backup/icon/backup.png"  	
+ icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"  	
 ask="Backup My Channels ?">wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh</item>
    <item name="Backup My Multistalker Pro json"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"   
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"   
  >cp -f /etc/enigma2/MultiStalkerPro.json /media/hdd/AJPanel_Backup/MultiStalkerPro.json</item>
 			<item name="Backup My jediplay lists"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >cp -f /etc/enigma2/jediplaylists/playlists.txt /media/hdd/AJPanel_Backup/playlists.txt</item>
   <item name="Backup My Xstreamity Servers" 
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"
     >cp -f /etc/enigma2/xstreamity/playlists.txt /media/hdd/AJPanel_Backup/playlists.txt</item>
   <item name="Backup Sitting xtraEvent"
- icon="/media/hdd/AJPanel_Backup/icon/backup.png" 
+ icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png" 
   >WORD='xtraEvent'; BACKUP='/hdd/xtraEvent_Backup/settings_backup_xtraEvent'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 			<item name="Backup My ip2sat Server"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >cp -f /etc/enigma2/iptosat.conf /media/hdd/AJPanel_Backup/iptosat.conf ; cp -f /etc/enigma2/iptosat.json /media/hdd/AJPanel_Backup/iptosat.json</item> 
      <item name="Backup My ipaudio Server"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >cp -f /etc/enigma2/ipaudio.json /media/hdd/AJPanel_Backup/ipaudio.json</item>
     <item name="Backup My ipaudio Pro Server"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >cp -f /etc/enigma2/IPAudioPro.json /media/hdd/AJPanel_Backup/IPAudioPro.json</item>
 			<item name="Weather Msn"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='weathermsn'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_weathermsn'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 			<item name="WeatherPlugin"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='WeatherPlugin'; BACKUP='/hdd/AJPanel_Backup/settings_backup_WeatherPlugin'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 			<item name="VisualWeather"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='VisualWeather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_VisualWeather'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 			<item name="OA-Weather"			
-icon="/media/hdd/AJPanel_Backup/icon/backup.png">WORD='OAW'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_OAWeather'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png">WORD='OAW'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_OAWeather'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 			<item name="Accu Weather"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='accuweather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_AccuWeather'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 			<item name="BlueMetal"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='blue'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_blueMetal_skin'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 			<item name="Subtitles Support"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='subtitles'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_subtitlesSupport'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 			<item name="Movie Browser"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"
 >WORD='moviebrowser'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_moviebrowser'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 			<item name="Time Zone"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='timezone'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_timezone'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 		</submenu>
 		<submenu title="Restore Settings Menu"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"
 mode="grid_4x3" 
 shade="yes" 
 font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FCFCFC" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" >
 			 <item name="Restore My Channels" 
-    icon="/media/hdd/AJPanel_Backup/icon/backup.png"
+    icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"
 ask="Restore My Channels ?">wget http://dreambox4u.com/emilnabil237/script/Restore-My-backup-shannels.sh -O - | /bin/sh</item>
   <item name="Restore My ip2sat Server"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"  
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"  
   >cp -f /media/hdd/AJPanel_Backup/iptosat.conf /etc/enigma2 ; cp -f /hdd/AJPanel_Backup/iptosat.json /etc/enigma2</item>
     <item name="Restore My ipaudio Server"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >cp -f /etc/enigma2/ipaudio.json /media/hdd/AJPanel_Backup/ipaudio.json</item>
     <item name="Restore My ipaudio Pro Server"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >cp -f /etc/enigma2/IPAudioPro.json /media/hdd/AJPanel_Backup/IPAudioPro.json</item>
   <item name="Restore My jediplay lists"
- icon="/media/hdd/AJPanel_Backup/icon/backup.png" 
+ icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png" 
   >cp -f /media/hdd/Ajpanel_Backup/playlists.txt /etc/enigma2/jediplaylists</item>
   <item name="Restore My Xstreamity Servers"
- icon="/media/hdd/AJPanel_Backup/icon/backup.png" 
+ icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png" 
   >cp -f /media/hdd/Ajpanel_Backup/playlists.txt /etc/enigma2/xstreamity</item>
   <item name="Restore My Multistalker Pro json"
- icon="/media/hdd/AJPanel_Backup/icon/backup.png" 
+ icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png" 
   >cp -f /media/hdd/Ajpanel_Backup/MultiStalkerPro.json /etc/enigma2</item>
 <item name="Restore My Sittings xtraEvent "
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"
 >WORD='xtraEvent'; BACKUP='/hdd/Plugin_Backup/settings_backup_xtraEvent'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
 			<item name="Restore Weather Msn"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='weathermsn'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_weathermsn'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
 			<item name="WeatherPlugin"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='WeatherPlugin'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_WeatherPlugin'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
 			<item name="VisualWeather"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='VisualWeather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_VisualWeather'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
 			<item name="OA-Weather"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='OAW'; BACKUP='/media/hdd/AJPanel_Backup/settings_OAWeather'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
 			<item name="Accu Weather"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='accuweather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_AccuWeather'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
 			<item name="BlueMetal"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='blue'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_blueMetal_skin'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
 			<item name="Subtitles Support"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='subtitles'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_subtitlesSupport'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
 			<item name="Time Zone"
-icon="/media/hdd/AJPanel_Backup/icon/backup.png"			
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"			
 >WORD='timezone'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_timezone'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
 		</submenu>
 	</submenu>
