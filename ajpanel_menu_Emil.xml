@@ -216,7 +216,7 @@
     <submenu
         title="Plugins"
         info=" Download And install Plugins "
-        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/plugin.png"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/plugins.png"
         mode="grid_5x3"
         shade="yes"
         font_size="30"
@@ -233,6 +233,10 @@
             name="Arabicsavior"
             icon="/media/hdd/AJPanel_Backup/ajpanel_menu/arabicsavior.png"
             ask="Install ArabicSavior ?">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
+         <item
+            name="Atilehd"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/atilehd.png"
+            ask="Install Atilehd ?">wget https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh  -O - | /bin/sh</item>           
         <item
             name="CrashLogViewer"
             icon="/media/hdd/AJPanel_Backup/ajpanel_menu/crash.png"
