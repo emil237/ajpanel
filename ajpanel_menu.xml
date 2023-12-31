@@ -262,9 +262,10 @@
 	<item name="Haitham"
 	icon="/media/hdd/AJPanel_Backup/ajpanel_menu/haitham.png"
 	  font_size="50">ajpanel_menu_Haitham.xml</item>
-	<item name="Elie " 
+	<item name="Elie" 
 	icon="/media/hdd/AJPanel_Backup/ajpanel_menu/eliesat.png"
-    font_size="50" info="xml file by Elie have a coustm codes - plugins - ...." icon="/media/hdd/AJPanel_Backup/icons/elie.png">ajpanel_menu_Elie.xml</item>
+    font_size="50" info="xml file by Elie have a coustm codes - plugins  ...."
+    >ajpanel_menu_Elie.xml</item>
 	<!-- ============================================================================================== -->
 	<!-- Running a script file																			-->
 	<!-- ============================================================================================== -->
