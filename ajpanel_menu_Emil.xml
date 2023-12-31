@@ -233,6 +233,8 @@
             name="Arabicsavior"
             icon="/media/hdd/AJPanel_Backup/ajpanel_menu/arabicsavior.png"
             ask="Install ArabicSavior ?">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
+          <item name="Ansite" ask="yes" icon="/media/hdd/AJPanel_Backup/ajpanel_menu/ansite.png">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -qO - | /bin/sh</item>
+		<item name="Athan Times" ask="yes" icon="/media/hdd/AJPanel_Backup/ajpanel_menu/ath.png">wget https://raw.githubusercontent.com/biko-73/AthanTimes/main/installer.sh -qO - | /bin/sh</item>  
          <item
             name="Atilehd"
             icon="/media/hdd/AJPanel_Backup/ajpanel_menu/atilehd.png"
