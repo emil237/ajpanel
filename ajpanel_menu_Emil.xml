@@ -275,6 +275,10 @@
             name="NewVirtualKeyBoard"
             icon="/media/hdd/AJPanel_Backup/ajpanel_menu/keyboard.png"
             ask="Install NewVirtualkeyBoard ?">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh</item>
+         <item
+            name="Ozeta-Skins-Setup-2.8"
+            icon="/media/hdd/AJPanel_Backup/ajpanel_menu/ozeta.png"
+            ask="Install Ozeta-Skins-Setup-2.8 ?">wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh</item>   
         <item
             name="Quran-karem"
             icon="/media/hdd/AJPanel_Backup/ajpanel_menu/quran.png"
@@ -549,6 +553,57 @@
                 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="Install Skin Ozeta Xtra ?">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-ozeta-xtra.sh -O - | /bin/sh</item>
            </submenu>
+           <submenu
+        title="Skins BlackHole"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png" 
+        mode="grid_4x3"
+            shade="yes"
+            font_size="50"
+            title_bg="#11332233"
+            num_fg="#FCFCFC"
+            num_bg="#000000"
+            title1_fg="#FCFCFC"
+            title1_bg="#000000"
+            title2_fg="#FCFCFC"
+            title2_bg="#000000"
+            width="1600"
+            height="950">    
+            <item
+                name="q-purple"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
+                ask="Install Skin q-purple ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE--q-purple.sh|sh
+</item>
+            <item
+                name="Alienaware-Obh4"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
+                ask="Install Skin Alienaware-Obh4 ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-alienaware-obh4.sh -O - | /bin/sh</item>
+            <item
+                name="Ekselancen"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
+                ask="Install Skin Ekselancen ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-ekselancen.sh -O - | /bin/sh</item>
+            <item
+                name="Mx-Sline"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
+                ask="Install Skin Mx-Sline ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-mx-sline.sh  -O - | /bin/sh</item>
+            <item
+                name="Mxgraphite skin"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
+                ask="Install Skin Mxgraphite ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-mxgraphite.sh  -O - | /bin/sh</item>
+            <item
+                name="Q-Darkblue"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
+                ask="Install Skin Q-Darkblue ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-q-darkblue.sh -O - | /bin/sh</item>
+            <item
+                name="Q-Fhd skin"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
+                ask="Install Skin Q-Fhd ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-q-fhd.sh  -O - | /bin/sh</item>
+            <item
+                name="Waves4"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
+                ask="Install Skin Waves4 ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-waves4.sh -O - | /bin/sh</item>    
+        </submenu>
     <submenu title="Skins Egami" icon="/media/hdd/AJPanel_Backup/ajpanel_menu/egami.png" 
 	mode="grid_4x3" 
 shade="yes" 
@@ -602,6 +657,78 @@ ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-odreamy-
                 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
                 ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-WAR-S-FHD.sh -O - | /bin/sh</item>
          </submenu>
+         <submenu
+        title="Skins VTI"
+        icon="/media/hdd/AJPanel_Backup/ajpanel_menu/vti.png" 
+        mode="grid_4x3"
+            shade="yes"
+            font_size="50"
+            title_bg="#11332233"
+            num_fg="#FCFCFC"
+            num_bg="#000000"
+            title1_fg="#FCFCFC"
+            title1_bg="#000000"
+            title2_fg="#FCFCFC"
+            title2_bg="#000000"
+            width="1600"
+            height="950">    
+            <item
+                name="Aeonfhdmod_sharp987"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
+                ask="Install Skin Aeonfhdmod_sharp987 ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-aeonfhdmod_sharp987_vti-r3.27.sh|sh
+</item>
+            <item
+                name="Blue-shadow-fhd"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
+                ask="Install Skin Blue-shadow-fhd ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-blue-shadow-fhd_3.5.sh|sh</item>
+            <item
+                name="Cerx-fhd"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
+                ask="Install Skin Cerx-fhd ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-cerx-fhd.sh|sh</item>
+            <item
+                name="Full-hd_9.7"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
+                ask="Install Skin Full-hd_9.7 ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-full-hd_9.7.sh|sh</item>
+            <item
+                name="Greenhexagon-fhd"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
+                ask="Install Skin Greenhexagon-fhd ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-greenhexagon-fhd.sh|sh
+</item>
+            <item
+                name="Linearfhd_v4.1.1"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
+                ask="Install Skin Linearfhd_v4.1.1 ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-linearfhd_v4.1.1.sh|sh</item>
+            <item
+                name="Sky-fhd_3.6"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
+                ask="Install Skin Sky-fhd_3.6 ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-Sky-fhd_3.6.sh|sh</item>
+            <item
+                name="Square-fhd_2.2"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
+                ask="Install Skin Square-fhd_2.2 ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-square-fhd_2.2.sh|sh</item>
+        <item
+                name="Zflatgyrfhd_Sharp987"
+                icon="/media/hdd/AJPanel_Backup/ajpanel_menu/skins.png"
+                ask="Install Skin Zflatgyrfhd_Sharp987 ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sharp987_vti-r1.01.sh|sh</item>
+        </submenu>
        </submenu>  
       
     <submenu
@@ -929,15 +1056,21 @@ ask="Remove AlternativeSoftcamManager">wget https://dreambox4u.com/emilnabil237/
  <item name="Crashlogs" 
 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/remove.png"
 ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL_all_Crashlogs.sh  -O - | /bin/sh</item>
-		<item name="Jedimaker-Servers" 
+		<item name="Jedimaker-playlists" 
 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/remove.png"
 ask="yes">rm -f /etc/enigma2/jediplaylists/playlists.txt</item>
-  <item name="Xstreamity-Servers" 
+  <item name="Xstreamity-playlists" 
 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/remove.png"
 ask="yes">rm -f /etc/enigma2/xstreamity/playlists.txt</item>
   <item name="Cccamfinder" 
 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/remove.png"
 ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-CCcamFinder.sh  -O - | /bin/sh</item>
+        <item name="Emu-All" 
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/remove.png"
+ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus.sh  -O - | /bin/sh</item>
+        <item name="Emu-Config-Files" 
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/remove.png"
+ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus-config-files.sh  -O - | /bin/sh</item>
 		<item name="E2iplayer" 
 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/remove.png"
 ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-e2iplayer.sh  -O - | /bin/sh</item>

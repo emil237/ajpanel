@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ajp_menu title="panel (by Haitham v2.0)" mode="grid_6x3" shade="yes" font_size="50" bg="/media/hdd/AJPanel_Backup/icons/hm.jpg" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FCFCFC" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" >
-	<submenu title="Elie_Script " info="Script_information " bg="#22440033" font_size="40" align_items="left" title_fg="#33ffffaa" title_bg="#920047" title_font_size="50" cursor_fg="#0005AFEA" cursor_bg="#00AD0049" icon="/media/hdd/AJPanel_Backup/icons/about.png">
+<ajp_menu title="panel (by Haitham)" mode="grid" width="1920" height="1080" shade="yes" font_size="50"  title_bg="#11332233" num_fg="# " num_bg="#000000" title1_fg="# " title1_bg="#000000" title2_fg="# " title2_bg="#000000" >
+	<submenu title="Elie_Script " info="Script_information "  mode="grid" width="1920" height="1080" bg="# " font_size="40" align_items="left" title_fg="# " title_bg="# " title_font_size="50" cursor_fg="#0005AFEA" cursor_bg="#00AD0049" icon="/media/hdd/AJPanel_Backup/icons/about.png">
 		<item name="Update-scripts" icon="/media/hdd/AJPanel_Backup/icons/updates.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_Update-scripts.sh -O - | /bin/sh</item>
+<item name="Info" icon="/media/hdd/AJPanel_Backup/icons/info.png"
+ info="(آخر تحديثات البانل)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ajpanel/eliesatpanel/_Info.sh -O - | /bin/sh</item>
 		<item name="Info -scripts" icon="/media/hdd/AJPanel_Backup/icons/info.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_Info.sh -O - | /bin/sh </item>				
 	</submenu>
 
-		<submenu title="Python Packages" info="Install Python Packages (for Python-2 and Python-3)" line_gap="40" icon="/media/hdd/AJPanel_Backup/icons/python package.png">
+		<submenu title="Python Packages" info="Install Python Packages (for Python-2 and Python-3)" line_gap="40" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/python package.png">
 		<item name="Install Python-2 Packages" icon="/media/hdd/AJPanel_Backup/icons/python.png" ask="">
 			opkg install xz
 			opkg install gzip
@@ -73,15 +75,15 @@
 		<item name="update-abertis-astra" icon="/media/hdd/AJPanel_Backup/icons/python.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-abertis-astra.config-file-ciefp.sh -O - | /bin/sh </item>
 	</submenu>
 
-	<submenu title="Opkg"  width="650" height="1000" fg="#22ffffff" bg="#22003322" font_size="35" title_fg="#33ffffaa" title_bg="#11003333" title_font_size="50" cursor_fg="#11ff8000" cursor_bg="#11442244" icon="/media/hdd/AJPanel_Backup/icons/opkg.png">
+	<submenu title="Opkg"  mode="grid" width="1920" height="1080" fg="# " bg="# " font_size="35" title_fg="# " title_bg="# " title_font_size="50" cursor_fg="# " cursor_bg="# " icon="/media/hdd/AJPanel_Backup/icons/opkg.png">
 		<item name="opkg-update" icon="/media/hdd/AJPanel_Backup/icons/opkg.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-update.sh -O - | /bin/sh</item>
 		<item name="opkg-upgrade" icon="/media/hdd/AJPanel_Backup/icons/opkg.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-upgrade.sh -O - | /bin/sh</item>
 		<item name="opkg-update-upgrade" icon="/media/hdd/AJPanel_Backup/icons/opkg.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-update-upgrade.sh -O - | /bin/sh</item>
 		<item name="opkg-install-wget-openpli" icon="/media/hdd/AJPanel_Backup/icons/opkg.png" ask="yes">opkg install wget</item>
 	</submenu>
 
-	<submenu title="Plugins" icon="/media/hdd/AJPanel_Backup/icons/plugins.png" width="650" height="500" fg="#22ffffff" bg="#00045455" font_size="35" align_items="left" title_fg="#33ffffaa" title_bg="#000C3342" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
-		<submenu title="Plugin from feed_weblinks" mode="grid_5x4" bg="" title_fg="#33550055" title_bg="#06888800" align_items="left" icon="/media/hdd/AJPanel_Backup/icons/plugins.png">
+	<submenu title="Plugins" icon="/media/hdd/AJPanel_Backup/icons/plugins.png"  mode="grid" width="1920" height="1080" fg="# " bg="# " font_size="35" align_items="left" title_fg="# " title_bg="# " title_font_size="50" cursor_fg="# " cursor_bg="# ">
+		<submenu title="Plugin from feed_weblinks"  mode="grid" width="1920" height="1080"  bg="" title_fg="# " title_bg="# " align_items="left" icon="/media/hdd/AJPanel_Backup/icons/plugins.png">
 		<item name="AjPanel" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/aj.png">wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh</item>
 		<item name="ArabicSavior" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ar.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh</item>
 		<item name="Ansite" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ansite.png">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -qO - | /bin/sh</item>
@@ -96,8 +98,8 @@
 			<item name="JediMakerXtream" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/jed.png">wget https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh -O - | /bin/sh</item>			
 			<item name="KeyAdder" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/key.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh</item>
 			<item name="Portal-100mag" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ms.png">wget -qO $HOME/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/stalker.conf</item>
-		<item name="Multiboot FlashOnline" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/opm.png">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/FlashOnline/installer.py -qO - | python</item>
-		<item name="NovaIPAudio" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipa.png">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/NovaIPAudio/installer.py -qO - | python</item>
+		   <item name="Multiboot FlashOnline" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/opm.png">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/FlashOnline/installer.py -qO - | python</item>
+	   	<item name="NovaIPAudio" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipa.png">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/NovaIPAudio/installer.py -qO - | python</item>
 			<item name="NewVirtualKeyBoard_subsupportaddon" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/nk.png">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/subsinstaller.sh -O - | /bin/sh</item>
 			<item name="NewVirtualKeyBoard" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/nk.png">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh</item>
 			<item name="openmultiboot-enhanced-by-e2turk" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/opm.png">wget https://raw.githubusercontent.com/e2TURK/omb-enhanced/main/install.sh -qO - | /bin/sh</item>
@@ -106,7 +108,7 @@
 			<item name="SubsSupport" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/sub.png">wget https://raw.githubusercontent.com/biko-73/SubsSupport/main/installer.sh -qO - | /bin/sh</item>			
 			<item name="TheWeather" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/we.png">wget https://raw.githubusercontent.com/biko-73/TheWeather/main/installer.sh -qO - | /bin/sh</item>
 			<item name="TSmedia" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ts.png">wget https://raw.githubusercontent.com/biko-73/TSmedia/main/installer.sh -O - | /bin/sh</item>
-		<item name="TMBD"  icon="/media/hdd/AJPanel_Backup/icons/tmdb.png" ask="yes">wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh  -O - | /bin/sh</item>
+	   	<item name="TMBD"  icon="/media/hdd/AJPanel_Backup/icons/tmdb.png" ask="yes">wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh  -O - | /bin/sh</item>
 			<item name="xtraEvent" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/xt.png">wget -q "--no-check-certificate" https://github.com/digiteng/xtra/raw/main/xtraEvent.sh -O - | /bin/sh</item>
 			<item name="Youtube" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/yt.png">wget https://raw.githubusercontent.com/fairbird/Youtube-Opensource-DreamOS/master/installer.sh -qO - | /bin/sh</item>
 			<item name="service app" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/sap.png">opkg install enigma2-plugin-systemplugins-serviceapp</item>
@@ -122,7 +124,7 @@
 			<item name="weatherplugin" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/we.png">opkg install enigma2-plugin-extensions-weatherplugin</item>
 		</submenu>
 		
-		<submenu title="Plugin from URL Elie" mode="grid_5x4" bg="" title_bg="#06aa00aa" align_items="left"  icon="/media/hdd/AJPanel_Backup/icons/plugins.png">
+		<submenu title="Plugin from URL Elie"  mode="grid" width="1920" height="1080"  bg="" title_bg="# " align_items="left"  icon="/media/hdd/AJPanel_Backup/icons/plugins.png">
 			<item name="ajpanel " ask="yes" icon="/media/hdd/AJPanel_Backup/icons/aj.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ajpanel/ajpanel.sh -O - | /bin/sh</item>
 			<item name="alajre" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/alajre.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/alajre/alajre.sh -O - | /bin/sh </item>
 			<item name="alternativesoftcammanager" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/alternativesoftcammanager/alternativesoftcammanager.sh -O - | /bin/sh </item>
@@ -186,7 +188,7 @@
 		</submenu>
 	</submenu>
 	
-	<submenu title="Channels"  mode="grid_5x4" width="1600" height="950" fg="#22ffffff" bg="#22003322" font_size="35" title_fg="#33ffffaa" title_bg="#11003333" title_font_size="50" cursor_fg="#11ff8000" cursor_bg="#11442244" icon="/media/hdd/AJPanel_Backup/icons/channels.png">
+	<submenu title="Channels"   mode="grid" width="1920" height="1080"  fg="# " bg="# " font_size="35" title_fg="# " title_bg="# " title_font_size="50" cursor_fg="# " cursor_bg="# " icon="/media/hdd/AJPanel_Backup/icons/channels.png">
 			<item name="atef-motor" icon="/media/hdd/AJPanel_Backup/icons/channels.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/atef-motor/atef-motor.sh -O - | /bin/sh</item>
 			<item name="ciefp-motor" icon="/media/hdd/AJPanel_Backup/icons/channels.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/ciefp-motor/ciefp-motor.sh -O - | /bin/sh</item>
 			<item name="fathy-motor" icon="/media/hdd/AJPanel_Backup/icons/channels.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/fathy-motor/fathy-motor.sh -O - | /bin/sh</item>
@@ -199,8 +201,9 @@
 			<item name="yassine-motor" icon="/media/hdd/AJPanel_Backup/icons/channels.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/yassine-motor/yassine-motor.sh -O - | /bin/sh</item>
 	</submenu>
 	
-	<submenu title="Logo " icon="/media/hdd/AJPanel_Backup/icons/logo.png" width="650" height="500" fg="#22ffffff" bg="#00045455" font_size="35" align_items="left" title_fg="#33ffffaa" title_bg="#000C3342" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
-		<submenu title="bootlogo " mode="grid_5x4" icon="/media/hdd/AJPanel_Backup/icons/bootlogo.png" bg="" title_bg="#06aa00aa" align_items="left" >
+	<submenu title="Logo " icon="/media/hdd/AJPanel_Backup/icons/logo.png"  mode="grid" width="1920" height="1080"  fg="# " bg="# " font_size="35" align_items="left" title_fg="# " title_bg="# " title_font_size="50" cursor_fg="# " cursor_bg="# ">
+		<submenu title="bootlogo " mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/bootlogo.png" bg="" title_bg="# " align_items="left" >
+<item name="Christmas" icon="/media/hdd/AJPanel_Backup/icons/bootlogo.png"  info="(عيد الميلاد)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/christmas/bootlogos-christmas.sh -O - | /bin/sh</item>
 			<item name="nature" icon="/media/hdd/AJPanel_Backup/icons/bootlogo.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/nature/bootlogos-nature.sh -O - | /bin/sh</item>
 			<item name="ramadan" icon="/media/hdd/AJPanel_Backup/icons/bootlogo.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/ramadan/bootlogos-ramadan.sh -O - | /bin/sh</item>
 			<item name="smart" icon="/media/hdd/AJPanel_Backup/icons/bootlogo.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/smart/bootlogos-smart.sh -O - | /bin/sh</item>
@@ -230,7 +233,7 @@
 			<item name="n-pure2" icon="/media/hdd/AJPanel_Backup/icons/bootlogo.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-pure2.sh -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="radiologo " icon="/media/hdd/AJPanel_Backup/icons/radiologo.png" bg="" title_fg="#33550055" title_bg="#06888800" align_items="left" >
+		<submenu title="radiologo " icon="/media/hdd/AJPanel_Backup/icons/radiologo.png" mode="grid" width="1920" height="1080"  bg="" title_fg="# " title_bg="# " align_items="left" >
 			<item name="radiologo-1"  icon="/media/hdd/AJPanel_Backup/icons/radiologo.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-1.sh -O - | /bin/sh</item>
 			<item name="radiologo-2"  icon="/media/hdd/AJPanel_Backup/icons/radiologo.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-2.sh -O - | /bin/sh</item>
 			<item name="radiologo-3"  icon="/media/hdd/AJPanel_Backup/icons/radiologo.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-3.sh -O - | /bin/sh</item>
@@ -246,7 +249,7 @@
 		</submenu>
 	</submenu>
 	
-	<submenu title="DNS" info="Change DNS" icon="/media/hdd/AJPanel_Backup/icons/dns.png">
+	<submenu title="DNS" mode="grid" width="1920" height="1080" info="Change DNS" icon="/media/hdd/AJPanel_Backup/icons/dns.png">
 		<item name="Google" icon="/media/hdd/AJPanel_Backup/icons/dns.png">echo "nameserver 8.8.8.8" > /etc/resolv.conf; echo "nameserver 8.8.4.4" >> /etc/resolv.conf; killall -9 enigma2</item>
 		<item name="Cloudflare" icon="/media/hdd/AJPanel_Backup/icons/dns.png">echo "nameserver 1.1.1.1" > /etc/resolv.conf; echo "nameserver 1.0.0.1" >> /etc/resolv.conf; killall -9 enigma2</item>
 		<item name="CleanBrowsing" icon="/media/hdd/AJPanel_Backup/icons/dns.png">echo "nameserver 185.228.168.9" > /etc/resolv.conf; echo "nameserver 185.228.169.9" >> /etc/resolv.conf; killall -9 enigma2</item>
@@ -258,7 +261,7 @@
 		<item name="Control D" icon="/media/hdd/AJPanel_Backup/icons/dns.png">echo "nameserver 76.76.2.0" > /etc/resolv.conf; echo "nameserver 76.76.10.0" >> /etc/resolv.conf; killall -9 enigma2</item>
 	</submenu>
 	
-	<submenu title="Check "  width="650" height="1000" fg="#22ffffff" bg="#22003322" font_size="35" title_fg="#33ffffaa" title_bg="#11003333" title_font_size="50" cursor_fg="#11ff8000" cursor_bg="#11442244" icon="/media/hdd/AJPanel_Backup/icons/check.png">
+	<submenu title="Check "  mode="grid" width="1920" height="1080" fg="# " bg="# " font_size="35" title_fg="# " title_bg="# " title_font_size="50" cursor_fg="# " cursor_bg="# " icon="/media/hdd/AJPanel_Backup/icons/check.png">
 		<item name="check-all" icon="/media/hdd/AJPanel_Backup/icons/check.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/check/_check-all.sh -O - | /bin/sh</item>
 		<item name="check-architecture" icon="/media/hdd/AJPanel_Backup/icons/check.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/check/_check-architecture.sh -O - | /bin/sh</item>
 		<item name="check-date_time" icon="/media/hdd/AJPanel_Backup/icons/check.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/check/_check-date_time.sh -O - | /bin/sh</item>
@@ -288,7 +291,7 @@ fi</item>
 		<item name="chmod-scripts" icon="/media/hdd/AJPanel_Backup/icons/check.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_chmod-scripts.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Fix"  width="650" height="1000" fg="#22ffffff" bg="#22003322" font_size="35" title_fg="#33ffffaa" title_bg="#11003333" title_font_size="50" cursor_fg="#11ff8000" cursor_bg="#11442244" icon="/media/hdd/AJPanel_Backup/icons/fix.png">
+	<submenu title="Fix" mode="grid" width="1920" height="1080" fg="# " bg="# " font_size="35" title_fg="# " title_bg="# " title_font_size="50" cursor_fg="# " cursor_bg="# " icon="/media/hdd/AJPanel_Backup/icons/fix.png">
 		<item name="hdd-intialize-ext4" icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_hdd-intialize-ext4.sh -O - | /bin/sh</item>
 		<item name="fix-atv-softcam-restart" icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_fix-atv-softcam-restart.sh -O - | /bin/sh</item>
 		<item name="fix-freeserver-serviceinfo-module" icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_fix-freeserver-serviceinfo-module.sh -O - | /bin/sh</item>
@@ -299,7 +302,7 @@ fi</item>
 		<item name="hdd-fix--space-inodes" icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_hdd-fix--space-inodes.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Remove "  width="650" height="1000" fg="#22ffffff" bg="#22003322" font_size="35" title_fg="#33ffffaa" title_bg="#11003333" title_font_size="50" cursor_fg="#11ff8000" cursor_bg="#11442244" icon="/media/hdd/AJPanel_Backup/icons/remove.png">
+	<submenu title="Remove " mode="grid" width="1920" height="1080" fg="# " bg="# " font_size="35" title_fg="# " title_bg="# " title_font_size="50" cursor_fg="# " cursor_bg="# " icon="/media/hdd/AJPanel_Backup/icons/remove.png">
 		<item name="remove-bootlogo-swapper-logos" icon="/media/hdd/AJPanel_Backup/icons/remove.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/remove/_remove-bootlogo-swapper-logos.sh -O - | /bin/sh</item>
 		<item name="remove-crash-logs" icon="/media/hdd/AJPanel_Backup/icons/remove.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/remove/_remove-crash-logs.sh -O - | /bin/sh</item>
 		<item name="remove-dns" icon="/media/hdd/AJPanel_Backup/icons/remove.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/remove/_remove-dns.sh -O - | /bin/sh</item>
@@ -321,8 +324,8 @@ fi</item>
 		<item name="remove-tuner-settings" icon="/media/hdd/AJPanel_Backup/icons/remove.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/remove/_remove-tuner-settings.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Backup and Restore Settings Menu" width="800" icon="/media/hdd/AJPanel_Backup/icons/backup_system.png" bg="#06006666" title_bg="#06004444" >
-		<submenu title="Backup Settings Menu" bg="#06770077" title_bg="#06aa00aa" align_items="left" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">
+	<submenu title="Backup and Restore Settings Menu" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/backup_system.png" bg="# " title_bg="# " >
+		<submenu title="Backup Settings Menu" mode="grid" width="1920" height="1080"  bg="# " title_bg="# " align_items="left" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">
 			<item name="xtra Event" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">WORD='xtraEvent'; BACKUP='/hdd/Plugin_Backup/settings_backup_xtraEvent'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 			<item name="Permanent Clock" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">WORD='PermanentClock'; BACKUP='/hdd/Plugin_Backup/settings_backup_PermanentClock'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 			<item name="Audio Plus" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">WORD='gins.ap'; BACKUP='/hdd/Plugin_Backup/settings_backup_AudioPlus'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
@@ -342,7 +345,7 @@ fi</item>
 			<item name="VTI VWeather3" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">WORD='VWeather3'; BACKUP='/hdd/Plugin_Backup/settings_backup_VWeather3'; grep $WORD '/etc/enigma2/settings' > $BACKUP</item>
 		</submenu>
 	
-		<submenu title="Restore Settings Menu" bg="#06555500" title_fg="#33550055" title_bg="#06888800" align_items="left" icon="/media/hdd/AJPanel_Backup/icons/backupr.png">
+		<submenu title="Restore Settings Menu" mode="grid" width="1920" height="1080" bg="# " title_fg="# " title_bg="# " align_items="left" icon="/media/hdd/AJPanel_Backup/icons/backupr.png">
 			<item name="xtra Event " icon="/media/hdd/AJPanel_Backup/icons/backupr.png">WORD='xtraEvent'; BACKUP='/hdd/Plugin_Backup/settings_backup_xtraEvent'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
 			<item name="Permanent Clock" icon="/media/hdd/AJPanel_Backup/icons/backupr.png">WORD='PermanentClock'; BACKUP='/hdd/Plugin_Backup/settings_backup_PermanentClock'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
 			<item name="Audio Plus" icon="/media/hdd/AJPanel_Backup/icons/backupr.png">WORD='gins.ap'; BACKUP='/hdd/Plugin_Backup/settings_backup_AudioPlus'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF > $TF &#38;&#38; cat $BACKUP >> $TF &#38;&#38; init 4 &#38;&#38; sleep 3 &#38;&#38; mv -f $TF $SETF &#38;&#38; init 3</item>
@@ -364,14 +367,14 @@ fi</item>
 		</submenu>
 	</submenu>
 	
-	<submenu title="Skin " mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/icons/skin.png" bg="#06006666" title_bg="#06004444" >
-		<submenu title="skin obh " mode="grid_5x4"  icon="/media/hdd/AJPanel_Backup/icons/ph.png" bg="" title_bg="#06aa00aa" align_items="left" >
+	<submenu title="Skin " mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/skin.png" bg="# " title_bg="# " >
+		<submenu title="skin obh " mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/ph.png" bg="" title_bg="# " align_items="left" >
 			<item name="premium-fhd" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh</item>
 			<item name="premium-fhd-black" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
 			<item name="premium-fhd-blue" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="skin atv" mode="grid_5x4" icon="/media/hdd/AJPanel_Backup/icons/atv.png" bg="" title_bg="#06aa00aa" align_items="left" >
+		<submenu title="skin atv" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/atv.png" bg="" title_bg="# " align_items="left" >
 		<item name="Klll Pro" ask="yes">wget https://raw.githubusercontent.com/biko-73/zelda77/main/installer.sh -O - | /bin/sh</item>
 			<item name="batman-vpx" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/batman/batman-vpx-fhd-1.0.sh -O - | /bin/sh</item>
 			<item name="batman-vpx2" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/batman/batman-vpx2-fhd-1.0.sh -O - | /bin/sh</item>
@@ -391,7 +394,7 @@ fi</item>
 			<item name="spiderman-vpx2" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/spiderman/spiderman-vpx2-fhd.sh -O - | /bin/sh</item>
 		</submenu>
 		
-		<submenu title="skin egami" mode="grid_5x4" icon="/media/hdd/AJPanel_Backup/icons/egami.png" bg="" title_fg="#33550055" title_bg="#06888800" align_items="left" >
+		<submenu title="skin egami" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/egami.png" bg="" title_fg="# " title_bg="# " align_items="left" >
 			<item name="artemis-5.6" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/artemis/artemis-5.6.sh -O - | /bin/sh</item>
 			<item name="artemis-6.3-mod-mnasr" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/artemis/artemis.sh -O - | /bin/sh</item>
 			<item name="batman-vpx" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/batman/batman-vpx-fhd-1.0.sh -O - | /bin/sh</item>
@@ -412,7 +415,7 @@ fi</item>
 			<item name="spiderman-vpx2" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/spiderman/spiderman-vpx2-fhd.sh -O - | /bin/sh</item>
 		</submenu>
 		
-		<submenu title="skin  pli8.x" mode="grid_5x4" icon="/media/hdd/AJPanel_Backup/icons/pli.png" bg="" title_bg="#" align_items="left" >
+		<submenu title="skin  pli8.x" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/pli.png" bg="" title_bg="#" align_items="left" >
 			<item name="artemisfhd-x-mod-h.ahmed" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/artemisfhd-x-mod-h.ahmed-2.0.sh -O - | /bin/sh</item>
 			<item name="championsleague" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/championsleague-1.0.sh -O - | /bin/sh</item>
 			<item name="ekselancexe" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/ekselancexe-3.1.sh -O - | /bin/sh</item>
@@ -423,7 +426,7 @@ fi</item>
 			<item name="revolution-pro" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/revolution-pro-1.0.sh -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="skin pli9" mode="grid_5x4" icon="/media/hdd/AJPanel_Backup/icons/pli.png" bg="" title_fg="#33550055" title_bg="#06888800" align_items="left" >
+		<submenu title="skin pli9" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/pli.png" bg="" title_fg="# " title_bg="# " align_items="left" >
 			<item name="cino-dream-ashawky" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli3/cino-dream-ashawky.sh -O - | /bin/sh</item>
 			<item name="de-skin-ashawky" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli3/de-skin-ashawky.sh -O - | /bin/sh</item>
 			<item name="gigablue-paxv2-ashawky" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli3/gigablue-paxv2-ashawky.sh -O - | /bin/sh</item>
@@ -434,25 +437,25 @@ fi</item>
 			<item name="premium-fhd-blue" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
 		</submenu>
 		
-		<submenu title="skin spa" mode="grid_5x4" icon="/media/hdd/AJPanel_Backup/icons/spa.png" bg="" title_bg="#06aa00aa" align_items="left" >
+		<submenu title="skin spa" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/spa.png" bg="" title_bg="# " align_items="left" >
 			<item name="premium-fhd" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh</item>
 			<item name="premium-fhd-black" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
 			<item name="premium-fhd-blue" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="skin droid " mode="grid_5x4" icon="/media/hdd/AJPanel_Backup/icons/droid.png" bg="" title_fg="#33550055" title_bg="#06888800" align_items="left" >
+		<submenu title="skin droid " mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/droid.png" bg="" title_fg="# " title_bg="# " align_items="left" >
 			<item name="premium-fhd" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh</item>
 			<item name="premium-fhd-black" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
 			<item name="premium-fhd-blue" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
 		</submenu>
 		
-		<submenu title="skin pure2 " mode="grid_5x4" icon="/media/hdd/AJPanel_Backup/icons/pure.png" bg="" title_bg="#" align_items="left" >
+		<submenu title="skin pure2 " mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/pure.png" bg="" title_bg="#" align_items="left" >
 			<item name="premium-fhd" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh</item>
 			<item name="premium-fhd-black" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
 			<item name="premium-fhd-blue" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="skin vix " mode="grid_5x4" icon="/media/hdd/AJPanel_Backup/icons/vix.png" bg="" title_fg="#33550055" title_bg="#06888800" align_items="left" >
+		<submenu title="skin vix " mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/vix.png" bg="" title_fg="# " title_bg="# " align_items="left" >
 			<item name="premium-fhd" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh</item>
 			<item name="premium-fhd-black" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
 			<item name="premium-fhd-blue" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
@@ -460,7 +463,7 @@ fi</item>
 			<item name="youvix-xe-mod-hamdy" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/openvix/youvix-xe-mod-hamdy.sh -O - | /bin/sh</item>
 		</submenu>
 	
-		<submenu title="spinner" icon="/media/hdd/AJPanel_Backup/icons/spinner.png" bg="" title_fg="#33550055" title_bg="#06888800" align_items="left" >
+		<submenu title="spinner" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/spinner.png" bg="" title_fg="# " title_bg="# " align_items="left" >
 			<item name="barcelona" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-barcelona-1.sh -O - | /bin/sh</item>
 			<item name="bayern-munich" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-bayern-munich-1.sh -O - | /bin/sh</item>
 			<item name="chelsea" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-chelsea-1.sh -O - | /bin/sh </item>
@@ -478,15 +481,15 @@ fi</item>
 		</submenu>		
 	</submenu>
 	
-		<submenu title="Settings " width="800" icon="/media/hdd/AJPanel_Backup/icons/settings.png" bg="" title_bg="#06004444" >
-		<submenu title="Settings Menu" mode="grid_4x4" icon="/media/hdd/AJPanel_Backup/icons/settings.png" bg="" title_bg="#06aa00aa" align_items="left" >
+		<submenu title="Settings " mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/settings.png" bg="" title_bg="# " >
+		<submenu title="Settings Menu" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/settings.png" bg="" title_bg="# " align_items="left" >
 		<item name="settings-frequencies-eliesat" icon="/media/hdd/AJPanel_Backup/icons/settings.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/eliesat/installer.sh -O - | /bin/sh</item>
 		<item name="settings-frequencies-oe-alliance" icon="/media/hdd/AJPanel_Backup/icons/settings.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/oe-alliance/installer.sh -O - | /bin/sh</item>
 		<item name="settings-frequencies-openpli" icon="/media/hdd/AJPanel_Backup/icons/settings.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/eliesat/installer.sh -O - | /bin/sh</item>
 		<item name="settings-tuner-motorised-eliesat" icon="/media/hdd/AJPanel_Backup/icons/settings.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/tuner/tuner.sh -O - | /bin/sh</item>
 		</submenu>
 	
-		<submenu title="drivers" mode="grid_4x4" icon="/media/hdd/AJPanel_Backup/icons/driver.png" bg="" title_fg="#33550055" title_bg="#06888800" align_items="left" >
+		<submenu title="drivers"  mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/driver.png" bg="" title_fg="# " title_bg="# " align_items="left" >
 		<item name="network-usb-mt7601u" icon="/media/hdd/AJPanel_Backup/icons/driver.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/drivers/-/raw/main/network-usb-mt7601u-1.0-r0.sh -O - | /bin/sh</item>
 		<item name="network-usb-mt7601u" icon="/media/hdd/AJPanel_Backup/icons/driver.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/drivers/-/raw/main/network-usb-mt7601u-1.0-r2.sh -O - | /bin/sh</item>
 		<item name="network-usb-novaler" icon="/media/hdd/AJPanel_Backup/icons/driver.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/drivers/-/raw/main/network-usb-novaler-1.0.sh -O - | /bin/sh</item>
@@ -496,14 +499,14 @@ fi</item>
 		</submenu>
 	</submenu>
 	
-	<submenu title="Panels" icon="/media/hdd/AJPanel_Backup/icons/panel.png" width="650" height="500" fg="#22ffffff" bg="#00045455" font_size="35" align_items="left" title_fg="#33ffffaa" title_bg="#000C3342" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
-		<item name="AJPanel" ask="yes">wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh  -O - | /bin/sh</item>
-		<item name="DreamSatPanel" ask="yes">wget http://ipkinstall.ath.cx/ipk-install/DreamSatPanel/installer.sh  -O - | /bin/sh</item>
-		<item name="DreamOSat cam Manager" ask="yes">wget https://raw.githubusercontent.com/biko-73/DreamOSat_cam_Manager/main/installer.sh  -O - | /bin/sh</item>
-		<item name="levi45 multicam manager" ask="yes">wget wget https://raw.githubusercontent.com/biko-73/levi45_multicam-manager/main/installer.sh  -O - | /bin/sh</item>
+	<submenu title="Panels" icon="/media/hdd/AJPanel_Backup/icons/panel.png" mode="grid" width="1920" height="1080" fg="# " bg="# " font_size="35" align_items="left" title_fg="#33ffffaa" title_bg="# " title_font_size="50" cursor_fg="# " cursor_bg="# ">
+		<item name="AJPanel" icon="/media/hdd/AJPanel_Backup/icons/plugins.png" ask="yes">wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh  -O - | /bin/sh</item>
+		<item name="DreamSatPanel" icon="/media/hdd/AJPanel_Backup/icons/plugins.png" ask="yes">wget http://ipkinstall.ath.cx/ipk-install/DreamSatPanel/installer.sh  -O - | /bin/sh</item>
+		<item name="DreamOSat cam Manager" icon="/media/hdd/AJPanel_Backup/icons/plugins.png" ask="yes">wget https://raw.githubusercontent.com/biko-73/DreamOSat_cam_Manager/main/installer.sh  -O - | /bin/sh</item>
+		<item name="levi45 multicam manager" icon="/media/hdd/AJPanel_Backup/icons/plugins.png" ask="yes">wget wget https://raw.githubusercontent.com/biko-73/levi45_multicam-manager/main/installer.sh  -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="SoftCams" mode="grid_5x4" icon="/media/hdd/AJPanel_Backup/icons/camd.png" bg="" title_fg="#33550055" title_bg="#06888800" font_size="35" align_items="left" >
+	<submenu title="SoftCams" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/camd.png" bg="" title_fg="# " title_bg="# " font_size="35" align_items="left" >
 		<item name="OSCamicam_Kitte888" icon="/media/hdd/AJPanel_Backup/icons/softcam.png" ask="yes">wget https://raw.githubusercontent.com/biko-73/OSCamicam_Kitte888/main/installer.sh  -O - | /bin/sh</item>
 		<item name="OScam by linuxsat" icon="/media/hdd/AJPanel_Backup/icons/softcam.png" ask="yes">wget https://raw.githubusercontent.com/biko-73/OsCam_EMU/main/installer.sh  -O - | /bin/sh</item>
 		<item name="Ncam by fairbird" icon="/media/hdd/AJPanel_Backup/icons/softcam.png" ask="yes">wget https://raw.githubusercontent.com/biko-73/Ncam_EMU/main/installer.sh  -O - | /bin/sh</item>
@@ -531,19 +534,19 @@ fi</item>
 		<item name="softcam.key-deneme6" icon="/media/hdd/AJPanel_Backup/icons/softcam.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/softcams/-/raw/main/softcam-key/Cam-softcam.key-deneme6.sh -O - | /bin/sh</item>
 	</submenu>
 	
-	<submenu title="SymLink" icon="/media/hdd/AJPanel_Backup/icons/symlink.png">
-		<item name="SymLink picon 2 hdd">ln -sf /media/hdd/picon /usr/share/enigma2/picon</item>
-		<item name="SymLink piconCrypt 2 hdd">ln -sf /media/hdd/piconCrypt /usr/share/enigma2/piconCrypt</item>
-		<item name="SymLink piconProv 2 hdd">ln -sf /media/hdd/piconProv /usr/share/enigma2/piconProv</item>
-		<item name="SymLink piconSat 2 hdd">ln -sf /media/hdd/piconSat /usr/share/enigma2/piconSat</item>
-		<item name="SymLink zzpicon 2 hdd">ln -sf /media/hdd/zzpicon /usr/share/enigma2/zzpicon</item>
-		<item name="SymLink emu 2 hdd">ln -sf /media/hdd/emu /usr/share/enigma2/emu</item>
+	<submenu title="SymLink"  mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/symlink.png">
+		<item name="picon 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/python.png">ln -sf /media/hdd/picon /usr/share/enigma2/picon</item>
+		<item name="piconCrypt 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/python.png">ln -sf /media/hdd/piconCrypt /usr/share/enigma2/piconCrypt</item>
+		<item name="piconProv 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/python.png">ln -sf /media/hdd/piconProv /usr/share/enigma2/piconProv</item>
+		<item name="piconSat 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/python.png">ln -sf /media/hdd/piconSat /usr/share/enigma2/piconSat</item>
+		<item name="zzpicon 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/python.png">ln -sf /media/hdd/zzpicon /usr/share/enigma2/zzpicon</item>
+		<item name="emu 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/python.png">ln -sf /media/hdd/emu /usr/share/enigma2/emu</item>
 	</submenu>	
 
 	<!-- ============================================================================================== -->
 	<!-- Play A Sat Channel ... If PIcon exists, it will be shown automatically							-->
 	<!-- ============================================================================================== -->
-	<submenu title="مفضلات قنوات"  mode="grid_5x3" info="A list of Fav. ch. (with posters)" icon="/media/hdd/AJPanel_Backup/icons/channels.png">
+	<submenu title="مفضلات قنوات" mode="grid" width="1920" height="1080" info="A list of Fav. ch. (with posters)" icon="/media/hdd/AJPanel_Backup/icons/channels.png">
 		<item name="CBC Drama">1:0:1:70D:12:800:DCA0000:0:0:0</item>
 		<item name="Series Channel HD">1:0:19:A92:1:2A:DC00000:0:0:0</item>
 		<item name="AXN Movies HD">1:0:1:191:27:36:CE40000:0:0:0</item>
@@ -555,7 +558,7 @@ fi</item>
 	<!-- ============================================================================================== -->
 	<!-- View a picture																					-->
 	<!-- ============================================================================================== -->
-	<submenu title="Pictures" mode="grid_5x3" info="View Pictures" icon="/media/hdd/AJPanel_Backup/icons/pictures.png">
+	<submenu title="Pictures" mode="grid" width="1920" height="1080" info="View Pictures" icon="/media/hdd/AJPanel_Backup/icons/pictures.png">
 		<item name="Picture - 1">/media/hdd/AJPanel_Backup/icons/picture 1.jpg </item>
 	</submenu>
 
