@@ -940,6 +940,10 @@ icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"
 		mode="grid_4x3" 
 shade="yes" 
 font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FCFCFC" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" >
+   <item name="fullbackup-Image-vu+4k" 
+   info="باكأب كامل للصورة الحالية المستخدمة"
+ icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"  	
+ask="fullbackup-Image-vu+4k ?">wget https://raw.githubusercontent.com/emilnabil/fullbackup/main/fullbackup-vu4k-encrypt.sh -O - | /bin/sh</item>
    	<item name="Backup My Channels" 
  icon="/media/hdd/AJPanel_Backup/ajpanel_menu/backup.png"  	
 ask="Backup My Channels ?">wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh</item>
@@ -1117,6 +1121,12 @@ ask="Remove SoftCam_Manager">wget https://dreambox4u.com/emilnabil237/script/rem
  <item name="SubsSupport" 
 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/remove.png"
 ask="Remove SubsSupport">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-subssupport.sh  -O - | /bin/sh</item>
+    <item name="Tuner-Settings" 
+icon="/media/hdd/AJPanel_Backup/ajpanel_menu/remove.png"
+ask="Remove Tuner Settings ?">init 4 
+sleep 1; 
+sed -i '/config.Nims.0/d' /etc/enigma2/settings
+init 3</item>
  <item name="Tvpanel" 
 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/remove.png"
 ask="Remove Tvpanel">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-tvpanel.sh  -O - | /bin/sh</item>
