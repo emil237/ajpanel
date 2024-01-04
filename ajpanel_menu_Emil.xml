@@ -582,27 +582,39 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE--q-
             <item
                 name="Ekselancen"
                 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
-                ask="Install Skin Ekselancen ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-ekselancen.sh -O - | /bin/sh</item>
+                ask="Install Skin Ekselancen ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-ekselancen.sh|sh</item>
             <item
                 name="Mx-Sline"
                 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
-                ask="Install Skin Mx-Sline ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-mx-sline.sh  -O - | /bin/sh</item>
+                ask="Install Skin Mx-Sline ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-mx-sline.sh|sh</item>
             <item
                 name="Mxgraphite skin"
                 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
-                ask="Install Skin Mxgraphite ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-mxgraphite.sh  -O - | /bin/sh</item>
+                ask="Install Skin Mxgraphite ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-mxgraphite.sh|sh</item>
             <item
                 name="Q-Darkblue"
                 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
-                ask="Install Skin Q-Darkblue ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-q-darkblue.sh -O - | /bin/sh</item>
+                ask="Install Skin Q-Darkblue ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-q-darkblue.sh|sh</item>
             <item
                 name="Q-Fhd skin"
                 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
-                ask="Install Skin Q-Fhd ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-q-fhd.sh  -O - | /bin/sh</item>
+                ask="Install Skin Q-Fhd ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE--q-purple.sh|sh</item>
             <item
                 name="Waves4"
                 icon="/media/hdd/AJPanel_Backup/ajpanel_menu/blackhole.png"
-                ask="Install Skin Waves4 ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-waves4.sh -O - | /bin/sh</item>    
+                ask="Install Skin Waves4 ?">opkg update
+opkg install curl
+curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-waves4.sh|sh</item>    
         </submenu>
     <submenu title="Skins Egami" icon="/media/hdd/AJPanel_Backup/ajpanel_menu/egami.png" 
 	mode="grid_4x3" 
