@@ -1,5 +1,16 @@
-<ajp_menu title="ElieSat Panel"  mode="grid" shade="yes" font_size="50" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" cursor_bg="#000000" width="1920" height="1080" bg="#000000" >
+<ajp_menu title="ElieSat Panel"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000" >
 
+#########################################
+##############eliesatpanel##############
+<submenu title="ElieSatPanel" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/eliesatpanel.png"  mode="grid" shade="yes" font_size="50" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" cursor_bg="#000000" width="1920" height="1080" bg="#000000" info="(تحديث البانل)" >
+
+<item name="Update-panel" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/eliesatpanel.png"
+ info="(تحديث البانل)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ajpanel/eliesatpanel/update.sh -O - | /bin/sh</item>
+
+<item name="Info" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/info.png"
+ info="(طباعة آخر تحديثات البانل)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ajpanel/eliesatpanel/_Info.sh -O - | /bin/sh</item>
+
+</submenu>
 #########################################
 ##############allinone#############@
 <submenu title="Allinone" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/allinone.png"  mode="grid" shade="yes" font_size="50" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" cursor_bg="#000000" width="1920" height="1080" bg="#000000" info="(مجموعة خدمات و اكواد لينوكس)" >
@@ -172,17 +183,6 @@ reboot </item>
 
 </submenu>
 #########################################
-##############eliesatpanel##############
-<submenu title="ElieSatPanel" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/eliesatpanel.png"  mode="grid" shade="yes" font_size="50" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" cursor_bg="#000000" width="1920" height="1080" bg="#000000" info="(تحديث البانل)" >
-
-<item name="Update-panel" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/eliesatpanel.png"
- info="(تحديث البانل)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ajpanel/eliesatpanel/update.sh -O - | /bin/sh</item>
-
-<item name="Info" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/info.png"
- info="(طباعة آخر تحديثات البانل)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ajpanel/eliesatpanel/_Info.sh -O - | /bin/sh</item>
-
-</submenu>
-#########################################
 ##############extensions#############@
 <submenu title="Extensions" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png"  mode="grid" shade="yes" font_size="50" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" cursor_bg="#000000" width="1920" height="1080" bg="#000000" info="(بلاجينات)" >
 
@@ -198,10 +198,11 @@ reboot </item>
 <item name="Bitrate-mod-ariad" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(عرض معدل البت لقنوات السات على الشاشة)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate-mod-ariad.sh -O - | /bin/sh</item>
 <item name="Bootlogokids-stony272" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(صور اقلاع للاطفال)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bootlogokids/bootlogokids-stony272.sh -O - | /bin/sh</item>
 <item name="Bootlogoswapper-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(صور اقلاع bootlogoswapper-eliesat-special-edition)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bootlogoswapper/bootlogoswapper-eliesat-special-edition.sh -O - | /bin/sh</item>
-<item name="Bouquetmakerxtream-1.07" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مشغل اي بي تي في)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh 
+<item name="Bouquetmakerxtream-1.11" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مشغل اي بي تي في)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh 
 </item>
 <item name="Cacheflush-2.0r3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مسح ملفات الكاش بالذاكرة العشوائية)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/cacheflush/cacheflush.sh -O - | /bin/sh</item>
 <item name="Chocholousek-5.0.2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب بيكونات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/chocholousek-picons/chocholousek-picons.sh -O - | /bin/sh</item>
+<item name="Crashlogviewer-0.9" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تصفح ملفات الكراش)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/crashlogviewer/crashlogviewer.sh -O - | /bin/sh</item>
 <item name="Crondmanager-1.3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اضافة توقيت للسكريبت برسم التنفيذ)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/crondmanager/crondmanager.sh -O - | /bin/sh</item>
 <item name="Dreamsatpanel-1.6" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(بانل تسطيب اضافات)" ask="run script file ?">wget -q "--no-check-certificate" http://ipkinstall.ath.cx/ipk-install/DreamSatPanel/installer.sh -O - | /bin/sh</item>
 <item name="E2iplayer-linuxsat" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مشغل iptv)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/e2iplayer/e2iplayer.sh -O - | /bin/sh</item>
@@ -211,13 +212,46 @@ reboot </item>
 <item name="Footonsat-1.8r5" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مواعيد مباريات كرة القدم مع القنوات الناقلة)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/footonsat/footonsat.sh -O - | /bin/sh</item>
 <item name="Freeserver-8.3.8" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(جلب اسطر cccam مجانية و خدمات أخرى)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/freeserver/freeserver.sh -O - | /bin/sh</item>
 <item name="Historyzapselector-1.0.24" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تصفح آخر قنوات سات قلبت فيهم )" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/historyzapselector/historyzapselector.sh -O - | /bin/sh</item>
-<item name="Historyzapselector-1.0.31" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تصفح آخر قنوات سات قلبت فيهم mod dorik)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/historyzapselector/historyzapselector-dorik.sh -O - | /bin/sh</item>
+<item name="Historyzapselector-dorik-1.0.35" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تصفح آخر قنوات سات قلبت فيهم mod dorik)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/historyzapselector/historyzapselector-dorik.sh -O - | /bin/sh</item>
 <item name="Internetspeedtest-1.7" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اختبار سرعة الاتصال بالانترنيت)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/internetspeedtest/internet-speed-test.sh -O - | /bin/sh</item>
 <item name="Ipaudio-6.8" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اضافة الصوتيات على قنوات السات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio.sh -O - | /bin/sh</item>
+<item name="Ipaudio-7.4-ffmpeg" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اضافة الصوتيات على قنوات السات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
 <item name="Ipaudiopro-1.1" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اضافة الصوتيات على قنوات السات py3.9.9 py3.11.x)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/ipaudiopro.sh -O - | /bin/sh</item>
 <item name="Ipchecker-004" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(عرض اي يي الرسيفر و الخارجي معا)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipchecker/ipchecker.sh -O - | /bin/sh</item>
 <item name="Iptosat-1.8" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مشاهدة قنوات الip على قنوات السات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/iptosat/iptosat.sh -O - | /bin/sh </item>
 <item name="Isettingse2-5.8" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب ملفات قنوات py3.11.x)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/isetting-e2/isetting-e2.sh -O - | /bin/sh</item>
+<item name="Jedimakerxtream-6.34" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مشاهدة الiptv بمفضلات السات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/jedimakerxtream/jedimakerxtream.sh -O - | /bin/sh</item>
+<item name="Keyadder-8.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اضافة مفتاح او شفرة بيس على ملف السوفتكام)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/keyadder/keyadder.sh -O - | /bin/sh</item>
+<item name="Lamedbmerger-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(دمج ملفين قنوات و اقمار ببعض بملف واحد py3.11.x)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/lamedbmerger/lamedbmerger.sh -O - | /bin/sh</item>
+<item name="Multiboot-flashonline-7.1" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب صور خام)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/multiboot-flashonline/multiboot-flashonline.sh -O - | /bin/sh</item>
+<item name="Multistalker-1.5" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مشغل بورتلات اي بي تي في)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/multistalker/multistalker.sh -O - | /bin/sh</item>
+<item name="Multistalkerpro-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مشغل بورتلات اي بي تي في )" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/multistalker-pro/multistalkerpro.sh -O - | /bin/sh</item>
+<item name="Ncam-status-3.2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(معلومات عن حالة المحاكي)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ncam-status/ncam-status.sh -O - | /bin/sh</item>
+<item name="Neoboot-9.65" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب صور على الذاكرة الخارجية)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot.sh -O - | /bin/sh</item>
+<item name="Newpermanentclock-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تثبيت الساعة على الشاشة بشكل دائم)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/newpermanentclock/newpermanentclock.sh -O - | /bin/sh</item>
+<item name="oaweather-1.4" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(حالة الطقس py3.11.x)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/oaweather/oaweather.sh?inline=false -O - | /bin/sh</item>
+<item name="Opdboot-3.1" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب صور على الذاكرة الخارجية py3.11.x)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opdboot/opdboot.sh -O - | /bin/sh</item>
+<item name="Oscam-status-6.3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(معلومات عن حالة المحاكي)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/oscam-status/oscam-status.sh -O - | /bin/sh</item>
+<item name="Plutotv-20231210" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اي بي تي في مجاني)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/plutotv/plutotv.sh -O - | /bin/sh</item>
+<item name="Quarter-pounder-6.2.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تنشيط قنوات الاي بي تي في)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/quarter-pounder/quarter-pounder.sh -O - | /bin/sh</item>
+<item name="Quran-karim-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(القرآن الكريم)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/quran-karim/quran-karim.sh -O - | /bin/sh</item>
+<item name="Raedquicksignal-17.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مستكشف اشارة الترددات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/raedquicksignal/raed-quick-signal.sh -O - | /bin/sh</item>
+<item name="Rakutentv-20230722" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اي بي تي في مجاني)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/rakutentv/rakutentv.sh -O - | /bin/sh</item>
+<item name="Scriptexecuter-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تصفح لايحة السكريبتات و تنفيذهم)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/scriptexecuter/scriptexecuter.sh -O - | /bin/sh</item>
+<item name="Sherlockmod-1.4.1" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اينفوبار اضافي )" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/sherlockmod/sherlockmod.sh -O - | /bin/sh</item>
+<item name="Spinnerselector-2.4" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب سبينرات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/spinnerselector/spinnerselector-2.4.sh -O - | /bin/sh</item>
+<item name="Subssupport-1.5.8r9" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(الترجمة)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/subssupport/subssupport.sh? -O - | /bin/sh</item>
+<item name="Theweather-2.3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(حالة الطقس)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/theweather/theweather.sh -O - | /bin/sh</item>
+<item name="Visualweather-1.08" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(حالة الطقس)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/visualweather/visualweather.sh -O - | /bin/sh</item>
+<item name="Weathermsn-1.3r3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(حالة الطقس)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/weathermsn/weathermsn.sh -O - | /bin/sh</item>
+<item name="Weatherplugin-1.3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(حالة الطقس)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/weatherplugin/weatherplugin.sh -O - | /bin/sh</item>
+<item name="Weatherpluginicons-1.1" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(ايقونات بلاجين الطقس weatherplugin)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/weatherplugin-icons/weatherplugin-icons.sh -O - | /bin/sh</item>
+<item name="Xcplugin-forever-2.3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مشغل تي يي تي في)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/xcplugin-forever/xcplugin-forever.sh -O - | /bin/sh</item>
+<item name="Xstreamity-4.27" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(ادارة الملفات و مجموعة كبيرة من الخدمات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/xstreamity/xstreamity.sh -O - | /bin/sh</item>
+<item name="Xtraevent-4.2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب بوسترات يعمل على السكينات الخاصة فيه)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/xtraevent/xtraevent-4.2.sh -O - | /bin/sh</item>
+<item name="Xtraevent-4.5" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب بوسترات يعمل على السكينات الخاصة فيه)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/xtraevent/xtraevent-4.5.sh -O - | /bin/sh</item>
+<item name="Xtraevent-5.2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب بوسترات يعمل على السكينات الخاصة فيه)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/xtraevent/xtraevent-5.2.sh -O - | /bin/sh</item>
+<item name="Xtraevent-5.3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب بوسترات يعمل على السكينات الخاصة فيه)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/xtraevent/xtraevent-5.3.sh -O - | /bin/sh</item>
 
 </submenu>
 #########################################
@@ -273,7 +307,29 @@ reboot </item>
 ##############radiologos###############
 <submenu title="Radiologos" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png"  mode="grid" shade="yes" font_size="50" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" cursor_bg="#000000" width="1920" height="1080" bg="#000000" info="(خلفيات لقنوات الراديو)" >
 
-<item name="Coming soon" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/allinone.png" info="(coming soon)" ask="run coming soon ?">echo coming soon</item>
+<item name="Radiologo1" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-1.sh -O - | /bin/sh</item>
+
+<item name="Radiologo2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-2.sh -O - | /bin/sh</item>
+
+<item name="Radiologo3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-3.sh -O - | /bin/sh</item>
+
+<item name="Radiologo4" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-4.sh -O - | /bin/sh</item>
+
+<item name="Radiologo5" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-5.sh -O - | /bin/sh</item>
+
+<item name="Radiologo6" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-6.sh -O - | /bin/sh</item>
+
+<item name="Radiologo7" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-7.sh -O - | /bin/sh</item>
+
+<item name="Radiologo8" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-8.sh -O - | /bin/sh</item>
+
+<item name="Radiologo9" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-9.sh -O - | /bin/sh</item>
+
+<item name="Radiologo10" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-10.sh -O - | /bin/sh</item>
+
+<item name="Radiologo11" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-11.sh -O - | /bin/sh</item>
+
+<item name="Radiologo12" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/radiologos.png" info="(تغيير خلفية قنوات الراديو)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-12.sh -O - | /bin/sh</item>
 
 </submenu>
 #########################################
@@ -351,5 +407,6 @@ reboot </item>
 
 
 </ajp_menu>
+
 
 
