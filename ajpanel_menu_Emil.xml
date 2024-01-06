@@ -624,13 +624,13 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 	mode="grid_4x3" 
 shade="yes" 
 font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FCFCFC" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" >
-			<item name="Premium-Fhd_2.4" 
+			<item name="Premium-Fhd_2.5" 
 icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png"
 ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
-  <item name="Premium-Black-Fhd_2.4" 
+  <item name="Premium-Black-Fhd_2.5" 
 icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png" 
 ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
-<item name="Premium-Blue-Fhd_2.4" 
+<item name="Premium-Blue-Fhd_2.5" 
 icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png" 
 ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh</item>
 <item name="Odreamy-Fhd" 
