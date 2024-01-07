@@ -291,6 +291,10 @@
             name="Raedquicksignal"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/RaedQuickSignal.png"
             ask="Install RaedQuickSignal ?">wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
+         <item
+            name="SubsSupport_1.5.8-r9"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/subssupport.png"
+            ask="Install SubsSupport_1.5.8-r9 ?">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>   
             <item
             name="uninstaller-Plugins"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/uninstaller.png"
