@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ajp_menu title="Panel (By Hamdy Ahmed-v1.0)"
+<ajp_menu title="Panel (By Hamdy Ahmed-v3.0)"
 mode="grid_6x3"
 shade="yes"
 font_size="40"
 bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ha.jpg" title_bg="#00350002" num_fg="#0000d2ff" num_bg="#06006666" title1_fg="#00ffffff" title1_bg="#0000d2ff" title2_fg="#00ffffff" title2_bg="#00ffe400"
 width="1600" height="950" >
- <submenu title="Elie-Sat" info="Dwawnload All Script" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/elie.png" width="650" height="500" fg="#22ffffff" bg="#00350002" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Elie-Sat" info="Dwawnload All Script" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/elie.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ggg.jpg" title_bg="#06004444" >
 		<item name="Update-scripts" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sc.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_Update-scripts.sh -O - | /bin/sh</item>
 		<item name="Info -scripts" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sc.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_Info.sh -O - | /bin/sh </item>
  	  </submenu>
- <submenu title="Skins" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Skins.png" bg="#00350002" title_bg="#06004444" >
-	  <submenu title="openvix" mode="grid_25x3"  icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/vi-x.png" bg="" title_bg="#06aa00aa" align_items="left" >
-		  <item name="SKIN-YouVix" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk3.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAhmed-Scripts/main/1SKIN-YouVix_Mod_HAhmed-posterX.sh -O - | /bin/sh</item>
-		  <item name="SKIN-YouVix1x4" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk3.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAhmed-Scripts/main/1SKIN-YouVix1x4_Mod_HAhmed-Xtraevent.sh -O - | /bin/sh</item>
-	          <item name="premium-fhd-black" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk3.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
-		  <item name="premium-fhd-blue" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk3.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
+ <submenu title="Skins" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Skins.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/dd.jpg" title_bg="#06004444" >
+	  <submenu title="openvix" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/vi-x.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ttt.jpg" title_bg="#00ffe400" >
+		  <item name="SKIN-YouVix" ask="yes" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk3.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/s-s.jpg">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAhmed-Scripts/main/1SKIN-YouVix_Mod_HAhmed-posterX.sh -O - | /bin/sh</item>
+		  <item name="SKIN-YouVix1x4" ask="yes" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk3.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ttt.jpg">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAhmed-Scripts/main/1SKIN-YouVix1x4_Mod_HAhmed-Xtraevent.sh -O - | /bin/sh</item>
+	          <item name="premium-fhd-black" ask="yes" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk3.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/s-s.jpg">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
+		  <item name="premium-fhd-blue" ask="yes" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk3.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/dd.jpg">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
           </submenu>
 
-  	  <submenu title="openSpa" mode="grid_25x3"  icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/spa.png" bg="" title_bg="#00350002" align_items="left" >
+  	  <submenu title="openSpa" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/spa.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/s-s.jpg" title_bg="#06004444" >
 	          <item name="estuaryFHD_v1" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk4.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAhmed-Scripts/main/Skin-estuaryFHD_v1-openspai-Mod_HAhmed.sh -O - | /bin/sh</item>
   	          <item name="premium-fhd" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk4.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh</item>
 		  <item name="premium-fhd-black" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk4.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
 		  <item name="premium-fhd-blue" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk4.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
           </submenu>
 
-          <submenu title="OPENPLI9" mode="grid_25x3" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/pli.png" bg="" title_fg="#06aa00aa" title_bg="#00350002" align_items="left" >
+          <submenu title="OPENPLI9" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/pli.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/dd.jpg" title_bg="#06004444" >
                   <item name="Malek-FHD" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk4.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAhmed-Scripts/main/Skin-Malek-Mod_HA-xtraevent.sh -O - | /bin/sh</item>
        	          <item name="premium-fhd" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk4.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh</item>
 		  <item name="premium-fhd-black" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk4.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
 		  <item name="premium-fhd-blue" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk4.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
           </submenu>
 
-          <submenu title="OPENPBH" mode="grid_25x3" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/bh.png" bg="" title_fg="#06aa00aa" title_bg="#00350002" align_items="left" >
+          <submenu title="OPENPBH" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/bh.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ggg.jpg" title_bg="#06004444" >
                   <item name="waves4-BPR-FHD" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk4.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAmed-Scripts/main/1Skins-waves4-BPR-FHD_MOD-HAhmed.sh -O - | /bin/sh</item>
                   <item name="Malek-FHD_xtra" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk3.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAhmed-Scripts/main/Skin-Malek-Mod_HA-xtraevent.sh -O - | /bin/sh</item>
        	          <item name="Mx-Sline-posterX" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk4.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAmed-Scripts/main/1Skins-Mx-Sline-posterX-Mod-HAhmed.sh -O - | /bin/sh</item>
@@ -41,17 +41,17 @@ width="1600" height="950" >
                   <item name="MX-MaesteraBPR-FHD" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk4.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAmed-Scripts/main/1Skins-MX-MaesteraBPR-FHD_MOD-HAhmed.sh -O - | /bin/sh</item>
                  </submenu>
 
-          <submenu title="egami-10.4" mode="grid_25x3" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/eg.png" bg="" title_fg="#33550055" title_bg="#00350002" align_items="left" >
+          <submenu title="egami-10.4" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/eg.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/s-pure.jpg" title_bg="#06004444" >
                   <item name="premium-fhd-black" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
 	          <item name="premium-fhd-blue" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
        	  </submenu>
 
-          <submenu title="OPENDroid" mode="grid_25x3" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/dro.png" bg="" title_fg="#33550055" title_bg="#00350002" align_items="left" >
+          <submenu title="OPENDroid" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/dro.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/s-s.jpg" title_bg="#06004444" >
                   <item name="premium-fhd-black" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
 		  <item name="premium-fhd-blue" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
        	  </submenu>
 
-          <submenu title="OPENAtv" mode="grid_25x3" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/atv.png" bg="" title_fg="#33550055" title_bg="#00350002" align_items="left" >
+          <submenu title="OPENAtv" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/atv.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/dd.jpg" title_bg="#06004444" >
                   <item name="premium-fhd-blue_2.5" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAmed-Scripts/main/premium-fhd-blue_2.5.sh -O - | /bin/sh</item>
                   <item name="premium-fhd-black_2.5" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAmed-Scripts/main/premium-fhd-black_2.5.sh -O - | /bin/sh</item>
                   <item name="elitefhd" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/elitefhd.sh -O - | /bin/sh</item>
@@ -59,35 +59,35 @@ width="1600" height="950" >
 		  <item name="dragon" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/dragon/dragon-fhd.sh -O - | /bin/sh</item>
        	  </submenu>
 
-          <submenu title="Pure2" mode="grid_25x3" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/pu.png" bg="" title_fg="#33550055" title_bg="#00350002" align_items="left" >
+          <submenu title="Pure2" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/pu.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/s-v.jpg" title_bg="#06004444" >
                   <item name="premium-fhd-black" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
 		  <item name="premium-fhd-blue" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
        	  </submenu>
 
-           <submenu title="OpenHDF" mode="grid_25x3" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/hdf.png" bg="" title_fg="#33550055" title_bg="#00350002" align_items="left" >
+           <submenu title="OpenHDF" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/hdf.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ooo.jpg" title_bg="#06004444" >
                   <item name="premium-fhd-black" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh</item>
 		  <item name="premium-fhd-blue" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sk.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh</item>
        	  </submenu>
 
 	  </submenu>
- <submenu title="Panels" info="Dwawnload All panels" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Panels.png" width="650" height="500" fg="#22ffffff" bg="#00350002" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Panels" info="Dwawnload All panels" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Panels.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/s-v.jpg" title_bg="#06004444" >
                 <item name="ajpanel " ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ajpanel/ajpanel.sh -O - | /bin/sh</item>
 	        <item name="novalerstore" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalerstore.sh -O - | /bin/sh</item>
                 <item name="levi45 manager" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget wget https://raw.githubusercontent.com/biko-73/levi45_multicam-manager/main/installer.sh  -O - | /bin/sh</item>
         </submenu>
 
- <submenu title="Channels" info="Channel All Sat" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Channels.png" width="650" height="500" fg="#22ffffff" bg="#00350002" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Channels" info="Channel All Sat" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Channels.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/kk.jpg" title_bg="#06004444" >
 	        <item name="chocholousek-pvector" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/chocholousek-pvector/chocholousek-pvector.sh -O - | /bin/sh</item>
 		<item name="mohamed-os-motor" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ch.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/mohamed-os/mohamed-os-motor.sh -O - | /bin/sh</item>
 		<item name="novaler-motor" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ch.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/novaler-motor/novaler-motor.sh -O - | /bin/sh</item>
 	        <item name="mohgooda-motor" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ch.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/mohgooda-motor/mohgooda-motor.sh -O - | /bin/sh</item>
         </submenu>
- <submenu title="Key Plugin" info="Dwawnload All plugin" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/key plugins.png" width="650" height="500" fg="#22ffffff" bg="#00350002" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Key Plugin" info="Dwawnload All plugin" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/key plugins.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ee.jpg" title_bg="#06004444" >
                 <item name="keyadder" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/keyadder/keyadder.sh -O - | /bin/sh</item>
 	        <item name="bissfeedautokey" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bissfeedautokey/bissfeedautokey.sh -O - | /bin/sh</item>
                 <item name="feedsfinder" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/feedsfinder/feedsfinder.sh -O - | /bin/sh</item>
         </submenu>
- <submenu title="Media" info="Dwawnload All plugin" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Media.png" width="650" height="500" fg="#22ffffff" bg="#000000" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Media" info="Dwawnload All plugin" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Media.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/s-s.jpg" title_bg="#06004444" >
                 <item name="e2iplayer by mohamed" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget --no-check-certificate "https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh?inline=false" -qO - | /bin/sh</item>
                 <item name="IPtoSAT" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/IPtoSAT/installer.sh -qO - | /bin/sh</item>
 		<item name="TSmedia" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget https://raw.githubusercontent.com/biko-73/TSmedia/main/installer.sh -O - | /bin/sh</item>
@@ -96,11 +96,11 @@ width="1600" height="950" >
 		<item name="ipaudiopro-1.1-py-3.9-3.11" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/ipaudiopro.sh -O - | /bin/sh</item>
 		<item name="ipchecker" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipchecker/ipchecker.sh -O - | /bin/sh</item>
         </submenu>
- <submenu title="Multiboot" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Multiboot.png" width="650" height="500" fg="#22ffffff" bg="#00045455" font_size="35" align_items="left" title_fg="#33ffffaa" title_bg="#000C3342" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Multiboot" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Multiboot.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/s-pure.jpg" title_bg="#06004444" >
   		<item name="multiboot-flashonline" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/multiboot-flashonline/multiboot-flashonline.sh -O - | /bin/sh</item>
 	        <item name="neoboot-9.65" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot.sh -O - | /bin/sh</item>
         </submenu>
- <submenu title="Plugins" info="Dwawnload All plugin" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/PPlugins.png" width="650" height="500" fg="#22ffffff" bg="#00350002" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Plugins" info="Dwawnload All plugin" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/PPlugins.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ooo.jpg" title_bg="#06004444" >
 		<item name="ajpanel " ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ajpanel/ajpanel.sh -O - | /bin/sh</item>
 		<item name="alternativesoftcammanager" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/alternativesoftcammanager/alternativesoftcammanager.sh -O - | /bin/sh </item>
 		<item name="athantimes" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/athantimes/athantimes.sh -O - | /bin/sh </item>
@@ -153,7 +153,7 @@ width="1600" height="950" >
 		<item name="xtraevent4.5" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/xtraevent/xtraevent-4.5.sh -O - | /bin/sh </item>
 		<item name="xtraevent" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/xtraevent/xtraevent-5.3.sh -O - | /bin/sh</item>
 	</submenu>
- <submenu title="Cam" info="Dwawnload All Emu" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/cam2.png" width="650" height="500" fg="#22ffffff" bg="#00350002" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Cam" info="Dwawnload All Emu" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/cam2.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ooo.jpg" title_bg="#06004444" >
                 <item name="oscam by mohamed" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/so.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/oscam.sh -O - | /bin/sh</item>
 		<item name="OSCamicam_Kitte888" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/so.png">wget https://raw.githubusercontent.com/biko-73/OSCamicam_Kitte888/main/installer.sh  -O - | /bin/sh</item>
 		<item name="OScam by linuxsat" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/so.png">wget https://raw.githubusercontent.com/biko-73/OsCam_EMU/main/installer.sh  -O - | /bin/sh</item>
@@ -163,7 +163,7 @@ width="1600" height="950" >
 		<item name="supcam-oscam" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/so.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/supcam-oscam.sh -O - | /bin/sh</item>
                 <item name="supcam-ncam" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/so.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/supcam-ncam.sh -O - | /bin/sh</item>
 	</submenu>
- <submenu title="Tools" info="All Tools" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Tools.png" width="650" height="500" fg="#22ffffff" bg="#00350002" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Tools" info="All Tools" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Tools.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/kk.jpg" title_bg="#06004444" >
                 <item name="AjPanel" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh</item>
                 <item name="novalerstore" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalerstore.sh -O - | /bin/sh</item>
                 <item name="opdboot" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opdboot/opdboot.sh -O - | /bin/sh</item>
@@ -180,7 +180,7 @@ width="1600" height="950" >
                 <item name="service_app" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAmed-Scripts/main/NewVirtualKeyBoard_sub.sh -O - | /bin/sh</item>
         </submenu>
 
- <submenu title="Bootlogo All" info="Usr/share" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Bootlogo All.png" width="650" height="500" fg="#22ffffff" bg="#00350002" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Bootlogo All" info="Usr/share" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Bootlogo All.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/s-pli.jpg" title_bg="#06004444" >
 	        <item name="bootlogokids" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bootlogokids/bootlogokids-stony272.sh -O - | /bin/sh</item>
 		<item name="bootlogoswapper" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bootlogoswapper/bootlogoswapper-eliesat-special-edition.sh -O - | /bin/sh</item>
 		<item name="Egami-logo" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/lo.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-egami.sh -O - | /bin/sh</item>
@@ -200,7 +200,7 @@ width="1600" height="950" >
 		<item name="opentr-logo" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/lo.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-opentr.sh -O - | /bin/sh</item>
 		<item name="pkteam-logo" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/lo.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-pkteam.sh -O - | /bin/sh</item>
 	</submenu>
-	<submenu title="EPG" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/EPG.png" width="650" height="500" fg="#00ffe400" bg="#00350002" font_size="35" align_items="left" title_fg="#33ffffaa" title_bg="#000C3342" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+	<submenu title="EPG" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/EPG.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/dd.jpg" title_bg="#06004444" >
 		<item name="EpgGrabber" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh  -O - | /bin/sh</item>
                 <item name="epgimport" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">opkg install enigma2-plugin-extensions-epgimport</item>
                 <item name="xtraevent5.3" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/xtraevent-5.3.sh -O - | /bin/sh </item>
@@ -210,7 +210,7 @@ width="1600" height="950" >
                 <item name="subssupport" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/subssupport/subssupport.sh? -O - | /bin/sh</item>
                 <item name="imdb" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">opkg install enigma2-plugin-extensions-imdb</item>
         </submenu>
- <submenu title="Others" info="Other Plugins Dowenload" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Others.png" width="650" height="500" fg="#22ffffff" bg="#00350002" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Others" info="Other Plugins Dowenload" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/Others.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/s-s.jpg" title_bg="#06004444" >
 		<item name="ArabicSavior" info="plugin" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh</item>
 	        <item name="RaedQuickSignal" info="plugin" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
                 <item name="bitrate" info="plugin" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">opkg install enigma2-plugin-extensions-bitrate</item>
@@ -222,30 +222,30 @@ width="1600" height="950" >
                 <item name="weatherplugin" info="plugin" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/plugins.png">opkg install enigma2-plugin-extensions-weatherplugin</item>
                 <item name="oaweather" info="plugin" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">opkg install enigma2-plugin-extensions-oaweather</item>
         </submenu>
- <submenu title="Fix-IT"  info="FIX-ServerAtv_Settin-Xtra Plugins Dowenload" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/fix.png" width="650" height="500" fg="#22ffffff" bg="#000000" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Fix-IT"  info="FIX-ServerAtv_Settin-Xtra Plugins Dowenload" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/fix.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/hv.jpg" title_bg="#06004444" >
 		<item name="fix-atv-softcam" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_fix-atv-softcam-restart.sh -O - | /bin/sh</item>
 		<item name="fix-xtraevent-place" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_fix-xtraevent-download-place.sh -O - | /bin/sh</item>
                 <item name="Xtraevent" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_fix-xtraevent-download-place.sh -O - | /bin/sh</item>
          </submenu>
- <submenu title="Iptv"  info="Iptv-Plugin_Download" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/iptv.png" width="650" height="500" fg="#22ffffff" bg="#00350002" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Iptv"  info="Iptv-Plugin_Download" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/iptv.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ee.jpg" title_bg="#06004444" >
 		<item name="xstreamity" info="plugin" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/xstreamity/xstreamity.sh -O - | /bin/sh</item>
 		<item name="quarter_pounder" info="For iptv" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/quarter-pounder/quarter-pounder.sh -O - | /bin/sh</item>
 	        <item name="jedimakerxtream" info="plugin" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/jedimakerxtream/jedimakerxtream.sh -O - | /bin/sh</item>
                 <item name="xcplugin_forever" info="plugin" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/xcplugin-forever/xcplugin-forever.sh -O - | /bin/sh</item>
          </submenu>
- <submenu title="Free"  info="Free-Server" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/free.png" width="650" height="500" fg="#22ffffff" bg="#00350002" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Free"  info="Free-Server" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/free.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/fff.jpg" title_bg="#06004444" >
 		<item name="freeserver" info="plugin" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/freeserver/freeserver.sh -O - | /bin/sh </item>
 		<item name="freecccamserver" info="cccam-free" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh</item>
 	        <item name="Portal-50" info="Add portal50-100" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -qO $HOME/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/stalker.conf</item>
          </submenu>
- <submenu title="Upgrade"  info="images-updated" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/up.png" width="650" height="500" fg="#22ffffff" bg="#000000" font_size="35" align_items="left" title_fg="#00ffe400" title_bg="#05144474" title_font_size="50" cursor_fg="#00F5F9AF" cursor_bg="#00154434">
+ <submenu title="Upgrade"  info="images-updated" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/up.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/dd.jpg" title_bg="#06004444" >
 		<item name="opkg-update" info="upgrade All Images" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-update.sh -O - | /bin/sh</item>
 		<item name="opkg-upgrade" info="upgrade All Images" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-upgrade.sh -O - | /bin/sh</item>
 		<item name="opkg-update-upgrade" info="upgrade All Images" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-update-upgrade.sh -O - | /bin/sh</item>
 	</submenu>
- <submenu title="Info" mode="grid_25x3"  info="Information about additions" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/info.png" bg="" title_bg="#00350002" align_items="left" >
+ <submenu title="Info" info="Information about additions" mode="grid_6x3" width="1600" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/info.png" bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/ooo.jpg" title_bg="#06004444" >
 	          <item name="Info" info="Information about additions" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Hamdy/in.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/Added_information.sh -O - | /bin/sh</item>
-  	          </submenu>
+  	</submenu>
 
 </ajp_menu>
 
