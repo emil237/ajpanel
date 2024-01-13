@@ -292,6 +292,10 @@
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/RaedQuickSignal.png"
             ask="Install RaedQuickSignal ?">wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
          <item
+            name="Sherlockmod"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/sherlockmod.png"
+            ask="Install sherlockmod ?">wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh</item>   
+         <item
             name="SubsSupport_1.5.8-r9"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/subssupport.png"
             ask="Install SubsSupport_1.5.8-r9 ?">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>   
@@ -308,9 +312,35 @@
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/xc.png"
             ask="Install Xcpluginforever ?">wget https://dreambox4u.com/emilnabil237/plugins/xcplugin/installer.sh -O - | /bin/sh</item>
         <item
-            name="Xtraevent"
+            name="Xtraevent_3.3"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/xtraevent.png"
+            ask="Install xtraevent_3.3 ?">opkg install curl
+curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh|sh</item>
+        <item
+            name="Xtraevent_4.2"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/xtraevent.png"
+            ask="Install xtraevent_4.2 ?">opkg install curl
+curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.2.sh|sh
+</item>
+         <item
+            name="Xtraevent_4.5"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/xtraevent.png"
+            ask="Install xtraevent_4.5 ?">opkg install curl
+curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.5.sh|sh</item>       
+        <item
+            name="Xtraevent_4.6"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/xtraevent.png"
             ask="Install xtraevent ?">sh -c "$(wget -O- https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh)"</item>
+      <item
+            name="Xtraevent_5.2"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/xtraevent.png"
+            ask="Install xtraevent_5.2 ?">opkg install curl
+curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_5.2.sh|sh</item>
+       <item
+            name="Xtraevent_5.3"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/xtraevent.png"
+            ask="Install xtraevent_5.3 ?">opkg install curl
+curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_5.3.sh|sh</item>           
     </submenu>
     <submenu
         title="SymLink"
@@ -628,14 +658,14 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 	mode="grid_4x3" 
 shade="yes" 
 font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FCFCFC" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" >
-			<item name="Premium-Fhd_2.5" 
-icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png"
+			<item name="Premium-Fhd_2.6" 
+icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins-premium.png"
 ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
-  <item name="Premium-Black-Fhd_2.5" 
-icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png" 
+  <item name="Premium-Black-Fhd_2.6" 
+icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins-premium-black.png" 
 ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
-<item name="Premium-Blue-Fhd_2.5" 
-icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png" 
+<item name="Premium-Blue-Fhd_2.6" 
+icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins-premium-blue.png" 
 ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh</item>
 <item name="Odreamy-Fhd" 
 icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png" 

@@ -193,8 +193,7 @@ reboot </item>
 <item name="Bitrate-mod-ariad" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(عرض معدل البت لقنوات السات على الشاشة)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate-mod-ariad.sh -O - | /bin/sh</item>
 <item name="Bootlogokids-stony272" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(صور اقلاع للاطفال)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bootlogokids/bootlogokids-stony272.sh -O - | /bin/sh</item>
 <item name="Bootlogoswapper-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(صور اقلاع bootlogoswapper-eliesat-special-edition)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bootlogoswapper/bootlogoswapper-eliesat-special-edition.sh -O - | /bin/sh</item>
-<item name="Bouquetmakerxtream-1.11" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مشغل اي بي تي في)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh 
-</item>
+<item name="Bouquetmakerxtream-1.11" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مشغل اي بي تي في)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh</item>
 <item name="Cacheflush-2.0r3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مسح ملفات الكاش من الذاكرة العشوائية)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/cacheflush/cacheflush.sh -O - | /bin/sh</item>
 <item name="Chocholousek-5.0.2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب بيكونات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/chocholousek-picons/chocholousek-picons.sh -O - | /bin/sh</item>
 <item name="Crashlogviewer-0.9" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تصفح ملفات الكراش)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/crashlogviewer/crashlogviewer.sh -O - | /bin/sh</item>
@@ -253,7 +252,9 @@ reboot </item>
 ##############feeds#############@
 <submenu title="Feeds" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/feeds.png"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000" info="(تثبيت فيدات)" >
 
-<item name="Coming soon" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/allinone.png" info="(coming soon)" ask="run coming soon ?">echo coming soon</item>
+<item name="Openatv-devel" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/feeds.png" info="ترقية صورة openatv (7.3-7.4) لصورة openatv (devel 7.4-7.5 )" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/feed/openatv-devel.sh -O - | /bin/sh</item>
+
+<item name="Openpicons" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/feeds.png" info="(فيد بيكونات اضافي snp srp )" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/feed/openpicons-feed-.sh -O - | /bin/sh</item>
 
 </submenu>
 #########################################
@@ -364,7 +365,7 @@ reboot </item>
 	<submenu title="Areadeltasat" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="Premiumfhd-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "areadeltasat" /etc/issue; then
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh 
 else 
@@ -373,7 +374,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhdblack-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-black" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "areadeltasat" /etc/issue; then
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh 
 else 
@@ -382,7 +383,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhd-blue-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "areadeltasat" /etc/issue; then
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh 
 else 
@@ -813,7 +814,7 @@ fi
 	<submenu title="Openblackhole" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="Premiumfhd-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openbh" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh 
 else 
@@ -822,7 +823,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhdblack-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-black" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openbh" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh 
 else 
@@ -831,7 +832,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhd-blue-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openbh" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh 
 else 
@@ -844,7 +845,375 @@ fi
 	<submenu title="Openatv" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="Premiumfhd-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Artemis" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(5.6)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/artemis/artemis-5.6.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Artemis-mnasr" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(6.3)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/artemis/artemis.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Batman-vpx-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/batman/batman-vpx-fhd-1.0.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Batman-vpx2-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/batman/batman-vpx2-fhd-1.0.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Beta-pro-fhd-px" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.5)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/beta-pro/beta-pro-fhd-px.sh -O - | /bin/sh  
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Beta-pro-fhd-xe" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.5)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/beta-pro/beta-pro-fhd-xe.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Beta-pro-tool" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/beta-pro/beta-pro-tool.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Blackalu" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/blackalu-ashawky/blackalu-ashawky.sh -O - | /bin/sh  
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Black-neon-p-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/black-neon/black-neon-p-fhd.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Black-neon-xp-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/black-neon/black-neon-xp-fhd.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Bohlala-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/bohlala/bohlala-fhd.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Copper-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.2)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/copper/copperfhd.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Darkforest" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/darkforest-ashawky.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Desert-fhd-oa" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(3.1)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/desert/desert-fhd-oa.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Dragon-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/dragon/dragon-fhd.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Dusky-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/dusky/duskyfhd-ashawky.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Ekselancexe" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/ekselancexe-ashawky.sh?inline=false -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Elite-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.3)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/elitefhd.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Gigabluepaxv2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/gigabluepax/gigabluepaxv2-ashawky.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Glamouraurafhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/glamouraurafhd-atv.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Icone-vpx-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/icone/icone-vpx-fhd.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Icone-vpx2-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/icone/icone-vpx2-fhd.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Jihad" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.3)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/jihad/jihad.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Lava" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/lava/lava-ashawky.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Madmax-impossible" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.9)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/madmax-impossible.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Malek-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.1)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/malek-fhd.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="M-ashawky" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/m-ashawky.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Nacht" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky-2.2)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/nacht/nacht-a.shawky.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Nitroadvance-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(5.4)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/nitroadvance/nitroadvance-fhd.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Nitro-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/nitro/nitro-fhd.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Nitrogreenwood-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/nitro/nitrogreenwood-fhd.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Nitrohoneycomb" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(4.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/nitro/nitrohoneycomb.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Novaler-s-fhd-green" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(3.6)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-fhd-green.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Novaler-s-x-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(3.2)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-x-blue.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Novaler-s-x-green" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(3.2)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-x-green.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Novaler-s-x-infrared" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(3.2)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-x-infrared.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Novaler-s-xtra-fhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(3.2)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-xtra-fhd-blue.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Novaler-s-xtra-fhd-green" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(3.2)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-xtra-fhd-green.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Novaler-s-xtra-fhd-indianred" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(3.2)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-xtra-fhd-indianred.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Obs-elite-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/obs-elite-fhd.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Octagon-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/octagonfhd.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Orangesky-xp-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/orangesky/orangesky-xp-fhd.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Orangesky-xp2-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/orangesky/orangesky-xp2-fhd.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Ozeta" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/ozeta/ozeta.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Pal" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/pal-a.shawky/pal.ashawky.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Pdreamy" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.4)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/pdreamy.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openATV" /etc/image-version; then
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh 
 else 
@@ -852,7 +1221,7 @@ echo "> install openatv image and try again ..."
 fi</item>
 
 <item 
-name="Premiumfhdblack-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-black" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openATV" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh 
 else 
@@ -860,19 +1229,44 @@ echo "> install openatv image and try again ..."
 fi</item>
 
 <item 
-name="Premiumfhd-blue-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openATV" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh 
 else 
 echo "> install openatv image and try again ..." 
 fi</item>
 
+<item 
+name="Revolution-pro" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(6.3)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/atv/revolution-pro.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Spiderman-vpx-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/spiderman/spiderman-vpx-fhd.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Spiderman-vpx2-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/spiderman/spiderman-vpx2-fhd.sh -O - | /bin/sh
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+
 </submenu>
 --------------opendroid--------------
 	<submenu title="Opendroid" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="Premiumfhd-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if [ -r /usr/lib/enigma2/python/OPENDROID ]; then
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh 
 else 
@@ -880,7 +1274,7 @@ echo "> install opendroid image and try again ..."
 fi</item>
 
 <item 
-name="Premiumfhdblack-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-black" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if [ -r /usr/lib/enigma2/python/OPENDROID ]; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh 
 else 
@@ -888,7 +1282,7 @@ echo "> install opendroid image and try again ..."
 fi</item>
 
 <item 
-name="Premiumfhd-blue-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if [ -r /usr/lib/enigma2/python/OPENDROID ]; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh 
 else 
@@ -900,7 +1294,15 @@ fi</item>
 	<submenu title="Openpli-8.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin-py2)"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="Premiumfhd-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="XXX" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(XXX)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+XXX
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
+
+<item 
+name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openpli" /etc/issue; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh 
 else 
@@ -909,7 +1311,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhdblack-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-black" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openpli" /etc/issue; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh 
 else 
@@ -918,7 +1320,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhd-blue-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openpli" /etc/issue; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh 
 else 
@@ -931,7 +1333,7 @@ fi
 	<submenu title="Openpli-9.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin-py3)"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="Premiumfhd-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openpli" /etc/issue; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh 
 else 
@@ -940,7 +1342,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhdblack-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-black" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openpli" /etc/issue; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh 
 else 
@@ -949,7 +1351,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhd-blue-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openpli" /etc/issue; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh 
 else 
@@ -962,7 +1364,7 @@ fi
 	<submenu title="Openspa" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="Premiumfhd-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "OpenSPA" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh 
 else 
@@ -971,7 +1373,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhdblack-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-black" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "OpenSPA" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh 
 else 
@@ -980,7 +1382,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhd-blue-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "OpenSPA" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh 
 else 
@@ -993,7 +1395,7 @@ fi
 	<submenu title="Openvix" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="Premiumfhd-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openvix" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh 
 else 
@@ -1002,7 +1404,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhdblack-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-black" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openvix" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh 
 else 
@@ -1011,7 +1413,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhd-blue-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "openvix" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh 
 else 
@@ -1024,7 +1426,7 @@ fi
 	<submenu title="Pure2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="Premiumfhd-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "PURE2" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh 
 else 
@@ -1033,7 +1435,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhdblack-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-black" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "PURE2" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh 
 else 
@@ -1042,7 +1444,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhd-blue-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "PURE2" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh 
 else 
@@ -1055,7 +1457,7 @@ fi
 	<submenu title="Satlodge" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="Premiumfhd-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "satlodge" /etc/issue; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh 
 else 
@@ -1064,7 +1466,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhdblack-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-black" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "satlodge" /etc/issue; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh 
 else 
@@ -1073,7 +1475,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhd-blue-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "satlodge" /etc/issue; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh 
 else 
@@ -1086,7 +1488,7 @@ fi
 	<submenu title="Teamblue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="Premiumfhd-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "teamblue" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd.sh -O - | /bin/sh 
 else 
@@ -1095,7 +1497,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhdblack-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-black" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "teamblue" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-black.sh -O - | /bin/sh 
 else 
@@ -1104,7 +1506,7 @@ fi
 </item>
 
 <item 
-name="Premiumfhd-blue-2.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)" ask="run script file ?">
+name="Premiumfhd-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
 if grep -qs -i "teamblue" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premium-fhd-blue.sh -O - | /bin/sh 
 else 
