@@ -95,6 +95,10 @@
             name="Emil Nabil"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/channel.png"
             ask="Install Emil Channels ?">wget https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh</item>
+         <item
+            name="Mohamed-Nasr"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/channel.png"
+            ask="Install Mohamed Nasr Channels ?">wget https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -O - | /bin/sh</item>   
         <item
             name="Mohamed Os"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/channel.png"
@@ -411,6 +415,8 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
             name="UPDATE ENIGMA2 ALL PYTHON"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/tools.png"
             ask="Update Enigma2 All Python ?">wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh  -O - | /bin/sh</item>
+       <item name="Openpicons" 
+icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/tools.png" info="(Picons-Feed snp-srp)" ask="run script file ?">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/script/openpicons-feed.sh -O - | /bin/sh</item>     
         <item
             name="service app"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/tools.png"

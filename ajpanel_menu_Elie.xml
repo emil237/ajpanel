@@ -160,9 +160,10 @@ fi</item>
 
 <item name="astra-sm (arm)" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/dependencies.png"  info="(اداة لتشغيل باقة abertis قمر hispasat ٣٠ غرب)" ask="run script file (reboot) ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/astra-sm-arm-0.2-r0.sh -O - | /bin/sh
 reboot </item>
-
+<item name="Atilehd-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اداة تشغيل لعدد من السكينات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/atilehd/atilehd.sh -O - | /bin/sh</item>
 <item name="astra-sm-config" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/dependencies.png"  info="(تحديث ملف الconfig)" ask="run script file (reboot) ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-abertis-astra.config-file-ciefp.sh -O - | /bin/sh</item>
 <item name="Opkg-tools-1.2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/dependencies.png"  info="(اداة تشغيل خاصة بالajpanel)" ask="run script file (reboot) ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opkg-tools/opkg-tools.sh -O - | /bin/sh</item>
+<item name="Weathercomponenthandler-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/systemplugins.png"  info="(اداة خاصة بالطقس تستخدم على عدد من السكينات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/weathercomponenthandler/weathercomponenthandler.sh -O - | /bin/sh</item>
 
 </submenu>
 #########################################
@@ -186,7 +187,6 @@ reboot </item>
 <item name="Alternativesoftcammanager-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(ادارة الكامات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/alternativesoftcammanager/alternativesoftcammanager.sh -O - | /bin/sh </item>
 <item name="Arabic-savior-2.1" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(المنقذ العربي)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/arabic-savior/arabicsavior.sh -O - | /bin/sh</item>
 <item name="Athantimes-2.8" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(الآذان)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/athantimes/athantimes.sh -O - | /bin/sh</item>
-<item name="Atilehd-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اداة تشغيل لعدد من السكينات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/atilehd/atilehd.sh -O - | /bin/sh</item>
 <item name="Azkar-almuslim-1.1" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اذكار المسلم)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/azkar-almuslim/azkar-almuslim.sh -O - | /bin/sh</item>
 <item name="Bissfeedautokey-2.8" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="( خاص بالفيدات و شفرات البيس)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bissfeedautokey/bissfeedautokey.sh -O - | /bin/sh</item>
 <item name="Bitrate-2.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(عرض معدل البت لقنوات السات على الشاشة)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate.sh -O - | /bin/sh</item>
@@ -1294,12 +1294,318 @@ fi</item>
 	<submenu title="Openpli-8.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin-py2)"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
 
 <item 
-name="XXX" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(XXX)" ask="run script file ?">
-if grep -qs -i "openATV" /etc/image-version; then
-XXX
+name="Artemis-fhd-x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdi-2.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/artemisfhd-x-mod-h.ahmed-2.0.sh -O - | /bin/sh
 else 
-echo "> install openatv image and try again ..." 
-fi</item>
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Artemis-fhd-xtra" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/artemisfhd-xtra-mod-h.ahmed-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Blackclbs-xtra" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/blackclbs-xtra-1.0.sh -O - | /bin/sh 
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Championsleague" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/championsleague-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Cinodream" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/cinodream-ashawky-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Cino-dream-osat" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/cino-dream-osat-pli-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Cino-gri-pli" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/cino-gri-pli-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Cool-red-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/cool-red-fhd-mod-h.ahmed-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Dmm-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-master)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/dmm-fhd-mod-master-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Dmm-fhd-xe" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/dmm-fhd-xe-1.0.sh -O - | /bin/sh 
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Ekselancexe" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(3.1)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/ekselancexe-3.1.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Excortlux-blue" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(3.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/excortlux-blue-fhd-mod-h.ahmed-3.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Excortlux-purple" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/excortlux-purple-fhd-mod-h.ahmed-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Extreme-golden-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/extreme-golden-fhd-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Fullnighthd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/fullnighthd-ashawky-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Hdline-super" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/hdline-super-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Hd-line-super" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/hdline-super-ashawky-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Hiq-fhd-4k" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy-3.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/hiq-fhd-4k-mod-h.ahmed-3.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="hiq-purpel-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy-3.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/hiq-purpel-fhd-4k-mod-h.ahmed-3.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="karonte" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/karonte-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Karonte" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/karonte-ashawky-1.0.sh -O - | /bin/shelse 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Multiposter" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.6)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/multiposter-1.6.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Mx-graphite" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/mx-graphite-ashawky-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Mx-world-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/mx-world-fhd-mod-h.ahmed-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Mylopotas-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/mylopotas-fhd-mod-h.ahmed-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Naga-clbs-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/naga-clbs-fhd-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="new-all-4x1" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(posterx-mod-hamdy)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/new-all-4x1-posterx-mod-h.ahmed-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Newblack-extra" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/newblack-extra-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Novax-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.5)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/novax/novaxfhd.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Novax-fhd-mauve" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/novax/novaxfhd-mauve.sh -O - | /bin/sh 
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Octagon-black-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/octagon-black-fhd-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Octagon-eight" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-mnasr)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/image-version; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/octagon-eight-fhd-mod-mnasr-1.0.sh -O - | /bin/sh 
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Octet-fhd-bp" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy-2.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/octet-fhd-bp-mod-h.ahmed-2.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Octet-fhd-bp-x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/octet-fhd-bp-x-mod-h.ahmed-2.0.sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Pli-cino-pli-gri" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/pli-poster-cino-pli-gri-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
 
 <item 
 name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
@@ -1328,9 +1634,109 @@ echo "> install openpli image and try again ..."
 fi
 </item>
 
+<item 
+name="red-dream-px" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/red-dream-px-mod-h.ahmed-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Revolution-pro" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/revolution-pro-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Sky-novaler-x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/sky-novaler-x-mod-h.ahmed-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Smartlite-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-mnasr)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/smartlite-fhd-mod-mnasr-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="xe4x1-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/xe4x1-fhd-mod-h.ahmed-1.0.sh -O - | /bin/sh 
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="xe4x1-fhd-x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(mod-hamdy)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli/xe4x1-fhd-x-mod-h.ahmed-1.0.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
 </submenu>
 --------------openpli-9.x--------------
 	<submenu title="Openpli-9.x" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin-py3)"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="1080" bg="#000000">
+
+
+<item 
+name="Cino-dream" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli3/cino-dream-ashawky.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="De-skin" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli3/de-skin-ashawky.sh -O - | /bin/sh 
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Gigablue-paxv2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli3/gigablue-paxv2-ashawky.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Hdline-super" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(ashawky)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli3/hdline-super-ashawky.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
+
+<item 
+name="Ozeta-fhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.0)" ask="run script file ?">
+if grep -qs -i "openpli" /etc/issue; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/pli3/ozeta-fhd.sh -O - | /bin/sh
+else 
+echo "> install openpli image and try again ..." 
+fi
+</item>
 
 <item 
 name="Premiumfhd" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.X)" ask="run script file ?">
@@ -1420,6 +1826,26 @@ else
 echo "> install openvix image and try again ..." 
 fi
 </item>
+
+<item 
+name="Youvix-xe" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(hamdy)" ask="run script file ?">
+if grep -qs -i "openvix" /etc/image-version; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/openvix/youvix-xe-mod-hamdy.sh -O - | /bin/sh 
+else 
+echo "> install openvix image and try again ..." 
+fi
+</item>
+
+<item 
+name="Youvix-px" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(hamdy)" ask="run script file ?">
+if grep -qs -i "openvix" /etc/image-version; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/openvix/youvix-px-mod-hamdy.sh -O - | /bin/sh 
+else 
+echo "> install openvix image and try again ..." 
+fi
+</item>
+
+
 
 </submenu>
 --------------pure2--------------
@@ -1575,7 +2001,6 @@ echo "coming soon"
 <item name="Newvirtualkeyboard-12.3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/systemplugins.png"  info="(لوحة مفاتيح اضافية)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/newvirtualkeyboard/newvirtualkeyboard.sh -O - | /bin/sh</item>
 <item name="Servicescanupdates-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/systemplugins.png"  info="(انشاء مفضلة لقنوات الجديدة اللي نزلت جراء بحث جديد لالقمر)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/servicescanupdates/servicescanupdates.sh -O - | /bin/sh</item>
 <item name="Ts-sateditor-4.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/systemplugins.png"  info="(اضافة حذف تعديل بالاقمار و الترددات >>> satellites.xml)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ts-sateditor/ts-sateditor.sh -O - | /bin/sh</item>
-<item name="Weathercomponenthandler-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/systemplugins.png"  info="(اداة خاصة بالطقس تستخدم على عدد من السكينات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/weathercomponenthandler/weathercomponenthandler.sh -O - | /bin/sh</item>
 
 </submenu>
 #########################################
