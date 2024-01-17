@@ -1113,6 +1113,10 @@ font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg=
 		<item name="AlternativeSoftcamManager" 
 icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/remove.png"
 ask="Remove AlternativeSoftcamManager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-alternativesoftcammanager.sh -O - | /bin/sh</item>
+   <item name="Channels" 
+icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/remove.png"
+info="Remove All Channels"
+ask="Remove Channels">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-channels.sh  -O - | /bin/sh</item> 
  <item name="Crashlogs" 
 icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/remove.png"
 ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL_all_Crashlogs.sh  -O - | /bin/sh</item>
