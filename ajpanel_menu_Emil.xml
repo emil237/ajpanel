@@ -521,7 +521,7 @@ icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/tools.png" info="(Picons
     <submenu
         title="Skins"
         icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png"
-            mode="grid_4x3"
+            mode="grid_3x3"
             shade="yes"
             font_size="50"
             title_bg="#11332233"
@@ -884,7 +884,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
     <submenu
         title="Emu Cam"
         icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/emu.png"
-        mode="grid_3x1"
+        mode="grid_5x3"
         shade="yes"
         font_size="50"
         title_bg="#11332233"
@@ -900,6 +900,26 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
             name="Cccam"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/cccam.png"
             ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh  -O - | /bin/sh</item>
+         <item
+            name="gosatplus-ncam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/emu1.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh  -O - | /bin/sh</item>
+           <item
+            name="gosatplus-oscam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/emu1.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh  -O - | /bin/sh</item>
+            <item
+            name="gosatplus"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/emu1.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus.sh  -O - | /bin/sh</item>
+      <item
+            name="Hold-flag-ncam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/hold.png"
+            ask="">opkg flag hold enigma2-plugin-softcams-ncam</item>
+         <item
+            name="Hold-flag-oscam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/hold.png"
+            ask="">opkg flag hold enigma2-plugin-softcams-oscam</item>
         <item
             name="Ncam"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ncam.png"
@@ -908,6 +928,60 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
             name="Oscam"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/oscam.png"
             ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
+          <item
+            name="oscamicam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/oscam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh  -O - | /bin/sh</item>
+        <item
+            name="powercam_v2-icam-arm"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/powercam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh  -O - | /bin/sh</item>
+        <item
+            name="powercam-Ncam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/powercam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh  -O - | /bin/sh</item>
+         <item
+            name="powercam-Oscam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/powercam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh  -O - | /bin/sh</item>                   <item
+            name="Restore-flag-ncam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/restore.png"
+            ask="">opkg flag user enigma2-plugin-softcams-ncam</item>
+         <item
+            name="Restore-flag-oscam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/restore.png"
+            ask="">opkg flag user enigma2-plugin-softcams-oscam</item>
+          <item
+            name="Revcam-Ncam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/revcam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh  -O - | /bin/sh</item>
+         <item
+            name="Revcam-Oscam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/revcam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-oscam.sh  -O - | /bin/sh</item>
+        <item
+            name="Revcam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/revcam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh  -O - | /bin/sh</item>
+         <item
+            name="Supcam-Ncam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/supcam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh  -O - | /bin/sh</item>
+         <item
+            name="Supcam-Oscam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/supcam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh  -O - | /bin/sh</item>                  <item
+            name="Ultracam-Ncam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ultracam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh  -O - | /bin/sh</item>
+          <item
+            name="Ultracam-Oscam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ultracam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh  -O - | /bin/sh</item>
+          <item
+            name="Ultracam"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ultracam.png"
+            ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh  -O - | /bin/sh</item>      
      </submenu>
     <submenu title="Images"
 icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/images.png"
