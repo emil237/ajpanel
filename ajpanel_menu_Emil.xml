@@ -792,7 +792,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
         <submenu
             title="Skins Plugin Xstreamity"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/xtreamty.png"
-            bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/background.png"
+            bg="#06006666"
             mode="grid_3x3"
             shade="yes"
             font_size="50"
@@ -887,7 +887,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
         mode="grid_5x3"
         shade="yes"
         font_size="50"
-        title_bg="#11332233"
+        bg="#22440033"
         num_fg="#FCFCFC"
         num_bg="#000000"
         title1_fg="#FCFCFC"
