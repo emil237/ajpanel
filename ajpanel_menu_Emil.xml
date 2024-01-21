@@ -17,10 +17,11 @@
         title="Panels"
         info="Download And Install Panel"
         icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/panels.png"
+        bg="#06770077" 
+        title_bg="#11332233"
         mode="grid_4x3"
         shade="yes"
         font_size="50"
-        title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
         title1_fg="#FCFCFC"
@@ -74,10 +75,11 @@
         title="Channels"
         info=" Download And install Channels And Favorites "
         icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/channel.png"
+        bg="#06555500" title_fg="#33550055"
+        title_bg="#11332233"
         mode="grid_4x2"
         shade="yes"
         font_size="35"
-        title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
         title1_fg="#FCFCFC"
@@ -107,6 +109,8 @@
     <submenu
         title="Key Plugins"
         icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/key.png"
+        fg="#22ffffff" 
+        bg="#22003322"
         mode="grid_4x3"
         shade="yes"
         font_size="50"
@@ -138,6 +142,7 @@
         mode="grid_5x3"
         shade="yes"
         font_size="50"
+        bg="#19184D"
         title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -187,6 +192,7 @@
         mode="grid_4x3"
         shade="yes"
         font_size="50"
+        bg="#19184D"
         title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -225,8 +231,9 @@
         title="Plugins"
         info=" Download And install Plugins "
         icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/plugins.png"
-        mode="grid_3x1"
+        mode="grid_4x3"
         shade="yes"
+        bg="#6C8F81"
         font_size="30"
         title_bg="#11332233"
         num_fg="#FCFCFC"
@@ -352,6 +359,7 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
         mode="grid_4x3"
         shade="yes"
         font_size="30"
+        bg="#800080"
         title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -884,9 +892,9 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
     <submenu
         title="Emu Cam"
         icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/emu.png"
-        mode="grid_5x3"
+        mode="grid1_5x3"
         shade="yes"
-        font_size="50"
+        font_size="30"
         bg="#22440033"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -902,15 +910,15 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
             ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh  -O - | /bin/sh</item>
          <item
             name="gosatplus-ncam"
-            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/emu1.png"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/gosat.png"
             ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh  -O - | /bin/sh</item>
            <item
             name="gosatplus-oscam"
-            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/emu1.png"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/gosat.png"
             ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh  -O - | /bin/sh</item>
             <item
             name="gosatplus"
-            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/emu1.png"
+            icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/gosat.png"
             ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus.sh  -O - | /bin/sh</item>
       <item
             name="Hold-flag-ncam"
@@ -1296,7 +1304,6 @@ ask="Remove Youtube">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-
 	</submenu>
 
 </ajp_menu>
-
 
 
 
