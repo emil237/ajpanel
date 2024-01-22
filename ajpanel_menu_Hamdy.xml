@@ -19,6 +19,9 @@ width="1600" height="930" >
           </submenu>
 
   	  <submenu title="openSpa" mode="grid" width="1600" height="930" icon="/media/hdd/AJPanel_Backup/vector/spa.png" bg="/media/hdd/AJPanel_Backup/vector/s-s.png" title_bg="#06004444" >
+                  <item name="estuaryFHD_v3" info="The Skin is full updated" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sk4.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/Skin-estuaryFHD_v3-openspa-Mod_HAhmed.sh -O - | /bin/sh</item>
+                  <item name="estuaryFHD_v2-fix_IT" info="Only Edite" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sk4.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/Skin-estuaryFHD-BER_v2-openspa-Mod_HAhmed.sh -O - | /bin/sh</item>
+                  <item name="estuaryFHD_v2" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sk4.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/Skin-estuaryFHD_v2-openspa-Mod_HAhmed.sh -O - | /bin/sh</item>
                   <item name="estuaryFHD_v1" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sk4.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/HAhmed-Scripts/main/Skin-estuaryFHD_v1-openspai-Mod_HAhmed.sh -O - | /bin/sh</item>
                   <item name="premium-fhd-black2.6" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sk4.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/skins-premium-fhd-black_2.6.sh -O - | /bin/sh</item>
                   <item name="premium-fhd-blue2.6" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sk4.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/skins-premium-fhd-blue_2.6.sh -O - | /bin/sh</item>
@@ -98,7 +101,10 @@ width="1600" height="930" >
                 <item name="mohamed-os-motor" mode="grid" width="1600" height="930" info="New-ch2024" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/ch.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/panel/main/MOHAMED19OS-ch.sh -O - | /bin/sh</item>
 		<item name="mohamed-os-motor" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/ch.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/mohamed-os/mohamed-os-motor.sh -O - | /bin/sh</item>
 		<item name="novaler-motor" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/ch.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/novaler-motor/novaler-motor.sh -O - | /bin/sh</item>
+                <item name="Mohammed-Nasr-motor" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/ch.png">wget https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/channels_backup_MNASR_20240116.sh -O - | /bin/sh</item>
 	        <item name="mohgooda-motor" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/ch.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/mohgooda-motor/mohgooda-motor.sh -O - | /bin/sh</item>
+                <item name="AHMED-HUSSEIN-motor" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/ch.png">wget https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/channels_backup_AHMED-HUSSEIN.sh</item>
+                <item name="Mostafa-Gh-motor" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/ch.png">wget https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/channels_backup_Mostafa-Gh_2024.sh -O - | /bin/sh</item>
         </submenu>
  <submenu title="Key Plugin" info="Dwawnload All plugin" mode="grid" width="1600" height="930" icon="/media/hdd/AJPanel_Backup/vector/key plugins.png" bg="/media/hdd/AJPanel_Backup/vector/ee.png" title_bg="#06004444" >
                 <item name="keyadder" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/keyadder/keyadder.sh -O - | /bin/sh</item>
@@ -266,15 +272,16 @@ width="1600" height="930" >
  <submenu title="Upgrade"  info="images-updated" mode="grid" width="1600" height="930" icon="/media/hdd/AJPanel_Backup/vector/up.png" bg="/media/hdd/AJPanel_Backup/vector/dd.png" title_bg="#06004444" >
 		<item name="opkg-update" info="upgrade All Images" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-update.sh -O - | /bin/sh</item>
 		<item name="opkg-upgrade" info="upgrade All Images" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-upgrade.sh -O - | /bin/sh</item>
-		<item name="opkg-update-upgrade" info="upgrade All Images" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-update-upgrade.sh -O - | /bin/sh</item>
+		<item name="opkg-update-upgrade" info="upgrade All Images" ask="run script file" icon="/media/hdd/AJPanel_Backup/vector/sap.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-update-upgrade.sh -O - | /bin/sh</item>
 	</submenu>
  <submenu title="Info" info="Information about additions" mode="grid" width="1600" height="930" icon="/media/hdd/AJPanel_Backup/vector/info.png" bg="/media/hdd/AJPanel_Backup/vector/ooo.png" title_bg="#06004444" >
-	          <item name="Info" info="Information about additions" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/in.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/Added_information.sh -O - | /bin/sh</item>
+	          <item name="Info" info="Information about additions" ask="show me please" icon="/media/hdd/AJPanel_Backup/vector/in.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/Added_information.sh -O - | /bin/sh</item>
   	</submenu>
   <submenu title="Audio-files"  info="for-ipAudiopro-ipAudio_plugin" mode="grid" width="1600" height="930" icon="/media/hdd/AJPanel_Backup/vector/sou.png" bg="/media/hdd/AJPanel_Backup/vector/dd.png" title_bg="#06004444" >
-		<item name="ipaudiopro_picons" info="picons" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sap.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/ipaudiopro_picons_mnasr_140124.sh</item>
-		<item name="audio_140124" info="audio-files" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sap.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/MNASR_audio_140124.sh</item>
-                <item name="Biko-audio_150124" info="audio-files" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sap.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/Biko-audio-15012024.sh</item>
+                <item name="ipaudiopro-1.1-py-3.11.5" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/plugins.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/enigma2-plugin-extensions-ipaudiopro_1.1.sh -O - | /bin/sh</item>
+		<item name="ipaudiopro_picons-MNasr" info="picons" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sap.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/picons-ipaudio_MNasr.sh -O - | /bin/sh</item>
+		<item name="audio_140124_MNasr" info="audio-files" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sap.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/MNASR_audio_140124.sh -O - | /bin/sh</item>
+                <item name="Biko-audio_150124" info="audio-files" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/sap.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/Biko_audio_150124.sh -O - | /bin/sh</item>
 	</submenu>
  <submenu title="remove"  info="coming-soon" mode="grid" width="1600" height="930" icon="/media/hdd/AJPanel_Backup/vector/soon.png" bg="/media/hdd/AJPanel_Backup/vector/dd.png" title_bg="#06004444" >
 	<item name="Crash-logo" mode="grid_3x2" width="1600" height="930" shade="yes" info="delete all bug" font_size="20" ask="yes" icon="/media/hdd/AJPanel_Backup/vector/del.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/remove/_remove-crash-logs.sh -O - | /bin/sh</item>
@@ -282,54 +289,3 @@ width="1600" height="930" >
 
 
 </ajp_menu>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
