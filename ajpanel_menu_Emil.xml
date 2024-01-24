@@ -75,7 +75,9 @@
         title="Channels"
         info=" Download And install Channels And Favorites "
         icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/channel.png"
-        bg="#06555500" title_fg="#33550055"
+        bg="#06555500" 
+        fg="#3EA99F"
+        title_fg="#33550055"
         title_bg="#11332233"
         mode="grid_4x2"
         shade="yes"
@@ -109,7 +111,7 @@
     <submenu
         title="Key Plugins"
         icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/key.png"
-        fg="#22ffffff" 
+        fg="#E55B3C" 
         bg="#22003322"
         mode="grid"
         shade="yes"
@@ -361,10 +363,10 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
         shade="yes"
         font_size="30"
         bg="#000000"
-        title_bg="#11332233"
+        title_bg="#FF0000"
         num_fg="#FCFCFC"
         num_bg="#000000"
-        title1_fg="#FFFF00"
+        title1_fg="#FFFFFF"
         title1_bg="#000000"
         title2_fg="#FCFCFC"
         title2_bg="#000000"
@@ -535,6 +537,7 @@ icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/tools.png" info="(Picons
             shade="yes"
             font_size="50"
             bg="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/br.jpg"
+            fg="#CCFB5D"
             title_bg="#11332233"
             num_fg="#FCFCFC"
             num_bg="#000000"
@@ -547,9 +550,10 @@ icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/tools.png" info="(Picons
        <submenu
         title="TeamNitro Skins"
         icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/teamnitro.png" 
-        mode="grid"
+        mode="grid_4x3"
             shade="yes"
             font_size="50"
+            fg="#CCFB5D"
             title_bg="#11332233"
             num_fg="#FCFCFC"
             num_bg="#000000"
@@ -587,6 +591,7 @@ icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/tools.png" info="(Picons
         <submenu
             title="Skins Atv"
             icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/atv.png"
+            fg="#CCFB5D"
             mode="grid_3x3"
             shade="yes"
             font_size="50"
@@ -615,8 +620,9 @@ icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/tools.png" info="(Picons
            <submenu
         title="Skins BlackHole"
         icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/blackhole.png" 
-        mode="grid"
+        mode="grid_4x3"
             shade="yes"
+            fg="#E9AB17"
             font_size="50"
             title_bg="#11332233"
             num_fg="#FCFCFC"
@@ -676,9 +682,10 @@ opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-waves4.sh|sh</item>    
         </submenu>
     <submenu title="Skins Egami" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/egami.png" 
-	mode="grid" 
-shade="yes" 
-font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" >
+	    mode="grid_4x3"
+    shade="yes"
+    fg="#F9B7FF" 
+    font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" >
 			<item name="Premium-Fhd_2.6" 
 icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins-premium.png"
 ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
@@ -1222,6 +1229,9 @@ font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg=
 info="تحديث هذا البانل باحدث الاضافات"
 icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/upgrade.png" 
 ask="Upgrade This Panel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/Ajpanel-menu.sh  -O - | /bin/sh</item>
+    <item name="/Go To Script/"
+	icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/scr.png"
+	  info="Open the directory &quot;/usr/script/&quot; in File Manager">/usr/script</item>
   </submenu>
     <submenu title="Remove"
 icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/remove.png"
@@ -1306,7 +1316,7 @@ ask="Remove Xstreamity Plugin">wget https://dreambox4u.com/emilnabil237/script/r
 icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/remove.png"
 ask="Remove Youtube">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-youtube.sh  -O - | /bin/sh</item>
 	</submenu>
-
+    	 
 </ajp_menu>
 
 
