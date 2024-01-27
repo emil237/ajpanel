@@ -48,7 +48,9 @@
 		<item name="Multiboot-FlashOnline" icon="flash-online.png" ask="Install Flashonline ?">wget https://raw.githubusercontent.com/emil237/download-plugins/main/multiboot-flashonline.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Plugins" info=" Download And install Plugins " icon="plugins.png" mode="grid" shade="yes" bg="#6C8F81" font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFD700" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
+	<submenu title="Plugins" info=" Download And install Plugins " icon="plugins.png" mode="grid" shade="yes" font_size="30" 
+	bg="#22440033"
+	title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFD700" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 		<item name="Arabicsavior" icon="arabicsavior.png" ask="Install ArabicSavior ?">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
 		<item name="Ansite" ask="yes" icon="ansite.png">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -qO - | /bin/sh</item>
 		<item name="Athan Times" ask="yes" icon="ath.png">wget https://raw.githubusercontent.com/biko-73/AthanTimes/main/installer.sh -qO - | /bin/sh</item>
@@ -179,10 +181,10 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 		<submenu title="Skins Open Black Hole" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/OBH.png" mode="grid_4x3" shade="yes" font_size="50" fg="#CCFB5D" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 			<item name="MX_GrayDots_vip-xtra_mod-HA" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/MX_GrayDots_vip-xtra_mod-HA.sh  -O - | /bin/sh</item>
 			<item name="mx-hq9w_2.0-mod3-FHD" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-hq9w_2.0-mod3fhd.sh  -O - | /bin/sh</item>
-            <item name="MX-MaesteraBPR-FHD_MOD-HAhmed" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-MaesteraBPR-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
-            <item name="Mx-PrioFHD-xtra_mod-HAhmed" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/Mx-PrioFHD-xtra_mod-HAhmed.sh  -O - | /bin/sh</item>
-            <item name="mx-sline-posterx_2.0-mod2ha" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-posterx_2.0-mod2ha.sh  -O - | /bin/sh</item>
-            <item name="MX-SunMoon-FHD_MOD-HAhmed" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-SunMoon-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
+			<item name="MX-MaesteraBPR-FHD_MOD-HAhmed" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-MaesteraBPR-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
+			<item name="Mx-PrioFHD-xtra_mod-HAhmed" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/Mx-PrioFHD-xtra_mod-HAhmed.sh  -O - | /bin/sh</item>
+			<item name="mx-sline-posterx_2.0-mod2ha" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-posterx_2.0-mod2ha.sh  -O - | /bin/sh</item>
+			<item name="MX-SunMoon-FHD_MOD-HAhmed" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-SunMoon-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
 		</submenu>
 
 		<submenu title="Skins Pli" icon="pli.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
