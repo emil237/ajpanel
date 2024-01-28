@@ -3,7 +3,7 @@
 	<item name="/Go To Script/" icon="scr.png" info="Open the directory &quot;/usr/script/&quot; in File Manager">/usr/script</item>
 	<submenu title="Panels" info="Download And Install Panel" icon="panels.png" bg="#06770077" title_bg="#11332233" mode="grid" shade="yes" font_size="50" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 		<item name="Ajpanel" icon="ajpanel.png" ask="Install Ajpanel ?">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
-		<item name="Panels_Emil" icon="/media/usb/AJPanel_Backup/Custom_icons/icons-Emil/panels.png" ask="Install DreamSatPanel ?">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/Ajpanel-menu.sh -O - | /bin/sh</item>
+		<item name="Panels_Emil" icon="/media/hdd/Backup_AJPanel/Custom_icons/icons-Emil/panels.png" ask="Install DreamSatPanel ?">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/Ajpanel-menu.sh -O - | /bin/sh</item>
 		<item name="Dreamosat-Downloader" icon="dreamosat.png" ask="Install dreamosat-downloader ?">wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh  -O - | /bin/sh</item>
 		<item name="Epanel" icon="epanel.png" ask="Install Epanel ?">wget https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh  -O - | /bin/sh</item>
 		<item name="levi45-AddonsManager" icon="levi45addon.png" ask="Install Levi45 AddonManger ?">wget https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh  -O - | /bin/sh</item>
@@ -48,9 +48,7 @@
 		<item name="Multiboot-FlashOnline" icon="flash-online.png" ask="Install Flashonline ?">wget https://raw.githubusercontent.com/emil237/download-plugins/main/multiboot-flashonline.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Plugins" info=" Download And install Plugins " icon="plugins.png" mode="grid" shade="yes" font_size="30" 
-	bg="#22440033"
-	title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFD700" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
+	<submenu title="Plugins" info=" Download And install Plugins " icon="plugins.png" mode="grid" shade="yes" font_size="30" bg="#22440033" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFD700" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 		<item name="Arabicsavior" icon="arabicsavior.png" ask="Install ArabicSavior ?">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
 		<item name="Ansite" ask="yes" icon="ansite.png">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -qO - | /bin/sh</item>
 		<item name="Athan Times" ask="yes" icon="ath.png">wget https://raw.githubusercontent.com/biko-73/AthanTimes/main/installer.sh -qO - | /bin/sh</item>
@@ -118,15 +116,15 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 	<submenu title="picons" icon="picon.png" mode="grid_5x3" shade="yes" font_size="50" bg="chb.jpg" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 		<item name="Chocholousek-Picons" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/chocholousekpicons.png" ask="Install Chochlousek Picon ?">sh -c "$(wget --no-check-certificate https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -qO -)</item>
 		<item name="Amos_4.0W" icon="picon.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-amos/main/installer.sh -O - | /bin/sh</item>
-		<item name="Astra_19.2E" ask="yes" icon="/media/usb/AJPanel_Backup/Custom_icons/icons-Emil/picon-b.png">wget https://dreambox4u.com/emilnabil237/picons/installer-picin19.2e.sh -O - | /bin/sh"</item>
-		<item name="Badr_26E" icon="/media/usb/AJPanel_Backup/Custom_icons/icons-Emil/picon-g.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-Badr26E/main/installer.sh -O - | /bin/sh</item>
-		<item name="Bulgariasat_1.9E" icon="/media/usb/AJPanel_Backup/Custom_icons/icons-Emil/picon-p.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-bulgariasat/main/installer.sh -O - | /bin/sh</item>
-		<item name="Eutelsat_16E" icon="/media/usb/AJPanel_Backup/Custom_icons/icons-Emil/picon-g.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-eutelsat_16E/main/installer.sh -O - | /bin/sh</item>
-		<item name="Eutelsat_21.6E" icon="/media/usb/AJPanel_Backup/Custom_icons/icons-Emil/picon-t.png" ask="">wget https://dreambox4u.com/emilnabil237/picons/installer-picon21.6e.sh -O - | /bin/sh</item>
+		<item name="Astra_19.2E" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-b.png">wget https://dreambox4u.com/emilnabil237/picons/installer-picin19.2e.sh -O - | /bin/sh"</item>
+		<item name="Badr_26E" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-g.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-Badr26E/main/installer.sh -O - | /bin/sh</item>
+		<item name="Bulgariasat_1.9E" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-p.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-bulgariasat/main/installer.sh -O - | /bin/sh</item>
+		<item name="Eutelsat_16E" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-t.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-eutelsat_16E/main/installer.sh -O - | /bin/sh</item>
+		<item name="Eutelsat_21.6E" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-y.png" ask="">wget https://dreambox4u.com/emilnabil237/picons/installer-picon21.6e.sh -O - | /bin/sh</item>
 		<item name="Hotbird_13E" icon="picon.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-hotbird/main/installer.sh -O - | /bin/sh</item>
-		<item name="Nilesat_7W+8W" icon="/media/usb/AJPanel_Backup/Custom_icons/icons-Emil/picon-b.png" ask="">wget https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh -O - | /bin/sh</item>
-		<item name="picons-other" icon="/media/usb/AJPanel_Backup/Custom_icons/icons-Emil/picon-y.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh</item>
-		<item name="Yahsat_52.5E" icon="/media/usb/AJPanel_Backup/Custom_icons/icons-Emil/picon-r.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-yahsat/main/installer.sh -O - | /bin/sh</item>
+		<item name="Nilesat_7W+8W" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-b.png" ask="">wget https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh -O - | /bin/sh</item>
+		<item name="picons-other" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-g.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh</item>
+		<item name="Yahsat_52.5E" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-r.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-yahsat/main/installer.sh -O - | /bin/sh</item>
 	</submenu>
 
 	<submenu title="Skins" icon="skins.png" mode="grid_3x3" shade="yes" font_size="50" fg="#CCFB5D" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
@@ -172,9 +170,9 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 		</submenu>
 
 		<submenu title="Skins Egami" icon="egami.png" mode="grid_4x3" shade="yes" fg="#F9B7FF" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="Premium-Fhd_2.6" icon="skins-premium.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
-			<item name="Premium-Black-Fhd_2.6" icon="skins-premium-black.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
-			<item name="Premium-Blue-Fhd_2.6" icon="skins-premium-blue.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh</item>
+			<item name="Premium-Fhd_2.7" icon="skins-premium.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
+			<item name="Premium-Black-Fhd_2.7" icon="skins-premium-black.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
+			<item name="Premium-Blue-Fhd_2.7" icon="skins-premium-blue.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh</item>
 			<item name="Odreamy-Fhd" icon="skins.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-odreamy-fhd.sh -O - | /bin/sh</item>
 		</submenu>
 
