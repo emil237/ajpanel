@@ -185,15 +185,38 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 			<item name="MX-SunMoon-FHD_MOD-HAhmed" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-SunMoon-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="Skins Pli" icon="pli.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
+		<submenu title="Skins Pli_8x" icon="pli.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 			<item name="CH.LEAGUE-FHD" icon="skins.png" ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-CH.LEAGUE-FHD.sh -O - | /bin/sh</item>
 			<item name="Ozeta-Xtra" icon="skins.png" ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh</item>
 			<item name="QATAR-2022-V3-FHD" icon="skins.png" ask="yes">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-QATAR-2022-V3-FHD.sh -O - | /bin/sh</item>
 			<item name="SPIDERMAN-FHD" icon="skins.png" ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-SPIDERMAN-FHD.sh -O - | /bin/sh</item>
 			<item name="WAR-S-FHD" icon="skins.png" ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-WAR-S-FHD.sh -O - | /bin/sh</item>
-		</submenu>
-
-		<submenu title="Skins VTI" icon="vti.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
+			<item name="BLACKSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-BLACKSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item name="BLUESKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-BLUESKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item name="CYANSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-CYANSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item name="GOLDSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GOLDSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item name="GREENSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GREENSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item name="PINKSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-PINKSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item name="PURPLESKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-PURPLESKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item name="REDSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-REDSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item name="BATMAN-MP-HD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-BATMAN-MP-HD-By-Muaath.sh|sh</item>
+			<item name="CHAMPIONSLEAGUE-HD-P-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-CHAMPIONSLEAGUE-HD-P-By-Muaath.sh|sh</item>
+			<item name="DARK-SHADOW-T-HD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-DARK-SHADOW-T-HD-By-Muaath.sh|sh</item>
+			<item name="EUR02020-FHD-N-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-EUR02020-FHD-N-By-Muaath.sh|sh</item>
+			<item name="GOLDSKY-T-FHD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GOLDSKY-T-FHD-By-Muaath.sh|sh</item>
+			<item name="GREY-SHADOW-FHD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GREY-SHADOW-FHD-By-Muaath.sh|sh</item>
+			<item name="ICONE-FHD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-ICONE-FHD-By-Muaath.sh|sh</item>
+			<item name="OSN-BLUE-FHD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-OSN-BLUE-FHD-By-Muaath.sh|sh</item>
+			<item name="OSN-FHD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-OSN-FHD-By-Muaath.sh|sh</item>
+			<item name="ROBOCOP2-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-ROBOCOP2-HD-MOD-By-Muaath.sh|sh</item>
+			<item name="SPIDERMAN-P-FHD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-SPIDERMAN-P-FHD-By-Muaath.sh|sh</item>
+			<item name="T.BLACK-HD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.BLACK-HD-By-Muaath.sh|sh</item>
+			<item name="T.BLUE-HD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.BLUE-HD-By-Muaath.sh|sh</item>
+			<item name="T.PURPLE-HD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.PURPLE-HD-By-Muaath.sh|sh</item>
+			<item name="TOKYO2020-FHD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-TOKYO2020-FHD-By-Muaath.sh|sh</item>
+        </submenu>
+		
+	<submenu title="Skins VTI" icon="vti.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 			<item name="Aeonfhdmod_sharp987" icon="skins.png" ask="Install Skin Aeonfhdmod_sharp987 ?">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-aeonfhdmod_sharp987_vti-r3.27.sh|sh
