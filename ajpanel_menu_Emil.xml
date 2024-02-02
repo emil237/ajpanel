@@ -139,6 +139,7 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 
 		<submenu title="Skins Atv" icon="atv.png" fg="#CCFB5D" mode="grid_3x3" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 			<item name="MyMetrixLiteBackup" icon="skins.png" ask="Install MyMetrixLiteBackup ?">wget -O /etc/enigma2/MyMetrixLiteBackup.dat "https://raw.githubusercontent.com/emil237/plugins/main/MyMetrixLiteBackup.dat"</item>
+			<item name="Aglare-FHD" icon="skins.png" ask="Install Skin Aglare-FHD ?">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
 			<item name="Nacht_1.7.3" icon="skins.png" ask="Install Skin Nacht_1.7.3 ?">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-nacht_1.7.3.sh -O - | /bin/sh</item>
 			<item name="Ozeta-Xtra" icon="skins.png" ask="Install Skin Ozeta Xtra ?">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-ozeta-xtra.sh -O - | /bin/sh</item>
 		</submenu>
@@ -170,6 +171,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 		</submenu>
 
 		<submenu title="Skins Egami" icon="egami.png" mode="grid_4x3" shade="yes" fg="#F9B7FF" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
+			<item name="Aglare-FHD" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/aglare.png" ask="Install Skin Aglare-FHD ?">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
 			<item name="Premium-Fhd_2.7" icon="skins-premium.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
 			<item name="Premium-Black-Fhd_2.7" icon="skins-premium-black.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
 			<item name="Premium-Blue-Fhd_2.7" icon="skins-premium-blue.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh</item>
@@ -214,9 +216,9 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 			<item name="T.BLUE-HD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.BLUE-HD-By-Muaath.sh|sh</item>
 			<item name="T.PURPLE-HD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.PURPLE-HD-By-Muaath.sh|sh</item>
 			<item name="TOKYO2020-FHD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-TOKYO2020-FHD-By-Muaath.sh|sh</item>
-        </submenu>
-		
-	<submenu title="Skins VTI" icon="vti.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
+		</submenu>
+
+		<submenu title="Skins VTI" icon="vti.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 			<item name="Aeonfhdmod_sharp987" icon="skins.png" ask="Install Skin Aeonfhdmod_sharp987 ?">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-aeonfhdmod_sharp987_vti-r3.27.sh|sh
