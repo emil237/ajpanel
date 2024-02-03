@@ -220,6 +220,13 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 			<item name="TOKYO2020-FHD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-TOKYO2020-FHD-By-Muaath.sh|sh</item>
 		</submenu>
 
+		<submenu title="Skins Spa-8.3" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/spa.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
+			<item name="BlackSPAFHD_posterX-Mod-HA" icon="skins.png" ask="">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-BlackSPAFHD_posterX-Mod-HA.sh?inline=false|sh</item>
+			<item name="estuary-1080" icon="skins.png" ask="">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuary-1080.sh?inline=false|sh</item>
+			<item name="estuaryFHD_Mod-HA" icon="skins.png" ask="">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuaryFHD_openspa_Mod-HA.sh?inline=false|sh</item>
+			<item name="OpenplusFHD_posterX-Mod-HA" icon="skins.png" ask="yes">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-openplusFHD_posterX-Mod-HA.sh?inline=false|sh</item>
+		</submenu>
+
 		<submenu title="Skins VTI" icon="vti.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 			<item name="Aeonfhdmod_sharp987" icon="skins.png" ask="Install Skin Aeonfhdmod_sharp987 ?">opkg update
 opkg install curl
