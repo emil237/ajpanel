@@ -3,7 +3,7 @@
 	<item name="/Go To Script/" icon="scr.png" info="Open the directory &quot;/usr/script/&quot; in File Manager">/usr/script</item>
 	<submenu title="Panels" info="Download And Install Panel" icon="panels.png" bg="#06770077" title_bg="#11332233" mode="grid" shade="yes" font_size="50" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 		<item name="Ajpanel" icon="ajpanel.png" ask="Install Ajpanel ?">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
-		<item name="Panels_Emil" icon="/media/hdd/Backup_AJPanel/Custom_icons/icons-Emil/panels.png" ask="Install DreamSatPanel ?">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/Ajpanel-menu.sh -O - | /bin/sh</item>
+		<item name="Panels_Emil" icon="/media/hdd/Backup_AJPanel/Custom_icons/icons-Emil/panels.png" ask="Install Panels_Emil ?">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/Ajpanel-menu.sh -O - | /bin/sh</item>
 		<item name="Dreamosat-Downloader" icon="dreamosat.png" ask="Install dreamosat-downloader ?">wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh  -O - | /bin/sh</item>
 		<item name="Epanel" icon="epanel.png" ask="Install Epanel ?">wget https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh  -O - | /bin/sh</item>
 		<item name="levi45-AddonsManager" icon="levi45addon.png" ask="Install Levi45 AddonManger ?">wget https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh  -O - | /bin/sh</item>
@@ -37,6 +37,7 @@
 		<item name="MultistalkerPro" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/multistalkerpro.png" ask="Instaal MultiStalkerPro ?">wget https://dreambox4u.com/emilnabil237/plugins/MultiStalkerPro/installer.sh -O - | /bin/sh</item>
 		<item name="Portal-100mag" ask="Download Portal-100mag ?" icon="media.png">wget -qO $HOME/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/stalker.conf</item>
 		<item name="QuarterPounder" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/quarterpounder.png" ask="Insall Quarter pounder ?">wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh</item>
+		<item name="Suptv" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/suptv.png" ask="Insall Suptv ?">wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh</item>
 	</submenu>
 
 	<submenu title="Multiboot Plugins" icon="multiboot.png" mode="grid" shade="yes" font_size="50" bg="#423C3D" title_bg="#11332233" fg="#FFFF00" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#40E0D0" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
