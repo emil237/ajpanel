@@ -164,7 +164,7 @@ fi</item>
 ##############dependencies#############@
 <submenu title="Dependencies" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/dependencies.png"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="900" bg="#000000" info="(ادوات التشغيل)" >
 
-<item name="astra-sm (arm)" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/dependencies.png"  info="(اداة لتشغيل باقة abertis قمر hispasat ٣٠ غرب)" ask="run script file (reboot) ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/astra-sm-arm-0.2-r0.sh -O - | /bin/sh
+<item name="astra-sm" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/dependencies.png"  info="(اداة لتشغيل باقة abertis قمر hispasat ٣٠ غرب ●arm mips aarch64 sh4)" ask="run script file (reboot) ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/astra-sm-arm-0.2-r0.sh -O - | /bin/sh
 reboot </item>
 <item name="Atilehd-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(اداة تشغيل لعدد من السكينات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/atilehd/atilehd.sh -O - | /bin/sh</item>
 <item name="astra-sm-config" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/dependencies.png"  info="(تحديث ملف الconfig)" ask="run script file (reboot) ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-abertis-astra.config-file-ciefp.sh -O - | /bin/sh</item>
@@ -201,6 +201,7 @@ reboot </item>
 <item name="Bootlogokids-stony272" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(صور اقلاع للاطفال)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bootlogokids/bootlogokids-stony272.sh -O - | /bin/sh</item>
 <item name="Bootlogoswapper-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(صور اقلاع bootlogoswapper-eliesat-special-edition)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bootlogoswapper/bootlogoswapper-eliesat-special-edition.sh -O - | /bin/sh</item>
 <item name="Bouquetmakerxtream-1.11" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مشغل اي بي تي في)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh</item>
+<item name="Bundesliga-clock-1.0" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تثبيت الساعة على الشاشة بشكل دائم)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bundesliga-permanent-clock/bundesliga-permanent-clock.sh -O - | /bin/sh</item>
 <item name="Cacheflush-2.0r3" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(مسح ملفات الكاش من الذاكرة العشوائية)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/cacheflush/cacheflush.sh -O - | /bin/sh</item>
 <item name="Chocholousek-5.0.2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تسطيب بيكونات)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/chocholousek-picons/chocholousek-picons.sh -O - | /bin/sh</item>
 <item name="Crashlogviewer-0.9" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/extensions.png" info="(تصفح ملفات الكراش)" ask="run script file ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/crashlogviewer/crashlogviewer.sh -O - | /bin/sh</item>
@@ -477,6 +478,15 @@ fi
 </submenu>
 --------------egami--------------
 	<submenu title="Egami" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="900" bg="#000000">
+
+<item 
+name="Algare" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.x)" ask="run script file ?">
+if grep -qs -i "egami" /etc/image-version; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/aglare-fhd/aglare-fhd.sh -O - | /bin/sh 
+else 
+echo "> install egami image and try again ..." 
+fi
+</item>
 
 <item 
 name="Artemis" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(5.6)" ask="run script file ?">
@@ -962,6 +972,14 @@ fi
 </submenu>
 --------------openatv--------------
 	<submenu title="Openatv" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="900" bg="#000000">
+
+<item 
+name="Algare" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.x)" ask="run script file ?">
+if grep -qs -i "openATV" /etc/image-version; then
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/aglare-fhd/aglare-fhd.sh -O - | /bin/sh 
+else 
+echo "> install openatv image and try again ..." 
+fi</item>
 
 <item 
 name="Artemis" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(5.6)" ask="run script file ?">
@@ -1998,6 +2016,15 @@ fi
 	<submenu title="Openspa" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="900" bg="#000000">
 
 <item 
+name="Algare" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.x)" ask="run script file ?">
+if grep -qs -i "OpenSPA" /etc/image-version; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/aglare-fhd/aglare-fhd.sh -O - | /bin/sh
+else 
+echo "> install openspa image and try again ..." 
+fi
+</item>
+
+<item 
 name="Bohlala" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.0)" ask="run script file ?">
 if grep -qs -i "OpenSPA" /etc/image-version; then 
 wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/bohlala/bohlala-fhd.sh -O - | /bin/sh 
@@ -2150,6 +2177,15 @@ fi
 </submenu>
 --------------pure2--------------
 	<submenu title="Pure2" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(skin)"  mode="grid" shade="yes" title_fg="#FCFCFC" title_bg="#11000000" title1_fg="#1180ff80" title1_bg="#000000" title2_fg="#1180ff80" title2_bg="#000000" num_fg="#1180ff80" width="1920" height="900" bg="#000000">
+
+<item 
+name="Algare" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(1.x)" ask="run script file ?">
+if grep -qs -i "PURE2" /etc/image-version; then 
+wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/all/aglare-fhd/aglare-fhd.sh -O - | /bin/sh
+else 
+echo "> install pure2 image and try again ..." 
+fi
+</item>
 
 <item 
 name="Bohlala" icon="/usr/lib/enigma2/python/Plugins/Extensions/AJPan/eliesat-panel/icons-default/skins.png" info="(2.0)" ask="run script file ?">
