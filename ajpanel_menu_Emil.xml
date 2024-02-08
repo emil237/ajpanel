@@ -37,6 +37,7 @@
 		<item name="MultistalkerPro" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/multistalkerpro.png" ask="Instaal MultiStalkerPro ?">wget https://dreambox4u.com/emilnabil237/plugins/MultiStalkerPro/installer.sh -O - | /bin/sh</item>
 		<item name="Portal-100mag" ask="Download Portal-100mag ?" icon="media.png">wget -qO $HOME/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/stalker.conf</item>
 		<item name="Portal-150" info="&#1571;&#1605;&#1585; &#1575;&#1604;&#1585;&#1601;&#1593; &#1605;&#1606; &#1593;&#1583;&#1583; &#1575;&#1604;&#1576;&#1608;&#1585;&#1591;&#1575;&#1604;&#1575;&#1578; 150" ask="" icon="media.png">wget https://dreambox4u.com/emilnabil237/script/Increasing-the-number-of-portals-150.sh -O - | /bin/sh</item>
+		<item name="Portal-200" info="&#1571;&#1605;&#1585; &#1575;&#1604;&#1585;&#1601;&#1593; &#1605;&#1606; &#1593;&#1583;&#1583; &#1575;&#1604;&#1576;&#1608;&#1585;&#1591;&#1575;&#1604;&#1575;&#1578; 200" ask="" icon="media.png">wget https://dreambox4u.com/emilnabil237/script/Increasing-the-number-of-portals-200.sh -O - | /bin/sh</item>
 		<item name="Configure the Multistalker plugin" info="&#1578;&#1607;&#1610;&#1574;&#1577; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1587;&#1578;&#1575;&#1604;&#1603;&#1585;" ask="" icon="media.png">wget https://dreambox4u.com/emilnabil237/script/Configure-the-Multistalker-plugin.sh -O - | /bin/sh</item>
 		<item name="QuarterPounder" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/quarterpounder.png" ask="Insall Quarter pounder ?">wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh</item>
 		<item name="Suptv" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/suptv.png" ask="Insall Suptv ?">wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh</item>
@@ -136,7 +137,7 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 		<item name="Yahsat_52.5E" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-r.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-yahsat/main/installer.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Skins" icon="skins.png" mode="grid_3x3" shade="yes" font_size="50" fg="#CCFB5D" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
+	<submenu title="Skins" icon="skins.png" mode="grid_4x3" shade="yes" font_size="50" fg="#CCFB5D" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 		<submenu title="TeamNitro Skins" icon="teamnitro.png" mode="grid_4x3" shade="yes" font_size="50" fg="#CCFB5D" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 			<item name="TeamNitro Control Center" icon="teamnitro.png" ask="Install Plugin TeamNitro ?">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/SKIN-teamnitro.sh  -O - | /bin/sh</item>
 			<item name="Desert skin" icon="skins.png" ask="Install Skin Desert ?">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer-skin-desert.sh -O - | /bin/sh</item>
@@ -146,7 +147,8 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 			<item name="Klll Pro" icon="skins.png" ask="Install Skin Kill Pro ?">wget https://raw.githubusercontent.com/biko-73/zelda77/main/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="Skins Atv" icon="atv.png" fg="#CCFB5D" mode="grid_3x3" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
+		<submenu title="Skins Atv" icon="atv.png" fg="#CCFB5D" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
+			<item name="MyMetrixLiteBackup-by-Mohd" icon="skins.png" ask="Install MyMetrixLiteBackup ?">wget -O /etc/enigma2/MyMetrixLiteBackup.dat "https://raw.githubusercontent.com/emil237/skins-enigma2/main/ATV/MyMetrixLiteBackup.dat"</item>
 			<item name="MyMetrixLiteBackup" icon="skins.png" ask="Install MyMetrixLiteBackup ?">wget -O /etc/enigma2/MyMetrixLiteBackup.dat "https://raw.githubusercontent.com/emil237/plugins/main/MyMetrixLiteBackup.dat"</item>
 			<item name="Aglare-FHD" icon="skins.png" ask="Install Skin Aglare-FHD ?">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
 			<item name="skins-malek-fhd_2.2_py3.11.2-py3.12.1" icon="skins.png" ask="Install Skin Malek-FHD ?">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/ATV/skins-malek-fhd_2.2_py3.11.2-py3.12.1.sh|sh</item>
