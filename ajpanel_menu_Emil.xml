@@ -51,6 +51,7 @@
 
 	<submenu title="Multiboot Plugins" icon="multiboot.png" mode="grid" shade="yes" font_size="50" bg="#423C3D" title_bg="#11332233" fg="#FFFF00" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#40E0D0" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
 		<item name="Neoboot_9.65" icon="neoboot.png" ask="Install Neoboot_v9.65 ?">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh  -O - | /bin/sh</item>
+		<item name="Neoboot_9.60" icon="neoboot.png" ask="Install Neoboot_v9.60 ?">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.60/iNB.sh  -O - | /bin/sh</item>
 		<item name="Neoboot_9.58" icon="neoboot.png" ask="Install Neoboot_v9.58 ?">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.58/iNB.sh -O - | /bin/sh</item>
 		<item name="Neoboot_9.54" icon="neoboot.png" ask="Install Neoboot_v9.54 ?">wget https://raw.githubusercontent.com/emil237/neoboot_9.54/main/installer.sh  -O - | /bin/sh</item>
 		<item name="OpenMultiboot_1.3" icon="openmultiboot.png" ask="Install OpenMultiboot_1.3 ?">wget https://raw.githubusercontent.com/emil237/openmultiboot/main/installer.sh  -O - | /bin/sh</item>
