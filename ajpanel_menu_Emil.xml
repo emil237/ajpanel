@@ -31,7 +31,9 @@
 		<item name="IptoSat" ask="Install IptoSat ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/iptosat.png">wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh  -O - | /bin/sh</item>
 		<item name="IpAudio_6.7" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudio.png" ask="Install Ipaudio ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh</item>
 		<item name="IpAudio_7.4" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudio.png" ask="Install Ipaudio ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
-		<item name="IpAudioPro-py3" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudiopro.png" ask="Install ipaudiopro ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh  -O - | /bin/sh</item>
+		<item name="IpAudioPro-1.1" 
+		info="py3.9-py3.11-py3.12"
+		icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudiopro.png" ask="Install ipaudiopro ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh  -O - | /bin/sh</item>
 		<item name="JediEpgExtream" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/JediEPGXtream.png" ask="Install Jediepgextream ?">wget https://raw.githubusercontent.com/emil237/plugins/jediepgextream/main/installer.sh  -O - | /bin/sh</item>
 		<item name="JediMakerXtream" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/JediMakerXtream.png" ask=" Install jedimakerxtream ?">wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh  -O - | /bin/sh</item>
 		<item name="Multistalker" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/multistalker.png" ask="insall multistalker ?">wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh</item>
