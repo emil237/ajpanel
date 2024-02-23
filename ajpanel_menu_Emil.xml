@@ -1,427 +1,428 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ajp_menu title="Panel (Ajpanel By Emil)" mode="grid" shade="yes" font_size="50" bg="back.png" num_fg="#FCFCFC" num_bg="#000000" title1_fg=" " title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" box_gap="80" picpath="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/">
-	<item name="/Go To Script/" icon="scr.png" info="Open the directory &quot;/usr/script/&quot; in File Manager">/usr/script</item>
-	<submenu title="Panels" info="Download And Install Panel" icon="panels.png" bg="#06770077" title_bg="#11332233" mode="grid" shade="yes" font_size="50" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="Ajpanel" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/panels.png" ask="Install Ajpanel ?">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
-		<item name="Panels_Emil" ask="Install Panels_Emil ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/panels.png">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/Ajpanel-menu.sh -O - | /bin/sh</item>
-		<item name="Dreamosat-Downloader" icon="dreamosat.png" ask="Install dreamosat-downloader ?">wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh  -O - | /bin/sh</item>
-		<item name="Epanel" icon="epanel.png" ask="Install Epanel ?">wget https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh  -O - | /bin/sh</item>
-		<item name="levi45-AddonsManager" icon="levi45addon.png" ask="Install Levi45 AddonManger ?">wget https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh  -O - | /bin/sh</item>
-		<item name="levi45-Multicam-Manager" icon="levi45multicam.png" ask="Install Levi45MulticamManager ?">wget https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh -O - | /bin/sh</item>
-		<item name="Panel_Extra_Feed" icon="panelextra.png" ask="Install Panel Extra-Feed ?">wget https://dreambox4u.com/emilnabil237/plugins/panel-extra-feed/installer.sh -O - | /bin/sh</item>
-		<item name="SatvenusPanel" icon="satvenus.png" ask="Install SatVenusPanel ?">wget https://dreambox4u.com/emilnabil237/plugins/satvenuspanel/installer.sh -O - | /bin/sh</item>
-		<item name="TsPanel" icon="tspanel.png" ask="Install Tspanel ?">wget https://dreambox4u.com/emilnabil237/plugins/tspanel/installer.sh -O - | /bin/sh</item>
-		<item name="TvAddon-Panel" icon="tvaddon.png" ask="Install Tvaddon Plugins ?">wget https://dreambox4u.com/emilnabil237/plugins/tvaddon/installer.sh -O - | /bin/sh</item>
+<ajp_menu bg="back.png" box_gap="80" font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" picpath="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/" shade="yes" title="Panel (Ajpanel By Emil)" title1_bg="#000000" title1_fg=" " title2_bg="#000000" title2_fg="#FCFCFC" width="1600">
+	<item icon="scr.png" info="Open the directory &quot;/usr/script/&quot; in File Manager" name="/Go To Script/">/usr/script</item>
+	<submenu bg="#06770077" font_size="50" height="950" icon="panels.png" info="Download And Install Panel" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Panels" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install Ajpanel ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/panels.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install Panels_Emil ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/panels.png" name="Panels_Emil">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/Ajpanel-menu.sh -O - | /bin/sh</item>
+		<item ask="Install dreamosat-downloader ?" icon="dreamosat.png" name="Dreamosat-Downloader">wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install Epanel ?" icon="epanel.png" name="Epanel">wget https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install Levi45 AddonManger ?" icon="levi45addon.png" name="levi45-AddonsManager">wget https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install Levi45MulticamManager ?" icon="levi45multicam.png" name="levi45-Multicam-Manager">wget https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Panel Extra-Feed ?" icon="panelextra.png" name="Panel_Extra_Feed">wget https://dreambox4u.com/emilnabil237/plugins/panel-extra-feed/installer.sh -O - | /bin/sh</item>
+		<item ask="Install SatVenusPanel ?" icon="satvenus.png" name="SatvenusPanel">wget https://dreambox4u.com/emilnabil237/plugins/satvenuspanel/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Tspanel ?" icon="tspanel.png" name="TsPanel">wget https://dreambox4u.com/emilnabil237/plugins/tspanel/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Tvaddon Plugins ?" icon="tvaddon.png" name="TvAddon-Panel">wget https://dreambox4u.com/emilnabil237/plugins/tvaddon/installer.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Channels" info=" Download And install Channels And Favorites " icon="channel.png" bg="#06555500" fg="#3EA99F" title_fg="#33550055" title_bg="#11332233" mode="grid_4x2" shade="yes" font_size="35" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="Mohamed Goda +   Ahmed Shawky" icon="channel.png" ask="Install Channels By Mohamed Goda + Ahmed Shawky ?">wget https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh  -O - | /bin/sh</item>
-		<item name="Emil Nabil" icon="channel.png" ask="Install Emil Channels ?">wget https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh</item>
-		<item name="Mohamed-Nasr" icon="channel.png" ask="Install Mohamed Nasr Channels ?">wget https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -O - | /bin/sh</item>
-		<item name="Mohamed Os" icon="channel.png" ask="Install Mohamed Os Channels ?">python -c "$(wget --no-check-certificate https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/installer.py -qO -)"</item>
+	<submenu bg="#06555500" fg="#3EA99F" font_size="35" height="950" icon="channel.png" info=" Download And install Channels And Favorites " mode="grid_4x2" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Channels" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" title_fg="#33550055" width="1600">
+		<item ask="Install Channels By Mohamed Goda + Ahmed Shawky ?" icon="channel.png" name="Mohamed Goda +   Ahmed Shawky">wget https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install Emil Channels ?" icon="channel.png" name="Emil Nabil">wget https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Mohamed Nasr Channels ?" icon="channel.png" name="Mohamed-Nasr">wget https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Mohamed Os Channels ?" icon="channel.png" name="Mohamed Os">python -c "$(wget --no-check-certificate https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/installer.py -qO -)"</item>
 	</submenu>
 
-	<submenu title="Key Plugins" icon="key.png" fg="#E55B3C" bg="#22003322" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="BissFeedAutoKey" icon="key.png" ask="Install BissFeedAutoKey ?">wget https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh  -O - | /bin/sh</item>
-		<item name="feeds-finder" icon="key.png" ask="Install afeeds Finder ?">wget https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh  -O - | /bin/sh</item>
-		<item name="keyAdder" icon="key.png" ask="Install KeyAdder ?">wget https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh</item>
+	<submenu bg="#22003322" fg="#E55B3C" font_size="50" height="950" icon="key.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Key Plugins" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install BissFeedAutoKey ?" icon="key.png" name="BissFeedAutoKey">wget https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install afeeds Finder ?" icon="key.png" name="feeds-finder">wget https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install KeyAdder ?" icon="key.png" name="keyAdder">wget https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Media" icon="media.png" mode="grid_5x3" shade="yes" font_size="50" bg="#19184D" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="IptoSat" ask="Install IptoSat ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/iptosat.png">wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh  -O - | /bin/sh</item>
-		<item name="IpAudio_6.7" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudio.png" ask="Install Ipaudio ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh</item>
-		<item name="IpAudio_7.4" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudio.png" ask="Install Ipaudio ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
-		<item name="IpAudioPro-1.1" info="py3.9-py3.11-py3.12" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudiopro.png" ask="Install ipaudiopro ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh  -O - | /bin/sh</item>
-		<item name="JediEpgExtream" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/JediEPGXtream.png" ask="Install Jediepgextream ?">wget https://raw.githubusercontent.com/emil237/plugins/jediepgextream/main/installer.sh  -O - | /bin/sh</item>
-		<item name="JediMakerXtream" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/JediMakerXtream.png" ask=" Install jedimakerxtream ?">wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh  -O - | /bin/sh</item>
-		<item name="Multistalker" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/multistalker.png" ask="insall multistalker ?">wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh</item>
-		<item name="MultistalkerPro" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/multistalkerpro.png" ask="Instaal MultiStalkerPro ?">wget https://dreambox4u.com/emilnabil237/plugins/MultiStalkerPro/installer.sh -O - | /bin/sh</item>
-		<item name="Portal-100mag" ask="Download Portal-100mag ?" icon="media.png">wget -qO $HOME/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/stalker.conf</item>
-		<item name="Portal-150" info="&#1571;&#1605;&#1585; &#1575;&#1604;&#1585;&#1601;&#1593; &#1605;&#1606; &#1593;&#1583;&#1583; &#1575;&#1604;&#1576;&#1608;&#1585;&#1591;&#1575;&#1604;&#1575;&#1578; 150" ask="" icon="media.png">wget https://dreambox4u.com/emilnabil237/script/Increasing-the-number-of-portals-150.sh -O - | /bin/sh</item>
-		<item name="Portal-200" info="&#1571;&#1605;&#1585; &#1575;&#1604;&#1585;&#1601;&#1593; &#1605;&#1606; &#1593;&#1583;&#1583; &#1575;&#1604;&#1576;&#1608;&#1585;&#1591;&#1575;&#1604;&#1575;&#1578; 200" ask="" icon="media.png">wget https://dreambox4u.com/emilnabil237/script/Increasing-the-number-of-portals-200.sh -O - | /bin/sh</item>
-		<item name="Configure the Multistalker plugin" info="&#1578;&#1607;&#1610;&#1574;&#1577; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1587;&#1578;&#1575;&#1604;&#1603;&#1585;" ask="" icon="media.png">wget https://dreambox4u.com/emilnabil237/script/Configure-the-Multistalker-plugin.sh -O - | /bin/sh</item>
-		<item name="QuarterPounder" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/quarterpounder.png" ask="Insall Quarter pounder ?">wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh</item>
-		<item name="Suptv" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/suptv.png" ask="Insall Suptv ?">wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh</item>
+	<submenu bg="#19184D" font_size="50" height="950" icon="media.png" mode="grid_5x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Media" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install IptoSat ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/iptosat.png" name="IptoSat">wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install Ipaudio ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudio.png" name="IpAudio_6.7">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Ipaudio ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudio.png" name="IpAudio_7.4">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
+		<item ask="Install ipaudiopro ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudiopro.png" info="py3.9-py3.11-py3.12" name="IpAudioPro-1.1">wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install Jediepgextream ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/JediEPGXtream.png" name="JediEpgExtream">wget https://raw.githubusercontent.com/emil237/plugins/jediepgextream/main/installer.sh  -O - | /bin/sh</item>
+		<item ask=" Install jedimakerxtream ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/JediMakerXtream.png" name="JediMakerXtream">wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh  -O - | /bin/sh</item>
+		<item ask="insall multistalker ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/multistalker.png" name="Multistalker">wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh</item>
+		<item ask="Instaal MultiStalkerPro ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/multistalkerpro.png" name="MultistalkerPro">wget https://dreambox4u.com/emilnabil237/plugins/MultiStalkerPro/installer.sh -O - | /bin/sh</item>
+		<item ask="Download Portal-100mag ?" icon="media.png" name="Portal-100mag">wget -qO $HOME/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/stalker.conf</item>
+		<item ask="" icon="media.png" info="&#1571;&#1605;&#1585; &#1575;&#1604;&#1585;&#1601;&#1593; &#1605;&#1606; &#1593;&#1583;&#1583; &#1575;&#1604;&#1576;&#1608;&#1585;&#1591;&#1575;&#1604;&#1575;&#1578; 150" name="Portal-150">wget https://dreambox4u.com/emilnabil237/script/Increasing-the-number-of-portals-150.sh -O - | /bin/sh</item>
+		<item ask="" icon="media.png" info="&#1571;&#1605;&#1585; &#1575;&#1604;&#1585;&#1601;&#1593; &#1605;&#1606; &#1593;&#1583;&#1583; &#1575;&#1604;&#1576;&#1608;&#1585;&#1591;&#1575;&#1604;&#1575;&#1578; 200" name="Portal-200">wget https://dreambox4u.com/emilnabil237/script/Increasing-the-number-of-portals-200.sh -O - | /bin/sh</item>
+		<item ask="" icon="media.png" info="&#1578;&#1607;&#1610;&#1574;&#1577; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1587;&#1578;&#1575;&#1604;&#1603;&#1585;" name="Configure the Multistalker plugin">wget https://dreambox4u.com/emilnabil237/script/Configure-the-Multistalker-plugin.sh -O - | /bin/sh</item>
+		<item ask="Insall Quarter pounder ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/quarterpounder.png" name="QuarterPounder">wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh</item>
+		<item ask="Insall Suptv ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/suptv.png" name="Suptv">wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Free" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/free.png" mode="grid" shade="yes" font_size="50" bg="#423C3D" title_bg="#11332233" fg="#FFFF00" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#40E0D0" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="free-ipaudio" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/free.png" ask="">wget https://dreambox4u.com/emilnabil237/script/audio-ipaudio.sh  -O - | /bin/sh</item>
-		<item name="free-ipaudiopro" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/free.png" ask="">wget https://dreambox4u.com/emilnabil237/script/audio-ipaudiopro.sh -O - | /bin/sh</item>
+	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/free.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Free" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/free.png" name="free-ipaudio">wget https://dreambox4u.com/emilnabil237/script/audio-ipaudio.sh  -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/free.png" name="free-ipaudiopro">wget https://dreambox4u.com/emilnabil237/script/audio-ipaudiopro.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Multiboot Plugins" icon="multiboot.png" mode="grid" shade="yes" font_size="50" bg="#423C3D" title_bg="#11332233" fg="#FFFF00" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#40E0D0" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="Neoboot_9.65" icon="neoboot.png" ask="Install Neoboot_v9.65 ?">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh  -O - | /bin/sh</item>
-		<item name="Neoboot_9.60" icon="neoboot.png" ask="Install Neoboot_v9.60 ?">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.60/iNB.sh  -O - | /bin/sh</item>
-		<item name="Neoboot_9.58" icon="neoboot.png" ask="Install Neoboot_v9.58 ?">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.58/iNB.sh -O - | /bin/sh</item>
-		<item name="Neoboot_9.54" icon="neoboot.png" ask="Install Neoboot_v9.54 ?">wget https://raw.githubusercontent.com/emil237/neoboot_9.54/main/installer.sh  -O - | /bin/sh</item>
-		<item name="OpenMultiboot_1.3" icon="openmultiboot.png" ask="Install OpenMultiboot_1.3 ?">wget https://raw.githubusercontent.com/emil237/openmultiboot/main/installer.sh  -O - | /bin/sh</item>
-		<item name="OpenMultiboot-E2turk-1.3" icon="openmultiboot.png" ask="Install OpenMultiboot Eturk_1.3 ?">wget https://raw.githubusercontent.com/e2TURK/omb-enhanced/main/install.sh  -O - | /bin/sh</item>
-		<item name="Multiboot-FlashOnline" icon="flash-online.png" ask="Install Flashonline ?">wget https://raw.githubusercontent.com/emil237/download-plugins/main/multiboot-flashonline.sh -O - | /bin/sh</item>
+	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" icon="multiboot.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Multiboot Plugins" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install Neoboot_v9.65 ?" icon="neoboot.png" name="Neoboot_9.65">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh  -O - | /bin/sh</item>
+		<item ask="Install Neoboot_v9.60 ?" icon="neoboot.png" name="Neoboot_9.60">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.60/iNB.sh  -O - | /bin/sh</item>
+		<item ask="Install Neoboot_v9.58 ?" icon="neoboot.png" name="Neoboot_9.58">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.58/iNB.sh -O - | /bin/sh</item>
+		<item ask="Install Neoboot_v9.54 ?" icon="neoboot.png" name="Neoboot_9.54">wget https://raw.githubusercontent.com/emil237/neoboot_9.54/main/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install OpenMultiboot_1.3 ?" icon="openmultiboot.png" name="OpenMultiboot_1.3">wget https://raw.githubusercontent.com/emil237/openmultiboot/main/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install OpenMultiboot Eturk_1.3 ?" icon="openmultiboot.png" name="OpenMultiboot-E2turk-1.3">wget https://raw.githubusercontent.com/e2TURK/omb-enhanced/main/install.sh  -O - | /bin/sh</item>
+		<item ask="Install Flashonline ?" icon="flash-online.png" name="Multiboot-FlashOnline">wget https://raw.githubusercontent.com/emil237/download-plugins/main/multiboot-flashonline.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Plugins" info=" Download And install Plugins " icon="plugins.png" mode="grid" shade="yes" font_size="30" bg="#22440033" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFD700" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="Arabicsavior" icon="arabicsavior.png" ask="Install ArabicSavior ?">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
-		<item name="Ansite" ask="yes" icon="ansite.png">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -qO - | /bin/sh</item>
-		<item name="Athan Times" ask="yes" icon="ath.png">wget https://raw.githubusercontent.com/biko-73/AthanTimes/main/installer.sh -qO - | /bin/sh</item>
-		<item name="Atilehd" icon="atilehd.png" ask="Install Atilehd ?">wget https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh  -O - | /bin/sh</item>
-		<item name="CrashLogViewer" icon="crash.png" ask="Install CrashLogoViewer ?">wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh</item>
-		<item name="CronManager" icon="crondmanager.png" ask="Install CrondManger ?">wget https://github.com/emil237/download-plugins/raw/main/cronmanager.sh  -O - | /bin/sh</item>
-		<item name="E2Player-Tsplayer" icon="e2player.png" ask="Install E2plyer">wget https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh?inline=false  -O - | /bin/sh</item>
-		<item name="Epg Grabber" icon="grabber.png" ask="Install Epg Grabber ?">wget https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh  -O - | /bin/sh</item>
-		<item name="FootOnsat" icon="footonsat.png" ask="Install Footonsat ?">wget https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh -O - | /bin/sh</item>
-		<item name="FreeCCcamServer Plugin" icon="freecccam.png" ask="yes">wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh</item>
-		<item name="HistoryZapSelector" icon="historyzapselector.png" ask="yes">wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer.sh -O - | /bin/sh</item>
-		<item name="MyCam-Plugin" icon="mycam.png" ask="Install plugin MyCam ?">wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh</item>
-		<item name="NewVirtualKeyBoard" icon="keyboard.png" ask="Install NewVirtualkeyBoard ?">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh</item>
-		<item name="Ozeta-Skins-Setup-2.8" icon="ozeta.png" ask="Install Ozeta-Skins-Setup-2.8 ?">wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh</item>
-		<item name="Quran-karem" icon="quran.png" ask="Install Quran ?">wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh</item>
-		<item name="Raedquicksignal" icon="RaedQuickSignal.png" ask="Install RaedQuickSignal ?">wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
-		<item name="Sherlockmod" icon="sherlockmod.png" ask="Install sherlockmod ?">wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh</item>
-		<item name="SubsSupport_1.5.8-r9" icon="subssupport.png" ask="Install SubsSupport_1.5.8-r9 ?">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
-		<item name="uninstaller-Plugins" icon="uninstaller.png" ask=" Install uninstaller-Plugins ?">wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh  -O - | /bin/sh</item>
-		<item name="Xtreamity" icon="xtreamty.png" ask="Install Xtreamty ?">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh</item>
-		<item name="Xcpluginforever" icon="xc.png" ask="Install Xcpluginforever ?">wget https://dreambox4u.com/emilnabil237/plugins/xcplugin/installer.sh -O - | /bin/sh</item>
-		<item name="Xtraevent_3.3" icon="xtraevent.png" ask="Install xtraevent_3.3 ?">opkg install curl
+	<submenu bg="#22440033" font_size="30" height="950" icon="plugins.png" info=" Download And install Plugins " mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Plugins" title1_bg="#000000" title1_fg="#FFD700" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install ArabicSavior ?" icon="arabicsavior.png" name="Arabicsavior">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
+		<item ask="yes" icon="ansite.png" name="Ansite">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -qO - | /bin/sh</item>
+		<item ask="yes" icon="ath.png" name="Athan Times">wget https://raw.githubusercontent.com/biko-73/AthanTimes/main/installer.sh -qO - | /bin/sh</item>
+		<item ask="Install Atilehd ?" icon="atilehd.png" name="Atilehd">wget https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install CrashLogoViewer ?" icon="crash.png" name="CrashLogViewer">wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh</item>
+		<item ask="Install CrondManger ?" icon="crondmanager.png" name="CronManager">wget https://github.com/emil237/download-plugins/raw/main/cronmanager.sh  -O - | /bin/sh</item>
+		<item ask="Install E2plyer" icon="e2player.png" name="E2Player-Tsplayer">wget https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh?inline=false  -O - | /bin/sh</item>
+		<item ask="Install Epg Grabber ?" icon="grabber.png" name="Epg Grabber">wget https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install Footonsat ?" icon="footonsat.png" name="FootOnsat">wget https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="freecccam.png" name="FreeCCcamServer Plugin">wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="historyzapselector.png" name="HistoryZapSelector">wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer.sh -O - | /bin/sh</item>
+		<item ask="Install plugin MyCam ?" icon="mycam.png" name="MyCam-Plugin">wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh</item>
+		<item ask="Install NewVirtualkeyBoard ?" icon="keyboard.png" name="NewVirtualKeyBoard">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Ozeta-Skins-Setup-2.8 ?" icon="ozeta.png" name="Ozeta-Skins-Setup-2.8">wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh</item>
+		<item ask="Install Quran ?" icon="quran.png" name="Quran-karem">wget https://raw.githubusercontent.com/emil237/quran/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install RaedQuickSignal ?" icon="RaedQuickSignal.png" name="Raedquicksignal">wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install sherlockmod ?" icon="sherlockmod.png" name="Sherlockmod">wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install SubsSupport_1.5.8-r9 ?" icon="subssupport.png" name="SubsSupport_1.5.8-r9">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
+		<item ask=" Install uninstaller-Plugins ?" icon="uninstaller.png" name="uninstaller-Plugins">wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install Xtreamty ?" icon="xtreamty.png" name="Xtreamity">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Xcpluginforever ?" icon="xc.png" name="Xcpluginforever">wget https://dreambox4u.com/emilnabil237/plugins/xcplugin/installer.sh -O - | /bin/sh</item>
+		<item ask="Install xtraevent_3.3 ?" icon="xtraevent.png" name="Xtraevent_3.3">opkg install curl
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh|sh</item>
-		<item name="Xtraevent_4.2" icon="xtraevent.png" ask="Install xtraevent_4.2 ?">opkg install curl
+		<item ask="Install xtraevent_4.2 ?" icon="xtraevent.png" name="Xtraevent_4.2">opkg install curl
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.2.sh|sh
 </item>
-		<item name="Xtraevent_4.5" icon="xtraevent.png" ask="Install xtraevent_4.5 ?">opkg install curl
+		<item ask="Install xtraevent_4.5 ?" icon="xtraevent.png" name="Xtraevent_4.5">opkg install curl
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_4.5.sh|sh</item>
-		<item name="Xtraevent_4.6" icon="xtraevent.png" ask="Install xtraevent ?">sh -c "$(wget -O- https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh)"</item>
-		<item name="Xtraevent_5.2" icon="xtraevent.png" ask="Install xtraevent_5.2 ?">opkg install curl
+		<item ask="Install xtraevent ?" icon="xtraevent.png" name="Xtraevent_4.6">sh -c "$(wget -O- https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh)"</item>
+		<item ask="Install xtraevent_5.2 ?" icon="xtraevent.png" name="Xtraevent_5.2">opkg install curl
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_5.2.sh|sh</item>
-		<item name="Xtraevent_5.3" icon="xtraevent.png" ask="Install xtraevent_5.3 ?">opkg install curl
+		<item ask="Install xtraevent_5.3 ?" icon="xtraevent.png" name="Xtraevent_5.3">opkg install curl
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_5.3.sh|sh</item>
+		<item ask=" Install YouTube ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/youtube.png" name="YouTube">wget https://dreambox4u.com/emilnabil237/plugins/YouTube/installer.sh  -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="SymLink" icon="symlink.png" mode="grid" font_size="30" bg="#000000" title_bg="#FF0000" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFFFF" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" shade="yes">
-		<item name="SymLink picon from hdd" icon="symlink.png">ln -sf /media/hdd/picon /usr/share/enigma2/picon</item>
-		<item name="SymLink picon from Usb" icon="symlink.png">ln -sf /media/usb/picon /usr/share/enigma2/picon</item>
-		<item name="SymLink piconCrypt from hdd" icon="symlink.png">ln -sf /media/hdd/piconCrypt /usr/share/enigma2/piconCrypt</item>
-		<item name="SymLink piconCrypt from Usb" icon="symlink.png">ln -sf /media/usb/piconCrypt /usr/share/enigma2/piconCrypt</item>
-		<item name="SymLink piconProv from hdd" icon="symlink.png">ln -sf /media/hdd/piconProv /usr/share/enigma2/piconProv</item>
-		<item name="SymLink piconProv from Usb" icon="symlink.png">ln -sf /media/usb/piconProv /usr/share/enigma2/piconProv</item>
-		<item name="SymLink piconSat from hdd" icon="symlink.png">ln -sf /media/hdd/piconSat /usr/share/enigma2/piconSat</item>
-		<item name="SymLink piconSat from Usb" icon="symlink.png">ln -sf /media/usb/piconSat /usr/share/enigma2/piconSat</item>
-		<item name="SymLink emu from hdd" icon="symlink.png">ln -sf /media/hdd/emu /usr/share/enigma2/emu</item>
-		<item name="SymLink emu from Usb" icon="symlink.png">ln -sf /media/usb/emu /usr/share/enigma2/emu</item>
+	<submenu bg="#000000" font_size="30" height="950" icon="symlink.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="SymLink" title1_bg="#000000" title1_fg="#FFFFFF" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#FF0000" width="1600">
+		<item icon="symlink.png" name="SymLink picon from hdd">ln -sf /media/hdd/picon /usr/share/enigma2/picon</item>
+		<item icon="symlink.png" name="SymLink picon from Usb">ln -sf /media/usb/picon /usr/share/enigma2/picon</item>
+		<item icon="symlink.png" name="SymLink piconCrypt from hdd">ln -sf /media/hdd/piconCrypt /usr/share/enigma2/piconCrypt</item>
+		<item icon="symlink.png" name="SymLink piconCrypt from Usb">ln -sf /media/usb/piconCrypt /usr/share/enigma2/piconCrypt</item>
+		<item icon="symlink.png" name="SymLink piconProv from hdd">ln -sf /media/hdd/piconProv /usr/share/enigma2/piconProv</item>
+		<item icon="symlink.png" name="SymLink piconProv from Usb">ln -sf /media/usb/piconProv /usr/share/enigma2/piconProv</item>
+		<item icon="symlink.png" name="SymLink piconSat from hdd">ln -sf /media/hdd/piconSat /usr/share/enigma2/piconSat</item>
+		<item icon="symlink.png" name="SymLink piconSat from Usb">ln -sf /media/usb/piconSat /usr/share/enigma2/piconSat</item>
+		<item icon="symlink.png" name="SymLink emu from hdd">ln -sf /media/hdd/emu /usr/share/enigma2/emu</item>
+		<item icon="symlink.png" name="SymLink emu from Usb">ln -sf /media/usb/emu /usr/share/enigma2/emu</item>
 	</submenu>
 
-	<submenu title="Tools Feed" icon="tools.png" mode="grid" shade="yes" font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="Feed Emil Nabil" icon="tools.png" ask="Install Feed Emil Nabil ?">wget http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh  -O - | /bin/sh</item>
-		<item name="Fix Softcam Atv" icon="tools.png" ask="Install Fix Softcam Atv ?">sh -c "$(wget --no-check-certificate http://updates.mynonpublic.com/oea/feed -qO -)"</item>
-		<item name="Fix Softcam OpenPli" icon="tools.png" ask="Install Fix Softcam OpenPli ?">curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/softcam-support-pli.sh|sh</item>
-		<item name="UPDATE ENIGMA2 ALL PYTHON" icon="tools.png" ask="Update Enigma2 All Python ?">wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh  -O - | /bin/sh</item>
-		<item name="Feed-Openpicons" icon="tools.png" info="(Picons-Feed snp-srp)" ask="Install Feed OpenPicons ?">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/script/openpicons-feed.sh -O - | /bin/sh</item>
-		<item name="service app" icon="tools.png" ask="">opkg install enigma2-plugin-systemplugins-serviceapp</item>
-		<item name="xml update" icon="tools.png" ask="">opkg install enigma2-plugin-systemplugins-xmlupdate</item>
-		<item name="wirelesslan" icon="tools.png" ask="">opkg install enigma2-plugin-systemplugins-wirelesslan</item>
-		<item name="bitrate" icon="tools.png" ask="">opkg install enigma2-plugin-extensions-bitrate</item>
-		<item name="epgimport" icon="tools.png" ask="install epgimport ?">opkg install enigma2-plugin-extensions-epgimport</item>
-		<item name="imdb" icon="tools.png" ask="">opkg install enigma2-plugin-extensions-imdb</item>
-		<item name="oaweather" icon="tools.png" ask="">opkg install enigma2-plugin-extensions-oaweather</item>
-		<item name="permanentclock" icon="tools.png" ask="">opkg install enigma2-plugin-extensions-permanentclock</item>
-		<item name="subssupport" icon="tools.png" ask="">opkg install enigma2-plugin-extensions-subssupport</item>
-		<item name="weatherplugin" icon="tools.png" ask="Install WeatherPlugin">opkg install enigma2-plugin-extensions-weatherplugin</item>
+	<submenu font_size="30" height="950" icon="tools.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Tools Feed" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install Feed Emil Nabil ?" icon="tools.png" name="Feed Emil Nabil">wget http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh  -O - | /bin/sh</item>
+		<item ask="Install Fix Softcam Atv ?" icon="tools.png" name="Fix Softcam Atv">sh -c "$(wget --no-check-certificate http://updates.mynonpublic.com/oea/feed -qO -)"</item>
+		<item ask="Install Fix Softcam OpenPli ?" icon="tools.png" name="Fix Softcam OpenPli">curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/softcam-support-pli.sh|sh</item>
+		<item ask="Update Enigma2 All Python ?" icon="tools.png" name="UPDATE ENIGMA2 ALL PYTHON">wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh  -O - | /bin/sh</item>
+		<item ask="Install Feed OpenPicons ?" icon="tools.png" info="(Picons-Feed snp-srp)" name="Feed-Openpicons">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/script/openpicons-feed.sh -O - | /bin/sh</item>
+		<item ask="" icon="tools.png" name="service app">opkg install enigma2-plugin-systemplugins-serviceapp</item>
+		<item ask="" icon="tools.png" name="xml update">opkg install enigma2-plugin-systemplugins-xmlupdate</item>
+		<item ask="" icon="tools.png" name="wirelesslan">opkg install enigma2-plugin-systemplugins-wirelesslan</item>
+		<item ask="" icon="tools.png" name="bitrate">opkg install enigma2-plugin-extensions-bitrate</item>
+		<item ask="install epgimport ?" icon="tools.png" name="epgimport">opkg install enigma2-plugin-extensions-epgimport</item>
+		<item ask="" icon="tools.png" name="imdb">opkg install enigma2-plugin-extensions-imdb</item>
+		<item ask="" icon="tools.png" name="oaweather">opkg install enigma2-plugin-extensions-oaweather</item>
+		<item ask="" icon="tools.png" name="permanentclock">opkg install enigma2-plugin-extensions-permanentclock</item>
+		<item ask="" icon="tools.png" name="subssupport">opkg install enigma2-plugin-extensions-subssupport</item>
+		<item ask="Install WeatherPlugin" icon="tools.png" name="weatherplugin">opkg install enigma2-plugin-extensions-weatherplugin</item>
 	</submenu>
 
-	<submenu title="picons" icon="picon.png" mode="grid_5x3" shade="yes" font_size="50" bg="chb.jpg" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="Chocholousek-Picons" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/chocholousekpicons.png" ask="Install Chochlousek Picon ?">sh -c "$(wget --no-check-certificate https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -qO -)</item>
-		<item name="Amos_4.0W" icon="picon.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-amos/main/installer.sh -O - | /bin/sh</item>
-		<item name="Astra_19.2E" ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-b.png">wget https://dreambox4u.com/emilnabil237/picons/installer-picin19.2e.sh -O - | /bin/sh"</item>
-		<item name="Badr_26E" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-g.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-Badr26E/main/installer.sh -O - | /bin/sh</item>
-		<item name="Bulgariasat_1.9E" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-p.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-bulgariasat/main/installer.sh -O - | /bin/sh</item>
-		<item name="Eutelsat_16E" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-t.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-eutelsat_16E/main/installer.sh -O - | /bin/sh</item>
-		<item name="Eutelsat_21.6E" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-y.png" ask="">wget https://dreambox4u.com/emilnabil237/picons/installer-picon21.6e.sh -O - | /bin/sh</item>
-		<item name="Hotbird_13E" icon="picon.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-hotbird/main/installer.sh -O - | /bin/sh</item>
-		<item name="Nilesat_7W+8W" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-b.png" ask="">wget https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh -O - | /bin/sh</item>
-		<item name="picons-other" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-g.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh</item>
-		<item name="Yahsat_52.5E" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-r.png" ask="">wget https://raw.githubusercontent.com/emil237/picon-yahsat/main/installer.sh -O - | /bin/sh</item>
+	<submenu bg="chb.jpg" font_size="50" height="950" icon="picon.png" mode="grid_5x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="picons" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install Chochlousek Picon ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/chocholousekpicons.png" name="Chocholousek-Picons">sh -c "$(wget --no-check-certificate https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -qO -)</item>
+		<item ask="" icon="picon.png" name="Amos_4.0W">wget https://raw.githubusercontent.com/emil237/picon-amos/main/installer.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-b.png" name="Astra_19.2E">wget https://dreambox4u.com/emilnabil237/picons/installer-picin19.2e.sh -O - | /bin/sh"</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-g.png" name="Badr_26E">wget https://raw.githubusercontent.com/emil237/picon-Badr26E/main/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-p.png" name="Bulgariasat_1.9E">wget https://raw.githubusercontent.com/emil237/picon-bulgariasat/main/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-t.png" name="Eutelsat_16E">wget https://raw.githubusercontent.com/emil237/picon-eutelsat_16E/main/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-y.png" name="Eutelsat_21.6E">wget https://dreambox4u.com/emilnabil237/picons/installer-picon21.6e.sh -O - | /bin/sh</item>
+		<item ask="" icon="picon.png" name="Hotbird_13E">wget https://raw.githubusercontent.com/emil237/picon-hotbird/main/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-b.png" name="Nilesat_7W+8W">wget https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-g.png" name="picons-other">wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/picon-r.png" name="Yahsat_52.5E">wget https://raw.githubusercontent.com/emil237/picon-yahsat/main/installer.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Skins" icon="skins.png" mode="grid_4x3" shade="yes" font_size="50" fg="#CCFB5D" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<submenu title="TeamNitro Skins" icon="teamnitro.png" mode="grid_4x3" shade="yes" font_size="50" fg="#CCFB5D" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="TeamNitro Control Center" icon="teamnitro.png" ask="Install Plugin TeamNitro ?">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/SKIN-teamnitro.sh  -O - | /bin/sh</item>
-			<item name="Desert skin" icon="skins.png" ask="Install Skin Desert ?">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer-skin-desert.sh -O - | /bin/sh</item>
-			<item name="BoHLALA skin" icon="skins.png" ask="Install Skin Bohlala ?">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer.sh -O - | /bin/sh</item>
-			<item name="Dragon skin" icon="skins.png" ask="Install Skin Dragon ?">wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh  -O - | /bin/sh</item>
-			<item name="NitroAdvance skin" icon="skins.png" ask="Install Skin NitroAdvance ?">wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerN.sh  -O - | /bin/sh</item>
-			<item name="Klll Pro" icon="skins.png" ask="Install Skin Kill Pro ?">wget https://raw.githubusercontent.com/biko-73/zelda77/main/installer.sh -O - | /bin/sh</item>
+	<submenu fg="#CCFB5D" font_size="50" height="950" icon="skins.png" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<submenu fg="#CCFB5D" font_size="50" height="950" icon="teamnitro.png" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="TeamNitro Skins" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+			<item ask="Install Plugin TeamNitro ?" icon="teamnitro.png" name="TeamNitro Control Center">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/SKIN-teamnitro.sh  -O - | /bin/sh</item>
+			<item ask="Install Skin Desert ?" icon="skins.png" name="Desert skin">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer-skin-desert.sh -O - | /bin/sh</item>
+			<item ask="Install Skin Bohlala ?" icon="skins.png" name="BoHLALA skin">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer.sh -O - | /bin/sh</item>
+			<item ask="Install Skin Dragon ?" icon="skins.png" name="Dragon skin">wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh  -O - | /bin/sh</item>
+			<item ask="Install Skin NitroAdvance ?" icon="skins.png" name="NitroAdvance skin">wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerN.sh  -O - | /bin/sh</item>
+			<item ask="Install Skin Kill Pro ?" icon="skins.png" name="Klll Pro">wget https://raw.githubusercontent.com/biko-73/zelda77/main/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="Skins Atv" icon="atv.png" fg="#CCFB5D" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="MyMetrixLiteBackup-by-Mohd" icon="skins.png" ask="Install MyMetrixLiteBackup ?">wget -O /etc/enigma2/MyMetrixLiteBackup.dat "https://raw.githubusercontent.com/emil237/skins-enigma2/main/ATV/MyMetrixLiteBackup.dat"</item>
-			<item name="MyMetrixLiteBackup" icon="skins.png" ask="Install MyMetrixLiteBackup ?">wget -O /etc/enigma2/MyMetrixLiteBackup.dat "https://raw.githubusercontent.com/emil237/plugins/main/MyMetrixLiteBackup.dat"</item>
-			<item name="Aglare-FHD" icon="skins.png" ask="Install Skin Aglare-FHD ?">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
-			<item name="skins-malek-fhd_2.2_py3.11.2-py3.12.1" icon="skins.png" ask="Install Skin Malek-FHD ?">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/ATV/skins-malek-fhd_2.2_py3.11.2-py3.12.1.sh|sh</item>
-			<item name="Nacht_1.7.3" icon="skins.png" ask="Install Skin Nacht_1.7.3 ?">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-nacht_1.7.3.sh -O - | /bin/sh</item>
-			<item name="Novaler-s-fhd-indianred_3.4" icon="skins.png" ask="Install Skin Novaler-s-fhd-indianred ?">wget https://dreambox4u.com/emilnabil237/skins/openatv/SKIN-novaler-s-fhd-indianred_3.4.sh -O - | /bin/sh</item>
-			<item name="Ozeta-Xtra" icon="skins.png" ask="Install Skin Ozeta Xtra ?">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-ozeta-xtra.sh -O - | /bin/sh</item>
+		<submenu fg="#CCFB5D" font_size="50" height="950" icon="atv.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Atv" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+			<item ask="Install MyMetrixLiteBackup ?" icon="skins.png" name="MyMetrixLiteBackup-by-Mohd">wget -O /etc/enigma2/MyMetrixLiteBackup.dat "https://raw.githubusercontent.com/emil237/skins-enigma2/main/ATV/MyMetrixLiteBackup.dat"</item>
+			<item ask="Install MyMetrixLiteBackup ?" icon="skins.png" name="MyMetrixLiteBackup">wget -O /etc/enigma2/MyMetrixLiteBackup.dat "https://raw.githubusercontent.com/emil237/plugins/main/MyMetrixLiteBackup.dat"</item>
+			<item ask="Install Skin Aglare-FHD ?" icon="skins.png" name="Aglare-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
+			<item ask="Install Skin Malek-FHD ?" icon="skins.png" name="skins-malek-fhd_2.2_py3.11.2-py3.12.1">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/ATV/skins-malek-fhd_2.2_py3.11.2-py3.12.1.sh|sh</item>
+			<item ask="Install Skin Nacht_1.7.3 ?" icon="skins.png" name="Nacht_1.7.3">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-nacht_1.7.3.sh -O - | /bin/sh</item>
+			<item ask="Install Skin Novaler-s-fhd-indianred ?" icon="skins.png" name="Novaler-s-fhd-indianred_3.4">wget https://dreambox4u.com/emilnabil237/skins/openatv/SKIN-novaler-s-fhd-indianred_3.4.sh -O - | /bin/sh</item>
+			<item ask="Install Skin Ozeta Xtra ?" icon="skins.png" name="Ozeta-Xtra">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-ozeta-xtra.sh -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="Skins BlackHole" icon="blackhole.png" mode="grid_4x3" shade="yes" fg="#E9AB17" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="q-purple" icon="blackhole.png" ask="Install Skin q-purple ?">opkg update
+		<submenu fg="#E9AB17" font_size="50" height="950" icon="blackhole.png" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins BlackHole" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+			<item ask="Install Skin q-purple ?" icon="blackhole.png" name="q-purple">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE--q-purple.sh|sh
 </item>
-			<item name="Alienaware-Obh4" icon="blackhole.png" ask="Install Skin Alienaware-Obh4 ?">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-alienaware-obh4.sh -O - | /bin/sh</item>
-			<item name="Ekselancen" icon="blackhole.png" ask="Install Skin Ekselancen ?">opkg update
+			<item ask="Install Skin Alienaware-Obh4 ?" icon="blackhole.png" name="Alienaware-Obh4">wget https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-alienaware-obh4.sh -O - | /bin/sh</item>
+			<item ask="Install Skin Ekselancen ?" icon="blackhole.png" name="Ekselancen">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-ekselancen.sh|sh</item>
-			<item name="Mx-Sline" icon="blackhole.png" ask="Install Skin Mx-Sline ?">opkg update
+			<item ask="Install Skin Mx-Sline ?" icon="blackhole.png" name="Mx-Sline">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-mx-sline.sh|sh</item>
-			<item name="Mxgraphite skin" icon="blackhole.png" ask="Install Skin Mxgraphite ?">opkg update
+			<item ask="Install Skin Mxgraphite ?" icon="blackhole.png" name="Mxgraphite skin">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-mxgraphite.sh|sh</item>
-			<item name="Q-Darkblue" icon="blackhole.png" ask="Install Skin Q-Darkblue ?">opkg update
+			<item ask="Install Skin Q-Darkblue ?" icon="blackhole.png" name="Q-Darkblue">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-q-darkblue.sh|sh</item>
-			<item name="Q-Fhd skin" icon="blackhole.png" ask="Install Skin Q-Fhd ?">opkg update
+			<item ask="Install Skin Q-Fhd ?" icon="blackhole.png" name="Q-Fhd skin">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE--q-purple.sh|sh</item>
-			<item name="Waves4" icon="blackhole.png" ask="Install Skin Waves4 ?">opkg update
+			<item ask="Install Skin Waves4 ?" icon="blackhole.png" name="Waves4">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-waves4.sh|sh</item>
 		</submenu>
 
-		<submenu title="Skins Egami" icon="egami.png" mode="grid_4x3" shade="yes" fg="#F9B7FF" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="Aglare-FHD" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/aglare.png" ask="Install Skin Aglare-FHD ?">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
-			<item name="Premium-Fhd_2.7" icon="skins-premium.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
-			<item name="Premium-Black-Fhd_2.7" icon="skins-premium-black.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
-			<item name="Premium-Blue-Fhd_2.7" icon="skins-premium-blue.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh</item>
-			<item name="Odreamy-Fhd" icon="skins.png" ask="">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-odreamy-fhd.sh -O - | /bin/sh</item>
+		<submenu fg="#F9B7FF" font_size="50" height="950" icon="egami.png" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Egami" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+			<item ask="Install Skin Aglare-FHD ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/aglare.png" name="Aglare-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
+			<item ask="" icon="skins-premium.png" name="Premium-Fhd_2.7">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
+			<item ask="" icon="skins-premium-black.png" name="Premium-Black-Fhd_2.7">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
+			<item ask="" icon="skins-premium-blue.png" name="Premium-Blue-Fhd_2.7">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh</item>
+			<item ask="" icon="skins.png" name="Odreamy-Fhd">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-odreamy-fhd.sh -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="Skins Open Black Hole" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/OBH.png" mode="grid_4x3" shade="yes" font_size="50" fg="#CCFB5D" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="MX_GrayDots_vip-xtra_mod-HA" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/MX_GrayDots_vip-xtra_mod-HA.sh  -O - | /bin/sh</item>
-			<item name="mx-hq9w_2.0-mod3-FHD" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-hq9w_2.0-mod3fhd.sh  -O - | /bin/sh</item>
-			<item name="MX-MaesteraBPR-FHD_MOD-HAhmed" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-MaesteraBPR-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
-			<item name="Mx-PrioFHD-xtra_mod-HAhmed" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/Mx-PrioFHD-xtra_mod-HAhmed.sh  -O - | /bin/sh</item>
-			<item name="mx-sline-posterx_2.0-mod2ha" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-posterx_2.0-mod2ha.sh  -O - | /bin/sh</item>
-			<item name="MX-SunMoon-FHD_MOD-HAhmed" ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-SunMoon-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
+		<submenu fg="#CCFB5D" font_size="50" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/OBH.png" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Open Black Hole" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+			<item ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png" name="MX_GrayDots_vip-xtra_mod-HA">wget https://dreambox4u.com/emilnabil237/skins/obh/MX_GrayDots_vip-xtra_mod-HA.sh  -O - | /bin/sh</item>
+			<item ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png" name="mx-hq9w_2.0-mod3-FHD">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-hq9w_2.0-mod3fhd.sh  -O - | /bin/sh</item>
+			<item ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png" name="MX-MaesteraBPR-FHD_MOD-HAhmed">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-MaesteraBPR-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
+			<item ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png" name="Mx-PrioFHD-xtra_mod-HAhmed">wget https://dreambox4u.com/emilnabil237/skins/obh/Mx-PrioFHD-xtra_mod-HAhmed.sh  -O - | /bin/sh</item>
+			<item ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png" name="mx-sline-posterx_2.0-mod2ha">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-posterx_2.0-mod2ha.sh  -O - | /bin/sh</item>
+			<item ask="Install Skin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/skins.png" name="MX-SunMoon-FHD_MOD-HAhmed">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-SunMoon-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="Skins Pli_8x" icon="pli.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="CH.LEAGUE-FHD" icon="skins.png" ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-CH.LEAGUE-FHD.sh -O - | /bin/sh</item>
-			<item name="Ozeta-Xtra" icon="skins.png" ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh</item>
-			<item name="QATAR-2022-V3-FHD" icon="skins.png" ask="yes">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-QATAR-2022-V3-FHD.sh -O - | /bin/sh</item>
-			<item name="SPIDERMAN-FHD" icon="skins.png" ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-SPIDERMAN-FHD.sh -O - | /bin/sh</item>
-			<item name="WAR-S-FHD" icon="skins.png" ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-WAR-S-FHD.sh -O - | /bin/sh</item>
-			<item name="BLACKSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-BLACKSKY-S-HD-MOD-By-Muaath.sh|sh</item>
-			<item name="BLUESKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-BLUESKY-S-HD-MOD-By-Muaath.sh|sh</item>
-			<item name="CYANSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-CYANSKY-S-HD-MOD-By-Muaath.sh|sh</item>
-			<item name="GOLDSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GOLDSKY-S-HD-MOD-By-Muaath.sh|sh</item>
-			<item name="GREENSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GREENSKY-S-HD-MOD-By-Muaath.sh|sh</item>
-			<item name="PINKSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-PINKSKY-S-HD-MOD-By-Muaath.sh|sh</item>
-			<item name="PURPLESKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-PURPLESKY-S-HD-MOD-By-Muaath.sh|sh</item>
-			<item name="REDSKY-S-HD-MOD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-REDSKY-S-HD-MOD-By-Muaath.sh|sh</item>
-			<item name="BATMAN-MP-HD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-BATMAN-MP-HD-By-Muaath.sh|sh</item>
-			<item name="CHAMPIONSLEAGUE-HD-P-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-CHAMPIONSLEAGUE-HD-P-By-Muaath.sh|sh</item>
-			<item name="DARK-SHADOW-T-HD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-DARK-SHADOW-T-HD-By-Muaath.sh|sh</item>
-			<item name="EUR02020-FHD-N-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-EUR02020-FHD-N-By-Muaath.sh|sh</item>
-			<item name="GOLDSKY-T-FHD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GOLDSKY-T-FHD-By-Muaath.sh|sh</item>
-			<item name="GREY-SHADOW-FHD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GREY-SHADOW-FHD-By-Muaath.sh|sh</item>
-			<item name="ICONE-FHD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-ICONE-FHD-By-Muaath.sh|sh</item>
-			<item name="OSN-BLUE-FHD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-OSN-BLUE-FHD-By-Muaath.sh|sh</item>
-			<item name="OSN-FHD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-OSN-FHD-By-Muaath.sh|sh</item>
-			<item name="ROBOCOP2-HD-MOD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-ROBOCOP2-HD-MOD-By-Muaath.sh|sh</item>
-			<item name="SPIDERMAN-P-FHD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-SPIDERMAN-P-FHD-By-Muaath.sh|sh</item>
-			<item name="T.BLACK-HD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.BLACK-HD-By-Muaath.sh|sh</item>
-			<item name="T.BLUE-HD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.BLUE-HD-By-Muaath.sh|sh</item>
-			<item name="T.PURPLE-HD-By-Muaath" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.PURPLE-HD-By-Muaath.sh|sh</item>
-			<item name="TOKYO2020-FHD-By-Muaath" icon="skins.png" ask="yes">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-TOKYO2020-FHD-By-Muaath.sh|sh</item>
+		<submenu font_size="50" height="950" icon="pli.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Pli_8x" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+			<item ask="" icon="skins.png" name="CH.LEAGUE-FHD">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-CH.LEAGUE-FHD.sh -O - | /bin/sh</item>
+			<item ask="" icon="skins.png" name="Ozeta-Xtra">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh</item>
+			<item ask="yes" icon="skins.png" name="QATAR-2022-V3-FHD">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-QATAR-2022-V3-FHD.sh -O - | /bin/sh</item>
+			<item ask="" icon="skins.png" name="SPIDERMAN-FHD">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-SPIDERMAN-FHD.sh -O - | /bin/sh</item>
+			<item ask="" icon="skins.png" name="WAR-S-FHD">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-WAR-S-FHD.sh -O - | /bin/sh</item>
+			<item ask="" icon="skins.png" name="BLACKSKY-S-HD-MOD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-BLACKSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="BLUESKY-S-HD-MOD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-BLUESKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item ask="yes" icon="skins.png" name="CYANSKY-S-HD-MOD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-CYANSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="GOLDSKY-S-HD-MOD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GOLDSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="GREENSKY-S-HD-MOD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GREENSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="PINKSKY-S-HD-MOD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-PINKSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="PURPLESKY-S-HD-MOD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-PURPLESKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item ask="yes" icon="skins.png" name="REDSKY-S-HD-MOD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-REDSKY-S-HD-MOD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="BATMAN-MP-HD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-BATMAN-MP-HD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="CHAMPIONSLEAGUE-HD-P-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-CHAMPIONSLEAGUE-HD-P-By-Muaath.sh|sh</item>
+			<item ask="yes" icon="skins.png" name="DARK-SHADOW-T-HD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-DARK-SHADOW-T-HD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="EUR02020-FHD-N-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-EUR02020-FHD-N-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="GOLDSKY-T-FHD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GOLDSKY-T-FHD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="GREY-SHADOW-FHD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-GREY-SHADOW-FHD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="ICONE-FHD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-ICONE-FHD-By-Muaath.sh|sh</item>
+			<item ask="yes" icon="skins.png" name="OSN-BLUE-FHD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-OSN-BLUE-FHD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="OSN-FHD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-OSN-FHD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="ROBOCOP2-HD-MOD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-ROBOCOP2-HD-MOD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="SPIDERMAN-P-FHD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-SPIDERMAN-P-FHD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="T.BLACK-HD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.BLACK-HD-By-Muaath.sh|sh</item>
+			<item ask="yes" icon="skins.png" name="T.BLUE-HD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.BLUE-HD-By-Muaath.sh|sh</item>
+			<item ask="" icon="skins.png" name="T.PURPLE-HD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.PURPLE-HD-By-Muaath.sh|sh</item>
+			<item ask="yes" icon="skins.png" name="TOKYO2020-FHD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-TOKYO2020-FHD-By-Muaath.sh|sh</item>
 		</submenu>
 
-		<submenu title="Skins Pli_9x" icon="pli.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="BLACKNEON-XP_Mod_M-Nasr" icon="skins.png" ask="">curl -kLs https://dreambox4u.com/emilnabil237/skins/pli9x/Skin-BLACKNEON-XP_mod_mnasr-pli9x.sh|sh</item>
-			<item name="malek-fhd_1.2" icon="skins.png" ask="">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/Skin-malek-fhd_1.2.sh|sh</item>
-			<item name="Ozeta-Xtra" icon="skins.png" ask="">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh</item>
+		<submenu font_size="50" height="950" icon="pli.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Pli_9x" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+			<item ask="" icon="skins.png" name="BLACKNEON-XP_Mod_M-Nasr">curl -kLs https://dreambox4u.com/emilnabil237/skins/pli9x/Skin-BLACKNEON-XP_mod_mnasr-pli9x.sh|sh</item>
+			<item ask="" icon="skins.png" name="malek-fhd_1.2">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/Skin-malek-fhd_1.2.sh|sh</item>
+			<item ask="" icon="skins.png" name="Ozeta-Xtra">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="Skins Spa-8.3" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/spa.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="Aglare-FHD" icon="skins.png" ask="Install Skin Aglare-FHD ?">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
-			<item name="BlackSPAFHD_posterX-Mod-HA" icon="skins.png" ask="">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-BlackSPAFHD_posterX-Mod-HA.sh?inline=false|sh</item>
-			<item name="estuary-1080" icon="skins.png" ask="">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuary-1080.sh?inline=false|sh</item>
-			<item name="estuaryFHD_Mod-HA" icon="skins.png" ask="">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuaryFHD_openspa_Mod-HA.sh?inline=false|sh</item>
-			<item name="OpenplusFHD_posterX-Mod-HA" icon="skins.png" ask="yes">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-openplusFHD_posterX-Mod-HA.sh?inline=false|sh</item>
+		<submenu font_size="50" height="950" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/spa.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Spa-8.3" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+			<item ask="Install Skin Aglare-FHD ?" icon="skins.png" name="Aglare-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
+			<item ask="" icon="skins.png" name="BlackSPAFHD_posterX-Mod-HA">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-BlackSPAFHD_posterX-Mod-HA.sh?inline=false|sh</item>
+			<item ask="" icon="skins.png" name="estuary-1080">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuary-1080.sh?inline=false|sh</item>
+			<item ask="" icon="skins.png" name="estuaryFHD_Mod-HA">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuaryFHD_openspa_Mod-HA.sh?inline=false|sh</item>
+			<item ask="yes" icon="skins.png" name="OpenplusFHD_posterX-Mod-HA">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-openplusFHD_posterX-Mod-HA.sh?inline=false|sh</item>
 		</submenu>
 
-		<submenu title="Skins VTI" icon="vti.png" mode="grid" shade="yes" font_size="50" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="Aeonfhdmod_sharp987" icon="skins.png" ask="Install Skin Aeonfhdmod_sharp987 ?">opkg update
+		<submenu font_size="50" height="950" icon="vti.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins VTI" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+			<item ask="Install Skin Aeonfhdmod_sharp987 ?" icon="skins.png" name="Aeonfhdmod_sharp987">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-aeonfhdmod_sharp987_vti-r3.27.sh|sh
 </item>
-			<item name="Blue-shadow-fhd" icon="skins.png" ask="Install Skin Blue-shadow-fhd ?">opkg update
+			<item ask="Install Skin Blue-shadow-fhd ?" icon="skins.png" name="Blue-shadow-fhd">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-blue-shadow-fhd_3.5.sh|sh</item>
-			<item name="Cerx-fhd" icon="skins.png" ask="Install Skin Cerx-fhd ?">opkg update
+			<item ask="Install Skin Cerx-fhd ?" icon="skins.png" name="Cerx-fhd">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-cerx-fhd.sh|sh</item>
-			<item name="Full-hd_9.7" icon="skins.png" ask="Install Skin Full-hd_9.7 ?">opkg update
+			<item ask="Install Skin Full-hd_9.7 ?" icon="skins.png" name="Full-hd_9.7">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-full-hd_9.7.sh|sh</item>
-			<item name="Greenhexagon-fhd" icon="skins.png" ask="Install Skin Greenhexagon-fhd ?">opkg update
+			<item ask="Install Skin Greenhexagon-fhd ?" icon="skins.png" name="Greenhexagon-fhd">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-greenhexagon-fhd.sh|sh
 </item>
-			<item name="Linearfhd_v4.1.1" icon="skins.png" ask="Install Skin Linearfhd_v4.1.1 ?">opkg update
+			<item ask="Install Skin Linearfhd_v4.1.1 ?" icon="skins.png" name="Linearfhd_v4.1.1">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-linearfhd_v4.1.1.sh|sh</item>
-			<item name="Sky-fhd_3.6" icon="skins.png" ask="Install Skin Sky-fhd_3.6 ?">opkg update
+			<item ask="Install Skin Sky-fhd_3.6 ?" icon="skins.png" name="Sky-fhd_3.6">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-Sky-fhd_3.6.sh|sh</item>
-			<item name="Square-fhd_2.2" icon="skins.png" ask="Install Skin Square-fhd_2.2 ?">opkg update
+			<item ask="Install Skin Square-fhd_2.2 ?" icon="skins.png" name="Square-fhd_2.2">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-square-fhd_2.2.sh|sh</item>
-			<item name="Zflatgyrfhd_Sharp987" icon="skins.png" ask="Install Skin Zflatgyrfhd_Sharp987 ?">opkg update
+			<item ask="Install Skin Zflatgyrfhd_Sharp987 ?" icon="skins.png" name="Zflatgyrfhd_Sharp987">opkg update
 opkg install curl
 curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sharp987_vti-r1.01.sh|sh</item>
 		</submenu>
 
-		<submenu title="Skins Plugin Xstreamity" icon="xtreamty.png" bg="#06006666" mode="grid_3x3" shade="yes" font_size="50" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="Abstract" icon="abstract.png" ask="Install Skin Abstract ?">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-abstract.sh -O - | /bin/sh</item>
-			<item name="Qatar2022" icon="Qatar2022.png" ask="Install Skin qatar2022 ?">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-qatar.sh -O - | /bin/sh</item>
-			<item name="Toys" icon="toys.png" ask="Install Skin toys ?">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-toys.sh -O - | /bin/sh</item>
+		<submenu bg="#06006666" font_size="50" height="950" icon="xtreamty.png" mode="grid_3x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Plugin Xstreamity" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" width="1600">
+			<item ask="Install Skin Abstract ?" icon="abstract.png" name="Abstract">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-abstract.sh -O - | /bin/sh</item>
+			<item ask="Install Skin qatar2022 ?" icon="Qatar2022.png" name="Qatar2022">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-qatar.sh -O - | /bin/sh</item>
+			<item ask="Install Skin toys ?" icon="toys.png" name="Toys">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-toys.sh -O - | /bin/sh</item>
 		</submenu>
 	</submenu>
 
-	<submenu title="Bootlogo" info="Download And Install Multi Bootlogo Swapper" icon="bootlogo.png" mode="grid" shade="yes" font_size="30" bg="chb.jpg" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="Bootlogo-Atv" info="Download And Install Bootlogo Swapper Atv" icon="bootlogo.png" ask="Install BootlogoSwapper Atv ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Atv.sh  -O - | /bin/sh</item>
-		<item name="Bootlogo-christmas" info="Download And Install Bootlogo Swapper Christmas" icon="christmas.png" ask="Install BootlogoSwapper Christmas ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-christmas.sh -O - | /bin/sh</item>
-		<item name="Bootlogo-ObenPli" info="Download And Install Bootlogo Swapper OpenPli" icon="bootlogo.png" ask="Install BootlogoSwapper Pli ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-pli.sh -O - | /bin/sh</item>
-		<item name="bootlogo-OpenBH" info="Download And Install Bootlogo Swapper Open BlackHole" icon="bootlogo.png" ask="Install BootlogoSwapper OpenBH ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenBH.sh  -O - | /bin/sh</item>
-		<item name="BootLogo-Egami" info="Download And Install Bootlogo Swapper Egami" icon="bootlogo.png" ask="Install BootlogoSwapper Egami ?">wget http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Egami.sh -O - | /bin/sh</item>
-		<item name="Bootlogo-OpenVix" info="Download And Install Bootlogo Swapper OpenVix" icon="bootlogo.png" ask="">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenVix.sh  -O - | /bin/sh</item>
-		<item name="Bootlogo-Kids" info="Download And Install Bootlogo Swapper Kids" icon="kids.png" ask="Install BootlogoSwapper-Kids ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-kids.sh -O - | /bin/sh</item>
-		<item name="Bootlogo-Ramadan" info="Download And Install Bootlogo Swapper Ramadan" icon="bootlogo.png" ask="Install Bootlogo-Swapper-Ramadan ?">wget http://dreambox4u.com/emilnabil237/script/bootlogo-swapper-ramadan.sh  -O - | /bin/sh</item>
-		<item name="Bootlogo-Eid-Aldha" info="Download And Install Bootlogo Swapper Eid-Aladha" icon="bootlogo.png" ask="Install BootlogoSwaper-Eid-Aldha ?">wget http://dreambox4u.com/emilnabil237/script/bootlogoswaper-Eid-Aldha.sh -O - | /bin/sh</item>
+	<submenu bg="chb.jpg" font_size="30" height="950" icon="bootlogo.png" info="Download And Install Multi Bootlogo Swapper" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Bootlogo" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install BootlogoSwapper Atv ?" icon="bootlogo.png" info="Download And Install Bootlogo Swapper Atv" name="Bootlogo-Atv">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Atv.sh  -O - | /bin/sh</item>
+		<item ask="Install BootlogoSwapper Christmas ?" icon="christmas.png" info="Download And Install Bootlogo Swapper Christmas" name="Bootlogo-christmas">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-christmas.sh -O - | /bin/sh</item>
+		<item ask="Install BootlogoSwapper Pli ?" icon="bootlogo.png" info="Download And Install Bootlogo Swapper OpenPli" name="Bootlogo-ObenPli">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-pli.sh -O - | /bin/sh</item>
+		<item ask="Install BootlogoSwapper OpenBH ?" icon="bootlogo.png" info="Download And Install Bootlogo Swapper Open BlackHole" name="bootlogo-OpenBH">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenBH.sh  -O - | /bin/sh</item>
+		<item ask="Install BootlogoSwapper Egami ?" icon="bootlogo.png" info="Download And Install Bootlogo Swapper Egami" name="BootLogo-Egami">wget http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Egami.sh -O - | /bin/sh</item>
+		<item ask="" icon="bootlogo.png" info="Download And Install Bootlogo Swapper OpenVix" name="Bootlogo-OpenVix">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenVix.sh  -O - | /bin/sh</item>
+		<item ask="Install BootlogoSwapper-Kids ?" icon="kids.png" info="Download And Install Bootlogo Swapper Kids" name="Bootlogo-Kids">wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-kids.sh -O - | /bin/sh</item>
+		<item ask="Install Bootlogo-Swapper-Ramadan ?" icon="bootlogo.png" info="Download And Install Bootlogo Swapper Ramadan" name="Bootlogo-Ramadan">wget http://dreambox4u.com/emilnabil237/script/bootlogo-swapper-ramadan.sh  -O - | /bin/sh</item>
+		<item ask="Install BootlogoSwaper-Eid-Aldha ?" icon="bootlogo.png" info="Download And Install Bootlogo Swapper Eid-Aladha" name="Bootlogo-Eid-Aldha">wget http://dreambox4u.com/emilnabil237/script/bootlogoswaper-Eid-Aldha.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Emu Cam" icon="emu.png" mode="grid1_5x3" shade="yes" font_size="30" bg="#22440033" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="Cccam" icon="cccam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh  -O - | /bin/sh</item>
-		<item name="gosatplus-ncam" icon="gosat.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh  -O - | /bin/sh</item>
-		<item name="gosatplus-oscam" icon="gosat.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh  -O - | /bin/sh</item>
-		<item name="gosatplus" icon="gosat.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus.sh  -O - | /bin/sh</item>
-		<item name="Hold-flag-ncam" icon="hold.png" ask="">opkg flag hold enigma2-plugin-softcams-ncam</item>
-		<item name="Hold-flag-oscam" icon="hold.png" ask="">opkg flag hold enigma2-plugin-softcams-oscam</item>
-		<item name="Ncam" icon="ncam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
-		<item name="Oscam" icon="oscam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
-		<item name="oscamicam" icon="oscam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh  -O - | /bin/sh</item>
-		<item name="powercam_v2-icam-arm" icon="powercam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh  -O - | /bin/sh</item>
-		<item name="powercam-Ncam" icon="powercam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh  -O - | /bin/sh</item>
-		<item name="powercam-Oscam" icon="powercam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh  -O - | /bin/sh</item>
-		<item name="Restore-flag-ncam" icon="restore.png" ask="">opkg flag user enigma2-plugin-softcams-ncam</item>
-		<item name="Restore-flag-oscam" icon="restore.png" ask="">opkg flag user enigma2-plugin-softcams-oscam</item>
-		<item name="Revcam-Ncam" icon="revcam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh  -O - | /bin/sh</item>
-		<item name="Revcam-Oscam" icon="revcam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-oscam.sh  -O - | /bin/sh</item>
-		<item name="Revcam" icon="revcam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh  -O - | /bin/sh</item>
-		<item name="Supcam-Ncam" icon="supcam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh  -O - | /bin/sh</item>
-		<item name="Supcam-Oscam" icon="supcam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh  -O - | /bin/sh</item>
-		<item name="Ultracam-Ncam" icon="ultracam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh  -O - | /bin/sh</item>
-		<item name="Ultracam-Oscam" icon="ultracam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh  -O - | /bin/sh</item>
-		<item name="Ultracam" icon="ultracam.png" ask="">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh  -O - | /bin/sh</item>
+	<submenu bg="#22440033" font_size="30" height="950" icon="emu.png" mode="grid1_5x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Emu Cam" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" width="1600">
+		<item ask="" icon="cccam.png" name="Cccam">wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="gosat.png" name="gosatplus-ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="gosat.png" name="gosatplus-oscam">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="gosat.png" name="gosatplus">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus.sh  -O - | /bin/sh</item>
+		<item ask="" icon="hold.png" name="Hold-flag-ncam">opkg flag hold enigma2-plugin-softcams-ncam</item>
+		<item ask="" icon="hold.png" name="Hold-flag-oscam">opkg flag hold enigma2-plugin-softcams-oscam</item>
+		<item ask="" icon="ncam.png" name="Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
+		<item ask="" icon="oscam.png" name="Oscam">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="oscam.png" name="oscamicam">wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="powercam.png" name="powercam_v2-icam-arm">wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh  -O - | /bin/sh</item>
+		<item ask="" icon="powercam.png" name="powercam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="powercam.png" name="powercam-Oscam">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="restore.png" name="Restore-flag-ncam">opkg flag user enigma2-plugin-softcams-ncam</item>
+		<item ask="" icon="restore.png" name="Restore-flag-oscam">opkg flag user enigma2-plugin-softcams-oscam</item>
+		<item ask="" icon="revcam.png" name="Revcam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="revcam.png" name="Revcam-Oscam">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="revcam.png" name="Revcam">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="supcam.png" name="Supcam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="supcam.png" name="Supcam-Oscam">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="ultracam.png" name="Ultracam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="ultracam.png" name="Ultracam-Oscam">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="ultracam.png" name="Ultracam">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh  -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Images" icon="images.png" info="Download Images To plugin Neoboot Or Egamiboot Or Openmultiboot" mode="grid" shade="yes" font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg=" " title1_bg="#000000" title2_fg="#11FFFFC0" title2_bg="#000000" width="1600" height="950" title_fg="#1100FF00">
-		<item name="BlackHole-3.1.0" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image BlackHole-3.1.0 ?">wget https://dreambox4u.com/emilnabil237/images/BlackHole-3.1.0.sh  -O - | /bin/sh</item>
-		<item name="Egami-10.4" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image Egami-10.4 ?">wget https://dreambox4u.com/emilnabil237/images/egami-10.4.sh -O - | /bin/sh</item>
-		<item name="Nonsolosat-30-py3" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image Nonsolosat-30-py3 ?">wget https://dreambox4u.com/emilnabil237/images/nonsolosat-30-py3.sh -O - | /bin/sh</item>
-		<item name="Openatv-6.4" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image Openatv-6.4 ?">wget https://dreambox4u.com/emilnabil237/images/openatv-6.4.sh  -O - | /bin/sh</item>
-		<item name="Openatv-7.0" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image Openatv-7.0 ?">sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/images/openatv-7.0.sh)</item>
-		<item name="Openatv-7.1" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image Openatv-7.1 ?">wget https://dreambox4u.com/emilnabil237/images/openatv-7.1.sh  -O - | /bin/sh</item>
-		<item name="Openatv-7.2" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image Openatv-7.2 ?">wget https://dreambox4u.com/emilnabil237/images/openatv-7.2.sh -O - | /bin/sh</item>
-		<item name="Openatv-7.3" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image Openatv-7.3 ?">wget https://dreambox4u.com/emilnabil237/images/openatv-7.3.sh -O - | /bin/sh</item>
-		<item name="Openatv-7.4" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image Openatv-7.4 ?">wget https://dreambox4u.com/emilnabil237/images/openatv-7.4.sh -O - | /bin/sh</item>
-		<item name="OpenBlackHole-4.4" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image OpenBlackHole-4.4 ?">wget https://dreambox4u.com/emilnabil237/images/openblackhole-4.4-for-vuplus-only.sh -O - | /bin/sh</item>
-		<item name="OpenBlackHole-5.0" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image OpenBlackHole-5.0 ?">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.0.sh -O - | /bin/sh</item>
-		<item name="OpenBlackHole-5.1" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image OpenBlackHole-5.1 ?">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.1.sh -O - | /bin/sh</item>
-		<item name="OpenBlackHole-5.2" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image OpenBlackHole-5.2 ?">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.2.sh -O - | /bin/sh</item>
-		<item name="OpenBlackHole-5.3" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image OpenBlackHole-5.3 ?">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.3.sh -O - | /bin/sh</item>
-		<item name="OpenDroid-7.1 For Vuplus Only" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image OpenDroid-7.1 ?">wget https://dreambox4u.com/emilnabil237/images/opendroid-7.1.sh -O - | /bin/sh</item>
-		<item name="OpenDroid-7.3 For Vuplus  GigaBlue  Octagon Only" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image OpenDroid-7.3 ?">wget https://dreambox4u.com/emilnabil237/images/opendroid-7.3.sh -O - | /bin/sh</item>
-		<item name="OpenPli-8.3" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image OpenPli-8.3 ?">wget https://dreambox4u.com/emilnabil237/images/openpli-8.3.sh -O - | /bin/sh</item>
-		<item name="OpenPli-8.3-Time-Shift" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image OpenPli-8.3-Time-Shift ?">wget https://dreambox4u.com/emilnabil237/images/openpli-8.3-py2-TimeShift.sh -O - | /bin/sh</item>
-		<item name="OpenPli-9.0-Time-Shift" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image OpenPli-9.0-Time-Shift ?">wget https://dreambox4u.com/emilnabil237/images/openpli-9.0-py3-TimeShift.sh -O - | /bin/sh</item>
-		<item name="Vti-15.0.02" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" ask="Download Image VTI-15.0.02 ?">wget https://dreambox4u.com/emilnabil237/images/vti-15.0.02.sh -O - | /bin/sh</item>
+	<submenu font_size="30" height="950" icon="images.png" info="Download Images To plugin Neoboot Or Egamiboot Or Openmultiboot" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Images" title1_bg="#000000" title1_fg=" " title2_bg="#000000" title2_fg="#11FFFFC0" title_bg="#11332233" title_fg="#1100FF00" width="1600">
+		<item ask="Download Image BlackHole-3.1.0 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="BlackHole-3.1.0">wget https://dreambox4u.com/emilnabil237/images/BlackHole-3.1.0.sh  -O - | /bin/sh</item>
+		<item ask="Download Image Egami-10.4 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="Egami-10.4">wget https://dreambox4u.com/emilnabil237/images/egami-10.4.sh -O - | /bin/sh</item>
+		<item ask="Download Image Nonsolosat-30-py3 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="Nonsolosat-30-py3">wget https://dreambox4u.com/emilnabil237/images/nonsolosat-30-py3.sh -O - | /bin/sh</item>
+		<item ask="Download Image Openatv-6.4 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="Openatv-6.4">wget https://dreambox4u.com/emilnabil237/images/openatv-6.4.sh  -O - | /bin/sh</item>
+		<item ask="Download Image Openatv-7.0 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="Openatv-7.0">sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/images/openatv-7.0.sh)</item>
+		<item ask="Download Image Openatv-7.1 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="Openatv-7.1">wget https://dreambox4u.com/emilnabil237/images/openatv-7.1.sh  -O - | /bin/sh</item>
+		<item ask="Download Image Openatv-7.2 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="Openatv-7.2">wget https://dreambox4u.com/emilnabil237/images/openatv-7.2.sh -O - | /bin/sh</item>
+		<item ask="Download Image Openatv-7.3 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="Openatv-7.3">wget https://dreambox4u.com/emilnabil237/images/openatv-7.3.sh -O - | /bin/sh</item>
+		<item ask="Download Image Openatv-7.4 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="Openatv-7.4">wget https://dreambox4u.com/emilnabil237/images/openatv-7.4.sh -O - | /bin/sh</item>
+		<item ask="Download Image OpenBlackHole-4.4 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="OpenBlackHole-4.4">wget https://dreambox4u.com/emilnabil237/images/openblackhole-4.4-for-vuplus-only.sh -O - | /bin/sh</item>
+		<item ask="Download Image OpenBlackHole-5.0 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="OpenBlackHole-5.0">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.0.sh -O - | /bin/sh</item>
+		<item ask="Download Image OpenBlackHole-5.1 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="OpenBlackHole-5.1">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.1.sh -O - | /bin/sh</item>
+		<item ask="Download Image OpenBlackHole-5.2 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="OpenBlackHole-5.2">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.2.sh -O - | /bin/sh</item>
+		<item ask="Download Image OpenBlackHole-5.3 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="OpenBlackHole-5.3">wget https://dreambox4u.com/emilnabil237/images/openblackhole-5.3.sh -O - | /bin/sh</item>
+		<item ask="Download Image OpenDroid-7.1 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="OpenDroid-7.1 For Vuplus Only">wget https://dreambox4u.com/emilnabil237/images/opendroid-7.1.sh -O - | /bin/sh</item>
+		<item ask="Download Image OpenDroid-7.3 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="OpenDroid-7.3 For Vuplus  GigaBlue  Octagon Only">wget https://dreambox4u.com/emilnabil237/images/opendroid-7.3.sh -O - | /bin/sh</item>
+		<item ask="Download Image OpenPli-8.3 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="OpenPli-8.3">wget https://dreambox4u.com/emilnabil237/images/openpli-8.3.sh -O - | /bin/sh</item>
+		<item ask="Download Image OpenPli-8.3-Time-Shift ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="OpenPli-8.3-Time-Shift">wget https://dreambox4u.com/emilnabil237/images/openpli-8.3-py2-TimeShift.sh -O - | /bin/sh</item>
+		<item ask="Download Image OpenPli-9.0-Time-Shift ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="OpenPli-9.0-Time-Shift">wget https://dreambox4u.com/emilnabil237/images/openpli-9.0-py3-TimeShift.sh -O - | /bin/sh</item>
+		<item ask="Download Image VTI-15.0.02 ?" icon="images.png" info="(&#1578;&#1581;&#1605;&#1610;&#1604; &#1575;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1610; &#1605;&#1580;&#1604;&#1583;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606;&#1575;&#1578; &#1575;&#1604;&#1578;&#1575;&#1604;&#1610;&#1577; &#1575;&#1606; &#1608;&#1580;&#1583;&#1578; &#1601;&#1610; &#1575;&#1604;&#1605;&#1587;&#1575;&#1585; media/hdd &#1606;&#1610;&#1608;&#1610;&#1608;&#1578; &#1575;&#1608; &#1575;&#1610;&#1580;&#1575;&#1605;&#1610; &#1576;&#1608;&#1578; &#1575;&#1608; &#1575;&#1608;&#1576;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1576;&#1608;&#1578; )" name="Vti-15.0.02">wget https://dreambox4u.com/emilnabil237/images/vti-15.0.02.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Backup and Restore Settings Menu" icon="backup.png" mode="grid" shade="yes" font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<submenu title="Backup Settings Menu" icon="backup.png" mode="grid" shade="yes" font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="fullbackup-Image-vu+4k" info="&#1576;&#1575;&#1603;&#1571;&#1576; &#1603;&#1575;&#1605;&#1604; &#1604;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1581;&#1575;&#1604;&#1610;&#1577; &#1575;&#1604;&#1605;&#1587;&#1578;&#1582;&#1583;&#1605;&#1577;" icon="backup.png" ask="fullbackup-Image-vu+4k ?">wget https://raw.githubusercontent.com/emilnabil/fullbackup/main/fullbackup-vu4k-encrypt.sh -O - | /bin/sh</item>
-			<item name="Backup My Channels" icon="backup.png" ask="Backup My Channels ?">wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh</item>
-			<item name="Backup My Multistalker Pro json" icon="backup.png">cp -f /etc/enigma2/MultiStalkerPro.json /media/hdd/AJPanel_Backup/MultiStalkerPro.json</item>
-			<item name="Backup My jediplay lists" icon="backup.png">cp -f /etc/enigma2/jediplaylists/playlists.txt /media/hdd/AJPanel_Backup/playlists.txt</item>
-			<item name="Backup My Xstreamity Servers" icon="backup.png">cp -f /etc/enigma2/xstreamity/playlists.txt /media/hdd/AJPanel_Backup/playlists.txt</item>
-			<item name="Backup Sitting xtraEvent" icon="backup.png">WORD='xtraEvent'; BACKUP='/hdd/xtraEvent_Backup/settings_backup_xtraEvent'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
-			<item name="Backup My ip2sat Server" icon="backup.png">cp -f /etc/enigma2/iptosat.conf /media/hdd/AJPanel_Backup/iptosat.conf ; cp -f /etc/enigma2/iptosat.json /media/hdd/AJPanel_Backup/iptosat.json</item>
-			<item name="Backup My ipaudio Server" icon="backup.png">cp -f /etc/enigma2/ipaudio.json /media/hdd/AJPanel_Backup/ipaudio.json</item>
-			<item name="Backup My ipaudio Pro Server" icon="backup.png">cp -f /etc/enigma2/IPAudioPro.json /media/hdd/AJPanel_Backup/IPAudioPro.json</item>
-			<item name="Weather Msn" icon="backup.png">WORD='weathermsn'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_weathermsn'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
-			<item name="WeatherPlugin" icon="backup.png">WORD='WeatherPlugin'; BACKUP='/hdd/AJPanel_Backup/settings_backup_WeatherPlugin'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
-			<item name="VisualWeather" icon="backup.png">WORD='VisualWeather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_VisualWeather'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
-			<item name="OA-Weather" icon="backup.png">WORD='OAW'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_OAWeather'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
-			<item name="Accu Weather" icon="backup.png">WORD='accuweather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_AccuWeather'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
-			<item name="BlueMetal" icon="backup.png">WORD='blue'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_blueMetal_skin'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
-			<item name="Subtitles Support" icon="backup.png">WORD='subtitles'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_subtitlesSupport'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
-			<item name="Movie Browser" icon="backup.png">WORD='moviebrowser'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_moviebrowser'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
-			<item name="Time Zone" icon="backup.png">WORD='timezone'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_timezone'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
+	<submenu font_size="30" height="950" icon="backup.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Backup and Restore Settings Menu" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<submenu font_size="30" height="950" icon="backup.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Backup Settings Menu" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+			<item ask="fullbackup-Image-vu+4k ?" icon="backup.png" info="&#1576;&#1575;&#1603;&#1571;&#1576; &#1603;&#1575;&#1605;&#1604; &#1604;&#1604;&#1589;&#1608;&#1585;&#1577; &#1575;&#1604;&#1581;&#1575;&#1604;&#1610;&#1577; &#1575;&#1604;&#1605;&#1587;&#1578;&#1582;&#1583;&#1605;&#1577;" name="fullbackup-Image-vu+4k">wget https://raw.githubusercontent.com/emilnabil/fullbackup/main/fullbackup-vu4k-encrypt.sh -O - | /bin/sh</item>
+			<item ask="Backup My Channels ?" icon="backup.png" name="Backup My Channels">wget http://dreambox4u.com/emilnabil237/script/Create-My-backup-shannels.sh -O - | /bin/sh</item>
+			<item icon="backup.png" name="Backup My Multistalker Pro json">cp -f /etc/enigma2/MultiStalkerPro.json /media/hdd/AJPanel_Backup/MultiStalkerPro.json</item>
+			<item icon="backup.png" name="Backup My jediplay lists">cp -f /etc/enigma2/jediplaylists/playlists.txt /media/hdd/AJPanel_Backup/playlists.txt</item>
+			<item icon="backup.png" name="Backup My Xstreamity Servers">cp -f /etc/enigma2/xstreamity/playlists.txt /media/hdd/AJPanel_Backup/playlists.txt</item>
+			<item icon="backup.png" name="Backup Sitting xtraEvent">WORD='xtraEvent'; BACKUP='/hdd/xtraEvent_Backup/settings_backup_xtraEvent'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
+			<item icon="backup.png" name="Backup My ip2sat Server">cp -f /etc/enigma2/iptosat.conf /media/hdd/AJPanel_Backup/iptosat.conf ; cp -f /etc/enigma2/iptosat.json /media/hdd/AJPanel_Backup/iptosat.json</item>
+			<item icon="backup.png" name="Backup My ipaudio Server">cp -f /etc/enigma2/ipaudio.json /media/hdd/AJPanel_Backup/ipaudio.json</item>
+			<item icon="backup.png" name="Backup My ipaudio Pro Server">cp -f /etc/enigma2/IPAudioPro.json /media/hdd/AJPanel_Backup/IPAudioPro.json</item>
+			<item icon="backup.png" name="Weather Msn">WORD='weathermsn'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_weathermsn'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
+			<item icon="backup.png" name="WeatherPlugin">WORD='WeatherPlugin'; BACKUP='/hdd/AJPanel_Backup/settings_backup_WeatherPlugin'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
+			<item icon="backup.png" name="VisualWeather">WORD='VisualWeather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_VisualWeather'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
+			<item icon="backup.png" name="OA-Weather">WORD='OAW'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_OAWeather'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
+			<item icon="backup.png" name="Accu Weather">WORD='accuweather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_AccuWeather'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
+			<item icon="backup.png" name="BlueMetal">WORD='blue'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_blueMetal_skin'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
+			<item icon="backup.png" name="Subtitles Support">WORD='subtitles'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_subtitlesSupport'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
+			<item icon="backup.png" name="Movie Browser">WORD='moviebrowser'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_moviebrowser'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
+			<item icon="backup.png" name="Time Zone">WORD='timezone'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_timezone'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
 		</submenu>
 
-		<submenu title="Restore Settings Menu" icon="backup.png" mode="grid" shade="yes" font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-			<item name="Restore My Channels" icon="backup.png" ask="Restore My Channels ?">wget http://dreambox4u.com/emilnabil237/script/Restore-My-backup-shannels.sh -O - | /bin/sh</item>
-			<item name="Restore My ip2sat Server" icon="backup.png">cp -f /media/hdd/AJPanel_Backup/iptosat.conf /etc/enigma2/iptosat.conf ; cp -f /hdd/AJPanel_Backup/iptosat.json /etc/enigma2/iptosat.json</item>
-			<item name="Restore My ipaudio Server" icon="backup.png">cp -f /media/hdd/AJPanel_Backup/ipaudio.json /etc/enigma2/ipaudio.json</item>
-			<item name="Restore My ipaudio Pro Server" icon="backup.png">cp -f /media/hdd/AJPanel_Backup/IPAudioPro.json /etc/enigma2/IPAudioPro.json</item>
-			<item name="Restore My jediplay lists" icon="backup.png">cp -f /media/hdd/AJPanel_Backup/playlists.txt /etc/enigma2/jediplaylists/playlists.txt</item>
-			<item name="Restore My Xstreamity Servers" icon="backup.png">cp -f /media/hdd/AJPanel_Backup/playlists.txt /etc/enigma2/xstreamity/playlists.txt</item>
-			<item name="Restore My Multistalker Pro json" icon="backup.png">cp -f /media/hdd/Ajpanel_Backup/MultiStalkerPro.json /etc/enigma2/MultiStalkerPro.json</item>
-			<item name="Restore My Sittings xtraEvent " icon="backup.png">WORD='xtraEvent'; BACKUP='/hdd/Plugin_Backup/settings_backup_xtraEvent'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
-			<item name="Restore Weather Msn" icon="backup.png">WORD='weathermsn'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_weathermsn'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
-			<item name="WeatherPlugin" icon="backup.png">WORD='WeatherPlugin'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_WeatherPlugin'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
-			<item name="VisualWeather" icon="backup.png">WORD='VisualWeather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_VisualWeather'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
-			<item name="OA-Weather" icon="backup.png">WORD='OAW'; BACKUP='/media/hdd/AJPanel_Backup/settings_OAWeather'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
-			<item name="Accu Weather" icon="backup.png">WORD='accuweather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_AccuWeather'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
-			<item name="BlueMetal" icon="backup.png">WORD='blue'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_blueMetal_skin'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
-			<item name="Subtitles Support" icon="backup.png">WORD='subtitles'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_subtitlesSupport'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
-			<item name="Time Zone" icon="backup.png">WORD='timezone'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_timezone'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
+		<submenu font_size="30" height="950" icon="backup.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Restore Settings Menu" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+			<item ask="Restore My Channels ?" icon="backup.png" name="Restore My Channels">wget http://dreambox4u.com/emilnabil237/script/Restore-My-backup-shannels.sh -O - | /bin/sh</item>
+			<item icon="backup.png" name="Restore My ip2sat Server">cp -f /media/hdd/AJPanel_Backup/iptosat.conf /etc/enigma2/iptosat.conf ; cp -f /hdd/AJPanel_Backup/iptosat.json /etc/enigma2/iptosat.json</item>
+			<item icon="backup.png" name="Restore My ipaudio Server">cp -f /media/hdd/AJPanel_Backup/ipaudio.json /etc/enigma2/ipaudio.json</item>
+			<item icon="backup.png" name="Restore My ipaudio Pro Server">cp -f /media/hdd/AJPanel_Backup/IPAudioPro.json /etc/enigma2/IPAudioPro.json</item>
+			<item icon="backup.png" name="Restore My jediplay lists">cp -f /media/hdd/AJPanel_Backup/playlists.txt /etc/enigma2/jediplaylists/playlists.txt</item>
+			<item icon="backup.png" name="Restore My Xstreamity Servers">cp -f /media/hdd/AJPanel_Backup/playlists.txt /etc/enigma2/xstreamity/playlists.txt</item>
+			<item icon="backup.png" name="Restore My Multistalker Pro json">cp -f /media/hdd/Ajpanel_Backup/MultiStalkerPro.json /etc/enigma2/MultiStalkerPro.json</item>
+			<item icon="backup.png" name="Restore My Sittings xtraEvent ">WORD='xtraEvent'; BACKUP='/hdd/Plugin_Backup/settings_backup_xtraEvent'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
+			<item icon="backup.png" name="Restore Weather Msn">WORD='weathermsn'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_weathermsn'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
+			<item icon="backup.png" name="WeatherPlugin">WORD='WeatherPlugin'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_WeatherPlugin'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
+			<item icon="backup.png" name="VisualWeather">WORD='VisualWeather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_VisualWeather'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
+			<item icon="backup.png" name="OA-Weather">WORD='OAW'; BACKUP='/media/hdd/AJPanel_Backup/settings_OAWeather'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
+			<item icon="backup.png" name="Accu Weather">WORD='accuweather'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_AccuWeather'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
+			<item icon="backup.png" name="BlueMetal">WORD='blue'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_blueMetal_skin'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
+			<item icon="backup.png" name="Subtitles Support">WORD='subtitles'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_subtitlesSupport'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
+			<item icon="backup.png" name="Time Zone">WORD='timezone'; BACKUP='/media/hdd/AJPanel_Backup/settings_backup_timezone'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
 		</submenu>
 	</submenu>
 
-	<submenu title="Upgrade Panel Emil" info="&#1578;&#1581;&#1583;&#1610;&#1579; &#1607;&#1584;&#1575; &#1575;&#1604;&#1576;&#1575;&#1606;&#1604; &#1576;&#1575;&#1581;&#1583;&#1579; &#1575;&#1604;&#1575;&#1590;&#1575;&#1601;&#1575;&#1578;" icon="upgrade.png" mode="grid_3x2" shade="yes" font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="Upgrade Panel Emil" info="&#1578;&#1581;&#1583;&#1610;&#1579; &#1607;&#1584;&#1575; &#1575;&#1604;&#1576;&#1575;&#1606;&#1604; &#1576;&#1575;&#1581;&#1583;&#1579; &#1575;&#1604;&#1575;&#1590;&#1575;&#1601;&#1575;&#1578;" icon="upgrade.png" ask="Upgrade This Panel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/Ajpanel-menu.sh  -O - | /bin/sh</item>
+	<submenu font_size="30" height="950" icon="upgrade.png" info="&#1578;&#1581;&#1583;&#1610;&#1579; &#1607;&#1584;&#1575; &#1575;&#1604;&#1576;&#1575;&#1606;&#1604; &#1576;&#1575;&#1581;&#1583;&#1579; &#1575;&#1604;&#1575;&#1590;&#1575;&#1601;&#1575;&#1578;" mode="grid_3x2" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Upgrade Panel Emil" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Upgrade This Panel" icon="upgrade.png" info="&#1578;&#1581;&#1583;&#1610;&#1579; &#1607;&#1584;&#1575; &#1575;&#1604;&#1576;&#1575;&#1606;&#1604; &#1576;&#1575;&#1581;&#1583;&#1579; &#1575;&#1604;&#1575;&#1590;&#1575;&#1601;&#1575;&#1578;" name="Upgrade Panel Emil">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/Ajpanel-menu.sh  -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Remove" icon="remove.png" mode="grid" shade="yes" font_size="30" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="AlternativeSoftcamManager" icon="remove.png" ask="Remove AlternativeSoftcamManager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-alternativesoftcammanager.sh -O - | /bin/sh</item>
-		<item name="Channels" icon="remove.png" info="Remove All Channels" ask="Remove Channels">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-channels.sh  -O - | /bin/sh</item>
-		<item name="Crashlogs" icon="remove.png" ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL_all_Crashlogs.sh  -O - | /bin/sh</item>
-		<item name="Jedimaker-playlists" icon="remove.png" ask="yes">rm -f /etc/enigma2/jediplaylists/playlists.txt</item>
-		<item name="Xstreamity-playlists" icon="remove.png" ask="yes">rm -f /etc/enigma2/xstreamity/playlists.txt</item>
-		<item name="Cccamfinder" icon="remove.png" ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-CCcamFinder.sh  -O - | /bin/sh</item>
-		<item name="Emu-All" icon="remove.png" ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus.sh  -O - | /bin/sh</item>
-		<item name="Emu-Ncam" icon="remove.png" ask="yes">opkg remove enigma2-plugin-softcams-ncam*</item>
-		<item name="Emu-Oscam" icon="remove.png" ask="yes">opkg remove enigma2-plugin-softcams-oscam*</item>
-		<item name="Emu-Config-Files" icon="remove.png" ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus-config-files.sh  -O - | /bin/sh</item>
-		<item name="E2iplayer" icon="remove.png" ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-e2iplayer.sh  -O - | /bin/sh</item>
-		<item name="FreeServer-Plugin" icon="remove.png" ask="Remove FreeServer-Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-FreeServer.sh -O - | /bin/sh</item>
-		<item name="Mediaplayer2" icon="remove.png" ask="yes">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-mediaplayer2.sh -O - | /bin/sh</item>
-		<item name="Neoboot" icon="remove.png" info="Remove all Neoboot" ask="remove all neoboot">wget https://dreambox4u.com/emilnabil237/script/DELETE_plugin-neoboot.sh -O - | /bin/sh</item>
-		<item name="NetSpeedTest" icon="remove.png" ask="Remove NetSpeedTest">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-NetSpeedTest.sh -O - | /bin/sh</item>
-		<item name="OscamFinder" icon="remove.png" ask="Remove OscamFinder">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-OscamFinder.sh -O - | /bin/sh</item>
-		<item name="levi45-AddonsManager" icon="remove.png" ask="Remove levi45-AddonsManager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-levi45-addonsmanager.sh -O - | /bin/sh</item>
-		<item name="M3u-Converter" icon="remove.png" ask="Remove M3u-Converter">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-m3u-converter.sh -O - | /bin/sh</item>
-		<item name="SatVenusPANEL" icon="remove.png" ask="Remove SatVenusPANEL">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-SatVenusPANEL.sh -O - | /bin/sh</item>
-		<item name="SoftCam_Manager" icon="remove.png" ask="Remove SoftCam_Manager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-SoftCam_Manager.sh  -O - | /bin/sh</item>
-		<item name="SubsSupport" icon="remove.png" ask="Remove SubsSupport">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-subssupport.sh  -O - | /bin/sh</item>
-		<item name="Tuner-Settings" icon="remove.png" ask="Remove Tuner Settings ?">init 4 
+	<submenu font_size="30" height="950" icon="remove.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Remove" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Remove AlternativeSoftcamManager" icon="remove.png" name="AlternativeSoftcamManager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-alternativesoftcammanager.sh -O - | /bin/sh</item>
+		<item ask="Remove Channels" icon="remove.png" info="Remove All Channels" name="Channels">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-channels.sh  -O - | /bin/sh</item>
+		<item ask="yes" icon="remove.png" name="Crashlogs">wget https://dreambox4u.com/emilnabil237/script/remove/DEL_all_Crashlogs.sh  -O - | /bin/sh</item>
+		<item ask="yes" icon="remove.png" name="Jedimaker-playlists">rm -f /etc/enigma2/jediplaylists/playlists.txt</item>
+		<item ask="yes" icon="remove.png" name="Xstreamity-playlists">rm -f /etc/enigma2/xstreamity/playlists.txt</item>
+		<item ask="yes" icon="remove.png" name="Cccamfinder">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-CCcamFinder.sh  -O - | /bin/sh</item>
+		<item ask="yes" icon="remove.png" name="Emu-All">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus.sh  -O - | /bin/sh</item>
+		<item ask="yes" icon="remove.png" name="Emu-Ncam">opkg remove enigma2-plugin-softcams-ncam*</item>
+		<item ask="yes" icon="remove.png" name="Emu-Oscam">opkg remove enigma2-plugin-softcams-oscam*</item>
+		<item ask="yes" icon="remove.png" name="Emu-Config-Files">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus-config-files.sh  -O - | /bin/sh</item>
+		<item ask="yes" icon="remove.png" name="E2iplayer">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-e2iplayer.sh  -O - | /bin/sh</item>
+		<item ask="Remove FreeServer-Plugin" icon="remove.png" name="FreeServer-Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-FreeServer.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="remove.png" name="Mediaplayer2">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-mediaplayer2.sh -O - | /bin/sh</item>
+		<item ask="remove all neoboot" icon="remove.png" info="Remove all Neoboot" name="Neoboot">wget https://dreambox4u.com/emilnabil237/script/DELETE_plugin-neoboot.sh -O - | /bin/sh</item>
+		<item ask="Remove NetSpeedTest" icon="remove.png" name="NetSpeedTest">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-NetSpeedTest.sh -O - | /bin/sh</item>
+		<item ask="Remove OscamFinder" icon="remove.png" name="OscamFinder">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-OscamFinder.sh -O - | /bin/sh</item>
+		<item ask="Remove levi45-AddonsManager" icon="remove.png" name="levi45-AddonsManager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-levi45-addonsmanager.sh -O - | /bin/sh</item>
+		<item ask="Remove M3u-Converter" icon="remove.png" name="M3u-Converter">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-m3u-converter.sh -O - | /bin/sh</item>
+		<item ask="Remove SatVenusPANEL" icon="remove.png" name="SatVenusPANEL">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-SatVenusPANEL.sh -O - | /bin/sh</item>
+		<item ask="Remove SoftCam_Manager" icon="remove.png" name="SoftCam_Manager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-SoftCam_Manager.sh  -O - | /bin/sh</item>
+		<item ask="Remove SubsSupport" icon="remove.png" name="SubsSupport">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-subssupport.sh  -O - | /bin/sh</item>
+		<item ask="Remove Tuner Settings ?" icon="remove.png" name="Tuner-Settings">init 4 
 sleep 1; 
 sed -i '/config.Nims.0/d' /etc/enigma2/settings
 init 3</item>
-		<item name="Tvpanel" icon="remove.png" ask="Remove Tvpanel">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-tvpanel.sh  -O - | /bin/sh</item>
-		<item name="XCplugin" icon="remove.png" ask="Remove XCplugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-Plugin-XCplugin.sh  -O - | /bin/sh</item>
-		<item name="Xstreamity-Plugin" icon="remove.png" ask="Remove Xstreamity Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-xstreamity.sh  -O - | /bin/sh</item>
-		<item name="Youtube" icon="remove.png" ask="Remove Youtube">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-youtube.sh  -O - | /bin/sh</item>
+		<item ask="Remove Tvpanel" icon="remove.png" name="Tvpanel">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-tvpanel.sh  -O - | /bin/sh</item>
+		<item ask="Remove XCplugin" icon="remove.png" name="XCplugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-Plugin-XCplugin.sh  -O - | /bin/sh</item>
+		<item ask="Remove Xstreamity Plugin" icon="remove.png" name="Xstreamity-Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-xstreamity.sh  -O - | /bin/sh</item>
+		<item ask="Remove Youtube" icon="remove.png" name="Youtube">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-youtube.sh  -O - | /bin/sh</item>
 	</submenu>
 </ajp_menu>
