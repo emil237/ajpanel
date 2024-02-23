@@ -2,8 +2,8 @@
 <ajp_menu title="Panel (Ajpanel By Emil)" mode="grid" shade="yes" font_size="50" bg="back.png" num_fg="#FCFCFC" num_bg="#000000" title1_fg=" " title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950" box_gap="80" picpath="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/">
 	<item name="/Go To Script/" icon="scr.png" info="Open the directory &quot;/usr/script/&quot; in File Manager">/usr/script</item>
 	<submenu title="Panels" info="Download And Install Panel" icon="panels.png" bg="#06770077" title_bg="#11332233" mode="grid" shade="yes" font_size="50" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FFFF00" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1600" height="950">
-		<item name="Ajpanel" icon="ajpanel.png" ask="Install Ajpanel ?">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
-		<item name="Panels_Emil" icon="/media/hdd/Backup_AJPanel/Custom_icons/icons-Emil/panels.png" ask="Install Panels_Emil ?">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/Ajpanel-menu.sh -O - | /bin/sh</item>
+		<item name="Ajpanel" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/panels.png" ask="Install Ajpanel ?">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
+		<item name="Panels_Emil" ask="Install Panels_Emil ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/panels.png">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/Ajpanel-menu.sh -O - | /bin/sh</item>
 		<item name="Dreamosat-Downloader" icon="dreamosat.png" ask="Install dreamosat-downloader ?">wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh  -O - | /bin/sh</item>
 		<item name="Epanel" icon="epanel.png" ask="Install Epanel ?">wget https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh  -O - | /bin/sh</item>
 		<item name="levi45-AddonsManager" icon="levi45addon.png" ask="Install Levi45 AddonManger ?">wget https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh  -O - | /bin/sh</item>
@@ -31,9 +31,7 @@
 		<item name="IptoSat" ask="Install IptoSat ?" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/iptosat.png">wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh  -O - | /bin/sh</item>
 		<item name="IpAudio_6.7" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudio.png" ask="Install Ipaudio ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh</item>
 		<item name="IpAudio_7.4" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudio.png" ask="Install Ipaudio ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
-		<item name="IpAudioPro-1.1" 
-		info="py3.9-py3.11-py3.12"
-		icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudiopro.png" ask="Install ipaudiopro ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh  -O - | /bin/sh</item>
+		<item name="IpAudioPro-1.1" info="py3.9-py3.11-py3.12" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/ipaudiopro.png" ask="Install ipaudiopro ?">wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh  -O - | /bin/sh</item>
 		<item name="JediEpgExtream" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/JediEPGXtream.png" ask="Install Jediepgextream ?">wget https://raw.githubusercontent.com/emil237/plugins/jediepgextream/main/installer.sh  -O - | /bin/sh</item>
 		<item name="JediMakerXtream" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/JediMakerXtream.png" ask=" Install jedimakerxtream ?">wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh  -O - | /bin/sh</item>
 		<item name="Multistalker" icon="/hdd/AJPanel_Backup/Custom_icons/icons-Emil/multistalker.png" ask="insall multistalker ?">wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh</item>
