@@ -53,6 +53,9 @@
 		<item ask="Download Portal-100mag ?" icon="media.png" 
 		info="MultiStalker"
 		name="Portal-100mag">wget -qO $HOME/stalker.conf https://dreambox4u.com/emilnabil237/plugins/multistalker/stalker.conf</item>
+		<item ask="Download Portals-MultiStalkerPro ?" icon="media.png" 
+		info="MultiStalkerPro"
+		name="Portals-MultiStalkerPro">wget -qO /etc/enigma2/MultiStalkerPro.json https://dreambox4u.com/emilnabil237/plugins/MultiStalkerPro/MultiStalkerPro.json</item>
 	</submenu>
 
 	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" icon="multiboot.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Multiboot Plugins" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
