@@ -235,12 +235,12 @@
 ### Main Menu Setup																							###
 ###############################################################################################################
 -->
-<ajp_menu title="Custom Tools" mode="grid" shade="yes" box_gap="40" icon="ajp.png" picpath="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/">
+<ajp_menu title="Custom Tools" mode="grid" shade="yes" box_gap="40" icon="ajp.png" picpath="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/" bg="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/back.png">
 	<!-- ============================================================================================== -->
 	<!-- Open AJPanel Option																			-->
 	<!-- ============================================================================================== -->
 	<item name="Panel Emil (By Ajpanel)" icon="emil.png">/media/hdd/Emil_Panel/ajpanel_menu_Emil.xml</item>
-	<submenu title="AJPanel Options (Grid)" info="AJPanel - Enigma2 Tools" width="1600" height="950" mode="grid" shade="yes" bg="#0a222522" icon="ajp.png">
+	<submenu title="AJPanel Options (Grid)" info="AJPanel - Enigma2 Tools" width="1600" height="950" mode="grid" shade="yes" bg="#0a222522" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/ajp.png">
 		<item name="File Manager">ajp_fman</item>
 		<separator />
 		<item name="IPTV">ajp_iptv</item>
@@ -268,7 +268,7 @@
 	<!-- ============================================================================================== -->
 	<!-- Open AJPanel Option																			-->
 	<!-- ============================================================================================== -->
-	<submenu title="AJPanel Options (List)" info="AJPanel Options (List Mode Menu)" icon="ajp.png">
+	<submenu title="AJPanel Options (List)" info="AJPanel Options (List Mode Menu)" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/ajp2.png">
 		<item name="File Manager">ajp_fman</item>
 		<separator />
 		<item name="IPTV">ajp_iptv</item>
@@ -296,7 +296,7 @@
 	<!-- ============================================================================================== -->
 	<!-- Recursive Submenus (with different size, colors and text alignment)							-->
 	<!-- ============================================================================================== -->
-	<submenu title="Recursive Menus" info="Cascaded menus + Menu Alignment Test" bg="#06006666" title_bg="#06004444" width="800">
+	<submenu title="Recursive Menus" info="Cascaded menus + Menu Alignment Test" bg="#06006666" title_bg="#06004444" width="800" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/mnt.png">
 		<submenu title="Test Commands (Center List Items)" align_items="center" bg="#06770077" title_bg="#06aa00aa" width="1100">
 			<!-- ============================================================================================== -->
 			<!-- Testing RTL (Right-to-Left)																	-->
@@ -322,7 +322,7 @@
 	<!-- ============================================================================================== -->
 	<!-- Simple GRID Submenu (small icons are will stretched to the picture area)						-->
 	<!-- ============================================================================================== -->
-	<submenu title="GRID Menu (mode='grid_3x1')" info="Simple GRID Submenu (will stretch small icons to fit the picture area)" mode="grid_3x3" title_font_size="30">
+	<submenu title="GRID Menu (mode='grid_3x1')" info="Simple GRID Submenu (will stretch small icons to fit the picture area)" mode="grid_3x3" title_font_size="30" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/slwdir.png">
 		<item name="Disk Usage">df</item>
 		<item name="LSOF">lsof</item>
 		<item name="Uptime">uptime</item>
@@ -331,7 +331,7 @@
 	<!-- ============================================================================================== -->
 	<!-- Simple GRID Submenu (small icons size is not changed)											-->
 	<!-- ============================================================================================== -->
-	<submenu title="GRID Menu (mode='grid1_3x3')" info="Simple GRID Submenu (will not stretch small icons to fit the picture area)" mode="grid1_3x3">
+	<submenu title="GRID Menu (mode='grid1_3x3')" info="Simple GRID Submenu (will not stretch small icons to fit the picture area)" mode="grid1_3x3" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/mnt.png">
 		<item name="Disk Usage">df</item>
 		<item name="LSOF">lsof</item>
 		<item name="Uptime">uptime</item>
@@ -340,7 +340,7 @@
 	<!-- ============================================================================================== -->
 	<!-- Testing Installer-Scripts + Demonstrates Embedded Icon											-->
 	<!-- ============================================================================================== -->
-	<submenu title="Install AJPanel" info="Simple List Menu (with a custom Icon)" line_gap="50" font_size="40" icon="dnld.png">
+	<submenu title="Install AJPanel" info="Simple List Menu (with a custom Icon)" line_gap="50" font_size="40" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/ajpanel.png">
 		<item name="AJPanel - v9.0.0" ask="Start Installation ?">wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh</item>
 		<item name="AJPanel - Latest" ask="Update AJPanel ?">wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh</item>
 	</submenu>
@@ -348,15 +348,15 @@
 	<!-- ============================================================================================== -->
 	<!-- Running a script file																			-->
 	<!-- ============================================================================================== -->
-	<item name="Run a Script File" ask="">/media/usb/AAA/Test_Files/long_process_script.sh</item>
+	<item name="Run a Script File" ask="" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/scr.png">/media/usb/AAA/Test_Files/long_process_script.sh</item>
 	<!-- ============================================================================================== -->
 	<!-- Installing multiple packages (Exmaple: xz and zip)												-->
 	<!-- ============================================================================================== -->
-	<item name="Multiple Install (xz and zip)" ask="Install 2 packaes (xz/zip) ?">opkg install xz zip</item>
+	<item name="Multiple Install (xz and zip)" ask="Install 2 packaes (xz/zip) ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/dirup.png">opkg install xz zip</item>
 	<!-- ============================================================================================== -->
 	<!-- Testing Multiple Commands																		-->
 	<!-- ============================================================================================== -->
-	<item name="Internal Script" info="Simple Script within the Custom Menu XML file">
+	<item name="Internal Script" info="Simple Script within the Custom Menu XML file" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/teln.png">
 		
 			# ==========================================================
 			echo
@@ -392,7 +392,7 @@
 	<!-- ============================================================================================== -->
 	<!-- View a picture																					-->
 	<!-- ============================================================================================== -->
-	<submenu title="Pictures Menu" info="Favourite Pictures" mode="grid_4x4" icon="pic.png">
+	<submenu title="Pictures Menu" info="Favourite Pictures" mode="grid_4x4" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/pic.png">
 		<item name="View Picture">/usr/share/enigma2/skin_default/testscreen.png</item>
 	</submenu>
 
@@ -407,7 +407,7 @@
 	<!-- ============================================================================================== -->
 	<!-- Movies in a List Menu  ... jpg/png posters with same names in media dir are show automatically	-->
 	<!-- ============================================================================================== -->
-	<submenu title="Movies (List)" info="Movies (shows posters if exists in same directory)" width="1000" font_size="40" line_gap="100" icon="mov.png">
+	<submenu title="Movies (List)" info="Movies (shows posters if exists in same directory)" width="1000" font_size="40" line_gap="100" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/mov.png">
 		<item icon="Bugs_Life_1998.jpg" name="Bugs_Life ">/media/usb/movie/Animation/Bugs_Life_1998.mp4</item>
 		<item name="Jungle Book (1967)">/media/usb/movie/Animation/Jungle_Book_1967.mp4</item>
 	</submenu>
@@ -415,7 +415,7 @@
 	<!-- ============================================================================================== -->
 	<!-- Play a Channel 	... If PIcon exists, it will be shown automatically							-->
 	<!-- ============================================================================================== -->
-	<submenu title="Channels Menu" info="Favourite Channels Menu" mode="grid_4x4" icon="tv.png">
+	<submenu title="Channels Menu" info="Favourite Channels Menu" mode="grid_4x4" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/channel.png">
 		<item name="Baby TV" info="Play a channel">1:0:1:421d:2f44:13E:820000:0:0:0</item>
 		<item name="MiniMini+ HD" info="Play a channel">1_0_1_32e0_190_13E_820000_0_0_0</item>
 		<item name="Sports Connect" info="Play IPTV channel">5001:0:0:0:0:0:0:0:0:0:https%3a//origin3.afxp.telemedia.co.za/PremiumFree/sportsconnect/abr_satellitechannel/satch_sportsconnect_720p/chunks.m3u8:Sports Connect</item>
@@ -424,10 +424,10 @@
 	<!-- ============================================================================================== -->
 	<!-- Open a file or directory in AJPanel File Manager												-->
 	<!-- ============================================================================================== -->
-	<item name="/media/" info="Open the directory &quot;/media/&quot; in File Manager">/media</item>
-	<item info="Locate CCcam.cfg in File Manager" name="Go to skin.xml">/usr/share/enigma2/skin_default/skin.xml</item>
+	<item name="/media/" info="Open the directory &quot;/media/&quot; in File Manager" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/dir.png">/media</item>
+	<item info="Locate CCcam.cfg in File Manager" name="Go to skin.xml" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/fil.png">/usr/share/enigma2/skin_default/skin.xml</item>
 	<!-- ============================================================================================== -->
 	<!-- View Custom Panel version/descriptionchange-log												-->
 	<!-- ============================================================================================== -->
-	<item name="About This Panel">This is a test panel (v1.0)</item>
+	<item name="About This Panel" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/info.png">This is a Emil Panel (v2.0)</item>
 </ajp_menu>

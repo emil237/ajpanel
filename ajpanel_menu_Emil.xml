@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ajp_menu bg="back.png" box_gap="80" font_size="70" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" picpath="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/" shade="yes" title="Panel Emil (By Ajpanel)" title1_bg="#000000" title1_fg=" " title2_bg="#000000" title2_fg="#FCFCFC" width="1600">
-	<item name="About Emil Panel" icon="emi1.png">Emil Panel v2.0</item>
+
 	<item icon="scr.png" info="Open the directory &quot;/usr/script/&quot; in File Manager" name="/Go To Script/">/usr/script</item>
 	<submenu bg="#06770077" font_size="70" height="950" icon="panels.png" info="Download And Install Panel" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Panels" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install Ajpanel ?" icon="panels.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
