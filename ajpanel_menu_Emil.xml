@@ -135,7 +135,7 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 		<item ask="" icon="tools.png" name="imdb">opkg install enigma2-plugin-extensions-imdb</item>
 		<item ask="" icon="tools.png" name="oaweather">opkg install enigma2-plugin-extensions-oaweather</item>
 		<item ask="" icon="tools.png" name="permanentclock">opkg install enigma2-plugin-extensions-permanentclock</item>
-		<item ask="" icon="tools.png" name="subssupport">opkg install enigma2-plugin-extensions-subssupport</item>
+		<item ask="" icon="tools.png" name="subssupport-from-feed">opkg install enigma2-plugin-extensions-subssupport</item>
 		<item ask="Install WeatherPlugin" icon="tools.png" name="weatherplugin">opkg install enigma2-plugin-extensions-weatherplugin</item>
 	</submenu>
 
