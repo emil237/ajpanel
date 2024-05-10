@@ -4,7 +4,7 @@
 	<item icon="scr.png" info="Open the directory &quot;/usr/script/&quot; in File Manager" name="/Go To Script/">/usr/script</item>
 	<submenu bg="#06770077" font_size="70" height="950" icon="panels.png" info="Download And Install Panel" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Panels" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install Ajpanel ?" icon="panels.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
-		<item ask="Install Panels_Emil ?" icon="panels.png" name="Panels_Emil">wget https://raw.githubusercontent.com/emil237/ajpanel/main/panel-emil-only.sh -O - | /bin/sh</item>
+		<item ask="Install Panels_Emil ?" icon="panels.png" name="Panels_Emil">wget https://raw.githubusercontent.com/emil237/ajpanel/main/update-panel-emil-only.sh -O - | /bin/sh</item>
 		<item ask="Install dreamosat-downloader ?" icon="dreamosat.png" name="Dreamosat-Downloader">wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Epanel ?" icon="epanel.png" name="Epanel">wget https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Levi45 AddonManger ?" icon="levi45addon.png" name="levi45-AddonsManager">wget https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh  -O - | /bin/sh</item>
@@ -466,7 +466,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 	</submenu>
 
 	<submenu font_size="30" height="950" icon="upgrade.png" info="&#1578;&#1581;&#1583;&#1610;&#1579; &#1607;&#1584;&#1575; &#1575;&#1604;&#1576;&#1575;&#1606;&#1604; &#1576;&#1575;&#1581;&#1583;&#1579; &#1575;&#1604;&#1575;&#1590;&#1575;&#1601;&#1575;&#1578;" mode="grid_3x2" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Upgrade Panel Emil" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-		<item ask="Upgrade This Panel" icon="upgrade.png" info="&#1578;&#1581;&#1583;&#1610;&#1579; &#1607;&#1584;&#1575; &#1575;&#1604;&#1576;&#1575;&#1606;&#1604; &#1576;&#1575;&#1581;&#1583;&#1579; &#1575;&#1604;&#1575;&#1590;&#1575;&#1601;&#1575;&#1578;" name="Upgrade Panel Emil">wget https://raw.githubusercontent.com/emil237/ajpanel/main/panel-emil-only.sh  -O - | /bin/sh</item>
+		<item ask="Upgrade This Panel" icon="upgrade.png" info="&#1578;&#1581;&#1583;&#1610;&#1579; &#1607;&#1584;&#1575; &#1575;&#1604;&#1576;&#1575;&#1606;&#1604; &#1576;&#1575;&#1581;&#1583;&#1579; &#1575;&#1604;&#1575;&#1590;&#1575;&#1601;&#1575;&#1578;" name="Upgrade Panel Emil">wget https://raw.githubusercontent.com/emil237/ajpanel/main/update-panel-emil-only.sh  -O - | /bin/sh</item>
 	</submenu>
 
 	<submenu font_size="30" height="950" icon="remove.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Remove" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
