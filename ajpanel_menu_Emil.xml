@@ -29,6 +29,7 @@
 	</submenu>
 
 	<submenu bg="#19184D" font_size="50" height="950" icon="media.png" mode="grid_5x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Media" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install BouquetMakerXtream ?" icon="BouquetMakerXtream.png" name="BouquetMakerXtream">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh</item>
 		<item ask="Install IptoSat ?" icon="iptosat.png" name="IptoSat">wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Ipaudio ?" icon="ipaudio.png" name="IpAudio_6.7">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Ipaudio ?" icon="ipaudio.png" name="IpAudio_7.4">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
@@ -37,17 +38,21 @@
 		<item ask=" Install jedimakerxtream ?" icon="JediMakerXtream.png" name="JediMakerXtream">wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh  -O - | /bin/sh</item>
 		<item ask="insall multistalker ?" icon="multistalker.png" name="Multistalker">wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh</item>
 		<item ask="Instaal MultiStalkerPro ?" icon="multistalkerpro.png" name="MultistalkerPro">wget https://raw.githubusercontent.com/emilnabil/multi-stalkerpro/main/installer.sh -O - | /bin/sh</item>
-		<item ask="Download Portal-100mag ?" icon="media.png" name="Portal-100mag">wget -qO $HOME/stalker.conf https://raw.githubusercontent.com/karimSATPRO/Portal-100mag/main/stalker.conf</item>
 		<item ask="" icon="media.png" info="&#1571;&#1605;&#1585; &#1575;&#1604;&#1585;&#1601;&#1593; &#1605;&#1606; &#1593;&#1583;&#1583; &#1575;&#1604;&#1576;&#1608;&#1585;&#1591;&#1575;&#1604;&#1575;&#1578; 150" name="Portal-150">wget https://dreambox4u.com/emilnabil237/script/Increasing-the-number-of-portals-150.sh -O - | /bin/sh</item>
 		<item ask="" icon="media.png" info="&#1571;&#1605;&#1585; &#1575;&#1604;&#1585;&#1601;&#1593; &#1605;&#1606; &#1593;&#1583;&#1583; &#1575;&#1604;&#1576;&#1608;&#1585;&#1591;&#1575;&#1604;&#1575;&#1578; 200" name="Portal-200">wget https://dreambox4u.com/emilnabil237/script/Increasing-the-number-of-portals-200.sh -O - | /bin/sh</item>
 		<item ask="" icon="media.png" info="&#1578;&#1607;&#1610;&#1574;&#1577; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1587;&#1578;&#1575;&#1604;&#1603;&#1585;" name="Configure the Multistalker plugin">wget https://dreambox4u.com/emilnabil237/script/Configure-the-Multistalker-plugin.sh -O - | /bin/sh</item>
 		<item ask="Insall Quarter pounder ?" icon="quarterpounder.png" name="QuarterPounder">wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh</item>
 		<item ask="Insall Suptv ?" icon="suptv.png" name="Suptv">wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Xtreamty ?" icon="xtreamty.png" name="Xtreamity">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Xcpluginforever ?" icon="xc.png" name="Xcpluginforever">wget https://dreambox4u.com/emilnabil237/plugins/xcplugin/installer.sh -O - | /bin/sh</item>
 	</submenu>
 
 	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" icon="free.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Free" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="" icon="free.png" name="free-ipaudio">wget https://dreambox4u.com/emilnabil237/script/audio-ipaudio.sh  -O - | /bin/sh</item>
 		<item ask="" icon="free.png" name="free-ipaudiopro">wget https://dreambox4u.com/emilnabil237/script/audio-ipaudiopro.sh -O - | /bin/sh</item>
+		<item ask="Download Portal-100mag ?" icon="media.png" 
+		info="MultiStalker"
+		name="Portal-100mag">wget -qO $HOME/stalker.conf https://dreambox4u.com/emilnabil237/plugins/multistalker/stalker.conf</item>
 	</submenu>
 
 	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" icon="multiboot.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Multiboot Plugins" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
@@ -67,7 +72,6 @@
 		<item ask="yes" icon="ath.png" name="Athan Times">wget https://dreambox4u.com/emilnabil237/plugins/athantimes/installer.sh -qO - | /bin/sh</item>
 		<item ask="Install Atilehd ?" icon="atilehd.png" name="Atilehd">wget https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Azkar Almuslim ?" icon="azkar.png" name="Azkar Almuslim">wget https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh  -O - | /bin/sh</item>
-		<item ask="Install BouquetMakerXtream ?" icon="BouquetMakerXtream.png" name="BouquetMakerXtream">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh</item>
 		<item ask="Install CFG_ZOOM_FINAL ?" icon="cfg-zoom.png" name="CFG_ZOOM_FINAL Py2">wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install CrashLogoViewer ?" icon="crash.png" name="CrashLogViewer">wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh</item>
 		<item ask="Install CrondManger ?" icon="crondmanager.png" name="CronManager">wget https://github.com/emil237/download-plugins/raw/main/cronmanager.sh  -O - | /bin/sh</item>
@@ -83,11 +87,9 @@
 		<item ask="Install Quran ?" icon="quran.png" name="Quran-karem">wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -O - | /bin/sh</item>
 		<item ask="Install RaedQuickSignal ?" icon="RaedQuickSignal.png" name="Raedquicksignal">wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install sherlockmod ?" icon="sherlockmod.png" name="Sherlockmod">wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh</item>
-		<item ask="Install SubsSupport_1.5.8-r9 ?" icon="subssupport.png" name="SubsSupport_1.5.8-r9">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
+		<item ask="Install SubsSupport_1.7.0-r1 ?" icon="subssupport.png" name="SubsSupport_1.7.0-r1">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install TheWeather ?" icon="theweather.png" name="TheWeather">wget https://dreambox4u.com/emilnabil237/plugins/TheWeather/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install uninstaller-Plugins ?" icon="uninstaller.png" name="uninstaller-Plugins">wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh  -O - | /bin/sh</item>
-		<item ask="Install Xtreamty ?" icon="xtreamty.png" name="Xtreamity">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh</item>
-		<item ask="Install Xcpluginforever ?" icon="xc.png" name="Xcpluginforever">wget https://dreambox4u.com/emilnabil237/plugins/xcplugin/installer.sh -O - | /bin/sh</item>
 		<item ask="Install xtraevent_3.3 ?" icon="xtraevent.png" name="Xtraevent_3.3">opkg install curl
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh|sh</item>
 		<item ask="Install xtraevent_4.2 ?" icon="xtraevent.png" name="Xtraevent_4.2">opkg install curl
@@ -370,9 +372,8 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 		<item ask="" icon="gosat.png" name="gosatplus">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus.sh  -O - | /bin/sh</item>
 		<item ask="" icon="hold.png" name="Hold-flag-ncam">opkg flag hold enigma2-plugin-softcams-ncam</item>
 		<item ask="" icon="hold.png" name="Hold-flag-oscam">opkg flag hold enigma2-plugin-softcams-oscam</item>
-		<item ask="" icon="ncam.png" name="ncam-13.5-r0">wget https://raw.githubusercontent.com/emilnabil/ncam/main/installer.sh -O - | /bin/sh</item>
-		<item ask="" icon="ncam.png" name="Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
-		<item ask="" icon="oscam.png" name="Oscam">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="ncam.png" name="Ncam-14.9">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
+		<item ask="" icon="oscam.png" name="Oscam-11778-r801">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="oscam.png" name="Oscam-11.726-by-lenuxsat">wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh  -O - | /bin/sh</item>
 		<item ask="" icon="oscam.png" name="oscamicam">wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="powercam.png" name="powercam_v2-icam-arm">wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh  -O - | /bin/sh</item>
