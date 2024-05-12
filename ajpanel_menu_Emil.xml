@@ -43,7 +43,9 @@
 		<item ask="" icon="media.png" info="&#1578;&#1607;&#1610;&#1574;&#1577; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1587;&#1578;&#1575;&#1604;&#1603;&#1585;" name="Configure the Multistalker plugin">wget https://dreambox4u.com/emilnabil237/script/Configure-the-Multistalker-plugin.sh -O - | /bin/sh</item>
 		<item ask="Insall Quarter pounder ?" icon="quarterpounder.png" name="QuarterPounder">wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh</item>
 		<item ask="Insall Suptv ?" icon="suptv.png" name="Suptv">wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh</item>
-		<item ask="Insall TMBD_8.6-r6 ?" icon="tmdb.png" name="TMBD_8.6-r6">wget http://dreambox4u.com/emilnabil237/plugins/TMBD/installer.sh -O - | /bin/sh</item>
+		<item ask="Insall TMBD_8.6-r6 ?" icon="tmdb.png"
+		info="ALL-PYTHON"
+	 name="TMBD_8.6-r6">wget http://dreambox4u.com/emilnabil237/plugins/TMBD/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Xtreamty ?" icon="xtreamty.png" name="Xtreamity">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Xcpluginforever ?" icon="xc.png" name="Xcpluginforever">wget https://dreambox4u.com/emilnabil237/plugins/xcplugin/installer.sh -O - | /bin/sh</item>
 	</submenu>
