@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ajp_menu bg="back.png" box_gap="80" font_size="70" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" picpath="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/" shade="yes" title="Panel Emil (By Ajpanel)" title1_bg="#000000" title1_fg=" " title2_bg="#000000" title2_fg="#FCFCFC" width="1600">
-
 	<item icon="scr.png" info="Open the directory &quot;/usr/script/&quot; in File Manager" name="/Go To Script/">/usr/script</item>
 	<submenu bg="#06770077" font_size="70" height="950" icon="panels.png" info="Download And Install Panel" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Panels" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install Ajpanel ?" icon="panels.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
@@ -43,9 +42,7 @@
 		<item ask="" icon="media.png" info="&#1578;&#1607;&#1610;&#1574;&#1577; &#1575;&#1604;&#1576;&#1604;&#1580;&#1606; &#1605;&#1575;&#1604;&#1578;&#1610; &#1587;&#1578;&#1575;&#1604;&#1603;&#1585;" name="Configure the Multistalker plugin">wget https://dreambox4u.com/emilnabil237/script/Configure-the-Multistalker-plugin.sh -O - | /bin/sh</item>
 		<item ask="Insall Quarter pounder ?" icon="quarterpounder.png" name="QuarterPounder">wget http://dreambox4u.com/emilnabil237/script/quarterpounder.sh -O - | /bin/sh</item>
 		<item ask="Insall Suptv ?" icon="suptv.png" name="Suptv">wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh</item>
-		<item ask="Insall TMBD_8.6-r6 ?" icon="tmdb.png"
-		info="ALL-PYTHON"
-	 name="TMBD_8.6-r6">wget http://dreambox4u.com/emilnabil237/plugins/TMBD/installer.sh -O - | /bin/sh</item>
+		<item ask="Insall TMBD_8.6-r6 ?" icon="tmdb.png" info="ALL-PYTHON" name="TMBD_8.6-r6">wget http://dreambox4u.com/emilnabil237/plugins/TMBD/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Xtreamty ?" icon="xtreamty.png" name="Xtreamity">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Xcpluginforever ?" icon="xc.png" name="Xcpluginforever">wget https://dreambox4u.com/emilnabil237/plugins/xcplugin/installer.sh -O - | /bin/sh</item>
 	</submenu>
@@ -53,12 +50,8 @@
 	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" icon="free.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Free" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="" icon="free.png" name="free-ipaudio">wget https://dreambox4u.com/emilnabil237/script/audio-ipaudio.sh  -O - | /bin/sh</item>
 		<item ask="" icon="free.png" name="free-ipaudiopro">wget https://dreambox4u.com/emilnabil237/script/audio-ipaudiopro.sh -O - | /bin/sh</item>
-		<item ask="Download Portal-100mag ?" icon="media.png" 
-		info="MultiStalker"
-		name="Portal-100mag">wget -qO $HOME/stalker.conf https://dreambox4u.com/emilnabil237/plugins/multistalker/stalker.conf</item>
-		<item ask="Download Portals-MultiStalkerPro ?" icon="media.png" 
-		info="MultiStalkerPro"
-		name="Portals-MultiStalkerPro">wget -qO /etc/enigma2/MultiStalkerPro.json https://dreambox4u.com/emilnabil237/plugins/MultiStalkerPro/MultiStalkerPro.json</item>
+		<item ask="Download Portal-100mag ?" icon="media.png" info="MultiStalker" name="Portal-100mag">wget -qO $HOME/stalker.conf https://dreambox4u.com/emilnabil237/plugins/multistalker/stalker.conf</item>
+		<item ask="Download Portals-MultiStalkerPro ?" icon="media.png" info="MultiStalkerPro" name="Portals-MultiStalkerPro">wget -qO /etc/enigma2/MultiStalkerPro.json https://dreambox4u.com/emilnabil237/plugins/MultiStalkerPro/MultiStalkerPro.json</item>
 	</submenu>
 
 	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" icon="multiboot.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Multiboot Plugins" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
@@ -97,6 +90,11 @@
 		<item ask="Install SubsSupport_1.7.0-r3 ?" icon="subssupport.png" name="SubsSupport_1.7.0-r3">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install TheWeather ?" icon="theweather.png" name="TheWeather">wget https://dreambox4u.com/emilnabil237/plugins/TheWeather/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install uninstaller-Plugins ?" icon="uninstaller.png" name="uninstaller-Plugins">wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh  -O - | /bin/sh</item>
+		<item ask=" Install visualweather ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/visualweather.png" name="visualweather">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/visualweather/installer.sh -O - | /bin/sh</item>
+		<item ask=" Install weathermsn ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/weathermsn.png" name="weathermsn">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weathermsn/installer.sh -O - | /bin/sh</item>
+		<item ask=" Install weatherplugin ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/weatherplugin.png" name="weatherplugin">wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin/installer.sh  -O - | /bin/sh</item>
+		<item ask=" Install weatherplugin-icons ?" name="weatherplugin-icons" icon="/media/hdd/AJPanel_Backup/Custom_icons/weatherplugin-icons.png">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weatherplugin-icons/installer.sh -O - | /bin/sh</item>
+		<item ask=" Install wireguard-vpn_9.5 ?" icon="/media/hdd/AJPanel_Backup/Custom_icons/icons-Emil/wireguard.png" name="wireguard-vpn_9.5">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/wireguard-vpn/installer.sh -O - | /bin/sh</item>
 		<item ask="Install xtraevent_3.3 ?" icon="xtraevent.png" name="Xtraevent_3.3">opkg install curl
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh|sh</item>
 		<item ask="Install xtraevent_4.2 ?" icon="xtraevent.png" name="Xtraevent_4.2">opkg install curl
@@ -109,7 +107,7 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_5.2.sh|sh</item>
 		<item ask="Install xtraevent_5.3 ?" icon="xtraevent.png" name="Xtraevent_5.3">opkg install curl
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_5.3.sh|sh</item>
-        <item ask="Install xtraevent_6.7 ?" icon="xtraevent.png" name="Xtraevent_6.7">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.7.sh -O - | /bin/sh</item>
+		<item ask="Install xtraevent_6.7 ?" icon="xtraevent.png" name="Xtraevent_6.7">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.7.sh -O - | /bin/sh</item>
 		<item ask=" Install YouTube ?" icon="youtube.png" name="YouTube">wget https://dreambox4u.com/emilnabil237/plugins/YouTube/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install zoom_1.1.2-py3 ?" icon="zoom.png" name="Zoom_1.1.2-Py3">wget https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh  -O - | /bin/sh</item>
 	</submenu>
