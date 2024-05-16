@@ -129,6 +129,8 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 	<submenu font_size="30" height="950" icon="tools.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Tools Feed" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install CAM-abertis-astra-sm ?" icon="tools.png" name="CAM-abertis-astra-sm">wget https://dreambox4u.com/emilnabil237/script/CAM-abertis-astra.sh  -O - | /bin/sh</item>
 		<item ask="Install Feed Emil Nabil ?" icon="tools.png" name="Feed Emil Nabil">wget http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh  -O - | /bin/sh</item>
+		<item ask="Install fix-freeserver-serviceinfo-module?" icon="tools.png" name="FIX-freeserver-serviceinfo-module">wget https://dreambox4u.com/emilnabil237/script/fix-freeserver-serviceinfo-module.sh -O - | /bin/sh</item>
+		<item ask="Install fix-hdd--space-inodes ?" icon="tools.png" name="fix-hdd--space-inodes">wget https://dreambox4u.com/emilnabil237/script/fix-hdd--space-inodes.sh -O - | /bin/sh</item>
 		<item ask="Install FIX-ipk-package-installation ?" icon="tools.png" name="FIX-ipk-Package-Installation">wget https://dreambox4u.com/emilnabil237/script/fix-ipk-package-installation.sh -O - | /bin/sh</item>
 		<item ask="Install Fix Softcam Atv ?" icon="tools.png" name="Fix Softcam Atv">sh -c "$(wget --no-check-certificate http://updates.mynonpublic.com/oea/feed -qO -)"</item>
 		<item ask="Install Fix Softcam OpenPli ?" icon="tools.png" name="Fix Softcam OpenPli">curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/softcam-support-pli.sh|sh</item>
