@@ -64,6 +64,20 @@
 		<item ask="Install Flashonline ?" icon="flash-online.png" name="Multiboot-FlashOnline">wget https://raw.githubusercontent.com/emil237/download-plugins/main/multiboot-flashonline.sh -O - | /bin/sh</item>
 	</submenu>
 
+	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" icon="novaler.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Novaler Plugins" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install Beengo ?" icon="novaler.png" name="Beengo">wget https://dreambox4u.com/emilnabil237/plugins/novalerstore/beengo/beengo.sh  -O - | /bin/sh</item>
+		<item ask="Install Ipaudioplus ?" icon="novaler.png" name="Ipaudioplus">wget https://dreambox4u.com/emilnabil237/plugins/novalerstore/ipaudioplus/ipaudioplus.sh  -O - | /bin/sh</item>
+		<item ask="Install Ipsat ?" icon="novaler.png" name="Ipsat">wget https://dreambox4u.com/emilnabil237/plugins/novalerstore/ipsat/ipsat.sh -O - | /bin/sh</item>
+		<item ask="Install Novacam-Supreme ?" icon="novaler.png" name="Novacam-Supreme">wget https://dreambox4u.com/emilnabil237/plugins/novalerstore/novacam-supreme/novacam-supreme.sh  -O - | /bin/sh</item>
+		<item ask="Install NovacamPro ?" icon="novaler.png" name="NovacamPro">wget https://dreambox4u.com/emilnabil237/plugins/novalerstore/novacampro/novacampro.sh  -O - | /bin/sh</item>
+		<item ask="Install NovalerStore ?" icon="novaler.png" name="NovalerStore">wget https://dreambox4u.com/emilnabil237/plugins/novalerstore/novalerstore/novalerstore.sh  -O - | /bin/sh</item>
+		<item ask="Install NovalerTv ?" icon="novaler.png" name="NovalerTv">wget https://dreambox4u.com/emilnabil237/plugins/novalerstore/novalertv/novalertv.sh -O - | /bin/sh</item>
+		<item ask="Install NovaTv ?" icon="novaler.png" name="NovaTv">wget https://dreambox4u.com/emilnabil237/plugins/novalerstore/novatv/novatv.sh -O - | /bin/sh</item>
+		<item ask="Install SupTv ?" icon="novaler.png" name="SupTv">wget https://dreambox4u.com/emilnabil237/plugins/novalerstore/suptv/suptv.sh -O - | /bin/sh</item>
+		<item ask="Install SupVod ?" icon="novaler.png" name="SupVod">wget https://dreambox4u.com/emilnabil237/plugins/novalerstore/supvod/supvod.sh -O - | /bin/sh</item>
+		<item ask="Install UltraCam ?" icon="novaler.png" name="UltraCam">wget https://dreambox4u.com/emilnabil237/plugins/novalerstore/ultracam/ultracam.sh -O - | /bin/sh</item>
+	</submenu>
+
 	<submenu bg="#22440033" font_size="30" height="950" icon="plugins.png" info=" Download And install Plugins " mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Plugins" title1_bg="#000000" title1_fg="#FFD700" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install ArabicSavior ?" icon="arabicsavior.png" name="Arabicsavior">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
 		<item ask="install Alajre_1.2 ?" icon="Alajre.png" name="Alajre_1.2">wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -qO - | /bin/sh</item>
@@ -85,17 +99,17 @@
 		<item ask="Install Ozeta-Skins-Setup-2.8 ?" icon="ozeta.png" name="Ozeta-Skins-Setup-2.8">wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh</item>
 		<item ask="Install Quran ?" icon="quran.png" name="Quran-karem">wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -O - | /bin/sh</item>
 		<item ask="Install RaedQuickSignal ?" icon="RaedQuickSignal.png" name="Raedquicksignal">wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
-		<item ask="Install scriptexecuter ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/scriptexecutor.png" name="scriptexecuter">wget http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh -O - | /bin/sh</item>
+		<item ask="Install scriptexecuter ?" icon="scriptexecutor.png" name="scriptexecuter">wget http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh -O - | /bin/sh</item>
 		<item ask="Install sherlockmod ?" icon="sherlockmod.png" name="Sherlockmod">wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install SubsSupport_1.5.8-r9 ?" icon="subssupport.png" name="SubsSupport_1.5.8-r9">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh -O - | /bin/sh</item>
 		<item ask="Install SubsSupport_1.7.0-r3 ?" icon="subssupport.png" name="SubsSupport_1.7.0-r3">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install TheWeather ?" icon="theweather.png" name="TheWeather">wget https://dreambox4u.com/emilnabil237/plugins/TheWeather/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install uninstaller-Plugins ?" icon="uninstaller.png" name="uninstaller-Plugins">wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh  -O - | /bin/sh</item>
-		<item ask=" Install visualweather ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/visualweather.png" name="visualweather">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/visualweather/installer.sh -O - | /bin/sh</item>
-		<item ask=" Install weathermsn ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/weathermsn.png" name="weathermsn">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weathermsn/installer.sh -O - | /bin/sh</item>
-		<item ask=" Install weatherplugin ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/weatherplugin.png" name="weatherplugin">wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin/installer.sh  -O - | /bin/sh</item>
-		<item ask=" Install weatherplugin-icons ?" name="weatherplugin-icons" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/weatherplugin-icons.png">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weatherplugin-icons/installer.sh -O - | /bin/sh</item>
-		<item ask=" Install wireguard-vpn_9.7 ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/wireguard.png" name="wireguard-vpn_9.7">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/wireguard-vpn/installer.sh -O - | /bin/sh</item>
+		<item ask=" Install visualweather ?" icon="visualweather.png" name="visualweather">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/visualweather/installer.sh -O - | /bin/sh</item>
+		<item ask=" Install weathermsn ?" icon="weathermsn.png" name="weathermsn">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weathermsn/installer.sh -O - | /bin/sh</item>
+		<item ask=" Install weatherplugin ?" icon="weatherplugin.png" name="weatherplugin">wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin/installer.sh  -O - | /bin/sh</item>
+		<item ask=" Install weatherplugin-icons ?" name="weatherplugin-icons" icon="weatherplugin-icons.png">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weatherplugin-icons/installer.sh -O - | /bin/sh</item>
+		<item ask=" Install wireguard-vpn_9.6 ?" icon="wireguard.png" name="wireguard-vpn_9.6">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/wireguard-vpn/installer.sh -O - | /bin/sh</item>
 		<item ask="Install xtraevent_3.3 ?" icon="xtraevent.png" name="Xtraevent_3.3">opkg install curl
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh|sh</item>
 		<item ask="Install xtraevent_4.2 ?" icon="xtraevent.png" name="Xtraevent_4.2">opkg install curl
@@ -129,8 +143,6 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 	<submenu font_size="30" height="950" icon="tools.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Tools Feed" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install CAM-abertis-astra-sm ?" icon="tools.png" name="CAM-abertis-astra-sm">wget https://dreambox4u.com/emilnabil237/script/CAM-abertis-astra.sh  -O - | /bin/sh</item>
 		<item ask="Install Feed Emil Nabil ?" icon="tools.png" name="Feed Emil Nabil">wget http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh  -O - | /bin/sh</item>
-		<item ask="Install fix-freeserver-serviceinfo-module?" icon="tools.png" name="FIX-freeserver-serviceinfo-module">wget https://dreambox4u.com/emilnabil237/script/fix-freeserver-serviceinfo-module.sh -O - | /bin/sh</item>
-		<item ask="Install fix-hdd--space-inodes ?" icon="tools.png" name="fix-hdd--space-inodes">wget https://dreambox4u.com/emilnabil237/script/fix-hdd--space-inodes.sh -O - | /bin/sh</item>
 		<item ask="Install FIX-ipk-package-installation ?" icon="tools.png" name="FIX-ipk-Package-Installation">wget https://dreambox4u.com/emilnabil237/script/fix-ipk-package-installation.sh -O - | /bin/sh</item>
 		<item ask="Install Fix Softcam Atv ?" icon="tools.png" name="Fix Softcam Atv">sh -c "$(wget --no-check-certificate http://updates.mynonpublic.com/oea/feed -qO -)"</item>
 		<item ask="Install Fix Softcam OpenPli ?" icon="tools.png" name="Fix Softcam OpenPli">curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/softcam-support-pli.sh|sh</item>
