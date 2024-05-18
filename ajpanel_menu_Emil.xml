@@ -95,7 +95,7 @@
 		<item ask=" Install weathermsn ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/weathermsn.png" name="weathermsn">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weathermsn/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install weatherplugin ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/weatherplugin.png" name="weatherplugin">wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install weatherplugin-icons ?" name="weatherplugin-icons" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/weatherplugin-icons.png">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weatherplugin-icons/installer.sh -O - | /bin/sh</item>
-		<item ask=" Install wireguard-vpn_9.6 ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/wireguard.png" name="wireguard-vpn_9.6">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/wireguard-vpn/installer.sh -O - | /bin/sh</item>
+		<item ask=" Install wireguard-vpn_9.7 ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/wireguard.png" name="wireguard-vpn_9.7">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/wireguard-vpn/installer.sh -O - | /bin/sh</item>
 		<item ask="Install xtraevent_3.3 ?" icon="xtraevent.png" name="Xtraevent_3.3">opkg install curl
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh|sh</item>
 		<item ask="Install xtraevent_4.2 ?" icon="xtraevent.png" name="Xtraevent_4.2">opkg install curl
