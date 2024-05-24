@@ -29,6 +29,7 @@
 
 	<submenu bg="#19184D" font_size="50" height="950" icon="media.png" mode="grid_5x4" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Media" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install BouquetMakerXtream ?" icon="BouquetMakerXtream.png" name="BouquetMakerXtream">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh</item>
+		<item ask="Install E2plyer" icon="e2player.png" name="E2Player-Tsplayer">wget https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh?inline=false  -O - | /bin/sh</item>
 		<item ask="Install IptoSat ?" icon="iptosat.png" name="IptoSat">wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Ipaudio ?" icon="ipaudio.png" name="IpAudio_6.7">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Ipaudio ?" icon="ipaudio.png" name="IpAudio_7.4">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
@@ -88,7 +89,6 @@
 		<item ask="Install CFG_ZOOM_FINAL ?" icon="cfg-zoom.png" name="CFG_ZOOM_FINAL Py2">wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install CrashLogoViewer ?" icon="crash.png" name="CrashLogViewer">wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh</item>
 		<item ask="Install CrondManger ?" icon="crondmanager.png" name="CronManager">wget https://github.com/emil237/download-plugins/raw/main/cronmanager.sh  -O - | /bin/sh</item>
-		<item ask="Install E2plyer" icon="e2player.png" name="E2Player-Tsplayer">wget https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh?inline=false  -O - | /bin/sh</item>
 		<item ask="Install Epg Grabber ?" icon="grabber.png" name="Epg Grabber">wget https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Footonsat ?" icon="footonsat.png" name="FootOnsat">wget https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="freecccam.png" name="FreeCCcamServer Plugin">wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh</item>
@@ -126,6 +126,14 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 		<item ask=" Install YouTube ?" icon="youtube.png" name="YouTube">wget https://dreambox4u.com/emilnabil237/plugins/YouTube/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install zoom_1.1.2-py3 ?" icon="zoom.png" name="Zoom_1.1.2-Py3">wget https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh  -O - | /bin/sh</item>
 	</submenu>
+       
+	<submenu bg="#22440033" font_size="30" height="950" icon="systemplugins.png" info=" Download And install System Plugins " mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="System-Plugins" title1_bg="#000000" title1_fg="#FFD700" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install 3GModemManager ?" icon="3gmodemmanager.png" name="3GModemManager">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/3gmodemmanager/3gmodemmanager.sh -O - | /bin/sh</item>
+		<item ask="Install NewVirtualkeyBoard ?" icon="keyboard.png" name="NewVirtualKeyBoard">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh</item>
+		<item ask="install servicescanupdates_1.2 ?" icon="systemplugins.png" name="servicescanupdates_1.2">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/servicescanupdates/servicescanupdates.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="systemplugins.png" name="Ts-Sateditor">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ts-sateditor/ts-sateditor.sh -O - | /bin/sh</item>
+
+      </submenu>
 
 	<submenu bg="#000000" font_size="30" height="950" icon="symlink.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="SymLink" title1_bg="#000000" title1_fg="#FFFFFF" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#FF0000" width="1600">
 		<item icon="symlink.png" name="SymLink picon from hdd">ln -sf /media/hdd/picon /usr/share/enigma2/picon</item>
@@ -538,3 +546,4 @@ init 3</item>
 		<item ask="Remove Youtube" icon="remove.png" name="Youtube">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-youtube.sh  -O - | /bin/sh</item>
 	</submenu>
 </ajp_menu>
+
