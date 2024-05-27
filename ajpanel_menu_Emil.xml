@@ -280,9 +280,9 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 
 		<submenu fg="#F9B7FF" font_size="50" height="950" icon="egami.png" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Egami" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 			<item ask="Install Skin Aglare-FHD ?" icon="aglare.png" name="Aglare-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
-			<item ask="" icon="skins-premium.png" name="Premium-Fhd_2.7">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
-			<item ask="" icon="skins-premium-black.png" name="Premium-Black-Fhd_2.7">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
-			<item ask="" icon="skins-premium-blue.png" name="Premium-Blue-Fhd_2.7">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh</item>
+			<item ask="" icon="skins-premium.png" name="Premium-Fhd_3.0">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
+			<item ask="" icon="skins-premium-black.png" name="Premium-Black-Fhd_3.0">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
+			<item ask="" icon="skins-premium-blue.png" name="Premium-Blue-Fhd_3.0">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh</item>
 			<item ask="" icon="skins.png" name="Odreamy-Fhd">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-odreamy-fhd.sh -O - | /bin/sh</item>
 		</submenu>
 
