@@ -105,9 +105,7 @@
 		<item ask="Install SubsSupport_1.7.0-r3 ?" icon="subssupport.png" name="SubsSupport_1.7.0-r3">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install TheWeather ?" icon="theweather.png" name="TheWeather">wget https://dreambox4u.com/emilnabil237/plugins/TheWeather/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install uninstaller-Plugins ?" icon="uninstaller.png" name="uninstaller-Plugins">wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh  -O - | /bin/sh</item>
-	<item ask=" Install vavoo_1.1 ?" 
-	icon="vavoo.png"
-	name="vavoo_1.1">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh</item>	
+		<item ask=" Install vavoo_1.1 ?" icon="vavoo.png" name="vavoo_1.1">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install visualweather ?" icon="visualweather.png" name="visualweather">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/visualweather/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install weathermsn ?" icon="weathermsn.png" name="weathermsn">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weathermsn/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install weatherplugin ?" icon="weatherplugin.png" name="weatherplugin">wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin/installer.sh  -O - | /bin/sh</item>
@@ -152,6 +150,7 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 
 	<submenu font_size="30" height="950" icon="tools.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Tools Feed" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install CAM-abertis-astra-sm ?" icon="tools.png" name="CAM-abertis-astra-sm">wget https://dreambox4u.com/emilnabil237/script/CAM-abertis-astra.sh  -O - | /bin/sh</item>
+		<item ask="Install Epg-Khaled ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/tools.png" name="EPG-KHALED">wget https://raw.githubusercontent.com/emilnabil/epg-khaled/main/EPG-khaled.sh  -O - | /bin/sh</item>
 		<item ask="Install Feed Emil Nabil ?" icon="tools.png" name="Feed Emil Nabil">wget http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh  -O - | /bin/sh</item>
 		<item ask="Install FIX-ipk-package-installation ?" icon="tools.png" name="FIX-ipk-Package-Installation">wget https://dreambox4u.com/emilnabil237/script/fix-ipk-package-installation.sh -O - | /bin/sh</item>
 		<item ask="Install Fix Softcam Atv ?" icon="tools.png" name="Fix Softcam Atv">sh -c "$(wget --no-check-certificate http://updates.mynonpublic.com/oea/feed -qO -)"</item>
