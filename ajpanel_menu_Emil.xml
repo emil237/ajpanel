@@ -89,6 +89,7 @@
 		<item ask="Install CFG_ZOOM_FINAL ?" icon="cfg-zoom.png" name="CFG_ZOOM_FINAL Py2">wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install CrashLogoViewer ?" icon="crash.png" name="CrashLogViewer">wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh</item>
 		<item ask="Install CrondManger ?" icon="crondmanager.png" name="CronManager">wget https://github.com/emil237/download-plugins/raw/main/cronmanager.sh  -O - | /bin/sh</item>
+		<item ask="Install Epg-Khaled ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/epg-khaled.png" name="EPG-KHALED">wget https://raw.githubusercontent.com/emilnabil/epg-khaled/main/EPG-khaled.sh  -O - | /bin/sh</item>
 		<item ask="Install Epg Grabber ?" icon="grabber.png" name="Epg Grabber">wget https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Footonsat ?" icon="footonsat.png" name="FootOnsat">wget https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="freecccam.png" name="FreeCCcamServer Plugin">wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh</item>
