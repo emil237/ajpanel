@@ -66,18 +66,18 @@
 		<item ask="Install Flashonline ?" icon="flash-online.png" name="Multiboot-FlashOnline">wget https://raw.githubusercontent.com/emil237/download-plugins/main/multiboot-flashonline.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Novaler Plugins" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">
-		<item ask="Install Beengo ?" name="Beengo" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">wget https://raw.githubusercontent.com/emil237/novalerstore/main/beengo.sh  -O - | /bin/sh</item>
-		<item ask="Install Ipaudioplus ?" name="Ipaudioplus" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">wget https://raw.githubusercontent.com/emil237/novalerstore/main/ipaudioplus.sh  -O - | /bin/sh</item>
-		<item ask="Install Ipsat ?" name="Ipsat" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">wget https://raw.githubusercontent.com/emil237/novalerstore/main/ipsat.sh -O - | /bin/sh</item>
-		<item ask="Install Novacam-Supreme ?" name="Novacam-Supreme" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">wget https://raw.githubusercontent.com/emil237/novalerstore/main/novacam-supreme.sh  -O - | /bin/sh</item>
-		<item ask="Install NovacamPro ?" name="NovacamPro" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">wget https://raw.githubusercontent.com/emil237/novalerstore/main/novacampro.sh  -O - | /bin/sh</item>
-		<item ask="Install NovalerStore ?" name="NovalerStore" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">wget https://raw.githubusercontent.com/emil237/novalerstore/main/novalerstore.sh  -O - | /bin/sh</item>
-		<item ask="Install NovalerTv ?" name="NovalerTv" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">wget https://raw.githubusercontent.com/emil237/novalerstore/main/novalertv.sh -O - | /bin/sh</item>
-		<item ask="Install NovaTv ?" name="NovaTv" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">wget https://raw.githubusercontent.com/emil237/novalerstore/main/novatv.sh -O - | /bin/sh</item>
-		<item ask="Install SupTv ?" name="SupTv" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">wget https://raw.githubusercontent.com/emil237/novalerstore/main/suptv.sh -O - | /bin/sh</item>
-		<item ask="Install SupVod ?" name="SupVod" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">wget https://raw.githubusercontent.com/emil237/novalerstore/main/supvod.sh -O - | /bin/sh</item>
-		<item ask="Install UltraCam ?" name="UltraCam" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png">wget https://raw.githubusercontent.com/emil237/novalerstore/main/ultracam.sh -O - | /bin/sh</item>
+	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Novaler Plugins" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install Beengo ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" name="Beengo">wget https://raw.githubusercontent.com/emil237/novalerstore/main/beengo.sh  -O - | /bin/sh</item>
+		<item ask="Install Ipaudioplus ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" name="Ipaudioplus">wget https://raw.githubusercontent.com/emil237/novalerstore/main/ipaudioplus.sh  -O - | /bin/sh</item>
+		<item ask="Install Ipsat ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" name="Ipsat">wget https://raw.githubusercontent.com/emil237/novalerstore/main/ipsat.sh -O - | /bin/sh</item>
+		<item ask="Install Novacam-Supreme ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" name="Novacam-Supreme">wget https://raw.githubusercontent.com/emil237/novalerstore/main/novacam-supreme.sh  -O - | /bin/sh</item>
+		<item ask="Install NovacamPro ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" name="NovacamPro">wget https://raw.githubusercontent.com/emil237/novalerstore/main/novacampro.sh  -O - | /bin/sh</item>
+		<item ask="Install NovalerStore ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" name="NovalerStore">wget https://raw.githubusercontent.com/emil237/novalerstore/main/novalerstore.sh  -O - | /bin/sh</item>
+		<item ask="Install NovalerTv ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" name="NovalerTv">wget https://raw.githubusercontent.com/emil237/novalerstore/main/novalertv.sh -O - | /bin/sh</item>
+		<item ask="Install NovaTv ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" name="NovaTv">wget https://raw.githubusercontent.com/emil237/novalerstore/main/novatv.sh -O - | /bin/sh</item>
+		<item ask="Install SupTv ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" name="SupTv">wget https://raw.githubusercontent.com/emil237/novalerstore/main/suptv.sh -O - | /bin/sh</item>
+		<item ask="Install SupVod ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" name="SupVod">wget https://raw.githubusercontent.com/emil237/novalerstore/main/supvod.sh -O - | /bin/sh</item>
+		<item ask="Install UltraCam ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/novaler.png" name="UltraCam">wget https://raw.githubusercontent.com/emil237/novalerstore/main/ultracam.sh -O - | /bin/sh</item>
 	</submenu>
 
 	<submenu bg="#22440033" font_size="30" height="950" icon="plugins.png" info=" Download And install Plugins " mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Plugins" title1_bg="#000000" title1_fg="#FFD700" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
@@ -111,7 +111,7 @@
 		<item ask=" Install visualweather ?" icon="visualweather.png" name="visualweather">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/visualweather/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install weathermsn ?" icon="weathermsn.png" name="weathermsn">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weathermsn/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install weatherplugin ?" icon="weatherplugin.png" name="weatherplugin">wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin/installer.sh  -O - | /bin/sh</item>
-		<item ask=" Install weatherplugin-icons ?" name="weatherplugin-icons" icon="weatherplugin-icons.png">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weatherplugin-icons/installer.sh -O - | /bin/sh</item>
+		<item ask=" Install weatherplugin-icons ?" icon="weatherplugin-icons.png" name="weatherplugin-icons">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weatherplugin-icons/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install wireguard-vpn_9.6 ?" icon="wireguard.png" name="wireguard-vpn_9.6">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/wireguard-vpn/installer.sh -O - | /bin/sh</item>
 		<item ask="Install xtraevent_3.3 ?" icon="xtraevent.png" name="Xtraevent_3.3">opkg install curl
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraevent_3.3.sh|sh</item>
@@ -225,6 +225,7 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 			<item ask="install picon abs_75.0e ?" icon="picon-g.png" name="abs_75.0e">wget https://dreambox4u.com/emilnabil237/picons/abs_75.0e/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
+		<item ask="install picon Khaled_All-sat ?" icon="/media/hdd/Emil_Panel/Custom_icons/icons-Emil/Khaled.png" name="Picons_Khaled_All-sat">wget https://dreambox4u.com/emilnabil237/picons/Khaled_all-sat/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Chochlousek Picon ?" icon="chocholousekpicons.png" name="Chocholousek-Picons">sh -c "$(wget --no-check-certificate https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -qO -)</item>
 		<item ask="" icon="picon-other.png" name="picons-other">wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh</item>
 	</submenu>
@@ -288,13 +289,13 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 		</submenu>
 
 		<submenu fg="#CCFB5D" font_size="50" height="950" icon="OBH.png" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Open Black Hole" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-			<item ask="Install Skin ?" icon="skins.png" name="MX-Sline-Black-Red-Gradient_py3.12" info="FOR OPEN-BH_5.4">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-black-red-gradient_py3.12.sh|sh</item>
-			<item ask="Install Skin ?" icon="skins.png" name="MX_Sline-Blue_OBH_5.4_py3.12" info="FOR OPEN-BH_5.4">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Blue_OBH_5.4_py3.12_py3.12.sh|sh</item>
-			<item ask="Install Skin ?" icon="skins.png" name="MX_Sline-Red_X2_py3.12" info="FOR OPEN-BH_5.4">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Red_X2_py3.12.sh|sh</item>
-			<item ask="Install Skin ?" icon="skins.png" name="MX_LiveFHD_posterX-Mod-HA" info="FOR OPEN-BH_5.4_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/MX-LiveFHD-posterX_mod-HAhmed-py3.12.sh|sh</item>
-			<item ask="Install Skin ?" icon="skins.png" name="MX_GrayDots_vip-xtra_mod-HA" info="FOR OPEN-BH_5.3">wget https://dreambox4u.com/emilnabil237/skins/obh/MX_GrayDots_vip-xtra_mod-HA.sh  -O - | /bin/sh</item>
+			<item ask="Install Skin ?" icon="skins.png" info="FOR OPEN-BH_5.4" name="MX-Sline-Black-Red-Gradient_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-black-red-gradient_py3.12.sh|sh</item>
+			<item ask="Install Skin ?" icon="skins.png" info="FOR OPEN-BH_5.4" name="MX_Sline-Blue_OBH_5.4_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Blue_OBH_5.4_py3.12_py3.12.sh|sh</item>
+			<item ask="Install Skin ?" icon="skins.png" info="FOR OPEN-BH_5.4" name="MX_Sline-Red_X2_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Red_X2_py3.12.sh|sh</item>
+			<item ask="Install Skin ?" icon="skins.png" info="FOR OPEN-BH_5.4_py3.12" name="MX_LiveFHD_posterX-Mod-HA">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/MX-LiveFHD-posterX_mod-HAhmed-py3.12.sh|sh</item>
+			<item ask="Install Skin ?" icon="skins.png" info="FOR OPEN-BH_5.3" name="MX_GrayDots_vip-xtra_mod-HA">wget https://dreambox4u.com/emilnabil237/skins/obh/MX_GrayDots_vip-xtra_mod-HA.sh  -O - | /bin/sh</item>
 			<item ask="Install Skin ?" icon="skins.png" info="FOR OPEN-BH_5.3" name="mx-hq9w_2.0-mod3-FHD">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-hq9w_2.0-mod3fhd.sh  -O - | /bin/sh</item>
-			<item ask="Install Skin ?" icon="skins.png" name="MX-MaesteraBPR-FHD_MOD-HAhmed" info="FOR OPEN-BH_5.3">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-MaesteraBPR-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
+			<item ask="Install Skin ?" icon="skins.png" info="FOR OPEN-BH_5.3" name="MX-MaesteraBPR-FHD_MOD-HAhmed">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-MaesteraBPR-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
 			<item ask="Install Skin ?" icon="skins.png" info="FOR OPEN-BH_5.3" name="Mx-PrioFHD-xtra_mod-HAhmed">wget https://dreambox4u.com/emilnabil237/skins/obh/Mx-PrioFHD-xtra_mod-HAhmed.sh  -O - | /bin/sh</item>
 			<item ask="Install Skin ?" icon="skins.png" info="FOR OPEN-BH_5.3" name="mx-sline-posterx_2.0-mod2ha">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-posterx_2.0-mod2ha.sh  -O - | /bin/sh</item>
 			<item ask="Install Skin ?" icon="skins.png" info="FOR OPEN-BH_5.3" name="MX-SunMoon-FHD_MOD-HAhmed">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-SunMoon-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
