@@ -108,7 +108,7 @@
 		<item ask="Install SubsSupport_1.7.0-r3 ?" icon="subssupport.png" name="SubsSupport_1.7.0-r3">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install TheWeather ?" icon="theweather.png" name="TheWeather">wget https://dreambox4u.com/emilnabil237/plugins/TheWeather/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install uninstaller-Plugins ?" icon="uninstaller.png" name="uninstaller-Plugins">wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh  -O - | /bin/sh</item>
-		<item ask=" Install vavoo_1.1 ?" icon="vavoo.png" name="vavoo_1.1">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh</item>
+		<item ask=" Install vavoo_1.4 ?" icon="vavoo.png" name="vavoo_1.4">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install visualweather ?" icon="visualweather.png" name="visualweather">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/visualweather/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install weathermsn ?" icon="weathermsn.png" name="weathermsn">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/weathermsn/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install weatherplugin ?" icon="weatherplugin.png" name="weatherplugin">wget http://dreambox4u.com/emilnabil237/plugins/weatherplugin/installer.sh  -O - | /bin/sh</item>
@@ -252,6 +252,9 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 			<item ask="Install Skin Malek-FHD ?" icon="skins.png" name="skins-malek-fhd_2.2_py3.11.2-py3.12.1">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/ATV/skins-malek-fhd_2.2_py3.11.2-py3.12.1.sh|sh</item>
 			<item ask="Install Skin Nacht_1.7.3 ?" icon="skins.png" name="Nacht_1.7.3">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-nacht_1.7.3.sh -O - | /bin/sh</item>
 			<item ask="Install Skin Novaler-s-fhd-indianred ?" icon="skins.png" name="Novaler-s-fhd-indianred_3.4">wget https://dreambox4u.com/emilnabil237/skins/openatv/SKIN-novaler-s-fhd-indianred_3.4.sh -O - | /bin/sh</item>
+		<item ask="Install Skin oDreamy-FHD ?" icon="skins.png" 
+		info="Modded By Inspiron"
+		name="oDreamy-FHD">wget https://dreambox4u.com/emilnabil237/skins/openatv/skins-oDreamy-FHD.sh -O - | /bin/sh</item>	
 			<item ask="Install Skin Ozeta Xtra ?" icon="skins.png" name="Ozeta-Xtra">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-ozeta-xtra.sh -O - | /bin/sh</item>
 		</submenu>
 
