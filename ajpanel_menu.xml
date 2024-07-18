@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ajp_menu bg="back.png" box_gap="80" font_size="70" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" picpath="/emil-panel-lite/icons/" shade="yes" title="Panel Emil (By Ajpanel)" title1_bg="#000000" title1_fg=" " title2_bg="#000000" title2_fg="#FCFCFC" width="1600">
-<item name='about'>'About'2024.07.18</item>
 	<item info="Open the directory &quot;/usr/script/&quot; in File Manager" name="/Go To Script/">/usr/script</item>
 	<submenu bg="#06770077" font_size="70" height="950" info="Download And Install Panel" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Panels" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install Ajpanel ?" icon="menu.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
@@ -516,6 +515,10 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 
 	<submenu font_size="30" height="950" info="&#1578;&#1581;&#1583;&#1610;&#1579; &#1607;&#1584;&#1575; &#1575;&#1604;&#1576;&#1575;&#1606;&#1604; &#1576;&#1575;&#1581;&#1583;&#1579; &#1575;&#1604;&#1575;&#1590;&#1575;&#1601;&#1575;&#1578;" mode="grid_3x2" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Upgrade Panel Emil" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Upgrade This Panel" icon="/emil-panel-lite/icons/menux.png" info="&#1578;&#1581;&#1583;&#1610;&#1579; &#1607;&#1584;&#1575; &#1575;&#1604;&#1576;&#1575;&#1606;&#1604; &#1576;&#1575;&#1581;&#1583;&#1579; &#1575;&#1604;&#1575;&#1590;&#1575;&#1601;&#1575;&#1578;" name="Upgrade Panel Emil Lite">wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh  -O - | /bin/sh</item>
+		<item ask="Quckly Install emil panel ?" icon="menu.png" name="Quckly Install emil panel ">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/update.sh -O - | /bin/sh</item>
+    <item ask="AutoUpdate-Panel ?" 
+    info="تحميل البانل في حالة وجود تحديث فقط"
+    icon="menu.png" name="AutoUpdate-Panel">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/autoupdate-panel.sh -O - | /bin/sh</item>
 	</submenu>
 
 	<submenu font_size="30" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Remove" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
