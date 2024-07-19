@@ -143,6 +143,7 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 
 	<submenu font_size="30" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Tools" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install CAM-abertis-astra-sm ?" icon="menux.png" name="CAM-abertis-astra-sm">wget https://dreambox4u.com/emilnabil237/script/CAM-abertis-astra.sh  -O - | /bin/sh</item>
+		<item ask="update-package_epggrabber ?" icon="menux.png" name="update-package_epggrabber">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/update-package.sh -O - | /bin/sh</item>
 		<item ask="Install Epg-Khaled ?" icon="menux.png" name="EPG-KHALED">wget https://raw.githubusercontent.com/emilnabil/epg-khaled/main/EPG-khaled.sh  -O - | /bin/sh</item>
 		<item ask="Install Feed Emil Nabil ?" icon="menux.png" name="Feed Emil Nabil">wget http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh  -O - | /bin/sh</item>
 		<item ask="Install FIX-ipk-package-installation ?" icon="menux.png" name="FIX-ipk-Package-Installation">wget https://dreambox4u.com/emilnabil237/script/fix-ipk-package-installation.sh -O - | /bin/sh</item>
