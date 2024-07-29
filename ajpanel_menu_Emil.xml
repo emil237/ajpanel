@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ajp_menu bg="back.png" box_gap="80" font_size="70" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" picpath="/emil-panel-lite/icons/" shade="yes" title="Panel Emil (By Ajpanel)" title1_bg="#000000" title1_fg=" " title2_bg="#000000" title2_fg="#FCFCFC" width="1600">
 	<item info="Open the directory &quot;/usr/script/&quot; in File Manager" name="/Go To Script/">/usr/script</item>
+  <submenu font_size="30" height="950" info="تحميل البلجنات المهمة دفعة واحدة بطريقة احترافية " mode="grid_3x2" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Super Script" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Super Script" icon="/emil-panel-lite/icons/menux.png" info="تحميل البلجنات المهمة دفعة واحدة بطريقة احترافية" name="Super Script">wget https://dreambox4u.com/emilnabil237/script/Super_Script.sh  -O - | /bin/sh</item>
+		</submenu>
 	<submenu bg="#06770077" font_size="70" height="950" info="Download And Install Panel" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Panels" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install Ajpanel ?" icon="menu.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Panel_Emil ?" icon="menu.png" name="Panel_Emil_lite">wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh</item>
