@@ -96,6 +96,7 @@
 		<item ask="Install RaedQuickSignal ?" icon="/emil-panel-lite/icons/lenux.png" name="Raedquicksignal">wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install scriptexecuter ?" icon="/emil-panel-lite/icons/lenux.png" name="scriptexecuter">wget http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh -O - | /bin/sh</item>
 		<item ask="Install sherlockmod ?" icon="/emil-panel-lite/icons/lenux.png" name="Sherlockmod">wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Simple-Zoom-Panel ?" icon="/emil-panel-lite/icons/lenux.png" name="Simple-Zoom-Panel">wget https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh -O - | /bin/sh</item>
 		<item ask="Install SubsSupport_1.5.8-r9 ?" icon="/emil-panel-lite/icons/lenux.png" name="SubsSupport_1.5.8-r9">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh -O - | /bin/sh</item>
 		<item ask="Install SubsSupport_1.7.0-r3 ?" icon="/emil-panel-lite/icons/lenux.png" name="SubsSupport_1.7.0-r3">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install TheWeather ?" icon="/emil-panel-lite/icons/lenux.png" name="TheWeather">wget https://dreambox4u.com/emilnabil237/plugins/TheWeather/installer.sh  -O - | /bin/sh</item>
