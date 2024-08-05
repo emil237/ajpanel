@@ -1,5 +1,3 @@
-
-  
 @@ re enter image  @@ اعادة ضبط للصورة 
 rm -R /etc/enigma2 && killall -9 enigma2 
                                                           
@@ -17,115 +15,512 @@ ln -sf /media/usb/picon /usr/share/enigma2/picon
 @@@@ SymLink /media/hdd  @@@@ تصحيح مسار للبايكونات 
 rm -f /usr/share/enigma2/picon 
 ln -sf /media/hdd/picon /usr/share/enigma2/picon  
-@@@@@@@@@ PANELS @@@@@@@@@
-@@@ Ajpanel @@@
-sh -c "$(wget -O- http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh)"
+@@@@@@@@@ PANELS & PLUGINS @@@@@@@@@
+>>>>>>> Super_Script <<<<<<<
+# متعددة بلجنات تحميل #
+#Super_Script#
+wget https://dreambox4u.com/emilnabil237/script/Super_Script.sh -O - | /bin/sh
 
-@@@ Dreamsat-Panel @@@
-sh -c "$(wget -O- http://dreambox4u.com/emilnabil237/plugins/DreamSatPanel/installer.sh)"
+>>>>>>> library-plugins <<<<<<<
+#library-plugins#
+sh -c "$(wget --no-check-certificate https://raw.githubusercontent.com/emil237/download-plugins/main/library-plugins.sh -qO -)"
 
-@@@ TvAddon-Panel @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/tvaddon/installer.sh)"
+>>>>>>> Fast plugins <<<<<<<
+#Fast plugins#
+wget https://dreambox4u.com/emilnabil237/script/fast-plugins.sh -O - | /bin/sh
 
-@@@@ Dreamosat-Downloader @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh)"
+>>>>>>>> EMU <<<<<<<<   
+#Cccam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh -O - | /bin/sh
 
-@@@  Epanel  @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh)"
+#Ncam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh
 
-@@@ levi45-AddonsManager @@@
-sh -c "$(wget -qO- --no-check-certificate https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh)"
+#Oscam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh -O - | /bin/sh
 
-@@@ Panel_Extra_Feed @@@
-sh -c "$(wget -qO- --no-check-certificate https://dreambox4u.com/emilnabil237/plugins/panel-extra-feed/installer.sh)"
+#GosatPlus-Ncam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh -O - | /bin/sh
 
-@@@ levi45-Multicam-Manager @@@
-sh -c "$(wget -qO- --no-check-certificate https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh)"
+#GosatPlus-Oscam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh -O - | /bin/sh
 
-@@@ SatvenusPanel @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/satvenuspanel/installer.sh)"
+#GosatPlus#
+wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus.sh -O - | /bin/sh
 
-@@@ TsPanel @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/tspanel/installer.sh)"
+#Oscamicam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh -O - | /bin/sh
 
-@@@@@@@ Install plugins @@@@@@@
-@@@ Arabicsavior @@@
-sh -c "$(wget -O- http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh)"
+#Powercam-Ncam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh -O - | /bin/sh
 
-@@@ CrashLogViewer @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/script/CrashLogViewer.sh)"
+#Powercam-Oscam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh -O - | /bin/sh
 
-@@@ CronManager @@@
+#Powercam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-powercam.sh -O - | /bin/sh
+
+#Revcam-Ncam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh -O - | /bin/sh
+
+#Revcam-Oscam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-oscam.sh -O - | /bin/sh
+
+#Revcam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh -O - | /bin/sh
+
+#Supcam-Ncam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh -O - | /bin/sh
+
+#Supcam-Oscam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh -O - | /bin/sh
+
+#Ultracam-Ncam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh -O - | /bin/sh
+
+#Ultracam-Oscam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh -O - | /bin/sh
+
+#Ultracam#
+wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh -O - | /bin/sh
+
+#BACKUP-Fullbackup-vu+4k#
+wget --no-check-certificate https://raw.githubusercontent.com/emilnabil/fullbackup/main/fullbackup-vu4k-encrypt.sh -O - | /bin/sh
+
+#Convert-cccam2all-cam#
+wget https://dreambox4u.com/emilnabil237/script/Convert-cccam2all-cam.sh -O - | /bin/sh
+
+>>>>>>> Panels & Plugins<<<<<<<
+#FEED-emil-feed#
+wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh -O - | /bin/sh
+
+# PANEL-ajpanel-all-python#
+wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh -O - | /bin/sh
+
+#PANEL-emil-panel-lite#for ajpanel#
+wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh
+
+#Panel-emil-panels-all#for ajpanel#
+wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh -O - | /bin/sh
+
+#PANEL-dreamosat-downloader#
+wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh -O - | /bin/sh
+
+#PANEL-Epanel-All-Python#
+wget https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh -O - | /bin/sh
+
+#PANEL-levi45-addonsmanager#
+wget https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh -O - | /bin/sh
+
+#PANEL-levi45multicammanager#
+wget https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh -O - | /bin/sh
+
+#PANEL-Panel_Extra_Feed#
+curl -kLs https://dreambox4u.com/emilnabil237/plugins/panel-extra-feed/installer.sh|sh
+
+#PANEL-SatvenusPanel-ALL-Python#
+wget https://dreambox4u.com/emilnabil237/plugins/satvenuspanel/installer.sh -O - | /bin/sh
+
+#PANEL-tspanel#
+wget https://dreambox4u.com/emilnabil237/plugins/tspanel/installer.sh -O - | /bin/sh
+
+#PANEL-tvaddon-panel#
+wget https://dreambox4u.com/emilnabil237/plugins/tvaddon/installer.sh -O - | /bin/sh
+
+#PLUGIN-3GModemManager#
+wget https://raw.githubusercontent.com/emilnabil/3GModemManager/main/installer.sh -O - | /bin/sh
+
+#PLUGIN-addkey-ALL-Python#
+wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/KeyAdder/installer.sh -O - | /bin/sh
+
+#PLUGIN-Alajre#
+wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -qO - | /bin/sh
+
+#PLUGIN-AthanTimes#
+wget https://dreambox4u.com/emilnabil237/plugins/athantimes/installer.sh -O - | /bin/sh
+
+#PLUGIN-Ansite#
+wget http://dreambox4u.com/emilnabil237/plugins/ansite/installer.sh -qO - | /bin/sh
+
+#PLUGIN-arabicsavior-ALL-Python#
+wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh
+
+#PLUGIN-BouquetMakerXtream#
+wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh
+
+#PLUGIN-cfg_zoom_final-py2#
+wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh -O - | /bin/sh
+
+#PLUGIN-CFG_ZOOM_FINAL#
+wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final/installer.sh  -O - | /bin/sh
+
+#PLUGIN-Clearmemory#
+wget https://dreambox4u.com/emilnabil237/plugins/clearmemory/installer.sh -O - | /bin/sh
+
+#CronManager#
 sh -c "$(wget -O- https://github.com/emil237/download-plugins/raw/main/cronmanager.sh)"
 
-@@@ Chocholousek-Picons @@@
-sh -c "$(wget --no-check-certificate https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -qO -)"
+#PLUGIN-chocholousek-picons#
+wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/chocholousek/installer.sh -O - | /bin/sh
 
-@@@ Epg Grabber @@@
-sh -c "$(wget -O- https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh)"
+#PLUGIN-CrashLogViewer#
+wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh
+
+#PLUGIN-cronmanger#
+wget https://dreambox4u.com/emilnabil237/plugins/crondmanger/installer.sh -O - | /bin/sh
 
 @@@ E2IPLAYER TSIPLYER @@@
 sh -c "$(wget -O- https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh?inline=false)"
 
-@@@ Feed Emil Nabil @@@
-sh -c "$(wget -O- http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh)"
+#PLUGIN-e2m3u2bouquet#
+wget https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh -O - | /bin/sh
 
-@@@ FootOnsat @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh)"
+#PLUGIN-FontMagnifier#
+wget https://raw.githubusercontent.com/emil237/fontmagnifier/main/installer.sh -qO - | /bin/sh
 
-@@@ Plugin FreeServer @@@
-sh -c "$(wget -O- https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh)"
+#PLUGIN-FreeServerCCcam#
+wget https://dreambox4u.com/emilnabil237/plugins/freeserver/installer.sh -qO - | /bin/sh
 
-@@@ HistoryZapSelector @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/historyzap/installer.sh)"
+#PLUGIN-HasBahCa#
+wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh
 
-@@@ Iptosat @@@
-sh -c "$(wget -qO- --no-check-certificate https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh)"
+#PLUGIN-HistoryZapSelector#
+wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer.sh -O - | /bin/sh
 
-@@@ Ipaudio_6.7 @@@
+#PLUGIN-Ipaudio_6.7#
 sh -c "$(wget -qO- --no-check-certificate https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh)"
 
-@@@ IpaudioPro-py3.9-py3.11 @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh)"
+#PLUGIN-ipaudio_7.4#
+wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh
 
-@@@ JediepgXtream @@@
-sh -c "$(wget -O- https://raw.githubusercontent.com/emil237/plugins/jediepgextream/main/installer.sh)"
+#PLUGIN-ipaudiopro#
+wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh -O - | /bin/sh
 
-@@@ Jedimakerxtream @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh)"
+#PLUGIN-iptosat#
+wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh -O - | /bin/sh
 
-@@@ plugin Keyadder @@@
-sh -c "$(wget -qO- --no-check-certificate https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh)"
+#PLUGIN-jediepgxtream#
+wget https://dreambox4u.com/emilnabil237/plugins/jediepgextream/installer.sh -O - | /bin/sh
 
-@@@ Plugin MyCam @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh)"
+#PLUGIN-jedimakerxtream#
+wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh -qO - | /bin/sh
 
-@@@ Multi-Stalker @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh)"
+#PLUGIN-Multi-Stalker#
+wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh
 
-@@@ Multi StalkerPro @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/MultiStalkerPro/installer.sh)"
+#PLUGIN-Multi-StalkerPro#
+wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/multi-stalkerpro/main/installer.sh -O - | /bin/sh
 
-@@@ NewVirtualKeyBoard @@@
-sh -c "$(wget -O- https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh)"
+#PLUGIN-mycam#
+wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh
 
-@@@ Quran-karem @@@
-sh -c "$(wget -qO- --no-check-certificate https://raw.githubusercontent.com/emil237/quran/main/installer.sh)"
+#PLUGIN-PlutoTV#
+wget https://dreambox4u.com/emilnabil237/plugins/PlutoTV/installer.sh -qO - | /bin/sh
 
-@@@ QuarterPounder @@@
+#PLUGIN-QuarterPounder#
 sh -c "$(wget -qO- --no-check-certificate http://dreambox4u.com/emilnabil237/script/quarterpounder.sh)"
 
-@@@ Raedquicksignal @@@
-sh -c "$(wget -O- https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh)"
+#PLUGIN-Quran-karem#
+wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -qO - | /bin/sh
 
-@@@ xtreamity @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh)"
+#PLUGIN-RaedQuickSignal#
+wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh
 
-@@@ XcPlugin-Forever @@@ 
-wget https://raw.githubusercontent.com/emil237/xcplugin/main/installer.sh -O - | /bin/sh
+#PLUGIN-Sherlockmod#
+wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh
 
-@@@ Xtraevent_4.6 @@@
-sh -c "$(wget -O- https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh)"
+#PLUGIN-supssupport_1.7.0-r3#
+wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh -O - | /bin/sh
+
+#PLUGIN-Suptv#
+wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -qO - | /bin/sh
+
+#PLUGIN-Tmbd-all-python#
+wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/TMBD/installer.sh -O - | /bin/sh
+
+#PLUGIN-Unstaller-Plugins#
+wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh -O - | /bin/sh
+
+#PLUGIN-VertualKeyboard#
+wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh
+
+#PLUGIN-XcPluginForever#
+wget https://dreambox4u.com/emilnabil237/plugins/xcplugin/installer.sh -qO - | /bin/sh
+
+#PLUGIN-Xstreamity#
+wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh
+
+#PLUGIN-Xtraevent_6.75#
+wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.75.sh -O - | /bin/sh
+
+>>>>>>> TOOLS <<<<<<<
+#TOOL-All-Channels-By-Emil-Nabil#
+wget https://raw.githubusercontent.com/emil237/channel-emil-nabil/main/installer.sh -qO - | /bin/sh
+
+#TOOL-Enigma-Update-ALL-PYthon#
+wget https://dreambox4u.com/emilnabil237/enigma-update/installer.sh -O - | /bin/sh
+
+>>>>>>> Images <<<<<<<
+
+#IMAGE-BlackHole-3.1.0#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/BlackHole-3.1.0.sh -O - | /bin/sh
+
+#IMAGE-egami-10.3-for-vuplus.sh#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/egami-10.3-for-vuplus.sh -O - | /bin/sh
+
+#IMAGE-egami-10.4#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/egami-10.4.sh -O - | /bin/sh
+
+#IMAGE-nonsolosat-30-py3#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/nonsolosat-30-py3.sh -O - | /bin/sh
+
+#IMAGE-openatv-6.4-TimeShift#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openatv-6.4-TimeShift.sh -O - | /bin/sh
+
+#IMAGE-openatv-6.4#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openatv-6.4.sh -O - | /bin/sh
+
+#IMAGE-openatv-7.0#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openatv-7.0.sh -O - | /bin/sh
+
+#IMAGE-openatv-7.1#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openatv-7.1.sh -O - | /bin/sh
+
+#IMAGE-openatv-7.2#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openatv-7.2.sh -O - | /bin/sh
+
+#IMAGE-openatv-7.3#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openatv-7.3.sh -O - | /bin/sh
+
+#IMAGE-openatv-7.4#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openatv-7.4.sh -O - | /bin/sh
+
+#IMAGE-openatv-7.5#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openatv-7.5.sh -O - | /bin/sh
+
+#IMAGE-openblackhole-4.4-for-vuplus-only#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openblackhole-4.4-for-vuplus-only.sh -O - | /bin/sh
+
+#IMAGE-openblackhole-5.0#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openblackhole-5.0.sh -O - | /bin/sh
+
+#IMAGE-openblackhole-5.1#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openblackhole-5.1.sh -O - | /bin/sh
+
+#IMAGE-openblackhole-5.2#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openblackhole-5.2.sh -O - | /bin/sh
+
+#IMAGE-openblackhole-5.3#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openblackhole-5.3.sh -O - | /bin/sh
+
+#IMAGE-openblackhole-5.4#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openblackhole-5.4.sh -O - | /bin/sh
+
+#IMAGE-opendroid-7.1#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/opendroid-7.1.sh -O - | /bin/sh
+
+#IMAGE-opendroid-7.3#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/opendroid-7.3.sh -O - | /bin/sh
+
+#IMAGE-openpli-8.3-py2-TimeShift#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openpli-8.3-py2-TimeShift.sh -O - | /bin/sh
+
+#IMAGE-openpli-8.3#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openpli-8.3.sh -O - | /bin/sh
+
+#IMAGE-openpli-9.0-py3-TimeShift#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openpli-9.0-py3-TimeShift.sh -O - | /bin/sh
+
+#IMAGE-openpli-9.0#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openpli-9.0.sh -O - | /bin/sh
+
+#IMAGE-openpli-develop#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openpli-develop.sh -O - | /bin/sh
+
+#IMAGE-openspa-7.5.xxx#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openspa-7.5.xxx.sh -O - | /bin/sh
+
+#IMAGE-openspa-8.0.xxx#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openspa-8.0.xxx.sh -O - | /bin/sh
+
+#IMAGE-openspa-8.1.xxx#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openspa-8.1.xxx.sh -O - | /bin/sh
+
+#IMAGE-openspa-8.3.xxx#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openspa-8.3.xxx.sh -O - | /bin/sh
+
+#IMAGE-openTR-9.3#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openTR-9.3.sh -O - | /bin/sh
+
+#IMAGE-OpenVision-py2-10.3-r395#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openvision/OpenVision-py2-10.3-r395.sh -O - | /bin/sh
+
+#IMAGE-openvix-6.3#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openvix-6.3.004.sh -O - | /bin/sh
+
+#IMAGE-openvix-6.4#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openvix-6.4.011.sh -O - | /bin/sh
+
+#IMAGE-openvix-6.5#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/openvix-6.5.001.sh -O - | /bin/sh
+
+#IMAGE-pure2-7.3#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/pure2-7.3.sh -O - | /bin/sh
+
+#IMAGE-pure2-7.4#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/pure2-7.4.sh -O - | /bin/sh
+
+#IMAGE-satdreamgr#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/satdreamgr.sh -O - | /bin/sh
+
+#IMAGE-VTI-15.0.02#
+wget  --no-check-certificate https://dreambox4u.com/emilnabil237/images/vti-15.0.02.sh -O - | /bin/sh
+
+>>>>>>> Picons <<<<<<<
+
+#picon-abs_3.0w#
+wget https://dreambox4u.com/emilnabil237/picons/abs_3.0w/installer.sh -O - | /bin/sh
+
+#picon-abs_75.0e#
+wget https://dreambox4u.com/emilnabil237/picons/abs_75.0e/installer.sh -O - | /bin/sh
+
+#picon-alyahsat_52.5e#
+wget https://dreambox4u.com/emilnabil237/picons/alyahsat_52.5e/installer.sh -O - | /bin/sh
+
+#picon-amos#
+wget https://dreambox4u.com/emilnabil237/picons/amos_4.0w/installer.sh -O - | /bin/sh
+
+#picon-arabsat_30.5e#
+wget https://dreambox4u.com/emilnabil237/picons/arabsat_30.5e/installer.sh -O - | /bin/sh
+
+#picon-astra_4.8e#
+wget https://dreambox4u.com/emilnabil237/picons/astra_4.8e/installer.sh -O - | /bin/sh
+
+#picon-astra_19.2e#
+wget https://dreambox4u.com/emilnabil237/picons/astra_19.2e/installer.sh -O - | /bin/sh
+
+#picon-astra_23.5e#
+wget https://dreambox4u.com/emilnabil237/picons/astra_23.5e/installer.sh -O - | /bin/sh
+
+#picon-astra_28.2e#
+wget https://dreambox4u.com/emilnabil237/picons/astra_28.2e/installer.sh -O - | /bin/sh
+
+#picon-astra_31.5e#
+wget https://dreambox4u.com/emilnabil237/picons/astra_31.5e/installer.sh -O - | /bin/sh
+
+#picon-azerspace_45.0e#
+wget https://dreambox4u.com/emilnabil237/picons/azerspace_45.0e/installer.sh -O - | /bin/sh
+
+#picon-azerspace_46.0e#
+wget https://dreambox4u.com/emilnabil237/picons/azerspace_46.0e/installer.sh -O - | /bin/sh
+
+#picon-badr_26.0e#
+wget https://dreambox4u.com/emilnabil237/picons/badr_26.0e/installer.sh -O - | /bin/sh
+
+#picon-belintersat_51.5e#
+wget https://dreambox4u.com/emilnabil237/picons/belintersat_51.5e/installer.sh -O - | /bin/sh
+
+#picon-bulgariasat_1.9e#
+wget https://dreambox4u.com/emilnabil237/picons/bulgariasat_1.9e/installer.sh -O - | /bin/sh
+
+#picon-eshail_25.5e#
+wget https://dreambox4u.com/emilnabil237/picons/eshail_25.5e/installer.sh -O - | /bin/sh
+
+#picon-eutelsat_3.0e#
+wget https://dreambox4u.com/emilnabil237/picons/eutelsat_3.0e/installer.sh -O - | /bin/sh
+
+#picon-eutelsat_5.0w#
+wget https://dreambox4u.com/emilnabil237/picons/eutelsat_5.0w/installer.sh -O - | /bin/sh
+
+#picon-eutelsat_7.0e#
+wget https://dreambox4u.com/emilnabil237/picons/eutelsat_7.0e/installer.sh -O - | /bin/sh
+
+#picon-eutelsat_9.0e#
+wget https://dreambox4u.com/emilnabil237/picons/eutelsat_9.0e/installer.sh -O - | /bin/sh
+
+#picon-nilesat_7w-8w#
+wget https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh -O - | /bin/sh
+
+#picon-eutelsat_10.0e#
+wget https://dreambox4u.com/emilnabil237/picons/eutelsat_10.0e/installer.sh -O - | /bin/sh
+
+#picon-eutelsat_16.0e#
+wget https://dreambox4u.com/emilnabil237/picons/eutelsat_16.0e/installer.sh -O - | /bin/sh
+
+#picon-eutelsat_21.6e#
+wget https://dreambox4u.com/emilnabil237/picons/eutelsat_21.6e/installer.sh -O - | /bin/sh
+
+#picon-eutelsat_36.0e#
+wget https://dreambox4u.com/emilnabil237/picons/eutelsat_36.0e/installer.sh -O - | /bin/sh
+
+#picon-eutelsat_70.0e_74.9e_75.0e#
+wget https://dreambox4u.com/emilnabil237/picons/eutelsat_70.0e_74.9e_75.0e/installer.sh -O - | /bin/sh
+
+#picon-eutelsat-intelsat_33.0e#
+wget https://dreambox4u.com/emilnabil237/picons/eutelsat-intelsat_33.0e/installer.sh -O - | /bin/sh
+
+#picon-express_11.0w-14.0w#
+wget https://dreambox4u.com/emilnabil237/picons/express_11.0w-14.0w/installer.sh -O - | /bin/sh
+
+#picon-express_14w#
+wget https://dreambox4u.com/emilnabil237/picons/express_14w/installer.sh -O - | /bin/sh
+
+#picon-express_53.0e#
+wget https://dreambox4u.com/emilnabil237/picons/express_53.0e/installer.sh -O - | /bin/sh
+
+#picon-hispasat_30.0w#
+wget https://dreambox4u.com/emilnabil237/picons/hispasat_30.0w/installer.sh -O - | /bin/sh
+
+#picon-intelsat_24.5w#
+wget https://dreambox4u.com/emilnabil237/picons/intelsat_24.5w/installer.sh -O - | /bin/sh
+
+#picon-intelsat_27.5w#
+wget https://dreambox4u.com/emilnabil237/picons/intelsat_27.5w/installer.sh -O - | /bin/sh
+
+#picon-intelsat_31.5w#
+wget https://dreambox4u.com/emilnabil237/picons/intelsat_31.5w/installer.sh -O - | /bin/sh
+
+#picon-nss7_20.0w#
+wget https://dreambox4u.com/emilnabil237/picons/nss7_20.0w/installer.sh -O - | /bin/sh
+
+#picon-ses4_22.0w#
+wget https://dreambox4u.com/emilnabil237/picons/ses4_22.0w/installer.sh -O - | /bin/sh
+
+#picon-telstar_15.0w#
+wget https://dreambox4u.com/emilnabil237/picons/telstar_15.0w/installer.sh -O - | /bin/sh
+
+#picon-thor_0.8w#
+wget https://dreambox4u.com/emilnabil237/picons/thor_0.8w/installer.sh -O - | /bin/sh
+
+#picons-gsat-yamal_54.9e#
+wget https://dreambox4u.com/emilnabil237/picons/gsat-yamal_54.9e/installer.sh -O - | /bin/sh
+
+#picons-hellas-sat_39.0e#
+wget https://dreambox4u.com/emilnabil237/picons/hellas-sat_39.0e/installer.sh -O - | /bin/sh
+
+#picons-hotbird_13.0e#
+wget https://dreambox4u.com/emilnabil237/picons/hotbird_13.0e/installer.sh -O - | /bin/sh
+
+#picons-intelsat_60.0e_66.0e_68.0e#
+wget https://dreambox4u.com/emilnabil237/picons/intelsat_60.0e_66.0e_68.0e/installer.sh -O - | /bin/sh
+
+#picons-intelsat_62.0e#
+wget https://dreambox4u.com/emilnabil237/picons/intelsat_62.0e/installer.sh -O - | /bin/sh
+
+#picons-Intelsat_72.1e#
+wget https://dreambox4u.com/emilnabil237/picons/Intelsat_72.1e/installer.sh -O - | /bin/sh
+
+#picons-turkmenalem_52.0e#
+wget https://dreambox4u.com/emilnabil237/picons/turkmenalem_52.0e/installer.sh -O - | /bin/sh
+
+#picons-turksat_42.0e#
+wget https://dreambox4u.com/emilnabil237/picons/turksat_42.0e/installer.sh -O - | /bin/sh
+
+#picons-turksat_50.0e_56.0e_57e#
+wget https://dreambox4u.com/emilnabil237/picons/turksat_50.0e_56.0e_57e/installer.sh -O - | /bin/sh
+
+@@ Picons-Others Sat&Emu&Cams&Prov&Crypt @@
+wget https://raw.githubusercontent.com/emiln237/picon-other/main/installer.sh -qO - | /bin/sh
 
 @@@@ Command  @@@@
     @@ update feed @@ عمل تحديث للصورة 
@@ -140,21 +535,26 @@ sh -c "$(wget --no-check-certificate https://feeds2.mynonpublic.com/devel-feed -
 
 @@@ FIX-ATV-Softcam @@@
 sh -c "$(wget --no-check-certificate http://updates.mynonpublic.com/oea/feed -qO -)"
+
 @@@@@@ Plugins Multiboot @@@@@@
-@@@ Neoboot_9.65 @@@
-sh -c "$(wget -O-  https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh)"
 
-@@@ Neoboot_9.58 @@@
-sh -c "$(wget -O- https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.58/iNB.sh)"
+#PLUGIN-neoboot_9.54#
+wget https://raw.githubusercontent.com/emil237/neoboot_9.54/main/installer.sh -O - | /bin/sh
 
-@@@ Neoboot_9.54 @@@
-sh -c "$(wget -O- https://raw.githubusercontent.com/emil237/neoboot_9.54/main/installer.sh)"
+#PLUGIN-neoboot_9.58#
+wget https://raw.githubusercontent.com/emil237/neoboot_v9.58/main/iNB.sh -O - | /bin/sh
 
-@@@ OpenMultiboot_1.3 @@@
-sh -c "$(wget -O- https://raw.githubusercontent.com/emil237/openmultiboot/main/installer.sh)"
+#PLUGIN-neoboot_9.60#
+wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.60/iNB.sh -O - | /bin/sh
 
-@@@ OpenMultiboot-E2turk-1.3 @@@ 
-sh -c "$(wget -O- https://raw.githubusercontent.com/emil237/openmultiboot/main/install.sh)"
+#PLUGIN-neoboot_9.65#
+wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh -O - | /bin/sh
+
+#PLUGIN-openmultiboot#
+wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/openmultiboot/main/installer.sh -O - | /bin/sh
+
+#PLUGIN-openmultiboot-e2turk#
+wget https://raw.githubusercontent.com/e2TURK/omb-enhanced/main/install.sh  -O - | /bin/sh
 
 @@@ Multiboot-FlashOnline @@@
 sh -c "$(wget -O- https://raw.githubusercontent.com/emil237/download-plugins/main/multiboot-flashonline.sh)"
@@ -356,31 +756,9 @@ opkg remove enigma2-plugin-softcams-ncam
 @@@ Remove ncam  @@@ 
 opkg remove enigma2-plugin-softcams-ncam-mips
 
-@@@@@@@ Download Picons @@@@@@@
-
-@@@ Picons-nilesat_by-name @@@
-wget https://raw.githubusercontent.com/emil237/picon-nilesat/main/installer.sh -qO - | /bin/sh
-
-@@@ Picons-hotbird_by-name @@@
-wget https://raw.githubusercontent.com/emil237/picon-hotbird/main/installer.sh -qO - | /bin/sh
-
-@@@ picon-amos4.0w_by-name @@@
-wget https://raw.githubusercontent.com/emil237/picon-amos/main/installer.sh -qO - | /bin/sh
-
-@@@ picon-bulgariasat1.9e_by-name @@@
-wget https://raw.githubusercontent.com/emil237/picon-bulgariasat/main/installer.sh -qO - | /bin/sh
-
-@@@ picon-astra19.2e_by-name @@@
-wget https://raw.githubusercontent.com/emil237/picon-astra19.2e/main/installer.sh -qO - | /bin/sh
-
-@@@ picon-Badr_26E_by-name @@@
-wget https://raw.githubusercontent.com/emil237/picon-Badr26E/main/installer.sh -qO - | /bin/sh
-
-@@ Picons-Others Sat&Emu&Cams&Prov&Crypt @@
-wget https://raw.githubusercontent.com/emiln237/picon-other/main/installer.sh -qO - | /bin/sh
-   
 @@ restart enigma2 @@  
 killall -9 enigma2 
+
 
 
 
