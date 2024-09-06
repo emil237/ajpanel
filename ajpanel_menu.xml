@@ -105,6 +105,7 @@
 		<item ask="Install automatic-fullbackup ?" icon="/emil-panel-lite/icons/lenux.png" name="automatic-fullbackup">wget https://dreambox4u.com/emilnabil237/plugins/automatic-fullbackup/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Azkar Almuslim ?" icon="/emil-panel-lite/icons/lenux.png" name="Azkar Almuslim">wget https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install CFG_ZOOM_FINAL ?" icon="/emil-panel-lite/icons/lenux.png" name="CFG_ZOOM_FINAL Py2">wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install CHLogoChanger ?" icon="/emil-panel-lite/icons/lenux.png" name="CHLogoChanger">wget https://dreambox4u.com/emilnabil237/plugins/CHLogoChanger/ChLogoChanger.sh  -O - | /bin/sh</item>
 		<item ask="Install CrashLogoViewer ?" icon="/emil-panel-lite/icons/lenux.png" name="CrashLogViewer">wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh</item>
 		<item ask="Install CrondManger ?" icon="/emil-panel-lite/icons/lenux.png" name="CronManager">wget https://github.com/emil237/download-plugins/raw/main/cronmanager.sh  -O - | /bin/sh</item>
 		<item ask="Install Epg-Khaled ?" icon="/emil-panel-lite/icons/lenux.png" name="EPG-KHALED">wget https://raw.githubusercontent.com/emilnabil/epg-khaled/main/EPG-khaled.sh  -O - | /bin/sh</item>
@@ -113,6 +114,7 @@
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="FreeCCcamServer Plugin">wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="HasBahCa">wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="HistoryZapSelector">wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="MoviesManager">wget http://dreambox4u.com/emilnabil237/plugins/Transmission/MoviesManager.sh -O - | /bin/sh</item>
 		<item ask="Install plugin MyCam ?" icon="/emil-panel-lite/icons/lenux.png" name="MyCam-Plugin">wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh</item>
 		<item ask="Install NewVirtualkeyBoard ?" icon="/emil-panel-lite/icons/lenux.png" name="NewVirtualKeyBoard">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Ozeta-Skins-Setup-2.8 ?" icon="/emil-panel-lite/icons/lenux.png" name="Ozeta-Skins-Setup-2.8">wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh</item>
@@ -592,3 +594,4 @@ init 3</item>
 		<item ask="Remove Youtube" name="Youtube">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-youtube.sh  -O - | /bin/sh</item>
 	</submenu>
 </ajp_menu>
+
