@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ajp_menu bg="back.png" box_gap="80" font_size="70" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" picpath="/emil-panel-lite/icons/" shade="yes" title="Panel Emil (By Ajpanel)" title1_bg="#000000" title1_fg=" " title2_bg="#000000" title2_fg="#FCFCFC" width="1600">
 	<item info="Open the directory &quot;/usr/script/&quot; in File Manager" name="/Go To Script/">/usr/script</item>
-  <submenu font_size="30" height="950" info="تحميل البلجنات المهمة دفعة واحدة بطريقة احترافية " mode="grid_3x2" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Super Script" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+	<submenu font_size="30" height="950" info="تحميل البلجنات المهمة دفعة واحدة بطريقة احترافية " mode="grid_3x2" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Super Script" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Super Script" icon="/emil-panel-lite/icons/menux.png" info="تحميل البلجنات المهمة دفعة واحدة بطريقة احترافية" name="Super Script">wget https://dreambox4u.com/emilnabil237/script/Super_Script.sh  -O - | /bin/sh</item>
-		</submenu>
-		<submenu bg="#06770077" font_size="70" height="950" info="Download And Install plugin for dreambox" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Dream900UHD-920UHD" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+	</submenu>
+
+	<submenu bg="#06770077" font_size="70" height="950" info="Download And Install plugin for dreambox" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Dream900UHD-920UHD" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install Ajpanel ?" icon="menu.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install ArabicSavior ?" icon="menu.png" name="ArabicSavior">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install BarryAllen ?" icon="menu.png" name="BarryAllen">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/barryallen.sh -O - | /bin/sh</item>
@@ -25,6 +26,7 @@
 		<item ask="Install startupservice ?" icon="menu.png" name="startupservice">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/startupservice.sh -O - | /bin/sh</item>
 		<item ask="Install syscc ?" icon="menu.png" name="syscc">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/syscc.sh -O - | /bin/sh</item>
 	</submenu>
+
 	<submenu bg="#06770077" font_size="70" height="950" info="Download And Install Panel" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Panels" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install Ajpanel ?" icon="menu.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Panel_Emil ?" icon="menu.png" name="Panel_Emil_lite">wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh</item>
@@ -73,6 +75,7 @@
 		<item ask="Insall Suptv ?" icon="menu.png" name="Suptv">wget https://raw.githubusercontent.com/emil237/suptv/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Insall TMBD_8.6-r6 ?" icon="menu.png" info="ALL-PYTHON" name="TMBD_8.6-r6">wget http://dreambox4u.com/emilnabil237/plugins/TMBD/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Transmission_e2 ?" icon="menu.png" name="Transmission_e2">wget http://dreambox4u.com/emilnabil237/plugins/Transmission/Transmission_e2.sh  -O - | /bin/sh</item>
+		<item ask=" Install YouTube ?" name="YouTube" icon="/emil-panel-lite/icons/menu.png">wget https://dreambox4u.com/emilnabil237/plugins/YouTube/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install xklass-iptv ?" icon="menu.png" name="xklass-iptv">wget https://dreambox4u.com/emilnabil237/plugins/xklass/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Xtreamty ?" icon="menu.png" name="Xtreamity">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Xcpluginforever ?" icon="menu.png" name="Xcpluginforever">wget https://dreambox4u.com/emilnabil237/plugins/xcplugin/installer.sh -O - | /bin/sh</item>
@@ -147,7 +150,6 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_5.3.sh|sh</item>
 		<item ask="Install xtraevent_6.7 ?" icon="/emil-panel-lite/icons/lenux.png" name="Xtraevent_6.7">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.7.sh -O - | /bin/sh</item>
 		<item ask="Install xtraevent_6.75 ?" icon="/emil-panel-lite/icons/lenux.png" name="Xtraevent_6.75">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.75.sh -O - | /bin/sh</item>
-		<item ask=" Install YouTube ?" icon="/emil-panel-lite/icons/lenux.png" name="YouTube">wget https://dreambox4u.com/emilnabil237/plugins/YouTube/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install zoom_1.1.2-py3 ?" icon="/emil-panel-lite/icons/lenux.png" name="Zoom_1.1.2-Py3">wget https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh  -O - | /bin/sh</item>
 	</submenu>
 
@@ -173,15 +175,9 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 
 	<submenu font_size="30" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Tools" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install CAM-abertis-astra-sm ?" icon="menux.png" name="CAM-abertis-astra-sm">wget https://dreambox4u.com/emilnabil237/script/CAM-abertis-astra.sh  -O - | /bin/sh</item>
-		<item ask="update-package_epggrabber ?" 
-		info="In case of a time difference of 1 hours"
-		icon="menux.png" name="update-package_epggrabber">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/update-package+one-hour.sh -O - | /bin/sh</item>
-		<item ask="update-package_epggrabber ?" 
-		info="In case of a time difference of 2 hours"
-		icon="menux.png" name="update-package_epggrabber">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/update-package+two-hour.sh -O - | /bin/sh</item>
-		<item ask="update-package_epggrabber ?" 
-		info="In case of a time difference of 3 hours"
-		icon="menux.png" name="update-package_epggrabber">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/update-package+three-hour.sh -O - | /bin/sh</item>
+		<item ask="update-package_epggrabber ?" info="In case of a time difference of 1 hours" icon="menux.png" name="update-package_epggrabber">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/update-package+one-hour.sh -O - | /bin/sh</item>
+		<item ask="update-package_epggrabber ?" info="In case of a time difference of 2 hours" icon="menux.png" name="update-package_epggrabber">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/update-package+two-hour.sh -O - | /bin/sh</item>
+		<item ask="update-package_epggrabber ?" info="In case of a time difference of 3 hours" icon="menux.png" name="update-package_epggrabber">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/update-package+three-hour.sh -O - | /bin/sh</item>
 		<item ask="Install Epg-Khaled ?" icon="menux.png" name="EPG-KHALED">wget https://raw.githubusercontent.com/emilnabil/epg-khaled/main/EPG-khaled.sh  -O - | /bin/sh</item>
 		<item ask="Install Feed Emil Nabil ?" icon="menux.png" name="Feed Emil Nabil">wget http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh  -O - | /bin/sh</item>
 		<item ask="Install FIX-ipk-package-installation ?" icon="menux.png" name="FIX-ipk-Package-Installation">wget https://dreambox4u.com/emilnabil237/script/fix-ipk-package-installation.sh -O - | /bin/sh</item>
@@ -255,10 +251,11 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 			<item ask="install picon Intelsat_72.1e ?" icon="/emil-panel-lite/icons/menu.png" name="Intelsat_72.1e">wget https://dreambox4u.com/emilnabil237/picons/Intelsat_72.1e/installer.sh -O - | /bin/sh</item>
 			<item ask="install picon abs_75.0e ?" icon="/emil-panel-lite/icons/menu.png" name="abs_75.0e">wget https://dreambox4u.com/emilnabil237/picons/abs_75.0e/installer.sh -O - | /bin/sh</item>
 		</submenu>
-   <item ask="" icon="/emil-panel-lite/icons/menu.png" name="Elie_All-Sat">wget https://dreambox4u.com/emilnabil237/picons/eliesat/installer.sh -O - | /bin/sh</item>
-   <item ask="" icon="/emil-panel-lite/icons/menu.png" name="Emil_All-Sat_By-Name">wget https://dreambox4u.com/emilnabil237/picons/emil-all-sat/n/installer.sh -O - | /bin/sh</item>
-    <item ask="" icon="/emil-panel-lite/icons/menu.png" name="Emil_All-Sat_By-Refrance">wget https://dreambox4u.com/emilnabil237/picons/emil-all-sat/r/installer.sh -O - | /bin/sh</item>
-     <item ask="" icon="/emil-panel-lite/icons/menu.png" name="Khaled_All-Sat">wget https://dreambox4u.com/emilnabil237/picons/Khaled_all-sat/installer.sh -O - | /bin/sh</item>
+
+		<item ask="" icon="/emil-panel-lite/icons/menu.png" name="Elie_All-Sat">wget https://dreambox4u.com/emilnabil237/picons/eliesat/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/emil-panel-lite/icons/menu.png" name="Emil_All-Sat_By-Name">wget https://dreambox4u.com/emilnabil237/picons/emil-all-sat/n/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/emil-panel-lite/icons/menu.png" name="Emil_All-Sat_By-Refrance">wget https://dreambox4u.com/emilnabil237/picons/emil-all-sat/r/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/emil-panel-lite/icons/menu.png" name="Khaled_All-Sat">wget https://dreambox4u.com/emilnabil237/picons/Khaled_all-sat/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Chochlousek Picon ?" icon="/emil-panel-lite/icons/menu.png" name="Chocholousek-Picons">sh -c "$(wget --no-check-certificate https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -qO -)</item>
 		<item ask="" icon="/emil-panel-lite/icons/menu.png" name="picons-other">wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh</item>
 	</submenu>
@@ -274,8 +271,8 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 		</submenu>
 
 		<submenu fg="#CCFB5D" font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Atv" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-		<item ask="Install Skin Aglare-FHD ?" icon="menux.png" name="Aglare-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
-		<item ask="Install Skin Maxy-FHD ?" icon="menux.png" name="Maxy-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-Maxy-FHD.sh|sh</item>
+			<item ask="Install Skin Aglare-FHD ?" icon="menux.png" name="Aglare-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
+			<item ask="Install Skin Maxy-FHD ?" icon="menux.png" name="Maxy-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-Maxy-FHD.sh|sh</item>
 			<item ask="Install Full HD Glass17 ?" icon="menux.png" name="Full HD Glass17">wget https://dreambox4u.com/emilnabil237/skins/openatv/skin-fullhdglass17.sh -O - | /bin/sh"</item>
 			<item ask="Install Metrixfhd-neo_V.7s_v2_mod-by-biko_X_py3.12 ?" icon="menux.png" name="Metrixfhd-neo_V.7s_v2_mod-by-biko_X_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/openatv/metrixfhd-neo_V.7s_v2_mod-by-biko_X_py3.12.sh|sh</item>
 			<item ask="Install MX-GravityAir_xtraevent_py3.12 ?" icon="menux.png" name="MX-GravityAir_xtraevent_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/openatv/MX-GravityAir-Atv_xtraevent_py3.12.sh|sh</item>
@@ -285,9 +282,7 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 			<item ask="Install Skin Malek-FHD ?" icon="menux.png" name="skins-malek-fhd_2.2_py3.11.2-py3.12.1">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/ATV/skins-malek-fhd_2.2_py3.11.2-py3.12.1.sh|sh</item>
 			<item ask="Install Skin Nacht_1.7.3 ?" icon="menux.png" name="Nacht_1.7.3">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-nacht_1.7.3.sh -O - | /bin/sh</item>
 			<item ask="Install Skin Novaler-s-fhd-indianred ?" icon="menux.png" name="Novaler-s-fhd-indianred_3.4">wget https://dreambox4u.com/emilnabil237/skins/openatv/SKIN-novaler-s-fhd-indianred_3.4.sh -O - | /bin/sh</item>
-		 <item ask="Install Skin oDreamy-FHD ?" icon="menux.png" 
-		 info="Modded By Inspiron"
-		 name="oDreamy-FHD">wget https://dreambox4u.com/emilnabil237/skins/openatv/skins-oDreamy-FHD.sh -O - | /bin/sh</item>
+			<item ask="Install Skin oDreamy-FHD ?" icon="menux.png" info="Modded By Inspiron" name="oDreamy-FHD">wget https://dreambox4u.com/emilnabil237/skins/openatv/skins-oDreamy-FHD.sh -O - | /bin/sh</item>
 			<item ask="Install Skin Ozeta Xtra ?" icon="menux.png" name="Ozeta-Xtra">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-ozeta-xtra.sh -O - | /bin/sh</item>
 		</submenu>
 
@@ -327,9 +322,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 
 		<submenu fg="#CCFB5D" font_size="50" height="950" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Open Black Hole" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 			<item ask="" icon="menu.png" name="Aglare-fhd">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd-pli.sh|sh</item>
-		<item ask="" icon="menu.png" 
-		info="5.4.xx py3.12.x"
-		name="MX_BlackSea">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/skins-MX_BlackSea.sh|sh</item>	
+			<item ask="" icon="menu.png" info="5.4.xx py3.12.x" name="MX_BlackSea">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/skins-MX_BlackSea.sh|sh</item>
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.4" name="MX-Sline-Black-Red-Gradient_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-black-red-gradient_py3.12.sh|sh</item>
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.4" name="MX_Sline-Blue_OBH_5.4_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Blue_OBH_5.4_py3.12_py3.12.sh|sh</item>
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.4" name="MX_Sline-Red_X2_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Red_X2_py3.12.sh|sh</item>
@@ -555,13 +548,9 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 	</submenu>
 
 	<submenu font_size="30" height="950" info="تحديث كل البانلات بأحدث الأضافات" mode="grid_3x2" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Upgrade All Panels " title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-	<item ask="Upgrade All Panels" icon="/emil-panel-lite/icons/menux.png" 
-	info="Upgrade All Panels"
-	name="Upgrade All Panels">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh -O - | /bin/sh</item>
-	<item ask="Quckly Install emil panel ?" icon="menu.png" name="Quckly Install emil panel Only">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ajpanel/update-emil.sh -O - | /bin/sh</item>
-<item ask="AutoUpdate-Panel ?" 
-    info="تحميل البانل في حالة وجود تحديث فقط"
-    icon="menu.png" name="AutoUpdate-Panel">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ajpanel/autoupdate-panel.sh -O - | /bin/sh</item>
+		<item ask="Upgrade All Panels" icon="/emil-panel-lite/icons/menux.png" info="Upgrade All Panels" name="Upgrade All Panels">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ajpanel/emil-panel-all.sh -O - | /bin/sh</item>
+		<item ask="Quckly Install emil panel ?" icon="menu.png" name="Quckly Install emil panel Only">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ajpanel/update-emil.sh -O - | /bin/sh</item>
+		<item ask="AutoUpdate-Panel ?" info="تحميل البانل في حالة وجود تحديث فقط" icon="menu.png" name="AutoUpdate-Panel">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ajpanel/autoupdate-panel.sh -O - | /bin/sh</item>
 	</submenu>
 
 	<submenu font_size="30" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Remove" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
