@@ -4,6 +4,35 @@
 	<submenu font_size="30" height="950" info="تحميل البلجنات المهمة دفعة واحدة بطريقة احترافية " mode="grid_3x2" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Super Script" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Super Script" icon="/emil-panel-lite/icons/menux.png" info="تحميل البلجنات المهمة دفعة واحدة بطريقة احترافية" name="Super Script">wget https://dreambox4u.com/emilnabil237/script/Super_Script.sh  -O - | /bin/sh</item>
 	</submenu>
+	
+	<submenu bg="#06770077" font_size="70" height="950" info="Download New icons plugins" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="icons plugins" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Aglare Icon?" icon="menu.png" name="Aglare Icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/Aglare-icon.sh -qO - | /bin/sh</item>
+		<item ask="AJPanel Icon ?" icon="menu.png" name="AJPanel Icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/AJPan-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install ArabicSavior-icon ?" icon="menu.png" name="ArabicSavior-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/ArabicSavior-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install BouquetMakerXtream-icon ?" icon="menu.png" name="BouquetMakerXtream-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/BouquetMakerXtream-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install CHLogoChanger-icon ?" icon="menu.png" name="CHLogoChanger-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/CHLogoChanger-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install EnhancedMovieCenter-icon ?" icon="menu.png" name="EnhancedMovieCenter-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/EnhancedMovieCenter-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install EPGImport-icon ?" icon="menu.png" name="EPGImport-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/EPGImport-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install EPGRefresh-icon ?" icon="menu.png" name="EPGRefresh-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/EPGRefresh-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install FileCommander-icon ?" icon="menu.png" name="FileCommander-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/FileCommander-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install InternetSpeedTest-icon ?" icon="menu.png" name="InternetSpeedTest-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/InternetSpeedTest-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install ipaudio-icon ?" icon="menu.png" name="ipaudio-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/ipaudio-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install IPaudioPro-icon ?" icon="menu.png" name="IPaudioPro-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/IPaudioPro-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install IPtoSAT-icon ?" icon="menu.png" name="IPtoSAT-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/IPtoSAT-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install JediMakerXtream-icon ?" icon="menu.png" name="JediMakerXtream-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/JediMakerXtream-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install KeyAdder-icon ?" icon="menu.png" name="KeyAdder-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/KeyAdder-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install MediaPlayer-icon ?" icon="menu.png" name="MediaPlayer-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/MediaPlayer-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install MediaScanner-icon ?" icon="menu.png" name="MediaScanner-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/MediaScanner-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install MultiStalkerPro-icon ?" icon="menu.png" name="MultiStalkerPro-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/MultiStalkerPro-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install MyMetrixLite-icon ?" icon="menu.png" name="MyMetrixLite-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/MyMetrixLite-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install PicturePlayer-icon ?" icon="menu.png" name="PicturePlayer-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/PicturePlayer-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install ProgrammlistenUpdater-icon ?" icon="menu.png" name="ProgrammlistenUpdater-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/ProgrammlistenUpdater-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install RaedQuickSignal-icon ?" icon="menu.png" name="RaedQuickSignal-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/RaedQuickSignal-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install SubsSupport-icon ?" icon="menu.png" name="SubsSupport-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/SubsSupport-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install WeatherPlugin-icon ?" icon="menu.png" name="WeatherPlugin-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/WeatherPlugin-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install XKlass-icon ?" icon="menu.png" name="XKlass-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/XKlass-icon.sh -qO - | /bin/sh</item>
+		<item ask="Install xtraEvent-icon ?" icon="menu.png" name="xtraEvent-icon">wget https://dreambox4u.com/emilnabil237/plugins/icons-plugin/xtraEvent-icon.sh -qO - | /bin/sh</item>
+	</submenu>
 
 	<submenu bg="#06770077" font_size="70" height="950" info="Download And Install plugin for dreambox" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Dream900UHD-920UHD" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install Ajpanel ?" icon="menu.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
