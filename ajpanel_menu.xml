@@ -217,6 +217,12 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 		<item ask="Install fix-xtraevent-downloader ?" icon="menux.png" name="Fix-Xtraevent-Downloader">curl -kLs https://dreambox4u.com/emilnabil237/script/fix-xtraevent-downloader.sh|sh</item>
 		<item ask="Update Enigma2 All Python ?" icon="menux.png" name="UPDATE ENIGMA2 ALL PYTHON">wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh  -O - | /bin/sh</item>
 		<item ask="Install Feed OpenPicons ?" icon="menux.png" info="(Picons-Feed snp-srp)" name="Feed-Openpicons">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/script/openpicons-feed.sh -O - | /bin/sh</item>
+		<item ask="Update Satellites ?" icon="menux.png" info="تحديث ملف الترددات" name="Satellites-OpenPli">wget -O /etc/tuxbox/satellites.xml "https://raw.githubusercontent.com/OpenPLi/tuxbox-xml/master/xml/satellites.xml"
+sleep 1
+exit</item>
+		<item ask="Update Satellites ?" icon="menux.png" info="تحديث ملف الترددات" name="Satellites-Oealliance">wget -O /etc/tuxbox/satellites.xml https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/satellites.xml
+sleep 1
+exit</item>
 		<item ask="" icon="menux.png" name="service app">opkg install enigma2-plugin-systemplugins-serviceapp</item>
 		<item ask="" icon="menux.png" name="xml update">opkg install enigma2-plugin-systemplugins-xmlupdate</item>
 		<item ask="" icon="menux.png" name="wirelesslan">opkg install enigma2-plugin-systemplugins-wirelesslan</item>
