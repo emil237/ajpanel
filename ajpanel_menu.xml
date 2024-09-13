@@ -188,6 +188,7 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 		<item ask="Install NewVirtualkeyBoard ?" icon="menux.png" name="NewVirtualKeyBoard">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh</item>
 		<item ask="install servicescanupdates_1.2 ?" icon="menux.png" name="servicescanupdates_1.2">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/servicescanupdates/servicescanupdates.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="menux.png" name="Ts-Sateditor">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ts-sateditor/ts-sateditor.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="menux.png" name="XmlUpdate">wget https://dreambox4u.com/emilnabil237/plugins/xmlupdate/xmlupdate.sh -qO - | /bin/sh</item>
 	</submenu>
 
 	<submenu bg="#000000" font_size="30" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="SymLink" title1_bg="#000000" title1_fg="#FFFFFF" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#FF0000" width="1600">
