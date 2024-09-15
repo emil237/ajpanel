@@ -180,6 +180,7 @@ curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEv
 curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/xtraEvent_5.3.sh|sh</item>
 		<item ask="Install xtraevent_6.7 ?" icon="/emil-panel-lite/icons/lenux.png" name="Xtraevent_6.7">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.7.sh -O - | /bin/sh</item>
 		<item ask="Install xtraevent_6.75 ?" icon="/emil-panel-lite/icons/lenux.png" name="Xtraevent_6.75">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent-6.75.sh -O - | /bin/sh</item>
+		<item ask="Install xtraevent_6.77 ?" icon="/emil-panel-lite/icons/lenux.png" name="Xtraevent_6.77">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent_6.77.sh -O - | /bin/sh</item>
 		<item ask=" Install zoom_1.1.2-py3 ?" icon="/emil-panel-lite/icons/lenux.png" name="Zoom_1.1.2-Py3">wget https://dreambox4u.com/emilnabil237/plugins/zoom/installer.sh  -O - | /bin/sh</item>
 	</submenu>
 
