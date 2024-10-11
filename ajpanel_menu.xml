@@ -158,7 +158,7 @@
 		<item ask="Install sherlockmod ?" icon="/emil-panel-lite/icons/lenux.png" name="Sherlockmod">wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Simple-Zoom-Panel ?" icon="/emil-panel-lite/icons/lenux.png" name="Simple-Zoom-Panel">wget https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh -O - | /bin/sh</item>
 		<item ask="Install SubsSupport_1.5.8-r9 ?" icon="/emil-panel-lite/icons/lenux.png" name="SubsSupport_1.5.8-r9">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh -O - | /bin/sh</item>
-		<item ask="Install SubsSupport_1.7.0-r4 ?" icon="/emil-panel-lite/icons/lenux.png" name="SubsSupport_1.7.0-r4">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
+		<item ask="Install SubsSupport_1.7.0-r3 ?" icon="/emil-panel-lite/icons/lenux.png" name="SubsSupport_1.7.0-r3">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install TheWeather ?" icon="/emil-panel-lite/icons/lenux.png" name="TheWeather">wget https://dreambox4u.com/emilnabil237/plugins/TheWeather/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install uninstaller-Plugins ?" icon="/emil-panel-lite/icons/lenux.png" name="uninstaller-Plugins">wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install vavoo_1.15 ?" icon="/emil-panel-lite/icons/lenux.png" name="vavoo_1.15">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh</item>
@@ -488,27 +488,27 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 	<submenu bg="#22440033" font_size="30" height="950" mode="grid_6x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Emu Cam" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" width="1600">
 		<item ask="" icon="menu.png" name="Cccam">wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="gosatplus-ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh  -O - | /bin/sh</item>
-		<item ask="" icon="menu.png" name="gosatplus-oscam_11812-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="gosatplus-oscam_11845-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="gosatplus">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Hold-flag-ncam">opkg flag hold enigma2-plugin-softcams-ncam</item>
 		<item ask="" icon="menu.png" name="Hold-flag-oscam">opkg flag hold enigma2-plugin-softcams-oscam</item>
 		<item ask="" icon="menu.png" name="Ncam-15.1">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
-		<item ask="" icon="menu.png" name="Oscam-11812-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="Oscam-11845-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="oscam_levi45_11799">wget https://raw.githubusercontent.com/emilnabil/oscam/main/oscam-emu-levi45.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Oscam-11.726-by-lenuxsat">wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="oscamicam">wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="powercam_v2-icam-arm">wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="powercam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh  -O - | /bin/sh</item>
-		<item ask="" icon="menu.png" name="powercam-Oscam_11812-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="powercam-Oscam_11845-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Restore-flag-ncam">opkg flag user enigma2-plugin-softcams-ncam</item>
 		<item ask="" icon="menu.png" name="Restore-flag-oscam">opkg flag user enigma2-plugin-softcams-oscam</item>
 		<item ask="" icon="menu.png" name="Revcam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Revcam-Oscam">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Revcam">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Supcam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh  -O - | /bin/sh</item>
-		<item ask="" icon="menu.png" name="Supcam-Oscam_11812-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="Supcam-Oscam_11845-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Ultracam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh  -O - | /bin/sh</item>
-		<item ask="" icon="menu.png" name="Ultracam-Oscam_11812-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="Ultracam-Oscam_11845-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Ultracam">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh  -O - | /bin/sh</item>
 	</submenu>
 
