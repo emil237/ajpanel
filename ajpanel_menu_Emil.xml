@@ -156,7 +156,7 @@
 		<item ask="Install sherlockmod ?" icon="/emil-panel-lite/icons/lenux.png" name="Sherlockmod">wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Simple-Zoom-Panel ?" icon="/emil-panel-lite/icons/lenux.png" name="Simple-Zoom-Panel">wget https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh -O - | /bin/sh</item>
 		<item ask="Install SubsSupport_1.5.8-r9 ?" icon="/emil-panel-lite/icons/lenux.png" name="SubsSupport_1.5.8-r9">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer1.sh -O - | /bin/sh</item>
-		<item ask="Install SubsSupport_1.7.0-r4 ?" icon="/emil-panel-lite/icons/lenux.png" name="SubsSupport_1.7.0-r4">wget https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
+		<item ask="Install SubsSupport_1.7.0-r5 ?" icon="/emil-panel-lite/icons/lenux.png" name="SubsSupport_1.7.0-r5">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/SubsSupport/installer.sh -O - | /bin/sh</item>
 		<item ask=" Install TheWeather ?" icon="/emil-panel-lite/icons/lenux.png" name="TheWeather">wget https://dreambox4u.com/emilnabil237/plugins/TheWeather/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install uninstaller-Plugins ?" icon="/emil-panel-lite/icons/lenux.png" name="uninstaller-Plugins">wget http://dreambox4u.com/emilnabil237/plugins/unstaller-plugins/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install vavoo_1.15 ?" icon="/emil-panel-lite/icons/lenux.png" name="vavoo_1.15">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh</item>
