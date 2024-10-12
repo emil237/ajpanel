@@ -107,7 +107,7 @@
 		<item ask=" Install YouTube ?" name="YouTube" icon="/emil-panel-lite/icons/menu.png">wget https://dreambox4u.com/emilnabil237/plugins/YouTube/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install xklass-iptv ?" icon="menu.png" name="xklass-iptv">wget https://dreambox4u.com/emilnabil237/plugins/xklass/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Xtreamty ?" icon="menu.png" name="Xtreamity">wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh</item>
-		<item ask="Install Xcpluginforever ?" icon="menu.png" name="Xcpluginforever">wget https://dreambox4u.com/emilnabil237/plugins/xcplugin/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Xcpluginforever ?" icon="menu.png" name="Xcpluginforever">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Belfagor2005/xc_plugin_forever/main/installer.sh -O - | /bin/sh</item>
 	</submenu>
 
 	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Free" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
