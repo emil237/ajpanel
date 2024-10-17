@@ -88,7 +88,7 @@
 
 	<submenu bg="#19184D" font_size="50" height="950" mode="grid_5x4" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Media" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install BouquetMakerXtream ?" icon="menu.png" name="BouquetMakerXtream">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh</item>
-		<item ask="Install E2plyer" icon="menu.png" name="E2Player-Tsplayer">wget https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh?inline=false  -O - | /bin/sh</item>
+		<item ask="Install E2plyer" icon="menu.png" name="E2Player-Tsplayer">wget https://dreambox4u.com/emilnabil237/plugins/e2player/e2player.sh  -O - | /bin/sh</item>
 		<item ask="Install IptoSat ?" icon="menu.png" name="IptoSat">wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Ipaudio ?" icon="menu.png" name="IpAudio_6.7">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Ipaudio ?" icon="menu.png" name="IpAudio_7.4">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
