@@ -215,6 +215,9 @@ curl -kLs https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent_6.798.
 		<item ask="Install Epg-Khaled ?" icon="menux.png" name="EPG-KHALED">wget https://raw.githubusercontent.com/emilnabil/epg-khaled/main/EPG-khaled.sh  -O - | /bin/sh</item>
 		<item ask="Install Feed Emil Nabil ?" icon="menux.png" name="Feed Emil Nabil">wget http://dreambox4u.com/emilnabil237/script/FEED-emil-feed.sh  -O - | /bin/sh</item>
 		<item ask="Install FIX-ipk-package-installation ?" icon="menux.png" name="FIX-ipk-Package-Installation">wget https://dreambox4u.com/emilnabil237/script/fix-ipk-package-installation.sh -O - | /bin/sh</item>
+		<item ask="Set_Time ?" 
+		info="ضبط التوقيت اليا بواسطة NTP Google"
+		icon="menux.png" name="Set_Time">wget https://dreambox4u.com/emilnabil237/script/set_time.sh  -O - | /bin/sh</item>
 		<item ask="Install Fix Softcam Atv ?" icon="menux.png" name="Fix Softcam Atv">sh -c "$(wget --no-check-certificate http://updates.mynonpublic.com/oea/feed -qO -)"</item>
 		<item ask="Install Fix Softcam OpenPli ?" icon="menux.png" name="Fix Softcam OpenPli">curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/softcam-support-pli.sh|sh</item>
 		<item ask="Install fix-xtraevent-downloader ?" icon="menux.png" name="Fix-Xtraevent-Downloader">curl -kLs https://dreambox4u.com/emilnabil237/script/fix-xtraevent-downloader.sh|sh</item>
