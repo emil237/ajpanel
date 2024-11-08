@@ -95,7 +95,7 @@
 		<item ask="Install IptoSat ?" icon="menu.png" name="IptoSat">wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Ipaudio ?" icon="menu.png" name="IpAudio_6.7">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Ipaudio ?" icon="menu.png" name="IpAudio_7.4">wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
-		<item ask="Install ipaudiopro ?" icon="menu.png" info="py2-py3.9-py3.11-py3.12" name="IpAudioPro-1.3">wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install ipaudiopro ?" icon="menu.png" info="py2-py3.9-py3.11-py3.12" name="IpAudioPro-1.4">wget https://dreambox4u.com/emilnabil237/plugins/ipaudiopro/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Jediepgextream ?" icon="menu.png" name="JediEpgExtream">wget https://dreambox4u.com/emilnabil237/plugins/jediepgextream/installer.sh  -O - | /bin/sh</item>
 		<item ask=" Install jedimakerxtream ?" icon="menu.png" name="JediMakerXtream">wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh  -O - | /bin/sh</item>
 		<item ask="insall multistalker ?" icon="menu.png" name="Multistalker">wget https://dreambox4u.com/emilnabil237/plugins/multistalker/installer.sh -O - | /bin/sh</item>
