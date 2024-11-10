@@ -427,10 +427,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Spa-8.xx" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 			<item ask="Install Skin Aglare-FHD ?" icon="menux.png" name="Aglare-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
-			<item ask="" icon="menux.png" name="BlackSPAFHD_posterX-Mod-HA">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-BlackSPAFHD_posterX-Mod-HA.sh?inline=false|sh</item>
 			<item ask="" icon="menux.png" name="estuary-1080">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuary-1080.sh?inline=false|sh</item>
-			<item ask="" icon="menux.png" name="estuaryFHD_Mod-HA">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuaryFHD_openspa_Mod-HA.sh?inline=false|sh</item>
-			<item ask="yes" icon="menux.png" name="OpenplusFHD_posterX-Mod-HA">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-openplusFHD_posterX-Mod-HA.sh?inline=false|sh</item>
 			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/skins/openatv/skins-xDreamy-FHD.sh -O - | /bin/sh</item>
 		</submenu>
 		
