@@ -155,6 +155,8 @@
 		<item ask="Install Ozeta-Skins-Setup-2.8 ?" icon="/emil-panel-lite/icons/lenux.png" name="Ozeta-Skins-Setup-2.8">wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh</item>
 		<item ask="Install Quran ?" icon="/emil-panel-lite/icons/lenux.png" name="Quran-karem">wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -O - | /bin/sh</item>
 		<item ask="Install RaedQuickSignal ?" icon="/emil-panel-lite/icons/lenux.png" name="Raedquicksignal">wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install pluginmover ?" icon="/emil-panel-lite/icons/lenux.png" name="PluginMover">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/pluginmover/installer.sh -O - | /bin/sh</item>
+		<item ask="Install pluginskinmover ?" icon="/emil-panel-lite/icons/lenux.png" name="PluginSkinMover">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh</item>
 		<item ask="Install scriptexecuter ?" icon="/emil-panel-lite/icons/lenux.png" name="scriptexecuter">wget http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh -O - | /bin/sh</item>
 		<item ask="Install sherlockmod ?" icon="/emil-panel-lite/icons/lenux.png" name="Sherlockmod">wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Simple-Zoom-Panel ?" icon="/emil-panel-lite/icons/lenux.png" name="Simple-Zoom-Panel">wget https://dreambox4u.com/emilnabil237/plugins/simple-zoom-panel/installer.sh -O - | /bin/sh</item>
