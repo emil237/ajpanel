@@ -332,7 +332,7 @@ exit</item>
 			<item ask="Install Skin Novaler-s-fhd-indianred ?" icon="menux.png" name="Novaler-s-fhd-indianred_3.4">wget https://dreambox4u.com/emilnabil237/skins/openatv/SKIN-novaler-s-fhd-indianred_3.4.sh -O - | /bin/sh</item>
 			<item ask="Install Skin oDreamy-FHD ?" icon="menux.png" info="Modded By Inspiron" name="oDreamy-FHD">wget https://dreambox4u.com/emilnabil237/skins/openatv/skins-oDreamy-FHD.sh -O - | /bin/sh</item>
 			<item ask="Install Skin Ozeta Xtra ?" icon="menux.png" name="Ozeta-Xtra">wget http://dreambox4u.com/emilnabil237/script/SKIN-ATV-ozeta-xtra.sh -O - | /bin/sh</item>
-			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/skins/openatv/skins-xDreamy-FHD.sh -O - | /bin/sh</item>
+			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
 		<submenu fg="#E9AB17" font_size="50" height="950" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins BlackHole" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
@@ -366,7 +366,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 			<item ask="" icon="menu.png" name="Premium-Fhd_3.0">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
 			<item ask="" icon="menu.png" name="Premium-Black-Fhd_3.0">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
 			<item ask="" icon="menu.png" name="Premium-Blue-Fhd_3.0">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh</item>
-			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/skins/openatv/skins-xDreamy-FHD.sh -O - | /bin/sh</item>
+			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
 		<submenu fg="#CCFB5D" font_size="50" height="950" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Open Black Hole" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
@@ -381,11 +381,11 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.3" name="MX-MaesteraBPR-FHD_MOD-HAhmed">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-MaesteraBPR-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.3" name="Mx-PrioFHD-xtra_mod-HAhmed">wget https://dreambox4u.com/emilnabil237/skins/obh/Mx-PrioFHD-xtra_mod-HAhmed.sh  -O - | /bin/sh</item>
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.3" name="mx-sline-posterx_2.0-mod2ha">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-posterx_2.0-mod2ha.sh  -O - | /bin/sh</item>
-			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.3" name="MX-SunMoon-FHD_MOD-HAhmed">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-SunMoon-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
-			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/skins/openatv/skins-xDreamy-FHD.sh -O - | /bin/sh</item>
+			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Pli_8x" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="" icon="menux.png" name="Bluemetal-FHD">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/refs/heads/main/pli/Skin-bluemetal-fhd.sh|sh</item>
 			<item ask="" icon="menux.png" name="CH.LEAGUE-FHD">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-CH.LEAGUE-FHD.sh -O - | /bin/sh</item>
 			<item ask="" icon="menux.png" name="Ozeta-Xtra">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh</item>
 			<item ask="yes" icon="menux.png" name="QATAR-2022-V3-FHD">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-QATAR-2022-V3-FHD.sh -O - | /bin/sh</item>
@@ -414,27 +414,27 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 			<item ask="yes" icon="menux.png" name="T.BLUE-HD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.BLUE-HD-By-Muaath.sh|sh</item>
 			<item ask="" icon="menux.png" name="T.PURPLE-HD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.PURPLE-HD-By-Muaath.sh|sh</item>
 			<item ask="yes" icon="menux.png" name="TOKYO2020-FHD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-TOKYO2020-FHD-By-Muaath.sh|sh</item>
-			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/skins/openatv/skins-xDreamy-FHD.sh -O - | /bin/sh</item>
+			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Pli_9x" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 			<item ask="" icon="menu.png" name="Aglare-fhd">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd-pli.sh|sh</item>
+		<item ask="" icon="menu.png" name="BARDO-FHD">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/refs/heads/main/pli/Skin-bardo-fhd_3.7.2.sh|sh</item>	
 			<item ask="" icon="menu.png" name="BLACKNEON-XP_Mod_M-Nasr">curl -kLs https://dreambox4u.com/emilnabil237/skins/pli9x/Skin-BLACKNEON-XP_mod_mnasr-pli9x.sh|sh</item>
 			<item ask="" icon="menu.png" name="malek-fhd_1.2">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/Skin-malek-fhd_1.2.sh|sh</item>
 			<item ask="" icon="menu.png" name="Ozeta-Xtra">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh</item>
-			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/skins/openatv/skins-xDreamy-FHD.sh -O - | /bin/sh</item>
+			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Spa-8.xx" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 			<item ask="Install Skin Aglare-FHD ?" icon="menux.png" name="Aglare-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
 			<item ask="" icon="menux.png" name="estuary-1080">curl -kLs https://gitlab.com/elbrins/skins/-/raw/main/Spa/Skin-estuary-1080.sh?inline=false|sh</item>
-			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/skins/openatv/skins-xDreamy-FHD.sh -O - | /bin/sh</item>
+			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
 		</submenu>
 		
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins OpenVix" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="" icon="menu.png" name="Aglare-fhd">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd-pli.sh|sh</item>
-			<item ask="Install Skin YouVix-Mod_H-Ahmed-4×1 ?" icon="menux.png" name="YouVix-Mod_H-Ahmed-4×1">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/skins/openvix/skins-youVix-Mod_H-Ahmed.sh -O - | /bin/sh</item>
-			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/skins/openatv/skins-xDreamy-FHD.sh -O - | /bin/sh</item>
+		<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins VTI" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
