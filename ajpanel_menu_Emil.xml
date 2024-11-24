@@ -121,6 +121,7 @@
 
 	<submenu bg="#423C3D" fg="#FFFF00" font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Multiboot Plugins" title1_bg="#000000" title1_fg="#40E0D0" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 	<item ask="Install EgamiBoot ?" name="EgamiBoot">wget https://raw.githubusercontent.com/emil237/egamiboot/refs/heads/main/installer.sh  -O - | /bin/sh</item>
+	<item ask="Install EgamiBoot ?" name="EgamiBoot_10.6">wget https://raw.githubusercontent.com/emil237/egamiboot/refs/heads/main/egamiboot-10.6.sh -O - | /bin/sh</item>
 		<item ask="Install Neoboot_v9.65 ?" name="Neoboot_9.65">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh  -O - | /bin/sh</item>
 		<item ask="Install Neoboot_v9.60 ?" name="Neoboot_9.60">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.60/iNB.sh  -O - | /bin/sh</item>
 		<item ask="Install Neoboot_v9.58 ?" name="Neoboot_9.58">wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.58/iNB.sh -O - | /bin/sh</item>
