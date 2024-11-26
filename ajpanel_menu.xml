@@ -313,6 +313,7 @@ exit</item>
 	<submenu fg="#CCFB5D" font_size="50" height="950" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<submenu fg="#CCFB5D" font_size="50" height="950" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="TeamNitro Skins" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 			<item ask="Install Plugin TeamNitro ?" icon="menu.png" name="TeamNitro Control Center">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/SKIN-teamnitro.sh  -O - | /bin/sh</item>
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/emilnabil/skin-al_ayam_fhd/refs/heads/main/skin-al_ayam_fhd.sh|sh</item>	
 			<item ask="Install Skin Desert ?" icon="menux.png" name="Desert skin">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer-skin-desert.sh -O - | /bin/sh</item>
 			<item ask="Install Skin Bohlala ?" icon="menux.png" name="BoHLALA skin">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer.sh -O - | /bin/sh</item>
 			<item ask="Install Skin Dragon ?" icon="menux.png" name="Dragon skin">wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh  -O - | /bin/sh</item>
@@ -321,6 +322,7 @@ exit</item>
 		</submenu>
 
 		<submenu fg="#CCFB5D" font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Atv" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/emilnabil/skin-al_ayam_fhd/refs/heads/main/skin-al_ayam_fhd.sh|sh</item>
 			<item ask="Install Skin Aglare-FHD ?" icon="menux.png" name="Aglare-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
 			<item ask="Install Skin Maxy-FHD ?" icon="menux.png" name="Maxy-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-Maxy-FHD.sh|sh</item>
 			<item ask="Install Full HD Glass17 ?" icon="menux.png" name="Full HD Glass17">wget https://dreambox4u.com/emilnabil237/skins/openatv/skin-fullhdglass17.sh -O - | /bin/sh"</item>
@@ -364,6 +366,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 		</submenu>
 
 		<submenu fg="#F9B7FF" font_size="50" height="950" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Egami" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/emilnabil/skin-al_ayam_fhd/refs/heads/main/skin-al_ayam_fhd.sh|sh</item>
 			<item ask="Install Skin Aglare-FHD ?" icon="menu.png" name="Aglare-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd.sh|sh</item>
 			<item ask="" icon="menu.png" name="Premium-Fhd_3.0">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
 			<item ask="" icon="menu.png" name="Premium-Black-Fhd_3.0">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
@@ -373,6 +376,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 
 		<submenu fg="#CCFB5D" font_size="50" height="950" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Open Black Hole" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 			<item ask="" icon="menu.png" name="Aglare-fhd">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd-pli.sh|sh</item>
+			<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/emilnabil/skin-al_ayam_fhd/refs/heads/main/skin-al_ayam_fhd.sh|sh</item>
 			<item ask="" icon="menu.png" info="5.4.xx py3.12.x" name="MX_BlackSea">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/skins-MX_BlackSea.sh|sh</item>
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.4" name="MX-Sline-Black-Red-Gradient_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-black-red-gradient_py3.12.sh|sh</item>
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.4" name="MX_Sline-Blue_OBH_5.4_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Blue_OBH_5.4_py3.12_py3.12.sh|sh</item>
@@ -387,6 +391,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 		</submenu>
 
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Pli_8x" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/emilnabil/skin-al_ayam_fhd/refs/heads/main/skin-al_ayam_fhd.sh|sh</item>
 		<item ask="" icon="menux.png" name="Bluemetal-FHD">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/refs/heads/main/pli/Skin-bluemetal-fhd.sh|sh</item>
 			<item ask="" icon="menux.png" name="CH.LEAGUE-FHD">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-CH.LEAGUE-FHD.sh -O - | /bin/sh</item>
 			<item ask="" icon="menux.png" name="Ozeta-Xtra">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh</item>
@@ -420,6 +425,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 		</submenu>
 
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Pli_9x" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/emilnabil/skin-al_ayam_fhd/refs/heads/main/skin-al_ayam_fhd.sh|sh</item>
 			<item ask="" icon="menu.png" name="Aglare-fhd">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd-pli.sh|sh</item>
 		<item ask="" icon="menu.png" name="BARDO-FHD">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/refs/heads/main/pli/Skin-bardo-fhd_3.7.2.sh|sh</item>	
 			<item ask="" icon="menu.png" name="BLACKNEON-XP_Mod_M-Nasr">curl -kLs https://dreambox4u.com/emilnabil237/skins/pli9x/Skin-BLACKNEON-XP_mod_mnasr-pli9x.sh|sh</item>
