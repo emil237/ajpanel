@@ -225,6 +225,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent_6.798.
 		icon="menux.png" name="Set_Time">wget https://dreambox4u.com/emilnabil237/script/set_time.sh  -O - | /bin/sh</item>
 		<item ask="Install Fix Softcam Atv ?" icon="menux.png" name="Fix Softcam Atv">sh -c "$(wget --no-check-certificate http://updates.mynonpublic.com/oea/feed -qO -)"</item>
 		<item ask="Install Fix Softcam OpenPli ?" icon="menux.png" name="Fix Softcam OpenPli">curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/main/softcam-support-pli.sh|sh</item>
+		<item ask="Install Wget package Vti ?" icon="menux.png" name="Wget package Vti">curl -kLs https://raw.githubusercontent.com/emil237/download-plugins/refs/heads/main/tool_vti-wget_1.16.3.sh|sh</item>
 		<item ask="Install fix-xtraevent-downloader ?" icon="menux.png" name="Fix-Xtraevent-Downloader">curl -kLs https://dreambox4u.com/emilnabil237/script/fix-xtraevent-downloader.sh|sh</item>
 		<item ask="Update Enigma2 All Python ?" icon="menux.png" name="UPDATE ENIGMA2 ALL PYTHON">wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh  -O - | /bin/sh</item>
 		<item ask="Install Feed OpenPicons ?" icon="menux.png" info="(Picons-Feed snp-srp)" name="Feed-Openpicons">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/script/openpicons-feed.sh -O - | /bin/sh</item>
