@@ -440,6 +440,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 		</submenu>
 		
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins OpenVix" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/emilnabil/skin-al_ayam_fhd/refs/heads/main/skin-al_ayam_fhd.sh|sh</item>
 		<item ask="" icon="menu.png" name="Aglare-fhd">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd-pli.sh|sh</item>
 			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
 		</submenu>
