@@ -214,6 +214,8 @@ curl -kLs https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent_6.798.
 
 	<submenu font_size="30" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Tools" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install CAM-abertis-astra-sm ?" icon="menux.png" name="CAM-abertis-astra-sm">wget https://dreambox4u.com/emilnabil237/script/CAM-abertis-astra.sh  -O - | /bin/sh</item>
+		<item ask="FORMAT_HDD_TO-Ext4 ?" icon="menux.png" name="FORMAT_HDD_TO-Ext4">curl -kLs https://raw.githubusercontent.com/emil237/scripts/refs/heads/main/format-hdd.sh|sh</item>
+		<item ask="Repair-Inodes-From-Hdd ?" icon="menux.png" name="Repair-Inodes-From-Hdd">curl -kLs https://raw.githubusercontent.com/emil237/scripts/refs/heads/main/repair-hdd.sh|sh</item>
 		<item ask="update-package_epggrabber ?" info="In case of a time difference of 1 hours" icon="menux.png" name="update-package_epggrabber">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/update-package+one-hour.sh -O - | /bin/sh</item>
 		<item ask="update-package_epggrabber ?" info="In case of a time difference of 2 hours" icon="menux.png" name="update-package_epggrabber">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/update-package+two-hour.sh -O - | /bin/sh</item>
 		<item ask="update-package_epggrabber ?" info="In case of a time difference of 3 hours" icon="menux.png" name="update-package_epggrabber">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/update-package+three-hour.sh -O - | /bin/sh</item>
