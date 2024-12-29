@@ -61,6 +61,7 @@
 	<submenu bg="#06770077" font_size="70" height="950" info="Download And Install Panel" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Panels" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install Ajpanel ?" icon="menu.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Panel_Emil ?" icon="menu.png" name="Panel_Emil_lite">wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpsettingsPanel ?" icon="menu.png" name="CiefpsettingsPanel">wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel/Ciefp-Panel.sh -O - | /bin/sh</item>
 		<item ask="Install dreamosat-downloader ?" icon="menu.png" name="Dreamosat-Downloader">wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Epanel ?" icon="menu.png" name="Epanel">wget https://dreambox4u.com/emilnabil237/plugins/epanel/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install linuxsat-panel ?" icon="menu.png" name="linuxsat-panel">wget https://dreambox4u.com/emilnabil237/plugins/linuxsat-panel/installer.sh  -O - | /bin/sh</item>
