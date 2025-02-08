@@ -61,6 +61,7 @@
 	<submenu bg="#06770077" font_size="70" height="950" info="Download And Install Panel" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Panels" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install Ajpanel ?" icon="menu.png" name="Ajpanel">wget https://github.com/AMAJamry/AJPanel/raw/main/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Panel_Emil ?" icon="menu.png" name="Panel_Emil_lite">wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh</item>
+		<item ask="Install EliesatPanel ?" icon="menu.png" name="EliesatPanel">wget https://raw.githubusercontent.com/eliesat/eliesatpanel/main/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Smart Addons Panel ?" icon="menu.png" name="Smart Addons Panel">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh  -O - | /bin/sh</item>
 		<item ask="Install CiefpsettingsPanel ?" icon="menu.png" name="CiefpsettingsPanel">wget -q "--no-check-certificate" https://github.com/ciefp/CiefpsettingsPanel/raw/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install dreamosat-downloader ?" icon="menu.png" name="Dreamosat-Downloader">wget https://dreambox4u.com/emilnabil237/plugins/dreamosat-downloader/installer.sh  -O - | /bin/sh</item>
@@ -157,6 +158,7 @@
 		<item ask="Install Epg Grabber ?" icon="/emil-panel-lite/icons/lenux.png" name="Epg Grabber">wget https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Footonsat ?" icon="/emil-panel-lite/icons/lenux.png" name="FootOnsat">wget https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="FreeCCcamServer Plugin">wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="hardwareinfo">wget https://dreambox4u.com/emilnabil237/plugins/hardwareinfo/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="HasBahCa">wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="HistoryZapSelector">wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="MoviesManager">wget http://dreambox4u.com/emilnabil237/plugins/Transmission/MoviesManager.sh -O - | /bin/sh</item>
@@ -515,27 +517,27 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 	<submenu bg="#22440033" font_size="30" height="950" mode="grid_6x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Emu Cam" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" width="1600">
 		<item ask="" icon="menu.png" name="Cccam">wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="gosatplus-ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh  -O - | /bin/sh</item>
-		<item ask="" icon="menu.png" name="gosatplus-oscam_11866-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="gosatplus-oscam_11868-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="gosatplus">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Hold-flag-ncam">opkg flag hold enigma2-plugin-softcams-ncam</item>
 		<item ask="" icon="menu.png" name="Hold-flag-oscam">opkg flag hold enigma2-plugin-softcams-oscam</item>
 		<item ask="" icon="menu.png" name="Ncam-15.2">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
-		<item ask="" icon="menu.png" name="Oscam-11866-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="Oscam-11868-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="oscam_levi45_11799">wget https://raw.githubusercontent.com/emilnabil/oscam/main/oscam-emu-levi45.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Oscam-11.726-by-lenuxsat">wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="oscamicam">wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="powercam_v2-icam-arm">wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="powercam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh  -O - | /bin/sh</item>
-		<item ask="" icon="menu.png" name="powercam-Oscam_11866-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="powercam-Oscam_11868-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Restore-flag-ncam">opkg flag user enigma2-plugin-softcams-ncam</item>
 		<item ask="" icon="menu.png" name="Restore-flag-oscam">opkg flag user enigma2-plugin-softcams-oscam</item>
 		<item ask="" icon="menu.png" name="Revcam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Revcam-Oscam">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Revcam">wget https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Supcam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh  -O - | /bin/sh</item>
-		<item ask="" icon="menu.png" name="Supcam-Oscam_11866-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="Supcam-Oscam_11868-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Ultracam-Ncam">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh  -O - | /bin/sh</item>
-		<item ask="" icon="menu.png" name="Ultracam-Oscam_11866-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh  -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="Ultracam-Oscam_11868-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Ultracam">wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh  -O - | /bin/sh</item>
 	</submenu>
 
