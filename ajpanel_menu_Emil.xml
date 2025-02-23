@@ -161,6 +161,7 @@
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="HistoryZapSelector">wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="MoviesManager">wget http://dreambox4u.com/emilnabil237/plugins/Transmission/MoviesManager.sh -O - | /bin/sh</item>
 		<item ask="Install MultiCamAdder ?" icon="/emil-panel-lite/icons/lenux.png" name="MultiCamAdder">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Multi-Iptv-Adder ?" icon="/emil-panel-lite/icons/lenux.png" name="Multi-Iptv-Adder">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh</item>
 		<item ask="Install plugin MyCam ?" icon="/emil-panel-lite/icons/lenux.png" name="MyCam-Plugin">wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh</item>
 		
 		<item ask="Install NewVirtualkeyBoard ?" icon="/emil-panel-lite/icons/lenux.png" name="NewVirtualKeyBoard">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh</item>
