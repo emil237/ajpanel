@@ -3,6 +3,29 @@
 	<item info="Open the directory &quot;/usr/script/&quot; in File Manager" name="/Go To Script/">/usr/script</item>
 	<submenu font_size="30" height="950" info="تحميل البلجنات المهمة دفعة واحدة بطريقة احترافية " mode="grid_3x2" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Super Script" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Super Script" icon="/emil-panel-lite/icons/menux.png" info="تحميل البلجنات المهمة دفعة واحدة بطريقة احترافية" name="Super Script">wget https://dreambox4u.com/emilnabil237/script/Super_Script.sh  -O - | /bin/sh</item>
+	     </submenu>
+<submenu bg="#06770077" font_size="70" height="950" info="DNS Resolver Network" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="DNS Resolver Network" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+    <item ask="Google DNS" icon="menu.png" name="Google DNS">echo "nameserver 8.8.8.8" > /etc/resolv.conf; echo "nameserver 8.8.4.4" >> /etc/resolv.conf; killall -9 enigma2</item>
+    <item ask="Cloudflare DNS" icon="menu.png" name="Cloudflare DNS">echo "nameserver 1.1.1.1" > /etc/resolv.conf; echo "nameserver 1.0.0.1" >> /etc/resolv.conf; killall -9 enigma2</item>
+    <item ask="CleanBrowsing DNS" icon="menu.png" name="CleanBrowsing DNS">echo "nameserver 185.228.168.9" > /etc/resolv.conf; echo "nameserver 185.228.169.9" >> /etc/resolv.conf; killall -9 enigma2</item>
+    <item ask="Quad9 DNS" icon="menu.png" name="Quad9 DNS">echo "nameserver 9.9.9.9" > /etc/resolv.conf; echo "nameserver 149.112.112.112" >> /etc/resolv.conf; killall -9 enigma2</item>
+    <item ask="Open DNS" icon="menu.png" name="Open DNS">echo "nameserver 208.67.222.222" > /etc/resolv.conf; echo "nameserver 208.67.220.220" >> /etc/resolv.conf; killall -9 enigma2</item>
+    <item ask="Comodo DNS" icon="menu.png" name="Comodo DNS">echo "nameserver 8.26.56.26" > /etc/resolv.conf; echo "nameserver 8.20.247.20" >> /etc/resolv.conf; killall -9 enigma2</item>
+    <item ask="Alternate DNS" icon="menu.png" name="Alternate DNS">echo "nameserver 76.76.19.19" > /etc/resolv.conf; echo "nameserver 76.223.122.150" >> /etc/resolv.conf; killall -9 enigma2</item>
+    <item ask="AdGuard DNS" icon="menu.png" name="AdGuard DNS">echo "nameserver 94.140.14.14" > /etc/resolv.conf; echo "nameserver 94.140.15.15" >> /etc/resolv.conf; killall -9 enigma2</item>
+    <item ask="Control DNS" icon="menu.png" name="Control DNS">echo "nameserver 76.76.2.0" > /etc/resolv.conf; echo "nameserver 76.76.10.0" >> /etc/resolv.conf; killall -9 enigma2</item>
+</submenu>
+
+    <submenu bg="#06770077" font_size="70" height="950" info="Download Display-Skin" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Display Skin" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="display-oe-a-lcdskin-1?" icon="menu.png" name="display-oe-a-lcdskin-1">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-1.sh -qO - | /bin/sh</item>
+		<item ask="display-oe-a-lcdskin-2?" icon="menu.png" name="display-oe-a-lcdskin-2">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-2.sh -qO - | /bin/sh</item>
+		<item ask="display-oe-a-lcdskin-3?" icon="menu.png" name="display-oe-a-lcdskin-3">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-3.sh -qO - | /bin/sh</item>
+		<item ask="display-oe-a-lcdskin-4?" icon="menu.png" name="display-oe-a-lcdskin-4">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-4.sh -qO - | /bin/sh</item>
+		<item ask="display-oe-a-lcdskin-5?" icon="menu.png" name="display-oe-a-lcdskin-5">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-5.sh -qO - | /bin/sh</item>
+		<item ask="display-oe-a-lcdskin-6?" icon="menu.png" name="display-oe-a-lcdskin-6">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-6.sh -qO - | /bin/sh</item>
+		<item ask="display-oe-a-lcdskin-7?" icon="menu.png" name="display-oe-a-lcdskin-7">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-7.sh -qO - | /bin/sh</item>
+		<item ask="display-oe-a-lcdskin-8?" icon="menu.png" name="display-oe-a-lcdskin-8">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-8.sh -qO - | /bin/sh</item>
+		<item ask="display-oe-a-lcdskin-9?" icon="menu.png" name="display-oe-a-lcdskin-9">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Display-Skin/display-oe-a-lcdskin-9.sh -qO - | /bin/sh</item>
 	</submenu>
 
  <submenu bg="#06770077" font_size="70" height="950" info="Download New icons plugins" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="icons plugins" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
@@ -209,9 +232,15 @@ curl -kLs https://dreambox4u.com/emilnabil237/plugins/xtraevent/xtraevent_6.798.
 
 	<submenu bg="#22440033" font_size="30" height="950" info=" Download And install System Plugins " mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="System-Plugins" title1_bg="#000000" title1_fg="#FFD700" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install 3GModemManager ?" icon="menux.png" name="3GModemManager">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/3gmodemmanager/3gmodemmanager.sh -O - | /bin/sh</item>
+		<item ask="Install devicemanager ?" icon="menux.png" name="devicemanager">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/devicemanager.sh -O - | /bin/sh</item>
+		<item ask="Install mountmanager ?" icon="menux.png" name="mountmanager">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/muntmanger/installer.sh -O - | /bin/sh</item>
 		<item ask="Install NewVirtualkeyBoard ?" icon="menux.png" name="NewVirtualKeyBoard">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh</item>
 		<item ask="install servicescanupdates_1.2 ?" icon="menux.png" name="servicescanupdates_1.2">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/servicescanupdates/servicescanupdates.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="menux.png" name="Ts-Sateditor">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ts-sateditor/ts-sateditor.sh -O - | /bin/sh</item>
+		<item ask="Install setpasswd ?" icon="menux.png" name="setpasswd">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpasswd.sh -O - | /bin/sh</item>
+		<item ask="Install signalfinder ?" icon="menux.png" name="signalfinder">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/signalfinder.sh -O - | /bin/sh</item>
+		<item ask="Install softwaremanager ?" icon="menux.png" name="softwaremanager">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/softwaremanager.sh -O - | /bin/sh</item>
+		<item ask="Install Ts-Sateditor ?" icon="menux.png" name="Ts-Sateditor">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/ts-sateditor/ts-sateditor.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="menux.png" name="XmlUpdate">wget https://dreambox4u.com/emilnabil237/plugins/xmlupdate/xmlupdate.sh -qO - | /bin/sh</item>
 	</submenu>
 
