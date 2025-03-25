@@ -181,6 +181,7 @@
 		<item ask="Install RaedQuickSignal ?" icon="/emil-panel-lite/icons/lenux.png" name="Raedquicksignal">wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install pluginmover ?" icon="/emil-panel-lite/icons/lenux.png" name="PluginMover">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/pluginmover/installer.sh -O - | /bin/sh</item>
 		<item ask="Install pluginskinmover ?" icon="/emil-panel-lite/icons/lenux.png" name="PluginSkinMover">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh</item>
+		<item ask="Install ScreenRecorder ?" icon="/emil-panel-lite/icons/lenux.png" name="ScreenRecorder">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh</item>
 		<item ask="Install scriptexecuter ?" icon="/emil-panel-lite/icons/lenux.png" name="scriptexecuter">wget http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh -O - | /bin/sh</item>
 		<item ask="Install SetPicon ?" icon="/emil-panel-lite/icons/lenux.png" name="SetPicon">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh</item>
 		<item ask="Install sherlockmod ?" icon="/emil-panel-lite/icons/lenux.png" name="Sherlockmod">wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh</item>
