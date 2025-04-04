@@ -149,7 +149,7 @@
 	<submenu bg="#22440033" font_size="30" height="950" info=" Download And install Plugins " mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Plugins" title1_bg="#000000" title1_fg="#FFD700" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install ArabicSavior ?" icon="/emil-panel-lite/icons/lenux.png" name="Arabicsavior">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
 		<item ask="install Alajre_1.2 ?" icon="/emil-panel-lite/icons/lenux.png" name="Alajre_1.2">wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -qO - | /bin/sh</item>
-		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="Ansite">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -qO - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="Ansite">wget https://raw.githubusercontent.com/emil237/ansite/main/installer.sh -qO - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="Athan Times">wget https://dreambox4u.com/emilnabil237/plugins/athantimes/installer.sh -qO - | /bin/sh</item>
 		<item ask="Install Atilehd ?" icon="/emil-panel-lite/icons/lenux.png" name="Atilehd">wget https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install automatic-fullbackup ?" icon="/emil-panel-lite/icons/lenux.png" name="automatic-fullbackup">wget https://dreambox4u.com/emilnabil237/plugins/automatic-fullbackup/installer.sh  -O - | /bin/sh</item>
