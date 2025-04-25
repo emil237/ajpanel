@@ -554,7 +554,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 		<item ask="" icon="menu.png" name="gosatplus">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Hold-flag-ncam">opkg flag hold enigma2-plugin-softcams-ncam</item>
 		<item ask="" icon="menu.png" name="Hold-flag-oscam">opkg flag hold enigma2-plugin-softcams-oscam</item>
-		<item ask="" icon="menu.png" name="Ncam-15.2">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="Ncam-15.3">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Oscam-11868-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="oscam_levi45_11799">wget https://raw.githubusercontent.com/emilnabil/oscam/main/oscam-emu-levi45.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Oscam-11.726-by-lenuxsat">wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh  -O - | /bin/sh</item>
@@ -673,12 +673,12 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 		<item ask="yes" name="Crashlogs">wget https://dreambox4u.com/emilnabil237/script/remove/DEL_all_Crashlogs.sh  -O - | /bin/sh</item>
 		<item ask="yes" name="Jedimaker-playlists">rm -f /etc/enigma2/jediplaylists/playlists.txt</item>
 		<item ask="yes" name="Xstreamity-playlists">rm -f /etc/enigma2/xstreamity/playlists.txt</item>
-		<item ask="yes" name="Cccamfinder">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-CCcamFinder.sh  -O - | /bin/sh</item>
-		<item ask="yes" name="Emu-All">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus.sh  -O - | /bin/sh</item>
+		<item ask="yes" name="Cccamfinder">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-CCcamFinder.sh -O - | /bin/sh</item>
+		<item ask="yes" name="Emu-All">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus.sh -O - | /bin/sh</item>
 		<item ask="yes" name="Emu-Ncam">opkg remove enigma2-plugin-softcams-ncam*</item>
 		<item ask="yes" name="Emu-Oscam">opkg remove enigma2-plugin-softcams-oscam*</item>
-		<item ask="yes" name="Emu-Config-Files">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus-config-files.sh  -O - | /bin/sh</item>
-		<item ask="yes" name="E2iplayer">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-e2iplayer.sh  -O - | /bin/sh</item>
+		<item ask="yes" name="Emu-Config-Files">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus-config-files.sh -O - | /bin/sh</item>
+		<item ask="yes" name="E2iplayer">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-e2iplayer.sh -O - | /bin/sh</item>
 		<item ask="Remove FreeServer-Plugin" name="FreeServer-Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-FreeServer.sh -O - | /bin/sh</item>
 		<item ask="yes" name="Mediaplayer2">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-mediaplayer2.sh -O - | /bin/sh</item>
 		<item ask="remove all neoboot" info="Remove all Neoboot" name="Neoboot">wget https://dreambox4u.com/emilnabil237/script/DELETE_plugin-neoboot.sh -O - | /bin/sh</item>
@@ -687,15 +687,15 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 		<item ask="Remove levi45-AddonsManager" name="levi45-AddonsManager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-levi45-addonsmanager.sh -O - | /bin/sh</item>
 		<item ask="Remove M3u-Converter" name="M3u-Converter">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-m3u-converter.sh -O - | /bin/sh</item>
 		<item ask="Remove SatVenusPANEL" name="SatVenusPANEL">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-SatVenusPANEL.sh -O - | /bin/sh</item>
-		<item ask="Remove SoftCam_Manager" name="SoftCam_Manager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-SoftCam_Manager.sh  -O - | /bin/sh</item>
-		<item ask="Remove SubsSupport" name="SubsSupport">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-subssupport.sh  -O - | /bin/sh</item>
+		<item ask="Remove SoftCam_Manager" name="SoftCam_Manager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-SoftCam_Manager.sh -O - | /bin/sh</item>
+		<item ask="Remove SubsSupport" name="SubsSupport">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-subssupport.sh -O - | /bin/sh</item>
 		<item ask="Remove Tuner Settings ?" name="Tuner-Settings">init 4 
 sleep 1; 
 sed -i '/config.Nims.0/d' /etc/enigma2/settings
 init 3</item>
-		<item ask="Remove Tvpanel" name="Tvpanel">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-tvpanel.sh  -O - | /bin/sh</item>
-		<item ask="Remove XCplugin" name="XCplugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-Plugin-XCplugin.sh  -O - | /bin/sh</item>
-		<item ask="Remove Xstreamity Plugin" name="Xstreamity-Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-xstreamity.sh  -O - | /bin/sh</item>
-		<item ask="Remove Youtube" name="Youtube">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-youtube.sh  -O - | /bin/sh</item>
+		<item ask="Remove Tvpanel" name="Tvpanel">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-tvpanel.sh -O - | /bin/sh</item>
+		<item ask="Remove XCplugin" name="XCplugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-Plugin-XCplugin.sh -O - | /bin/sh</item>
+		<item ask="Remove Xstreamity Plugin" name="Xstreamity-Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-xstreamity.sh -O - | /bin/sh</item>
+		<item ask="Remove Youtube" name="Youtube">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-youtube.sh -O - | /bin/sh</item>
 	</submenu>
 </ajp_menu>
