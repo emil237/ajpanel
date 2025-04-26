@@ -96,6 +96,7 @@
 	</submenu>
 
 	<submenu bg="#22003322" fg="#E55B3C" font_size="80" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Key Plugins" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+	<item ask="Install Auto-Dcw-Key-Add ?" icon="menu.png" name="Auto-Dcw-Key-Add">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/auto-dcw-key-add/auto-dcw-key-add.sh -O - | /bin/sh</item>
 		<item ask="Install BissFeedAutoKey ?" icon="menu.png" name="BissFeedAutoKey">wget https://raw.githubusercontent.com/emilnabil/bissfeed-autokey/main/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install afeeds Finder ?" icon="menu.png" name="feeds-finder">wget https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install KeyAdder ?" icon="menu.png" name="keyAdder">wget https://raw.githubusercontent.com/fairbird/KeyAdder/main/installer.sh -O - | /bin/sh</item>
