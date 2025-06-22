@@ -148,40 +148,84 @@
 	</submenu>
 
 	<submenu bg="#22440033" font_size="30" height="950" info=" Download And install Plugins " mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Plugins" title1_bg="#000000" title1_fg="#FFD700" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-		<item ask="Install ArabicSavior ?" icon="/emil-panel-lite/icons/lenux.png" name="Arabicsavior">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install ArabicSavior ?" icon="/emil-panel-lite/icons/lenux.png" name="Arabicsavior">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Advanced-Screen-Shot ?" icon="/emil-panel-lite/icons/lenux.png" name="Advanced-Screen-Shot">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/advancedscreenshot/advancedscreenshot.sh -O - | /bin/sh</item>
+		<item ask="Install Acherone ?" icon="/emil-panel-lite/icons/lenux.png" name="Acherone">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/acherone/installer.sh -O - | /bin/sh</item>
 		<item ask="install Alajre_1.2 ?" icon="/emil-panel-lite/icons/lenux.png" name="Alajre_1.2">wget https://dreambox4u.com/emilnabil237/plugins/alajre/installer.sh -qO - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="Ansite">wget https://raw.githubusercontent.com/emil237/ansite/main/installer.sh -qO - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="Apod">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod/installer.sh -qO - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="Apsattv">wget https://raw.githubusercontent.com/Belfagor2005/Apsattv/main/installer.sh -qO - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="Astronomy">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/astronomy/installer.sh -qO - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="Athan Times">wget https://dreambox4u.com/emilnabil237/plugins/athantimes/installer.sh -qO - | /bin/sh</item>
 		<item ask="Install Atilehd ?" icon="/emil-panel-lite/icons/lenux.png" name="Atilehd">wget https://dreambox4u.com/emilnabil237/plugins/atilehd/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install automatic-fullbackup ?" icon="/emil-panel-lite/icons/lenux.png" name="automatic-fullbackup">wget https://dreambox4u.com/emilnabil237/plugins/automatic-fullbackup/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Azkar Almuslim ?" icon="/emil-panel-lite/icons/lenux.png" name="Azkar Almuslim">wget https://dreambox4u.com/emilnabil237/plugins/azkar-almuslim/installer.sh  -O - | /bin/sh</item>
-		<item ask="Install CFG_ZOOM_FINAL ?" icon="/emil-panel-lite/icons/lenux.png" name="CFG_ZOOM_FINAL Py2">wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh  -O - | /bin/sh</item>
-		<item ask="Install CHLogoChanger ?" icon="/emil-panel-lite/icons/lenux.png" name="CHLogoChanger">wget https://dreambox4u.com/emilnabil237/plugins/CHLogoChanger/ChLogoChanger.sh  -O - | /bin/sh</item>
-		<item ask="Install CiefpSettingsDownloader ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpSettingsDownloader">wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CCcaminfo-py2 ?" icon="/emil-panel-lite/icons/lenux.png" name="CCcaminfo-py2">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py2.sh  -O - | /bin/sh</item>
+		<item ask="Install CCcamininfo-py3 ?" icon="/emil-panel-lite/icons/lenux.png" name="CCcamininfo-py3">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py3.sh  -O - | /bin/sh</item>
+		<item ask="Install CacheFlush ?" icon="/emil-panel-lite/icons/lenux.png" name="CacheFlush">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh -O - | /bin/sh</item>
+		<item ask="Install CFG_ZOOM_FINAL ?" icon="/emil-panel-lite/icons/lenux.png" name="CFG_ZOOM_FINAL Py2">wget https://dreambox4u.com/emilnabil237/plugins/cfg_Zoom_Final_FIX7x/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Ciefp-Plugins ?" icon="/emil-panel-lite/icons/lenux.png" name="Ciefp-Plugins">wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpBouquetUpdater ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpBouquetUpdater">wget https://raw.githubusercontent.com/ciefp/CiefpBouquetUpdater/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpChannelManager ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpChannelManager">wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpChannelManager/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpE2Converter ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpE2Converter">wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpE2Converter/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpIPTVBouquets ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpIPTVBouquets">wget https://raw.githubusercontent.com/ciefp/CiefpIPTVBouquets/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpMojTvEPG ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpMojTvEPG">wget https://raw.githubusercontent.com/ciefp/CiefpMojTvEPG/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpSatelliteXmlEditor ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpSatelliteXmlEditor">wget https://raw.githubusercontent.com/ciefp/CiefpSatelliteXmlEditor/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpScreenGrab ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpScreenGrab">wget https://raw.githubusercontent.com/ciefp/CiefpScreenGrab/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpSelectSatellite ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpSelectSatellite">wget https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpSettingsDownloader ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpSettingsDownloader">wget https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpSettingsStreamrela_PY2 ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpSettingsStreamrela_PY2">wget https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelayPY2/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpSettingsStreamrela_PY3 ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpSettingsStreamrela_PY3">wget https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelay/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpSettingsT2miAbertis ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpSettingsT2miAbertis">wget https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertis/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpSettingsT2miAbertisOpenPLi ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpSettingsT2miAbertisOpenPLi">wget https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertisOpenPLi/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install CiefpWhitelistStreamrelay ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpWhitelistStreamrelay">wget https://raw.githubusercontent.com/ciefp/CiefpWhitelistStreamrelay/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install CiefpsettingsMotor ?" icon="/emil-panel-lite/icons/lenux.png" name="CiefpsettingsMotor">wget https://raw.githubusercontent.com/ciefp/CiefpsettingsMotor/main/installer.sh -O - | /bin/sh</item>
-		<item ask="Install CiefpWhitelistStreamrelay ?" icon="/emil-panel-lite/icons/lenux.png" name="Ciefp-Whitelist-Streamrelay">wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpWhitelistStreamrelay/main/installer.sh -O - | /bin/sh</item>
-		<item ask="Install CiefpSettingsT2miAbertis ?" icon="/emil-panel-lite/icons/lenux.png" name="Ciefp-Settings-T2mi-Abertis">wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertis/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install chocholousek-picons ?" icon="/emil-panel-lite/icons/lenux.png" name="chocholousek-picons">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/chocholousek-picons.sh -O - | /bin/sh</item>
+		<item ask="Install CHLogoChanger ?" icon="/emil-panel-lite/icons/lenux.png" name="CHLogoChanger">wget https://dreambox4u.com/emilnabil237/plugins/CHLogoChanger/ChLogoChanger.sh -O - | /bin/sh</item>
 		<item ask="Install CrashLogoViewer ?" icon="/emil-panel-lite/icons/lenux.png" name="CrashLogViewer">wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh</item>
-		<item ask="Install CrondManger ?" icon="/emil-panel-lite/icons/lenux.png" name="CronManager">wget https://github.com/emil237/download-plugins/raw/main/cronmanager.sh  -O - | /bin/sh</item>
-		<item ask="Install Epg-Khaled ?" icon="/emil-panel-lite/icons/lenux.png" name="EPG-KHALED">wget https://raw.githubusercontent.com/emilnabil/epg-khaled/main/EPG-khaled.sh  -O - | /bin/sh</item>
-		<item ask="Install Epg Grabber ?" icon="/emil-panel-lite/icons/lenux.png" name="Epg Grabber">wget https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh  -O - | /bin/sh</item>
+		<item ask="Install CrondManger ?" icon="/emil-panel-lite/icons/lenux.png" name="CronManager">wget https://github.com/emil237/download-plugins/raw/main/cronmanager.sh -O - | /bin/sh</item>
+		<item ask="Install Bundesliga-Permanent-Clock ?" icon="/emil-panel-lite/icons/lenux.png" name="Bundesliga-Permanent-Clock">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bundesliga-permanent-clock/bundesliga-permanent-clock.sh -O - | /bin/sh</item>
+		<item ask="Install Easy-Cccam ?" icon="/emil-panel-lite/icons/lenux.png" name="Easy-Cccam">wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/easy-cccam/easy-cccam.sh -O - | /bin/sh</item>
+		<item ask="Install enigma2readeradder ?" icon="/emil-panel-lite/icons/lenux.png" name="enigma2readeradder">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/enigma2readeradder/enigma2readeradder.sh -O - | /bin/sh</item>
+		<item ask="Install Epg-Khaled ?" icon="/emil-panel-lite/icons/lenux.png" name="EPG-KHALED">wget https://raw.githubusercontent.com/emilnabil/epg-khaled/main/EPG-khaled.sh -O - | /bin/sh</item>
+		<item ask="Install Epg Grabber ?" icon="/emil-panel-lite/icons/lenux.png" name="Epg Grabber">wget https://raw.githubusercontent.com/ziko-ZR1/Epg-plugin/master/Download/installer.sh -O - | /bin/sh</item>
+		<item ask="Install EPGImport ?" icon="/emil-panel-lite/icons/lenux.png" name="EPGImport">wget https://raw.githubusercontent.com/Belfagor2005/EPGImport-99/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install EvgQuickSignal ?" icon="/emil-panel-lite/icons/lenux.png" name="EvgQuickSignal">wget https://raw.githubusercontent.com/biko-73/EvgQuickSignal/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Estalker ?" icon="/emil-panel-lite/icons/lenux.png" name="Estalker">wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EStalker/EStalker.sh -O - | /bin/sh</item>
+		<item ask="Install EstalkerWebControl ?" icon="/emil-panel-lite/icons/lenux.png" name="EstalkerWebControl">wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EstalkerWebControl/estalkerwebcontrol.sh -O - | /bin/sh</item>
+		<item ask="Install Feeds-Finder ?" icon="/emil-panel-lite/icons/lenux.png" name="Feeds-Finder">wget https://dreambox4u.com/emilnabil237/plugins/feeds-finder/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Filmxy ?" icon="/emil-panel-lite/icons/lenux.png" name="Filmxy">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/filmxy/filmxy.sh -O - | /bin/sh</item>
 		<item ask="Install Footonsat ?" icon="/emil-panel-lite/icons/lenux.png" name="FootOnsat">wget https://dreambox4u.com/emilnabil237/plugins/FootOnsat/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Freearhey ?" icon="/emil-panel-lite/icons/lenux.png" name="Freearhey">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="FreeCCcamServer Plugin">wget https://ia803104.us.archive.org/0/items/freecccamserver/installer.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="gioppygio">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/gioppygio/gioppygio.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="hardwareinfo">wget https://dreambox4u.com/emilnabil237/plugins/hardwareinfo/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="HasBahCa">wget https://dreambox4u.com/emilnabil237/plugins/HasBahCa/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="HistoryZapSelector">wget https://dreambox4u.com/emilnabil237/plugins/historyzap/installer.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="horoscope">wget https://raw.githubusercontent.com/emilnabil/horoscope/refs/heads/main/horoscope.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="HolidayCountdown">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/HolidayCountdown/installer.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="Internet-Speedtest">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/internet-speedtest.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="IP_Checker">wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/IP_Checker.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="Iptv-Org-Playlists">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/iptv-org-playlists/iptv-org-playlists.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="iptvdream">wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/iptvdream/iptvdream.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="IptvPlayer">wget https://raw.githubusercontent.com/emil237/iptvplayer/main/iptvinstaller.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="levi45-freeserver">wget https://raw.githubusercontent.com/emil237/plugins/refs/heads/main/levi45-freeserver/levi45-freeserver.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="levi45-settings">wget https://dreambox4u.com/emilnabil237/plugins/levi45-settings/levi45-settings.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="m3uconverter">wget https://raw.githubusercontent.com/Belfagor2005/Archimede-M3UConverter/main/installer.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="MmPicons">wget https://raw.githubusercontent.com/Belfagor2005/mmPicons/main/installer.sh -O - | /bin/sh</item>
 		<item ask="yes" icon="/emil-panel-lite/icons/lenux.png" name="MoviesManager">wget http://dreambox4u.com/emilnabil237/plugins/Transmission/MoviesManager.sh -O - | /bin/sh</item>
+		<item ask="Install plugin MyCam ?" icon="/emil-panel-lite/icons/lenux.png" name="MyCam-Plugin">wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh</item>
 		<item ask="Install MultiCamAdder ?" icon="/emil-panel-lite/icons/lenux.png" name="MultiCamAdder">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Multi-Iptv-Adder ?" icon="/emil-panel-lite/icons/lenux.png" name="Multi-Iptv-Adder">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh</item>
-		<item ask="Install plugin MyCam ?" icon="/emil-panel-lite/icons/lenux.png" name="MyCam-Plugin">wget https://dreambox4u.com/emilnabil237/plugins/mycam/installer.sh -O - | /bin/sh</item>
-		
 		<item ask="Install NewVirtualkeyBoard ?" icon="/emil-panel-lite/icons/lenux.png" name="NewVirtualKeyBoard">wget https://raw.githubusercontent.com/fairbird/NewVirtualKeyBoard/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install ONEupdater ?" icon="/emil-panel-lite/icons/lenux.png" name="ONEupdater">wget https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh -O - | /bin/sh</item>
+		<item ask="Install OrangeAudioPlugin ?" icon="/emil-panel-lite/icons/lenux.png" name="OrangeAudioPlugin">wget https://raw.githubusercontent.com/popking159/OrangeAudio/refs/heads/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Ozeta-Skins-Setup-2.8 ?" icon="/emil-panel-lite/icons/lenux.png" name="Ozeta-Skins-Setup-2.8">wget https://raw.githubusercontent.com/emil237/skins-enigma2/main/PLUGIN_Skin-ozeta.sh -O - | /bin/sh</item>
 		<item ask="Install Quran ?" icon="/emil-panel-lite/icons/lenux.png" name="Quran-karem">wget https://dreambox4u.com/emilnabil237/plugins/quran/installer.sh -O - | /bin/sh</item>
 		<item ask="Install RaedQuickSignal ?" icon="/emil-panel-lite/icons/lenux.png" name="Raedquicksignal">wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install pluginmover ?" icon="/emil-panel-lite/icons/lenux.png" name="PluginMover">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/pluginmover/installer.sh -O - | /bin/sh</item>
 		<item ask="Install pluginskinmover ?" icon="/emil-panel-lite/icons/lenux.png" name="PluginSkinMover">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/pluginskinmover/installer.sh -O - | /bin/sh</item>
-		<item ask="Install ScreenRecorder ?" icon="/emil-panel-lite/icons/lenux.png" name="ScreenRecorder">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh</item>
+	<item ask="Install ScreenRecorder ?" icon="/emil-panel-lite/icons/lenux.png" name="ScreenRecorder">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh</item>	
 		<item ask="Install scriptexecuter ?" icon="/emil-panel-lite/icons/lenux.png" name="scriptexecuter">wget http://dreambox4u.com/emilnabil237/plugins/scriptexecuter/installer.sh -O - | /bin/sh</item>
 		<item ask="Install SetPicon ?" icon="/emil-panel-lite/icons/lenux.png" name="SetPicon">wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh</item>
 		<item ask="Install sherlockmod ?" icon="/emil-panel-lite/icons/lenux.png" name="Sherlockmod">wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh</item>
@@ -341,7 +385,7 @@ exit</item>
 	<submenu fg="#CCFB5D" font_size="50" height="950" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<submenu fg="#CCFB5D" font_size="50" height="950" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="TeamNitro Skins" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 			<item ask="Install Plugin TeamNitro ?" icon="menu.png" name="TeamNitro Control Center">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/SKIN-teamnitro.sh  -O - | /bin/sh</item>
-		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>	
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>		
 			<item ask="Install Skin Desert ?" icon="menux.png" name="Desert skin">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer-skin-desert.sh -O - | /bin/sh</item>
 			<item ask="Install Skin Bohlala ?" icon="menux.png" name="BoHLALA skin">wget https://gitlab.com/emilnabil1/teamnitro/-/raw/main/installer.sh -O - | /bin/sh</item>
 			<item ask="Install Skin Dragon ?" icon="menux.png" name="Dragon skin">wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh  -O - | /bin/sh</item>
@@ -350,13 +394,13 @@ exit</item>
 		</submenu>
 
 		<submenu fg="#CCFB5D" font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Atv" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>	
 			<item ask="Install Skin Aglare-FHD ?" icon="menux.png" name="Aglare-FHD">curl -kLs https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh|sh</item>
+			<item ask="Install Skin Gradient-FHD ?" icon="menux.png" name="Gradient-FHD">curl -kLs https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/skins-gradient-fhd.sh|sh</item>
 			<item ask="Install Skin Maxy-FHD ?" icon="menux.png" name="Maxy-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-Maxy-FHD.sh|sh</item>
 			<item ask="Install Full HD Glass17 ?" icon="menux.png" name="Full HD Glass17">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/skins/skin-fullhdglass17/installer.sh -O - | /bin/sh</item>
 			<item ask="Install Metrixfhd-neo_V.7s_v2_mod-by-biko_X_py3.12 ?" icon="menux.png" name="Metrixfhd-neo_V.7s_v2_mod-by-biko_X_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/openatv/metrixfhd-neo_V.7s_v2_mod-by-biko_X_py3.12.sh|sh</item>
 			<item ask="Install MX-GravityAir_xtraevent_py3.12 ?" icon="menux.png" name="MX-GravityAir_xtraevent_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/openatv/MX-GravityAir-Atv_xtraevent_py3.12.sh|sh</item>
-			<item ask="Install MyMetrixLiteBackup ?" icon="menux.png" name="MyMetrixLiteBackup-by-khaled-ali">wget -O /etc/enigma2/MyMetrixLiteBackup.dat "https://dreambox4u.com/emilnabil237/plugins/metrix-fhd/khaled_metrix/MyMetrixLiteBackup.dat"</item>
 			<item ask="Install MyMetrixLiteBackup ?" icon="menux.png" name="MyMetrixLiteBackup-by-Mohd">wget -O /etc/enigma2/MyMetrixLiteBackup.dat "https://raw.githubusercontent.com/emil237/skins-enigma2/main/ATV/MyMetrixLiteBackup.dat"</item>
 			<item ask="Install MyMetrixLiteBackup ?" icon="menux.png" name="MyMetrixLiteBackup">wget -O /etc/enigma2/MyMetrixLiteBackup.dat "https://raw.githubusercontent.com/emil237/plugins/main/MyMetrixLiteBackup.dat"</item>
 			<item ask="Install Skin MetrixFHD-OpenATV-Extraevent-PosterX ?" icon="menux.png" name="MetrixFHD-OpenATV-Extraevent-PosterX">curl -kLs https://dreambox4u.com/emilnabil237/skins/openatv/SKIN-MetrixFHD-OpenATV-Extraevent-PosterX.sh|sh</item>
@@ -395,7 +439,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 		</submenu>
 
 		<submenu fg="#F9B7FF" font_size="50" height="950" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Egami" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>	
 			<item ask="Install Skin Aglare-FHD ?" icon="menu.png" name="Aglare-FHD">curl -kLs https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/installer.sh|sh</item>
 			<item ask="" icon="menu.png" name="Premium-Fhd_3.0">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium-fhd-py3.sh -O - | /bin/sh</item>
 			<item ask="" icon="menu.png" name="Premium-Black-Fhd_3.0">wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--black-fhd-py3.sh -O - | /bin/sh</item>
@@ -404,8 +448,8 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 		</submenu>
 
 		<submenu fg="#CCFB5D" font_size="50" height="950" mode="grid_4x3" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Open Black Hole" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>
 			<item ask="" icon="menu.png" name="Aglare-fhd">curl -kLs https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh|sh</item>
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>		
 			<item ask="" icon="menu.png" info="5.4.xx py3.12.x" name="MX_BlackSea">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/skins-MX_BlackSea.sh|sh</item>
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.4" name="MX-Sline-Black-Red-Gradient_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-black-red-gradient_py3.12.sh|sh</item>
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.4" name="MX_Sline-Blue_OBH_5.4_py3.12">curl -kLs https://dreambox4u.com/emilnabil237/skins/obh/MX_Sline-Blue_OBH_5.4_py3.12_py3.12.sh|sh</item>
@@ -415,12 +459,13 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.3" name="mx-hq9w_2.0-mod3-FHD">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-hq9w_2.0-mod3fhd.sh  -O - | /bin/sh</item>
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.3" name="MX-MaesteraBPR-FHD_MOD-HAhmed">wget https://dreambox4u.com/emilnabil237/skins/obh/MX-MaesteraBPR-FHD_MOD-HAhmed.sh  -O - | /bin/sh</item>
 			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.3" name="Mx-PrioFHD-xtra_mod-HAhmed">wget https://dreambox4u.com/emilnabil237/skins/obh/Mx-PrioFHD-xtra_mod-HAhmed.sh  -O - | /bin/sh</item>
-			  <item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
+			<item ask="Install Skin ?" icon="menux.png" info="FOR OPEN-BH_5.3" name="mx-sline-posterx_2.0-mod2ha">wget https://dreambox4u.com/emilnabil237/skins/obh/mx-sline-posterx_2.0-mod2ha.sh  -O - | /bin/sh</item>
+			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Pli_8x" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>
-			<item ask="" icon="menux.png" name="Bluemetal-FHD">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/refs/heads/main/pli/Skin-bluemetal-fhd.sh|sh</item>
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>	
+		<item ask="" icon="menux.png" name="Bluemetal-FHD">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/refs/heads/main/pli/Skin-bluemetal-fhd.sh|sh</item>
 			<item ask="" icon="menux.png" name="CH.LEAGUE-FHD">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-CH.LEAGUE-FHD.sh -O - | /bin/sh</item>
 			<item ask="" icon="menux.png" name="Ozeta-Xtra">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh</item>
 			<item ask="yes" icon="menux.png" name="QATAR-2022-V3-FHD">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-QATAR-2022-V3-FHD.sh -O - | /bin/sh</item>
@@ -449,17 +494,17 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 			<item ask="yes" icon="menux.png" name="T.BLUE-HD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.BLUE-HD-By-Muaath.sh|sh</item>
 			<item ask="" icon="menux.png" name="T.PURPLE-HD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-T.PURPLE-HD-By-Muaath.sh|sh</item>
 			<item ask="yes" icon="menux.png" name="TOKYO2020-FHD-By-Muaath">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/SKIN-TOKYO2020-FHD-By-Muaath.sh|sh</item>
-      <item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
+			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Pli_9x" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>	
 			<item ask="" icon="menu.png" name="Aglare-fhd">curl -kLs https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh|sh</item>
 		<item ask="" icon="menu.png" name="BARDO-FHD">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/refs/heads/main/pli/Skin-bardo-fhd_3.7.2.sh|sh</item>	
 			<item ask="" icon="menu.png" name="BLACKNEON-XP_Mod_M-Nasr">curl -kLs https://dreambox4u.com/emilnabil237/skins/pli9x/Skin-BLACKNEON-XP_mod_mnasr-pli9x.sh|sh</item>
 			<item ask="" icon="menu.png" name="malek-fhd_1.2">curl -kLs https://raw.githubusercontent.com/emil237/skins-enigma2/main/pli/Skin-malek-fhd_1.2.sh|sh</item>
 			<item ask="" icon="menu.png" name="Ozeta-Xtra">wget http://dreambox4u.com/emilnabil237/script/SKIN-PLI-ozeta-xtra.sh -O - | /bin/sh</item>
-      <item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
+			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
 		</submenu>
 
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins Spa-8.xx" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
@@ -469,9 +514,13 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/blackhole/SKIN-BLACKHOLE-wav
 		</submenu>
 		
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins OpenVix" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh|sh</item>
-		<item ask="" icon="menu.png" name="Aglare-fhd">curl -kLs https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh|sh</item>
-			<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Skin Al Ayam ?" icon="menux.png" name="Al Ayam FHD skin">curl -kLs https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglarepli/installer.sh|sh</item>	
+		<item ask="" icon="menu.png" name="Aglare-fhd">curl -kLs https://dreambox4u.com/emilnabil237/skins/script/skins-aglare-fhd-pli.sh|sh</item>
+		<item ask="" icon="menu.png" name="E2-darkos">curl -kLs https://dreambox4u.com/emilnabil237/skins/openvix/skins-e2-darkos.sh|sh</item>
+		<item ask="" icon="menu.png" name="Magic-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/openvix/skins-openvix-magic-fhd.sh|sh</item>
+		<item ask="" icon="menu.png" name="Vixbmc-1080-Confluence-FHD">curl -kLs https://dreambox4u.com/emilnabil237/skins/openvix/skins-openvix-vixbmc-1080-confluence.sh|sh</item>
+		<item ask="Install Skin XDreamy-FHD ?" icon="menux.png" name="XDreamy-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/installer.sh -O - | /bin/sh</item>
+		<item ask="Install Skin Youchie-OpenVix-FHD ?" icon="menux.png" name="Youchie-OpenVix-FHD">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/skins-obh/refs/heads/main/skin-Youchie-OBH-FHD.sh -O - | /bin/sh</item>
 		</submenu>
 
 		<submenu font_size="50" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Skins VTI" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
