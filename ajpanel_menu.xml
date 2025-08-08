@@ -60,26 +60,29 @@
 
 
 	<submenu bg="#06770077" font_size="70" height="950" info="Download And Install plugin for dreambox" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Dream900UHD-920UHD" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
-		<item ask="Install Ajpanel ?" icon="menu.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh  -O - | /bin/sh</item>
-		<item ask="Install ArabicSavior ?" icon="menu.png" name="ArabicSavior">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh  -O - | /bin/sh</item>
-		<item ask="Install BarryAllen ?" icon="menu.png" name="BarryAllen">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/barryallen.sh -O - | /bin/sh</item>
-		<item ask="Install Panel_Emil ?" icon="menu.png" name="Panel_Emil_lite">wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh</item>
-		<item ask="Install linuxsat-panel ?" icon="menu.png" name="linuxsat-panel">wget https://dreambox4u.com/emilnabil237/plugins/linuxsat-panel/installer.sh  -O - | /bin/sh</item>
-		<item ask="Install Levi45 AddonManger ?" icon="menu.png" name="levi45-AddonsManager">wget https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh  -O - | /bin/sh</item>
-		<item ask="Install Levi45MulticamManager ?" icon="menu.png" name="levi45-Multicam-Manager">wget https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh -O - | /bin/sh</item>
-		<item ask="Install dreamxtream ?" icon="menu.png" name="dreamxtream">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/dreamxtream.sh -O - | /bin/sh</item>
-		<item ask="Install BouquetMakerXtream ?" icon="menu.png" name="BouquetMakerXtream">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh</item>
-		<item ask="Install jediepgextream ?" icon="menu.png" name="jediepgextream">wget https://dreambox4u.com/emilnabil237/plugins/jediepgextream/installer.sh -O - | /bin/sh</item>
-		<item ask="Install jedimakerxtream ?" icon="menu.png" name="jedimakerxtream">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh -O - | /bin/sh</item>
-		<item ask="Install Chocholousek-Picon ?" icon="menu.png" name="Chocholousek-Picon">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/chocholousek/installer.sh -O - | /bin/sh</item>
-		<item ask="Install E2m3u2Bouquet ?" icon="menu.png" name="E2m3u2Bouquet">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh -O - | /bin/sh</item>
-		<item ask="Install Tvaddon Plugins ?" icon="menu.png" name="TvAddon-Panel">wget https://dreambox4u.com/emilnabil237/plugins/tvaddon/installer.sh -O - | /bin/sh</item>
-		<item ask="Install geminilocale-dreamarabia ?" icon="menu.png" name="geminilocale-dreamarabia">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/geminilocale-dreamarabia.sh -O - | /bin/sh</item>
-		<item ask="Install Feed-Merlin ?" icon="menu.png" name="Feed-Merlin">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/feed-merlin-dreambox.sh -O - | /bin/sh</item>
-		<item ask="Install multiquickbuttonfhd ?" icon="menu.png" name="multiquickbuttonfhd">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/multiquickbuttonfhd.sh -O - | /bin/sh</item>
-		<item ask="Install startupservice ?" icon="menu.png" name="startupservice">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/startupservice.sh -O - | /bin/sh</item>
-		<item ask="Install syscc ?" icon="menu.png" name="syscc">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/syscc.sh -O - | /bin/sh</item>
-	</submenu>
+    <item ask="Install Ajpanel ?" icon="menu.png" name="Ajpanel">wget http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer.sh -O - | /bin/sh</item>
+    <item ask="Install ArabicSavior ?" icon="menu.png" name="ArabicSavior">wget http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh -O - | /bin/sh</item>
+    <item ask="Install BarryAllen ?" icon="menu.png" name="Barryallen_12.91-r2-MOD-RAED">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/dream/barryallen.sh -O - | /bin/sh</item>
+    <item ask="Install Panel_Emil ?" icon="menu.png" name="Panel_Emil_lite">wget https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh</item>
+    <item ask="Install EmilPanelpro ?" icon="menu.png" name="EmilPanelpro">wget https://github.com/emilnabil/dreambox/raw/refs/heads/main/emilpanelpro.sh -O - | /bin/sh</item>
+    <item ask="Install linuxsat-panel ?" icon="menu.png" name="linuxsat-panel">wget https://dreambox4u.com/emilnabil237/plugins/linuxsat-panel/installer.sh -O - | /bin/sh</item>
+    <item ask="Install Levi45 AddonManger ?" icon="menu.png" name="levi45-AddonsManager">wget https://dreambox4u.com/emilnabil237/plugins/levi45-addonsmanager/installer.sh -O - | /bin/sh</item>
+    <item ask="Install Levi45MulticamManager ?" icon="menu.png" name="levi45-Multicam-Manager">wget https://dreambox4u.com/emilnabil237/plugins/levi45multicammanager/installer.sh -O - | /bin/sh</item>
+    <item ask="Install dreamxtream ?" icon="menu.png" name="dreamxtream">wget -q "--no-check-certificate" https://github.com/emilnabil/dreambox/raw/refs/heads/main/dreamxtream-dm-900-920.sh -O - | /bin/sh</item>
+    <item ask="Install BouquetMakerXtream ?" icon="menu.png" name="BouquetMakerXtream">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh</item>
+    <item ask="Install Gemini Projekt for OE2.5 ?" icon="menu.png" name="Gemini Projekt for OE2.5">apt update &amp;&amp; wget -O /tmp/geminilocale_all.deb http://download.blue-panel.com/geminilocale_gp42.php &amp;&amp; dpkg -i /tmp/geminilocale_all.deb</item>
+    <item ask="Install Gemini Projekt for OE2.6 ?" icon="menu.png" name="Gemini Projekt for OE2.6">apt update &amp;&amp; wget -O /tmp/geminilocale_all.deb http://download.blue-panel.com/geminilocale_gp42.php &amp;&amp; apt install -y /tmp/geminilocale_all.deb</item>
+    <item ask="Install jediepgextream ?" icon="menu.png" name="jediepgextream">wget https://dreambox4u.com/emilnabil237/plugins/jediepgextream/installer.sh -O - | /bin/sh</item>
+    <item ask="Install jedimakerxtream ?" icon="menu.png" name="jedimakerxtream">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh -O - | /bin/sh</item>
+    <item ask="Install Chocholousek-Picon ?" icon="menu.png" name="Chocholousek-Picon">wget -q "--no-check-certificate" http://dreambox4u.com/emilnabil237/plugins/chocholousek/installer.sh -O - | /bin/sh</item>
+    <item ask="Install E2m3u2Bouquet ?" icon="menu.png" name="E2m3u2Bouquet">wget -q "--no-check-certificate" https://dreambox4u.com/emilnabil237/plugins/e2m3u2bouquet/installer.sh -O - | /bin/sh</item>
+    <item ask="Install Tvaddon Plugins ?" icon="menu.png" name="TvAddon-Panel">wget https://dreambox4u.com/emilnabil237/plugins/tvaddon/installer.sh -O - | /bin/sh</item>
+    <item ask="Install geminilocale-dreamarabia ?" icon="menu.png" name="geminilocale-dreamarabia">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/geminilocale-dreamarabia.sh -O - | /bin/sh</item>
+    <item ask="Install Feed-Merlin ?" icon="menu.png" name="Feed-Merlin">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/feed-merlin-dreambox.sh -O - | /bin/sh</item>
+    <item ask="Install multiquickbuttonfhd ?" icon="menu.png" name="multiquickbuttonfhd">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/multiquickbuttonfhd.sh -O - | /bin/sh</item>
+    <item ask="Install startupservice ?" icon="menu.png" name="startupservice">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/startupservice.sh -O - | /bin/sh</item>
+    <item ask="Install syscc ?" icon="menu.png" name="syscc">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/dream/main/syscc.sh -O - | /bin/sh</item>
+</submenu>
 
 	<submenu bg="#06770077" font_size="70" height="950" info="Download And Install Panel" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Panels" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Install Ajpanel ?" icon="menu.png" name="Ajpanel">wget https://github.com/AMAJamry/AJPanel/raw/main/installer.sh  -O - | /bin/sh</item>
@@ -106,9 +109,9 @@
 		<item ask="Install Channels By Mohamed Goda + Ahmed Shawky ?" icon="menu.png" name="Mohamed Goda +   Ahmed Shawky">wget https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh  -O - | /bin/sh</item>
 		<item ask="Install Emil Channels ?" icon="menu.png" name="Emil Nabil">wget https://raw.githubusercontent.com/emilnabil/channel-emil-nabil/main/installer.sh -O - | /bin/sh</item>
 		<item ask="Install Mohamed Nasr Channels ?" icon="menu.png" name="Mohamed-Nasr">wget https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -O - | /bin/sh</item>
-		<item ask="Install Mohamed Os Channels ?" icon="menu.png" name="Mohamed Os">wget -qO- --no-check-certificate "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Settings_Enigma2/online-setup" | bash
-</item>
 		<item ask="Install Tarek Ashry Channels ?" icon="menu.png" name="Tarek Ashry">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/channel-tarek-ashry/main/installer.sh -qO - | /bin/sh</item>
+		<item ask="Install Tuner_Backup_By-Emil-Nabil ?" icon="menu.png" name="Tuner_Backup_By-Emil-Nabil">wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/restore-tuner-emil.sh -O - | /bin/sh</item>
+		<item ask="Install Tuner_Backup_By-M-Goda ?" icon="menu.png" name="Tuner_Backup_By-M-Goda">wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/restore-tuner-goda.sh -O - | /bin/sh</item>
 	</submenu>
 
 	<submenu bg="#22003322" fg="#E55B3C" font_size="80" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Key Plugins" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
@@ -607,7 +610,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 		<item ask="" icon="menu.png" name="gosatplus">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Hold-flag-ncam">opkg flag hold enigma2-plugin-softcams-ncam</item>
 		<item ask="" icon="menu.png" name="Hold-flag-oscam">opkg flag hold enigma2-plugin-softcams-oscam</item>
-		<item ask="" icon="menu.png" name="Ncam-15.3">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="Ncam-15.4">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Oscam-11868-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="oscam_levi45_11799">wget https://raw.githubusercontent.com/emilnabil/oscam/main/oscam-emu-levi45.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Oscam-11.726-by-lenuxsat">wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh  -O - | /bin/sh</item>
@@ -722,8 +725,8 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 
 	<submenu font_size="30" height="950" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Remove" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
 		<item ask="Remove AlternativeSoftcamManager" name="AlternativeSoftcamManager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-alternativesoftcammanager.sh -O - | /bin/sh</item>
-		<item ask="Remove Channels" info="Remove All Channels" name="Channels">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-channels.sh  -O - | /bin/sh</item>
-		<item ask="yes" name="Crashlogs">wget https://dreambox4u.com/emilnabil237/script/remove/DEL_all_Crashlogs.sh  -O - | /bin/sh</item>
+		<item ask="Remove Channels" info="Remove All Channels" name="Channels">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-channels.sh -O - | /bin/sh</item>
+		<item ask="yes" name="Crashlogs">wget https://dreambox4u.com/emilnabil237/script/remove/DEL_all_Crashlogs.sh -O - | /bin/sh</item>
 		<item ask="yes" name="Jedimaker-playlists">rm -f /etc/enigma2/jediplaylists/playlists.txt</item>
 		<item ask="yes" name="Xstreamity-playlists">rm -f /etc/enigma2/xstreamity/playlists.txt</item>
 		<item ask="yes" name="Cccamfinder">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-CCcamFinder.sh -O - | /bin/sh</item>
