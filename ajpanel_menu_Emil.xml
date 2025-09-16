@@ -596,7 +596,7 @@ curl -kLs https://dreambox4u.com/emilnabil237/skins/vti/SKIN-VTI-zflatgyrfhd_sha
 		<item ask="" icon="menu.png" name="gosatplus">wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Hold-flag-ncam">opkg flag hold enigma2-plugin-softcams-ncam</item>
 		<item ask="" icon="menu.png" name="Hold-flag-oscam">opkg flag hold enigma2-plugin-softcams-oscam</item>
-		<item ask="" icon="menu.png" name="Ncam-15.4">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
+		<item ask="" icon="menu.png" name="Ncam-15.5">wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Oscam-11868-r802">wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="oscam_levi45_11799">wget https://raw.githubusercontent.com/emilnabil/oscam/main/oscam-emu-levi45.sh  -O - | /bin/sh</item>
 		<item ask="" icon="menu.png" name="Oscam-11.726-by-lenuxsat">wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh  -O - | /bin/sh</item>
